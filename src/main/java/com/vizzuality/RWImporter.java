@@ -17,7 +17,16 @@ public class RWImporter {
 
     private static enum RelTypes implements RelationshipType
     {
-        RELATED_TO
+        RELATED_TO,
+        IS_A,
+        HAS,
+        TYPE_OF,
+        LOCATED_AT,
+        PART_OF,
+        GENERATED_BY,
+        CAN_AFFECT,
+        TRIGGERED_BY,
+        IS_INVOLVED_IN
     }
 
     private static enum Labels implements Label
@@ -91,11 +100,49 @@ public class RWImporter {
                     Node node = GRAPH_DB.findNode(Labels.CONCEPT, "id", id);
 
                     if(node != null){
-                        String[] parentsArray = parents.split(",");
-                        for(String parent: parentsArray){
+                        String[] relsArray = parents.split(",");
+                        for(String rel: relsArray){
+                            String[] array = rel.split(":");
+                            RelationshipType relType = RelTypes.RELATED_TO;
+                            String parent;
+                            if(array.length > 1){
+                                parent = array[1];
+                                switch (array[0]){
+                                    case "part_of":
+                                        relType = RelTypes.PART_OF;
+                                        break;
+                                    case "is_a":
+                                        relType = RelTypes.IS_A;
+                                        break;
+                                    case "type_of":
+                                        relType = RelTypes.TYPE_OF;
+                                        break;
+                                    case "has":
+                                        relType = RelTypes.HAS;
+                                        break;
+                                    case "located_at":
+                                        relType = RelTypes.LOCATED_AT;
+                                        break;
+                                    case "generated_by":
+                                        relType = RelTypes.GENERATED_BY;
+                                        break;
+                                    case "can_affect":
+                                        relType = RelTypes.CAN_AFFECT;
+                                        break;
+                                    case "triggered_by":
+                                        relType = RelTypes.TRIGGERED_BY;
+                                        break;
+                                    case "is_involved_in":
+                                        relType = RelTypes.IS_INVOLVED_IN;
+                                        break;
+                                }
+                            }else{
+                                parent = array[0];
+                            }
+
                             Node parentNode = GRAPH_DB.findNode(Labels.CONCEPT, "id", parent.trim());
                             if (parentNode != null){
-                                node.createRelationshipTo(parentNode, RelTypes.RELATED_TO);
+                                node.createRelationshipTo(parentNode, relType);
                             }
                         }
                     }
