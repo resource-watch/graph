@@ -39,3 +39,5 @@ The knowledge graph of concepts is generated from the information stated in [thi
 6. Upload the resulting file to the server using scp
 7. Copy it to the folder called **import** that is located inside the Neo4j installation
 8. Execute the various Cypher statements included in the file: [ImportDBCypher.txt](ImportDBCypher.txt)
+
+> Steps 4-7 can be skipped in the case you're not interested in adding the screenshot of datasets and their tags as a proof of concept
