@@ -24,3 +24,14 @@ http://104.131.87.76:7474/browser/
 * IS_A
 * GENERATED_BY
 * IS_INVOLVED_IN
+
+## Database creation
+
+The knowledge graph of concepts is generated from the information stated in [this Google Spreadsheet](https://docs.google.com/a/vizzuality.com/spreadsheets/d/1awsO5aPEOv_OEFTakIhn-Ej7RFw46UP-jUWXnskPRqk/edit?usp=sharing).
+ 
+### Step by step guide to import the Graph
+
+1. Download the aforementioned spreadsheet as a CSV file
+2. Upload it to the server using scp
+3. Copy it to the folder called **import** that is located inside the Neo4j installation
+4. Execute the various Cypher statements included in the file: [ImportDBCypher.txt](ImportDBCypher.txt)
