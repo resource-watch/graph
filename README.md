@@ -69,4 +69,11 @@ RETURN d,c,c2
 
 ![screen shot 2017-06-07 at 4 29 42 pm](https://user-images.githubusercontent.com/545342/26883827-8dfe50a0-4b9e-11e7-9338-fbe176e4f0c1.png)
 
+### Whole graph
+
+```
+MATCH p=()-[]-() return p
+```
+> Not recommended for computers with performance problems
+
 
