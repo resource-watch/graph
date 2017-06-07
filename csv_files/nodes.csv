@@ -1,0 +1,477 @@
+general,General
+continent,Continent
+antarctica,Antarctica
+territory,Territory
+global,Global
+overseas_territory,Overseas Territory
+crown_dependency,Crown Dependency
+unincorporated_territory,Unincorporated Territory
+autonomous_territory,Autonomous Territory
+country,Country
+europe,Europe
+north_america,North America
+south_america,South America
+oceania,Oceania
+africa,Africa
+asia,Asia
+european_free_trade_association,European Free Trade Association
+schengen_area,Schengen Area
+eu,EU
+spain,Spain
+portugal,Portugal
+germany,Germany
+uk,United Kingdom
+italy,Italy
+ireland,Ireland
+malta,Malta
+belgium,Belgium
+austria,Austria
+latvia,Latvia
+bulgaria,Bulgaria
+lithuania,Lithuania
+luxembourg,Luxembourg
+croatia,Croatia
+cyprus,Cyprus
+czech_republic,Czech Republic
+netherlands,Netherlands
+denmark,Denmark
+poland,Poland
+estonia,Estonia
+finland,Finlad
+slovakia,Slovakia
+romania,Romania
+slovenia,Slovenia
+greece,Greece
+hungary,Hungary
+sweden,Sweden
+france,France
+afghanistan,Afghanistan
+aland,Aland
+albania,Albania
+algeria,Algeria
+american_samoa,American Samoa
+andorra,Andorra
+angola,Angola
+anguilla,Anguilla
+antigua_and_barbuda,Antigua and Barbuda
+argentina,Argentina
+armenia,Armenia
+aruba,Aruba
+australia,Australia
+azerbaijan,Azerbaijan
+bahamas,Bahamas
+bahrain,Bahrain
+bangladesh,Bangladesh
+barbados,Barbados
+belarus,Belarus
+belize,Belize
+benin,Benin
+bermuda,Bermuda
+bhutan,Bhutan
+bolivia,Bolivia
+bosnia_and_herzegovina,Bosnia and Herzegovina
+botswana,Botswana
+brazil,Brazil
+british_indian_ocean_territory,British Indian Ocean Territory
+brunei,Brunei
+burkina_faso,Burkina Faso
+burundi,Burundi
+cambodia,Cambodia
+cameroon,Cameroon
+canada,Canada
+cape_verde,Cape_Verde
+cayman_islands,Cayman Islands
+central_part_of:african_republic,Central African Republic
+chad,Chad
+chile,Chile
+china,China
+colombia,Colombia
+comoros,Comoros
+congo,Congo
+democratic_republic_of_congo,Democratic Republic of the Congo
+cook_islands,Cook islands
+costa_rica,Costa Rica
+ivory_coast,Ivory Coast
+cuba,Cuba
+curacao,Curaçao
+djibouti,Djibouti
+dominica,Dominica
+dominican_republic,Dominican Republic
+ecuador,Ecuador
+egypt,Egypt
+el_salvador,El Salvador
+equatorial_guinea,Equtorial Guinea
+eritrea,Eritrea
+ethiopia,Ethiopia
+falkland_islands,Falkland Islands
+faroe_islands,Faroe Islands
+fiji,Fiji
+french_polynesia,French Polynesia
+french_southern_and_antarctic_lands,French Southern and Antarctic lands
+gabon,Gabon
+gambia,Gambia
+georgia,Georgia
+ghana,Ghana
+gibraltar,Gibraltar
+greenland,Greenland
+grenada,Grenada
+guam,Guam
+guatemala,Guatemala
+guernsey,Guernsey
+guinea,Guinea
+guinea_bissau,Guinea-Bissau
+guyana,Guyana
+haiti,Haiti
+heard_island_and_mcdoland_islands,Heard Island and McDonald Islands
+vatican,Vatican
+honduras,Honduras
+hong_kong,Hong Kong
+iceland,Iceland
+india,India
+indonesia,Indonesia
+iran,Iran
+iraq,Iraq
+isle_of_man,Isle of Man
+israel,Israel
+jamaica,Jamaica
+japan,Japan
+jersey,Jersey
+jordan,Jordan
+kazakhstan,Kazakhstan
+kenya,Kenya
+kiribati,Kiribati
+democratic_republic_of_korea,Democratic Republic of Korea
+south_korea,South Korea
+kuwait,Kuwait
+kyrgyzstan,Kyrgyzstan
+laos,Lao People's Democratic Republic
+lebanon,Lebanon
+lesotho,Lesotho
+liberia,Liberia
+libya,Libya
+liechtenstein,Liechtenstein
+macao,Macao
+macedonia,Macedonia
+madagascar,Madagascar
+malawi,Malawi
+malaysia,Malaysia
+maldives,Maldives
+mali,Mali
+marshall_islands,Marshall Islands
+mauritania,Mauritania
+mauritius,Mauritius
+mexico,Mexico
+micronesia,Micronesia
+moldova,Moldova
+monaco,Monaco
+mongolia,Mongolia
+montenegro,Montenegro
+montserrat,Montserrat
+morocco,Morocco
+mozambique,Mozambique
+myanmar,Myanmar
+namibia,Namibia
+nauru,Nauru
+nepal,Nepal
+new_caledonia,New Caledonia
+new_zealand,New Zealand
+nicaragua,Nicaragua
+niger,Niger
+nigeria,Nigeria
+niue,Niue
+norfolk_island,Norfolk Island
+northern_mariana_islands,Northern Mariana Islands
+norway,Norway
+oman,Oman
+pakistan,Pakistan
+palau,Palau
+palestine,Palestine
+panama,Panama
+papua_new_guinea,Papua New Guinea
+paraguay,Paraguay
+peru,Peru
+philippines,Philippines
+pitcairn_islands,Pitcairn Islands
+puerto_rico,Puerto Rico
+qatar,Qatar
+russia,Russia
+rwanda,Rwanda
+saint_barthelemy,Saint Barthélemy
+saint_helena,Saint_Helena
+saint_kitts_and_nevis,Saint Kitts and Nevis
+saint_lucia,Saint Lucia
+saint_martin,Saint Martin
+saint_pierre_and_miquelon,Saint Pierre and Miquelon
+saint_vincent_and_the_grenadines,Saint Vincent and the Grenadines
+samoa,Samoa
+san_marino,San Marino
+sao_tome_and_principe,São Tomé and Principe
+saudi_arabia,Saudi Arabia
+senegal,Senegal
+serbia,Serbia
+seychelles,Seychelles
+sierra_leone,Sierra Leone
+singapore,Singapore
+sint_marteen,Sint Maarten
+solomon_islands,Solomon Islands
+somalia,Somalia
+south_africa,South Africa
+south_georgia_and_the_south_sandwich_islands,South Georgia and the South Sandwich Islands
+south_sudan,South Sudan
+sri_lanka,Sri Lanka
+sudan,Sudan
+suriname,Suriname
+swaziland,Swaziland
+switzerland,Switzerland
+syria,Syria
+taiwan,Taiwan
+tajikistan,Tajikistan
+tanzania,Tanzania
+thailand,Thailand
+timor_lest,Timor-Leste
+togo,Togo
+tonga,Tonga
+trinidad_and_tobago,Trinidad and Tobago
+tunisia,Tunisia
+turkey,Turkey
+turkmenistan,Turkmenistan
+turks_and_calcos_islands,Turks and Calcos Islands
+tuvalu,Tuvalu
+uganda,Uganda
+ukraine,Ukraine
+united_arab_emirates,United Arab Emirates
+usa,United States
+united_states_minor_outlying_islands,United States Minort Outlying Islands
+uruguay,Uruguay
+uzbekistan,Uzbekistan
+vanuatu,Vanuatu
+venezuela,Venezuela
+vietnam,Vietnam
+brittish_virgin_islands,Brittish Virgin Islands
+united_states_virgin_islands,United States Virgin Islands
+wallis_and_futuna,Wallis and Futuna
+western_sahara,Western Sahara
+yemen,Yemen
+zambia,Zambia
+zimbabwe,Zimbabwe
+coral_sea_islands_territory,Coral Sea Islands Territory
+republic_of_kosovo,Republic of Kosovo
+dataset,Dataset
+raster,Raster
+vector,Vector
+table,Table
+geospatial,Geospatial
+frequency,Frequency
+daily,Daily
+near_real_time,Near real time
+weekly,Weekly
+montly,Monthly
+annual,Annual
+process,Process
+island,Island
+erosion,Erosion
+sedimentation,Sedimentation
+sector,Sector
+primary_sector,Primary sector
+secondary_sector,Secondary sector
+third_sector,Third sector
+commodity,Commodity
+plants,Plants
+infrastructure,Infrastructure
+quality,Quality
+installation,Installation
+animal,Animal
+location,Location
+indicator,Indicator
+resource,Resource
+natural_phenomena,Natural phenomena
+activity,Activity
+explosion,Explosion
+destruction,Destruction
+land,Land
+extreme_event,Extreme event
+event,Event
+conflict ,Conflict
+temperature,Temperature
+chemical_compound,Chemical Compound
+forest,Forest
+fire,Fire
+deforestation,Deforestation
+logging,Logging
+mangrove,Mangrove
+degradation,Degradation
+forest_cover,Forest cover
+forest_loss,Forest loss
+forest_gain,Forest gain
+forest_change,Forest change
+instact_forest,Intact forest
+water,Water
+drought,Drought
+flood,Flood
+sewage,Sewage
+water_availability,Water availability
+water_extent,Water extent
+water_scarcity,Water scarcity
+water_demand,Water demand
+water_pollution,Water pollution
+precipitation,Precipitation
+rainfall,Rainfall
+rain,Rain
+water_quality,Water quality
+water_risk,Water risk
+water_stress,Water stress
+drinking_water,Drinking water
+wastewater,Wastewater
+water_access,Water access
+water_consumption,Water consumption
+dam,Dam
+fresh_water,Fresh water
+river,River
+lake,Lake
+sea,Sea
+ocean,Ocean
+watershed,Watershed
+drainage_basin,Drainage basin
+clean_water,Clean water
+water_conflict,Water conflict
+harmful_algal_blooms,Harmful algal blooms
+ice,Ice
+total_suspended_solids,Total suspended solids
+nitrogen,Nitrogen
+snow,Snow
+food,Food
+hunger,Hunger
+nutrition,Nutrition
+famine,Famine
+livestock,Livestock
+crop,Crop
+crop_health,Crop health
+crop_yield,Crop yield
+food_security,Food security
+food_supply,Food suplly
+food_waste,Food waste
+malnutrition,Malnutrition
+farmland,Farmland
+food_price,Food price
+agriculture,Agriculture
+irrigation,Irrigation
+beef,Beef
+lamb,Lamb
+aquaculture,Aquaculture
+maize,Maize
+shrimp,Shrimp
+fishing,Fishing
+fishery,Fishery
+fish,Fish
+climate,Climate
+ghg,GHG
+greenhouse_gas,Greenhouse gas
+sea_ice,Sea ice
+sea_level,Sea level
+snow_cover,Snow cover
+glacier,Glacier
+climate_change,Climate change
+sea_surface_temperature,Sea surface temperature
+acidification,Acidification
+sea_level_rise,Sea level rise
+storm,Storm
+storm_intensity,Storm intensiry
+biome,Biome
+ch4,CH4
+boreal,Boreal
+tropical,Tropical
+wind,Wind
+temperate,Temperate
+n2o,N2O
+energy,Energy
+energy_production,Energy production
+electricity,Electricity
+energy_efficiency,Energy efficiency
+renewable,Renewable
+non_renewable,Non-renewable
+power_plant,Power plant
+solar_energy,Solar energy
+wind_energy,Wind energy
+geothermal,Geothermal
+coal,Coal
+oil,Oil
+petroleoum,Petroleum
+energy_hazard,Energy hazard
+uranium,Uranium
+oil_refinery,Oil refinery
+thorium,Thorium
+hydropower,Hydropower
+fuel,Fuel
+energy_access,Energy access
+urban,Urban
+pollution,Pollution
+transport,Transport
+public_transportation,Public transportation
+bus,Bus
+train,Train
+bike,Bike
+car,Car
+accessibility,Accessibility
+park,Park
+greenspace,Greenspace
+air_quality,Air quality
+o3,O3
+co,CO
+so2,SO2
+waste,Waste
+environmental_health,Environmental health
+environmental_quality,Environmental quality
+volcanic,Volcanic
+seismic,Seismic
+disaster,Disaster
+natural_disaster,Natural disaster
+earthquake,Earthquake
+volcano,Volcano
+eruption,Eruption
+cold_wave,Cold wave
+heat_wave,Heat wave
+landslide,Landslide
+hurricane,Hurricane
+typhoon,Typhoon
+species,Species
+illegal_activity,Illegal activity
+biodiversity,Biodiversity
+poaching,Poaching
+hunting,Hunting
+habitat_loss,Habitat loss
+extinction,Extinction
+human_impact,Human impact
+mammal,Mammal
+coral_reef,Coral reef
+coral,Coral
+amphibian,Amphibian
+fauna,Fauna
+reef,Reef
+bleaching,Bleaching
+flora,Flora
+society,Society
+people,People
+population,Population
+demographic,Demographic
+literacy,Literacy
+illiterate,Illiterate
+school,School
+education,Education
+political_stability,Political stability
+rights,Rights
+human_rights,Human rights
+land_rights,Land rights
+justice,Justice
+protest,Protest
+security,Security
+corruption,Corruption
+government,Government
+child_mortality,Child mortality
+displaced,Displaced
+inequality,Inequality
+sensitivity,Sensitivity
+discrimination,Discrimination
+fragility,Fragility
+resilience,Resilience
+vulnerability,Vulnerability
+infant_mortality,Infant mortality

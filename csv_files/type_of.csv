@@ -1,0 +1,27 @@
+raster,dataset
+vector,dataset
+table,dataset
+geospatial,dataset
+daily,frequency
+near_real_time,frequency
+weekly,frequency
+montly,frequency
+annual,frequency
+mangrove,forest
+drinking_water,water
+fresh_water,water
+clean_water,water
+water_conflict,conflict
+renewable,energy
+non_renewable,energy
+solar_energy,energy_production
+solar_energy, renewable
+wind_energy,energy_production
+wind_energy, renewable
+geothermal,energy_production
+geothermal, renewable
+natural_disaster,disaster
+illegal_activity,activity
+coral_reef,reef
+human_rights,rights
+land_rights,rights
