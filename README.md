@@ -35,4 +35,7 @@ The knowledge graph of concepts is generated from the information stated in [thi
 2. Upload it to the server using scp
 3. Copy it to the folder called **import** that is located inside the Neo4j installation
 4. Download the JSON file resulting from this request to the WRI API https://api.resourcewatch.org/dataset/?app=rw&includes=vocabulary
-4. Execute the various Cypher statements included in the file: [ImportDBCypher.txt](ImportDBCypher.txt)
+5. Execute the JAVA program: [src/main/java/com/vizzuality/CreateDatasetTagCSV.java]
+6. Upload the resulting file to the server using scp
+7. Copy it to the folder called **import** that is located inside the Neo4j installation
+8. Execute the various Cypher statements included in the file: [ImportDBCypher.txt](ImportDBCypher.txt)
