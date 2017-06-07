@@ -45,3 +45,15 @@ The knowledge graph of concepts is generated from the information stated in [thi
 8. Execute the various Cypher statements included in the file: [ImportDBCypher.txt](ImportDBCypher.txt)
 
 > Steps 4-7 can be skipped in the case you're not interested in adding the screenshot of datasets and their tags as a proof of concept
+
+
+## Examples of queries
+
+### Get all concepts that are descendants of the term 'energy'
+
+```
+MATCH (n:CONCEPT)-[*]->(e:CONCEPT {id: 'energy'})
+RETURN n,e
+```
+
+![screen shot 2017-06-07 at 4 04 00 pm](https://user-images.githubusercontent.com/545342/26882540-f684425a-4b9a-11e7-83b9-46b204188045.png)
