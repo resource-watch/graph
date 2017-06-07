@@ -15,12 +15,12 @@ http://104.131.87.76:7474/browser/
 
 ### Current relationship types
 
-* *related_to* _This is a generic relationship used whenever it's not possible to use one of the more specific types_
-* type_of
-* part_of
-* located_at
-* tagged_with
-* triggered_by
-* is_a
-* generated_by
-* is_involved_in
+* RELATED_TO _This is a generic relationship used whenever it's not possible to use one of the more specific types_
+* TYPE_OF
+* PART_OF
+* LOCATED_AT
+* TAGGED_WITH
+* TRIGGERED_BY
+* IS_A
+* GENERATED_BY
+* IS_INVOLVED_IN
