@@ -74,3 +74,16 @@ AS line
 WITH line
 MATCH (c1:CONCEPT { id: line[0]}), (c2:CONCEPT { id: line[1]})
 MERGE (c1)-[:TRIGGERED_BY]->(c2)
+
+// CREATE DATASET NODES
+LOAD CSV FROM 'file:///dataset_tags.csv'
+AS line
+WITH line
+MERGE (d:DATASET {id: line[0]})
+
+// IMPORT DATASET TAGS
+LOAD CSV FROM 'file:///dataset_tags.csv'
+AS line
+WITH line
+MATCH (d:DATASET { id: line[0]}), (c:CONCEPT { id: line[1]})
+MERGE (d)-[:TAGGED_WITH]->(c)
