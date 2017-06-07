@@ -25,6 +25,10 @@ http://104.131.87.76:7474/browser/
 * GENERATED_BY
 * IS_INVOLVED_IN
 
+### Current database schema
+
+![screen shot 2017-06-07 at 4 00 13 pm](https://user-images.githubusercontent.com/545342/26882355-76464606-4b9a-11e7-85eb-ec5326379df1.png)
+
 ## Database creation
 
 The knowledge graph of concepts is generated from the information stated in [this Google Spreadsheet](https://docs.google.com/a/vizzuality.com/spreadsheets/d/1awsO5aPEOv_OEFTakIhn-Ej7RFw46UP-jUWXnskPRqk/edit?usp=sharing).
