@@ -10,12 +10,12 @@ http://104.131.87.76:7474/browser/
 
 ### Current node types
 
-* Concept
-* Dataset
+* CONCEPT
+* DATASET
 
 ### Current relationship types
 
-* related_to This is a generic relationship used whenever it's not possible to use one of the more specific types
+* *related_to* _This is a generic relationship used whenever it's not possible to use one of the more specific types_
 * type_of
 * part_of
 * located_at
