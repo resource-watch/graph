@@ -1,0 +1,76 @@
+// IMPORT NODES
+
+LOAD CSV FROM 'file:///nodes.csv'
+AS line
+WITH line
+MERGE (c:CONCEPT { id: line[0], label: line[1] })
+
+// CAN_AFFECT relationships
+LOAD CSV FROM 'file:///can_affect.csv'
+AS line
+WITH line
+MATCH (c1:CONCEPT { id: line[0]}), (c2:CONCEPT { id: line[1]})
+MERGE (c1)-[:CAN_AFFECT]->(c2)
+
+// IS_A relationships
+LOAD CSV FROM 'file:///is_a.csv'
+AS line
+WITH line
+MATCH (c1:CONCEPT { id: line[0]}), (c2:CONCEPT { id: line[1]})
+MERGE (c1)-[:IS_A]->(c2)
+
+// GENERATED_BY relationships
+LOAD CSV FROM 'file:///generated_by.csv'
+AS line
+WITH line
+MATCH (c1:CONCEPT { id: line[0]}), (c2:CONCEPT { id: line[1]})
+MERGE (c1)-[:GENERATED_BY]->(c2)
+
+// IS_INVOLVED_IN relationships
+LOAD CSV FROM 'file:///is_involved_in.csv'
+AS line
+WITH line
+MATCH (c1:CONCEPT { id: line[0]}), (c2:CONCEPT { id: line[1]})
+MERGE (c1)-[:IS_INVOLVED_IN]->(c2)
+
+// LOCATED_AT relationships
+LOAD CSV FROM 'file:///located_at.csv'
+AS line
+WITH line
+MATCH (c1:CONCEPT { id: line[0]}), (c2:CONCEPT { id: line[1]})
+MERGE (c1)-[:LOCATED_AT]->(c2)
+
+// PART_OF relationships
+LOAD CSV FROM 'file:///part_of.csv'
+AS line
+WITH line
+MATCH (c1:CONCEPT { id: line[0]}), (c2:CONCEPT { id: line[1]})
+MERGE (c1)-[:PART_OF]->(c2)
+
+// QUALITY_OF relationships
+LOAD CSV FROM 'file:///quality_of.csv'
+AS line
+WITH line
+MATCH (c1:CONCEPT { id: line[0]}), (c2:CONCEPT { id: line[1]})
+MERGE (c1)-[:QUALITY_OF]->(c2)
+
+// RELATED_TO relationships
+LOAD CSV FROM 'file:///related_to.csv'
+AS line
+WITH line
+MATCH (c1:CONCEPT { id: line[0]}), (c2:CONCEPT { id: line[1]})
+MERGE (c1)-[:RELATED_TO]->(c2)
+
+// TYPE_OF relationships
+LOAD CSV FROM 'file:///type_of.csv'
+AS line
+WITH line
+MATCH (c1:CONCEPT { id: line[0]}), (c2:CONCEPT { id: line[1]})
+MERGE (c1)-[:TYPE_OF]->(c2)
+
+// TRIGGERED_BY relationships
+LOAD CSV FROM 'file:///triggered_by.csv'
+AS line
+WITH line
+MATCH (c1:CONCEPT { id: line[0]}), (c2:CONCEPT { id: line[1]})
+MERGE (c1)-[:TRIGGERED_BY]->(c2)

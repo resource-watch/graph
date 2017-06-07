@@ -34,7 +34,7 @@ extreme_event,event
 event,general
 conflict ,general
 temperature,general
-temperature, climate
+temperature,climate
 chemical_compound,general
 forest,general
 degradation,general
@@ -47,7 +47,7 @@ water,general
 drought,water
 flood,water
 sewage,water
-sewage, urban
+sewage,urban
 water_availability,water
 water_extent,water
 water_scarcity,water
@@ -67,7 +67,7 @@ river,water
 lake,water
 sea,water
 ocean,water
-ocean, biodiversity
+ocean,biodiversity
 watershed,water
 drainage_basin,river
 water_conflict,water
@@ -80,12 +80,12 @@ hunger,food
 nutrition,food
 famine,food
 livestock,food
-livestock, animals
-livestock, primary_sector
-livestock, commodity
+livestock,animals
+livestock,primary_sector
+livestock,commodity
 crop,food
-crop, plants
-crop, primary_sector
+crop,plants
+crop,primary_sector
 crop_yield,crop
 food_security,food
 food_supply,food
@@ -95,39 +95,39 @@ farmland,food
 food_price,food
 agriculture,food
 irrigation,crop
-irrigation, water
+irrigation,water
 beef,livestock
-beef, mammal
+beef,mammal
 lamb,livestock
-lamb, mammal
+lamb,mammal
 aquaculture,food
 maize,type_of:crop
 shrimp,food
 fishing,fish
 fishery,fish
-fishery, primary_sector
-fishery, food
+fishery,primary_sector
+fishery,food
 fish,food
 climate,general
 ghg,climate
 greenhouse_gas,general
 sea_ice,ice
-sea_ice, climate
-sea_ice, sea
+sea_ice,climate
+sea_ice,sea
 sea_level,sea
-sea_level, climate
+sea_level,climate
 snow_cover,snow
-snow_cover, climate
+snow_cover,climate
 glacier,snow
-glacier, ice
-glacier, climate_change
+glacier,ice
+glacier,climate_change
 climate_change,climate
 sea_surface_temperature,sea
-sea_surface_temperature, temperature
-sea_surface_temperature, climate
+sea_surface_temperature,temperature
+sea_surface_temperature,climate
 acidification,sea
-acidification, ocean
-acidification, climate
+acidification,ocean
+acidification,climate
 sea_level_rise,sea_level
 storm,climate
 storm_intensity,storm
@@ -142,107 +142,107 @@ energy_production,energy
 electricity,energy
 energy_efficiency,general
 power_plant,non_renewable
-power_plant, energy_production
+power_plant,energy_production
 coal,non_renewable
 oil,non_renewable
 petroleoum,non_renewable
 energy_hazard,energy
 oil_refinery,oil
 hydropower,renewable
-hydropower, energy_production
+hydropower,energy_production
 fuel,energy
 energy_access,energy
 urban,general
 pollution,air
-pollution, urban
+pollution,urban
 transport,urban
 public_transportation,transport
 bus,public_transportation
-bus, urban
+bus,urban
 train,public_transportation
 bike,public_transportation
-bike, urban
+bike,urban
 car,pollution
-car, urban
+car,urban
 accessibility,urban
 park,urban
 greenspace,urban
 air_quality,urban
-air_quality, air
+air_quality,air
 o3,pollution
-o3, urban
+o3,urban
 co,pollution
-co, urban
+co,urban
 so2,pollution
-so2, urban
+so2,urban
 waste,urban
 environmental_health,environment
-environmental_health, health
+environmental_health,health
 environmental_quality,environment
 volcanic,general
 seismic,general
 natural_disaster,extreme_event
 earthquake,seismic
 volcano,natural_disaster
-volcano, volcanic
+volcano,volcanic
 eruption,volcano
 cold_wave,climate
-cold_wave, disaster
+cold_wave,disaster
 heat_wave,climate
-heat_wave, disaster
+heat_wave,disaster
 landslide,disaster
-landslide, land
+landslide,land
 hurricane,wind
 typhoon,wind
-typhoon, sea
-typhoon, ocean
+typhoon,sea
+typhoon,ocean
 species,general
 biodiversity,general
 hunting,animal
 extinction,species
 human_impact,people
-human_impact, biodiversity
+human_impact,biodiversity
 mammal,animal
 coral_reef,coral
 coral,fauna
 fauna,general
 reef,general
 bleaching,coral
-bleaching, coral_reef
-bleaching, biodiversity
+bleaching,coral_reef
+bleaching,biodiversity
 flora,general
 society,general
 people,general
 population,people
 demographic,population
 literacy,people
-literacy, education
+literacy,education
 illiterate,people
-illiterate, education
+illiterate,education
 school,people
-school, education
-school, installation
+school,education
+school,installation
 education,society
 political_stability,society
-political_stability, government
+political_stability,government
 rights,people
 human_rights,people
 land_rights,people
-land_rights, land
+land_rights,land
 justice,rights
 protest,event
-protest, people
+protest,people
 security,people
 corruption,people
-corruption, political_stability
-corruption, government
+corruption,political_stability
+corruption,government
 government,society
 child_mortality,people
 displaced,people
-displaced, land
-displaced, conflict
+displaced,land
+displaced,conflict
 inequality,quality
-inequality, people
+inequality,people
 sensitivity,quality
 discrimination,people
 fragility,quality

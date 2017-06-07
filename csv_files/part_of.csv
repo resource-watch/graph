@@ -1,52 +1,52 @@
 spain,eu
-spain, schengen_area
+spain,schengen_area
 portugal,eu
-portugal, schengen_area
+portugal,schengen_area
 germany,eu
-germany, schengen_area
+germany,schengen_area
 uk,eu
 italy,eu
-italy, schengen_area
+italy,schengen_area
 ireland,eu
 malta,eu
-malta, schengen_area
+malta,schengen_area
 belgium,eu
-belgium, schengen_area
+belgium,schengen_area
 austria,eu
-austria, schengen_area
+austria,schengen_area
 latvia,eu
-latvia, schengen_area
+latvia,schengen_area
 bulgaria,eu
 lithuania,eu
-lithuania, schengen_area
+lithuania,schengen_area
 luxembourg,eu
-luxembourg, schengen_area
+luxembourg,schengen_area
 croatia,eu
 cyprus,eu
 czech_republic,eu
-czech_republic, schengen_area
+czech_republic,schengen_area
 netherlands,eu
-netherlands, schengen_area
+netherlands,schengen_area
 denmark,eu
-denmark, schengen_area
+denmark,schengen_area
 poland,eu
 estonia,eu
-estonia, schengen_area
+estonia,schengen_area
 finland,eu
-finland, schengen_area
+finland,schengen_area
 slovakia,eu
-slovakia, schengen_area
+slovakia,schengen_area
 romania,eu
 slovenia,eu
-slovenia, schengen_area
+slovenia,schengen_area
 greece,eu
-greece, schengen_area
+greece,schengen_area
 hungary,eu
-hungary, schengen_area
+hungary,schengen_area
 sweden,eu
-sweden, schengen_area
+sweden,schengen_area
 france,eu
-france, schengen_area
+france,schengen_area
 afghanistan,asia
 aland,finland
 albania,europe
@@ -61,7 +61,7 @@ armenia,asia
 aruba,south_america
 australia,oceania
 azerbaijan,europe
-azerbaijan, asia
+azerbaijan,asia
 bahamas,north_america
 bahrain,asia
 bangladesh,asia
@@ -70,14 +70,14 @@ belarus,europe
 belize,north_america
 benin,africa
 bermuda,uk
-bermuda, north_america
+bermuda,north_america
 bhutan,asia
 bolivia,south_america
 bosnia_and_herzegovina,europe
 botswana,africa
 brazil,south_america
 british_indian_ocean_territory,uk
-british_indian_ocean_territory, asia
+british_indian_ocean_territory,asia
 brunei,asia
 burkina_faso,africa
 burundi,africa
@@ -86,7 +86,7 @@ cameroon,africa
 canada,north_america
 cape_verde,africa
 cayman_islands,north_america
-cayman_islands, uk
+cayman_islands,uk
 central_part_of:african_republic,africa
 chad,africa
 chile,south_america
@@ -100,7 +100,7 @@ costa_rica,north_america
 ivory_coast,africa
 cuba,north_america
 curacao,south_america
-curacao, netherlands
+curacao,netherlands
 djibouti,africa
 dominica,north_america
 dominican_republic,north_america
@@ -111,24 +111,24 @@ equatorial_guinea,africa
 eritrea,africa
 ethiopia,africa
 falkland_islands,south_america
-falkland_islands, uk
+falkland_islands,uk
 faroe_islands,europe
-faroe_islands, denmark
+faroe_islands,denmark
 fiji,oceania
 french_polynesia,oceania
-french_polynesia, france
+french_polynesia,france
 french_southern_and_antarctic_lands,africa
-french_southern_and_antarctic_lands, france
-french_southern_and_antarctic_lands, antarctica
+french_southern_and_antarctic_lands,france
+french_southern_and_antarctic_lands,antarctica
 gabon,africa
 gambia,africa
 georgia,europe
-georgia, asia
+georgia,asia
 ghana,africa
 gibraltar,europe
-gibraltar, uk
+gibraltar,uk
 greenland,north_america
-greenland, denmark
+greenland,denmark
 grenada,north_america
 guam,oceania
 guatemala,north_america
@@ -138,12 +138,12 @@ guinea_bissau,africa
 guyana,south_america
 haiti,north_america
 heard_island_and_mcdoland_islands,australia
-heard_island_and_mcdoland_islands, antarctica
+heard_island_and_mcdoland_islands,antarctica
 vatican,europe
 honduras,north_america
 hong_kong,asia
 iceland,europe
-iceland, european_free_trade_association
+iceland,european_free_trade_association
 india,asia
 indonesia,asia
 iran,asia
@@ -167,9 +167,9 @@ lesotho,africa
 liberia,africa
 libya,africa
 liechtenstein,europe
-liechtenstein, european_free_trade_association
+liechtenstein,european_free_trade_association
 macao,china
-macao, asia
+macao,asia
 macedonia,europe
 madagascar,africa
 malawi,africa
@@ -186,7 +186,7 @@ monaco,europe
 mongolia,asia
 montenegro,europe
 montserrat,north_america
-montserrat, uk
+montserrat,uk
 morocco,africa
 mozambique,africa
 myanmar,asia
@@ -194,19 +194,19 @@ namibia,africa
 nauru,oceania
 nepal,asia
 new_caledonia,france
-new_caledonia, oceania
+new_caledonia,oceania
 new_zealand,oceania
 nicaragua,north_america
 niger,africa
 nigeria,africa
 niue,oceania
 norfolk_island,oceania
-norfolk_island, australia
+norfolk_island,australia
 northern_mariana_islands,oceania
-northern_mariana_islands, usa
+northern_mariana_islands,usa
 norway,europe
-norway, shengen_area
-norway, european_free_trade_association
+norway,shengen_area
+norway,european_free_trade_association
 oman,asia
 pakistan,asia
 palau,oceania
@@ -221,17 +221,17 @@ pitcairn_islands,oceania
 puerto_rico,north_america
 qatar,asia
 russia,europe
-russia, asia
+russia,asia
 rwanda,africa
 saint_barthelemy,north_america
 saint_helena,africa
-saint_helena, uk
+saint_helena,uk
 saint_kitts_and_nevis,north_america
 saint_lucia,north_america
 saint_martin,france
-saint_martin, north_america
+saint_martin,north_america
 saint_pierre_and_miquelon,france
-saint_pierre_and_miquelon, north_america
+saint_pierre_and_miquelon,north_america
 saint_vincent_and_the_grenadines,north_america
 samoa,oceania
 san_marino,europe
@@ -243,19 +243,19 @@ seychelles,africa
 sierra_leone,africa
 singapore,asia
 sint_marteen,north_america
-sint_marteen, netherlands
+sint_marteen,netherlands
 solomon_islands,oceania
 somalia,africa
 south_africa,africa
 south_georgia_and_the_south_sandwich_islands,antarctica
-south_georgia_and_the_south_sandwich_islands, uk
+south_georgia_and_the_south_sandwich_islands,uk
 south_sudan,africa
 sri_lanka,asia
 sudan,africa
 suriname,south_america
 swaziland,africa
 switzerland,europe
-switzerland, european_free_trade_association
+switzerland,european_free_trade_association
 syria,asia
 taiwan,asia
 tajikistan,asia
@@ -267,34 +267,34 @@ tonga,oceania
 trinidad_and_tobago,south_america
 tunisia,africa
 turkey,europe
-turkey, asia
+turkey,asia
 turkmenistan,asia
 turks_and_calcos_islands,uk
-turks_and_calcos_islands, north_america
+turks_and_calcos_islands,north_america
 tuvalu,oceania
 uganda,africa
 ukraine,europe
 united_arab_emirates,asia
 usa,north_america
 united_states_minor_outlying_islands,usa
-united_states_minor_outlying_islands, north_america
+united_states_minor_outlying_islands,north_america
 uruguay,south_america
 uzbekistan,asia
 vanuatu,oceania
 venezuela,south_america
 vietnam,asia
 brittish_virgin_islands,uk
-brittish_virgin_islands, north_america
+brittish_virgin_islands,north_america
 united_states_virgin_islands,usa
-united_states_virgin_islands, north_america
+united_states_virgin_islands,north_america
 wallis_and_futuna,france
-wallis_and_futuna, oceania
+wallis_and_futuna,oceania
 western_sahara,africa
 yemen,asia
 zambia,africa
 zimbabwe,africa
 coral_sea_islands_territory,australia
-coral_sea_islands_territory, oceania
+coral_sea_islands_territory,oceania
 republic_of_kosovo,europe
 logging,secondary_sector
 agriculture,primary_sector

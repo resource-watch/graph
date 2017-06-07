@@ -15,11 +15,11 @@ water_conflict,conflict
 renewable,energy
 non_renewable,energy
 solar_energy,energy_production
-solar_energy, renewable
+solar_energy,renewable
 wind_energy,energy_production
-wind_energy, renewable
+wind_energy,renewable
 geothermal,energy_production
-geothermal, renewable
+geothermal,renewable
 natural_disaster,disaster
 illegal_activity,activity
 coral_reef,reef

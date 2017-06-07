@@ -32,13 +32,13 @@ public class ExportToCSVFiles {
             while((line = reader.readLine()) != null){
                 String[] values = line.split("\t");
                 String valueID = values[0];
-                nodesFileWriter.write( valueID + "," + values[1] + "\n");
+                nodesFileWriter.write( valueID.trim() + "," + values[1].trim() + "\n");
                 for(int i=2;i<values.length;i++){
-                    String relValue = values[i];
-                    if(relValue.trim().length() > 0){
+                    String relValue = values[i].trim();
+                    if(relValue.length() > 0){
                         String[] relColumns = relValue.split(",");
                         for(String relColumn : relColumns){
-                            writersMap.get(relTypes.get(i-2)).write(valueID + "," + relColumn + "\n");
+                            writersMap.get(relTypes.get(i-2)).write(valueID + "," + relColumn.trim() + "\n");
                         }
                     }
                 }

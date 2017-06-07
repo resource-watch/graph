@@ -9,11 +9,11 @@ spain,country
 portugal,country
 germany,country
 uk,island
-uk, country
+uk,country
 italy,country
 ireland,country
 malta,island
-malta, country
+malta,country
 belgium,country
 austria,country
 latvia,country
@@ -40,7 +40,7 @@ aland,autonomous_territory
 albania,country
 algeria,country
 american_samoa,island
-american_samoa, unincorporated_territory
+american_samoa,unincorporated_territory
 andorra,country
 angola,country
 anguilla,island
@@ -48,29 +48,29 @@ antigua_and_barbuda,island
 argentina,country
 armenia,country
 aruba,island
-aruba, country
+aruba,country
 australia,island
-australia, country
+australia,country
 azerbaijan,country
 bahamas,island
-bahamas, country
+bahamas,country
 bahrain,island
-bahrain, country
+bahrain,country
 bangladesh,country
 barbados,island
-barbados, country
+barbados,country
 belarus,country
 belize,country
 benin,country
 bermuda,island
-bermuda, overseas_territory
+bermuda,overseas_territory
 bhutan,country
 bolivia,country
 bosnia_and_herzegovina,country
 botswana,country
 brazil,country
 british_indian_ocean_territory,island
-british_indian_ocean_territory, overseas_territory
+british_indian_ocean_territory,overseas_territory
 brunei,country
 burkina_faso,country
 burundi,country
@@ -79,14 +79,14 @@ cameroon,country
 canada,country
 cape_verde,country
 cayman_islands,island
-cayman_islands, overseas_territory
+cayman_islands,overseas_territory
 central_part_of:african_republic,country
 chad,country
 chile,country
 china,country
 colombia,country
 comoros,island
-comoros, country
+comoros,country
 congo,country
 democratic_republic_of_congo,country
 cook_islands,island
@@ -94,12 +94,12 @@ costa_rica,country
 ivory_coast,country
 cuba,island
 curacao,island
-curacao, autonomous_territory
+curacao,autonomous_territory
 djibouti,country
 dominica,island
-dominica, country
+dominica,country
 dominican_republic,island
-dominican_republic, country
+dominican_republic,country
 ecuador,country
 egypt,country
 el_salvador,country
@@ -107,58 +107,58 @@ equatorial_guinea,country
 eritrea,country
 ethiopia,country
 falkland_islands,island
-falkland_islands, overseas_territory
+falkland_islands,overseas_territory
 faroe_islands,island
-faroe_islands, autonomous_territory
+faroe_islands,autonomous_territory
 fiji,island
-fiji, country
+fiji,country
 french_polynesia,island
-french_polynesia, overseas_territory
+french_polynesia,overseas_territory
 french_southern_and_antarctic_lands,island
-french_southern_and_antarctic_lands, overseas_territory
+french_southern_and_antarctic_lands,overseas_territory
 gabon,country
 gambia,country
 georgia,country
 ghana,country
 gibraltar,overseas_territory
 greenland,island
-greenland, autonomous_territory
+greenland,autonomous_territory
 grenada,island
-grenada, country
+grenada,country
 guam,island
-guam, country
+guam,country
 guatemala,country
 guernsey,crown_dependency
 guinea,country
 guinea_bissau,country
 guyana,country
 haiti,island
-haiti, country
+haiti,country
 heard_island_and_mcdoland_islands,island
-heard_island_and_mcdoland_islands, overseas_territory
+heard_island_and_mcdoland_islands,overseas_territory
 vatican,country
 honduras,country
 hong_kong,country
 iceland,country
-iceland, island
+iceland,island
 india,country
 indonesia,country
 iran,country
 iraq,country
 isle_of_man,island
-isle_of_man, crown_dependency
+isle_of_man,crown_dependency
 israel,country
 jamaica,island
-jamaica, country
+jamaica,country
 japan,island
-japan, country
+japan,country
 jersey,island
-jersey, crown_dependency
+jersey,crown_dependency
 jordan,country
 kazakhstan,country
 kenya,country
 kiribati,island
-kiribati, country
+kiribati,country
 democratic_republic_of_korea,country
 south_korea,country
 kuwait,country
@@ -172,101 +172,101 @@ liechtenstein,country
 macao,autonomous_territory
 macedonia,country
 madagascar,country
-madagascar, island
+madagascar,island
 malawi,country
 malaysia,country
 maldives,country
-maldives, island
+maldives,island
 mali,country
 marshall_islands,island
 mauritania,country
 mauritius,country
-mauritius, island
+mauritius,island
 mexico,country
 micronesia,country
-micronesia, island
+micronesia,island
 moldova,country
 monaco,country
 mongolia,country
 montenegro,country
 montserrat,overseas_territory
-montserrat, island
+montserrat,island
 morocco,country
 mozambique,country
 myanmar,country
 namibia,country
 nauru,country
-nauru, island
+nauru,island
 nepal,country
 new_caledonia,overseas_territory
-new_caledonia, island
+new_caledonia,island
 new_zealand,island
-new_zealand, country
+new_zealand,country
 nicaragua,country
 niger,country
 nigeria,country
 niue,country
-niue, island
+niue,island
 norfolk_island,overseas_territory
-norfolk_island, island
+norfolk_island,island
 northern_mariana_islands,island
-northern_mariana_islands, overseas_territory
+northern_mariana_islands,overseas_territory
 norway,country
 oman,country
 pakistan,country
 palau,country
-palau, island
+palau,island
 palestine,territory
 panama,country
 papua_new_guinea,country
-papua_new_guinea, island
+papua_new_guinea,island
 paraguay,country
 peru,country
 philippines,island
-philippines, country
+philippines,country
 pitcairn_islands,island
-pitcairn_islands, overseas_territory
+pitcairn_islands,overseas_territory
 puerto_rico,island
-puerto_rico, unincorporated_territory
+puerto_rico,unincorporated_territory
 qatar,country
 russia,country
 rwanda,country
 saint_barthelemy,overseas_territory
-saint_barthelemy, island
+saint_barthelemy,island
 saint_helena,island
-saint_helena, overseas_territory
+saint_helena,overseas_territory
 saint_kitts_and_nevis,country
-saint_kitts_and_nevis, island
+saint_kitts_and_nevis,island
 saint_lucia,country
-saint_lucia, island
+saint_lucia,island
 saint_martin,island
-saint_martin, overseas_territory
+saint_martin,overseas_territory
 saint_pierre_and_miquelon,island
-saint_pierre_and_miquelon, overseas_territory
+saint_pierre_and_miquelon,overseas_territory
 saint_vincent_and_the_grenadines,island
-saint_vincent_and_the_grenadines, country
+saint_vincent_and_the_grenadines,country
 samoa,country
-samoa, island
+samoa,island
 san_marino,country
 sao_tome_and_principe,country
 saudi_arabia,country
 senegal,country
 serbia,country
 seychelles,country
-seychelles, island
+seychelles,island
 sierra_leone,country
 singapore,country
 sint_marteen,island
-sint_marteen, overseas_territory
+sint_marteen,overseas_territory
 solomon_islands,country
-solomon_islands, island
+solomon_islands,island
 somalia,country
 south_africa,country
 south_georgia_and_the_south_sandwich_islands,island
-south_georgia_and_the_south_sandwich_islands, overseas_territory
+south_georgia_and_the_south_sandwich_islands,overseas_territory
 south_sudan,country
 sri_lanka,island
-sri_lanka, country
+sri_lanka,country
 sudan,country
 suriname,country
 swaziland,country
@@ -284,9 +284,9 @@ tunisia,country
 turkey,country
 turkmenistan,country
 turks_and_calcos_islands,overseas_territory
-turks_and_calcos_islands, island
+turks_and_calcos_islands,island
 tuvalu,island
-tuvalu, country
+tuvalu,country
 uganda,country
 ukraine,country
 united_arab_emirates,country
@@ -295,21 +295,21 @@ united_states_minor_outlying_islands,overseas_territory
 uruguay,country
 uzbekistan,country
 vanuatu,island
-vanuatu, country
+vanuatu,country
 venezuela,country
 vietnam,country
 brittish_virgin_islands,island
-brittish_virgin_islands, overseas_territory
+brittish_virgin_islands,overseas_territory
 united_states_virgin_islands,island
-united_states_virgin_islands, overseas_territory
+united_states_virgin_islands,overseas_territory
 wallis_and_futuna,island
-wallis_and_futuna, overseas_territory
+wallis_and_futuna,overseas_territory
 western_sahara,territory
 yemen,country
 zambia,country
 zimbabwe,country
 coral_sea_islands_territory,overseas_territory
-coral_sea_islands_territory, island
+coral_sea_islands_territory,island
 republic_of_kosovo,country
 erosion,process
 sedimentation,process
@@ -338,7 +338,7 @@ water_consumption,indicator
 dam,infrastructure
 fresh_water,resource
 clean_water,indicator
-clean_water, resource
+clean_water,resource
 harmful_algal_blooms,disaster
 total_suspended_solids,indicator
 nitrogen,chemical_compound
@@ -382,15 +382,15 @@ environmental_health,indicator
 environmental_quality,indicator
 disaster,event
 earthquake,natural_disaster
-earthquake, natural_phenomena
+earthquake,natural_phenomena
 eruption,process
-eruption, extreme_event
-eruption, natural_phenomena
+eruption,extreme_event
+eruption,natural_phenomena
 cold_wave,extreme_event
 heat_wave,extreme_event
 landslide,extreme_event
 hurricane,natural_disaster
-hurricane, natural_phenomena
+hurricane,natural_phenomena
 typhoon,natural_disaster
 poaching,illegal_activity
 hunting,activity
