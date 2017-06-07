@@ -57,3 +57,16 @@ RETURN n,e
 ```
 
 ![screen shot 2017-06-07 at 4 04 00 pm](https://user-images.githubusercontent.com/545342/26882540-f684425a-4b9a-11e7-83b9-46b204188045.png)
+
+### Get all datasets tagged with water or any of the descendants of water
+
+```
+MATCH (d:DATASET)-[:TAGGED_WITH]->(c:CONCEPT)-[*]->(c2:CONCEPT)
+WHERE c.id='water' OR c2.id='water'
+RETURN d,c,c2
+```
+
+
+![screen shot 2017-06-07 at 4 29 42 pm](https://user-images.githubusercontent.com/545342/26883827-8dfe50a0-4b9e-11e7-9338-fbe176e4f0c1.png)
+
+
