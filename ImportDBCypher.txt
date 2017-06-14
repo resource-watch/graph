@@ -79,11 +79,28 @@ MERGE (c1)-[:TRIGGERED_BY]->(c2)
 LOAD CSV FROM 'file:///dataset_tags.csv'
 AS line
 WITH line
-MERGE (d:DATASET {id: line[0]})
+MERGE (d:DATASET {id: line[0], label: line[1]})
 
 // IMPORT DATASET TAGS
 LOAD CSV FROM 'file:///dataset_tags.csv'
 AS line
 WITH line
-MATCH (d:DATASET { id: line[0]}), (c:CONCEPT { id: line[1]})
+MATCH (d:DATASET { id: line[0]}), (c:CONCEPT { id: line[2]})
 MERGE (d)-[:TAGGED_WITH]->(c)
+
+// IMPORT WIDGETS
+LOAD CSV FROM 'file:///widgets.csv'
+AS line
+WITH line
+CREATE (:WIDGET {id: line[0], name: line[1]})
+
+// WIDGET - DATASET relationships
+LOAD CSV FROM 'file:///widgets.csv'
+AS line
+WITH line
+MATCH (w:WIDGET { id: line[0]}), (d:DATASET { id: line[2]})
+MERGE (w)-[:BELONGS_TO]->(d)
+
+// DELETE DATASET nodes and TAGGED_WITH relationships
+MATCH (d:DATASET)
+DETACH DELETE d

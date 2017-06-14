@@ -35,6 +35,7 @@ public class CreateDatasetTagCSV {
                 String datasetID = dataset.getString("id");
                 System.out.println("datasetID = " + datasetID);
                 JSONObject attributes = dataset.getJSONObject("attributes");
+                String datasetName = attributes.getString("name");
                 JSONArray vocabulary = attributes.getJSONArray("vocabulary");
 
                 for(Object o : vocabulary){
@@ -42,7 +43,7 @@ public class CreateDatasetTagCSV {
                     JSONArray tagsArray = voc.getJSONObject("attributes").getJSONArray("tags");
                     for (Object o1 : tagsArray) {
                         String tag = String.valueOf(o1);
-                        writer.write(datasetID + "," + tag + "\n");
+                        writer.write(datasetID + "," + datasetName + "," + tag + "\n");
                     }
                 }
             }
