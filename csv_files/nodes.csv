@@ -17,6 +17,8 @@ asia,Asia
 european_free_trade_association,European Free Trade Association
 schengen_area,Schengen Area
 eu,EU
+un,UN
+oecd,OECD
 spain,Spain
 portugal,Portugal
 germany,Germany
@@ -274,7 +276,7 @@ sedimentation,Sedimentation
 sector,Sector
 primary_sector,Primary sector
 secondary_sector,Secondary sector
-third_sector,Third sector
+tertiary_sector,Tertiary sector
 commodity,Commodity
 plants,Plants
 infrastructure,Infrastructure
@@ -293,7 +295,12 @@ extreme_event,Extreme event
 event,Event
 conflict,Conflict
 temperature,Temperature
+exploitation,Exploitation
 chemical_compound,Chemical Compound
+coast,Coast
+wetland,Wetland
+financial_loss,Financial Loss
+damage,Damage
 forest,Forest
 fire,Fire
 deforestation,Deforestation
@@ -304,7 +311,7 @@ forest_cover,Forest cover
 forest_loss,Forest loss
 forest_gain,Forest gain
 forest_change,Forest change
-instact_forest,Intact forest
+intact_forest,Intact forest
 water,Water
 drought,Drought
 flood,Flood
@@ -337,8 +344,13 @@ water_conflict,Water conflict
 harmful_algal_blooms,Harmful algal blooms
 ice,Ice
 total_suspended_solids,Total suspended solids
+biological_oxygen_demand,Biological Oxygen Demand
+chemical_oxygen_demand,Chemical Oxygen Demand
 nitrogen,Nitrogen
 snow,Snow
+dead_zone,Dead Zone
+eutrophication,Eutrophication
+irrigation,Irrigation
 food,Food
 hunger,Hunger
 nutrition,Nutrition
@@ -348,7 +360,7 @@ crop,Crop
 crop_health,Crop health
 crop_yield,Crop yield
 food_security,Food security
-food_supply,Food suplly
+food_supply,Food supply
 food_waste,Food waste
 malnutrition,Malnutrition
 farmland,Farmland
@@ -363,9 +375,10 @@ shrimp,Shrimp
 fishing,Fishing
 fishery,Fishery
 fish,Fish
+seafood,Seafood
+overfishing,Overfishing
 climate,Climate
 ghg,GHG
-greenhouse_gas,Greenhouse gas
 sea_ice,Sea ice
 sea_level,Sea level
 snow_cover,Snow cover
@@ -375,14 +388,17 @@ sea_surface_temperature,Sea surface temperature
 acidification,Acidification
 sea_level_rise,Sea level rise
 storm,Storm
-storm_intensity,Storm intensiry
+storm_intensity,Storm intensity
 biome,Biome
+CO2,CO2
 ch4,CH4
 boreal,Boreal
+temperate,Temperate
 tropical,Tropical
 wind,Wind
-temperate,Temperate
 n2o,N2O
+thermal_expansion,Thermal_Expansion
+seasonality,Seasonality
 energy,Energy
 energy_production,Energy production
 electricity,Electricity
@@ -395,7 +411,10 @@ wind_energy,Wind energy
 geothermal,Geothermal
 coal,Coal
 oil,Oil
+natural_gas,Natural Gas
 petroleoum,Petroleum
+nuclear,Nuclear
+radiation,Radiation
 energy_hazard,Energy hazard
 uranium,Uranium
 oil_refinery,Oil refinery
@@ -403,10 +422,15 @@ thorium,Thorium
 hydropower,Hydropower
 fuel,Fuel
 energy_access,Energy access
+power_lines,Power Lines
+pipelines,Pipelines
+energy_infrastructure,Energy Infrastucture
+city,Cities
 urban,Urban
 pollution,Pollution
 transport,Transport
 public_transportation,Public transportation
+impervious_surface,Impervious surface
 bus,Bus
 train,Train
 bike,Bike
@@ -416,13 +440,14 @@ park,Park
 greenspace,Greenspace
 air_quality,Air quality
 o3,O3
+cfc,CFC
 co,CO
 so2,SO2
 waste,Waste
 environmental_health,Environmental health
 environmental_quality,Environmental quality
-volcanic,Volcanic
-seismic,Seismic
+urban_planning,Urban Planning
+heat_island,Heat Island
 disaster,Disaster
 natural_disaster,Natural disaster
 earthquake,Earthquake
@@ -433,12 +458,15 @@ heat_wave,Heat wave
 landslide,Landslide
 hurricane,Hurricane
 typhoon,Typhoon
+tsunami,Tsunami
 species,Species
 illegal_activity,Illegal activity
 biodiversity,Biodiversity
 poaching,Poaching
 hunting,Hunting
 habitat_loss,Habitat loss
+ecoregion,Ecoregion
+habitat,Habitat
 extinction,Extinction
 human_impact,Human impact
 mammal,Mammal
@@ -449,6 +477,9 @@ fauna,Fauna
 reef,Reef
 bleaching,Bleaching
 flora,Flora
+marine_life,Marine life
+conservation,Conservation
+restoration,Restoration
 society,Society
 people,People
 population,Population
@@ -460,18 +491,36 @@ education,Education
 political_stability,Political stability
 rights,Rights
 human_rights,Human rights
+Indigenous_rights,Indigenous Rights
 land_rights,Land rights
 justice,Justice
 protest,Protest
 security,Security
 corruption,Corruption
+governance,Governance
 government,Government
 child_mortality,Child mortality
 displaced,Displaced
-inequality,Inequality
 sensitivity,Sensitivity
 discrimination,Discrimination
 fragility,Fragility
 resilience,Resilience
 vulnerability,Vulnerability
 infant_mortality,Infant mortality
+refugee,Refugee
+women,Women
+gender,Gender
+poverty,Poverty
+mortality,Mortality
+wealth,Wealth
+inequality,Inequality
+gini_index,GINI index
+health,Health
+gdp,GDP
+disease,Disease
+national_park,National Park
+reserve,Reserve
+protected_area,Protected Area
+foreign_aid,Foreign Aid
+developed,Developed
+developing,Developing

@@ -1,0 +1,13 @@
+destruction,damage
+city,urban
+urban,city
+hurricane,typhoon
+typhoon,hurricane
+society,people
+people,society
+national_park,reserve
+national_park,protected_area
+reserve,national_park
+reserve,protected_area
+protected_area,national_park
+protected_area,reserve
