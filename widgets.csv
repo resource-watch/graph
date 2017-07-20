@@ -1,98 +1,28 @@
-4fb869c8-6a9a-4a66-90b8-6425eff6dd52,Total CO2 emissions by year-2,
 afe4962c-121b-46ae-a250-fcf55e56b984,Example Carto Dataset5,be76f130-ed4e-4972-827d-aef8e0dc6b18
 51851e22-1eda-4bf5-bbcc-cde3f9a3a943,Example Carto Dataset6,be76f130-ed4e-4972-827d-aef8e0dc6b18
-641970f9-84da-4560-a715-ad4f70a3b8f4,Single growing crop under high water stress conditions,d69adfa5-2087-458d-8f8f-388c888ed8ab
 4f8f572d-4cb3-4e1a-93f9-ae24e5733442,Example Carto Dataset4,be76f130-ed4e-4972-827d-aef8e0dc6b18
-2370a881-2189-4490-afda-911202f7a2e0,Widget prep test,6c19495c-ad1c-4f00-bae6-f76b2d81a375
 5f8739c0-00d8-4c75-9271-2b3592e75007,fawefw,a972a30d-f766-4d68-a85d-392538b4ccf9
 4cda3c6a-c838-4a81-9656-a0aadeeb1eb8,Forest loss in the last decade,a05fde4e-3c43-402f-9ae9-5c621c487d43
 4edebf4a-a4e7-4d68-82a3-63829b5f3bfb,efrwef2,a972a30d-f766-4d68-a85d-392538b4ccf9
 14a08a36-e9c7-4f3a-aeb1-f3e411c94a68,ncuiawnfeiw,bbfcf170-5c47-40b0-880d-b04648eba354
-606c813b-d716-4b0b-8717-9389425c9262,Irrigated vs Rainfed,fc85eac5-d27c-49d2-a248-dee26ec858bc
 20ec7861-5251-40a7-9503-5ee3686a66a3,Estimated C02 emission,d02df2f6-d80c-4274-bb6f-f062061655c4
-888b3dbd-697c-41f8-a6b2-f7f75452fb81,Projected Change in Number of Hot Days - Lower Emissions (B1),a33a0b4e-8e38-4cf8-820e-dd216212360d
-cf7a9c40-6c3a-49d2-afb0-de16b9a2d2c6,Projected Change in Number of Warm Nights - Higher Emissions (A2),5824f21e-9faa-4b32-851a-6633a12302aa
-7189d4fb-c830-4300-877e-d4dea003d3c5,Crops produced in areas of high water stress,6ffd8b3a-8318-4b39-b53f-ad3a09916bd7
-ec856000-1e8f-4e93-a76a-533d3eeea0d0,Risk Areas in Porto Alegre,1a3d8068-7247-4184-baa6-79926c11eebb
-13de93db-bc3e-42dc-89bc-c81121c8d5ed,Projected Change in Number of Frost-Free Season Days - Higher Emissions (A2),14813f7c-a635-4ed0-802f-3f4395daedd4
-8fa7ab70-8195-4bc6-973d-336cb34aec7d,Projected Change in Number of Days Over 95ºF,48f596dc-561e-473b-a4b2-c40f44800cbd
-514dc521-9486-45e5-aeaf-fa9950a692aa,Projected Increases in the Number of Days over 90ºF - Higher Emissions,119506b3-c5a3-423d-8050-d99f15f12457
-96e5e426-33a8-40fe-9f7f-f36d9db82a8c,Projected Increases in the Number of Days over 90ºF - Lower Emissions,2223f9c9-1acf-4e37-b807-f4b7063b47b1
-e717bebf-8bfa-4eba-9ce0-67eed3f924db,Projected Increases in the Number of Days over 90ºF - Historical,8ed34061-7996-41fd-8a8e-3f9458fa6cf5
-8f67fadd-d8df-4a28-82dd-a22a337d71b9,Percentage of country's population at high risk of hunger.,f1d24950-c764-4f90-950a-4541f798eb95
 d45d552d-e957-44ef-a542-918f4c0ce9b9,Test widget,c57be9e2-52be-4077-81fd-fc4d7cfb53ef
-9391e42c-f32b-40d9-a282-3083e617464f,World Price (USD/Ton) ,c4ee894f-2a9f-4681-9c3d-d94cf106f796
-af969fd8-fd47-430d-ad13-9113e42e9fed,Kilocalories per capita,202c67a5-5370-4578-b8d6-16533fc44980
-ec40fa88-2f75-4681-abd4-0161db504ee6,Precipitation change sonoma,c9a1753c-9bc5-4024-b4bd-dff9ec9044c1
-2cb0babd-55b0-4fee-9596-0832cf9d48dc,Projected changes in streamflow - Rain dominant,6a18cd92-acd3-4107-b855-95fa2af24473
 e0afb344-2839-43f5-8774-31619d34dcf5,State Fragility Index,42de3f98-ba1c-4572-a227-2e18d45239a5
 822e16a1-6a9f-4eb7-aa0d-c384e4baa29e,Percentage of Urban Population with Access to an Improved Water Source (WHO/UNICEF),ed2f7e86-bde1-457d-abd9-bac2abee5bc4
-f6f18cd2-ce95-4436-af73-32378ebaa551,Crops growing under high water stress conditions in a country,357933c6-2780-427b-bf02-e83dcf457de6
-e87ccaea-7a54-4ffd-8721-b96b29e86d1b,Number of Days over 95ºF - Historical Climate,ce9ca0d8-4365-4b62-ad87-350c0fc58f41
-f30386c9-7fd1-4669-878f-faaaa44abb95,Temperature maximums in Porto Alegre,c2d418e1-6fef-4204-863c-090d0461334d
-0bf764d6-9bb8-4565-bd11-4d729d0fd004,Temperature lows in Porto Alegre,62520fd2-2dfb-4a13-840b-35ac88fc7aa4
-d0143c52-0920-4700-8c28-9600fcdf76e7,Projected changes in streamflow - Snow dominant,6a18cd92-acd3-4107-b855-95fa2af24473
-98e026bc-ab55-4086-adb2-afdc9b918985,Projected changes in streamflow - Mixed rain and snow,6a18cd92-acd3-4107-b855-95fa2af24473
-570355b8-01b5-435c-b682-58ae45d52115,Temperature change,3a17f882-a1b3-47dc-a52b-e68d7d02aae5
-a5dc9b40-281d-478e-b566-3736580ac602,Country Water Risk Exposure and Risk of Hunger (all crops, water stress, baseline),90199a31-1f11-4319-a615-35bf8a0c625f
-28e9bc98-a1b1-4a5b-99e8-c809480ac91e,World Price (USD/Ton),28e9bc98-a1b1-4a5b-99e8-c809480ac91e
-518ad6e8-448f-45e6-943e-359af82e4ed0,Projected precipitation change in Puget Sound,49ef62d6-eebe-4a52-800e-d48d3d15996d
-6d84d2a8-ddd2-4395-8396-84d238868ba9,Projected Change in Wettest 5-day Total Precipitation (inches) - Higher Emissions (A2),26570216-acb5-422c-896a-465574f0a552
-a16ba67f-1ab5-481a-a317-09479c2bbe6a,Projected Change in Number of Consecutive Dry Days - Higher Emissions (A2),2bb6dcbf-0420-4bf3-b6b5-e38793047b9f
 fef407c5-746f-4734-9d5d-c2d2ab2e9712,State Fragility Index.,42de3f98-ba1c-4572-a227-2e18d45239a5
-73f00267-fe34-42aa-a611-13b102f38d75,Precipitation change,06c44f9a-aae7-401e-874c-de13b7764959
 f4fa1fba-e588-476d-a9c0-5100d071a1c7,Sustainable Development Goals Indicators Tracker (World Bank),9a74e4c4-33b5-46d8-90d0-ea0615b1620f
-18c71403-598b-492b-a1d8-681df4227ebc,Average Annual Temperature - Historical Climate,3fd545ce-1ce4-42b6-b503-21ec01e1bd93
-d30d3c55-fbf1-4510-b4cb-af65da40f915,Projected Change in Number of Heavy Precipitation Days - Lower Emissions (B1),48e1ff23-9d22-4b4d-a6fb-f29d76ab5855
-acfd71bb-c331-4651-99c6-6230ea01bc8a,Projected Change in Number of Heavy Precipitation Days - Higher Emissions (A2),2a4382d0-026c-484e-b0a3-f02d1c207070
-90e92159-81ac-446b-abd5-e17d7c389519,Average Annual Precipitation (inches) - Historical Climate,0c4d8351-edf5-47eb-bbbd-a302eda84412
 ea0ecd72-41f4-4ced-965c-c95204174048,Total CO2 emissions by years,11de2bc1-368b-42ed-a207-aaff8ece752b
-11e41fa5-080c-4468-bbff-d7e0b7e000f2,Projected Change in Average Precipitation (inches) - Higher Emissions (A2),d443beca-d199-4872-9d7d-d82c45e43151
-e41b9fb2-e3e7-4f0e-9fbe-738cd5ee9204,Projected Change in Number of Warm Nights - Lower Emissions (B1),ccc113e6-fee1-472f-a815-114123489eb4
-45430086-5ada-4404-922f-4f072b158420,Projected Number of Days Over 95º - Higher Emissions (A2),af6798f6-4dea-470f-875c-0ec497450368
-e7ece9fc-6de2-494d-811c-90ab4ca52b39,Projected Difference in Number of Heavy Precipitation Days - Higher Emissions (A2),7f042ee4-2aed-4c2d-9313-908738b39174
-62a47758-15ba-4b10-868a-e2bbc8ca60a5,Projected Change in Number of Hot Days - Higher Emissions (A2),f9d9637d-9a40-47a1-b3b0-ab89483225de
-b568e47c-cc4b-49a7-a260-c993a2feeffc,Hottest 2% of Days - Historical Climate,5fad614d-ec7f-416b-b3a2-24258c969549
-b4d051a5-83eb-4dec-82a1-b21de01f693f,Projected increases in maximum monthly summer air temperature (ºF) ,d6472fd7-9fb1-4af4-8267-a6bc2220e76a
-667d3061-8fe5-49d0-a9ce-60684d06f3ab,Projected increases in minimum monthly winter air temperature (ºF),83e983f3-9d21-4abd-b4af-6dbfff8e60bc
-c5e4571d-5a20-459d-b3ec-a9ef96753ec0,Heaviest 2% of Daily Precipitation - Historical Climate,f15b7b21-4aa5-49ad-b1c1-ae0074fcef54
 8abc3cd9-1686-4864-9e4a-50159d2b4e2c,Greatest GDP per capita in 2015,995c82b4-6fd0-44de-b21c-20fdce9738d9
-94e850ea-34d7-49d6-90dd-01fd17350820,Projected Change in Cooling Degree Days - Higher Emissions (A2),e5464f35-e839-4585-a4e3-d55b58afe8a5
-eb14a35e-50bc-44c0-88fd-199324550468,Production, Food Demand and Net Trade,25b0ab35-0865-42f8-9b02-24870d0c4e82
-e2778762-4b3d-498c-8b4a-869ac834f406,Water risk,dbd97231-5330-4910-b3a2-fa9e7dbac598
-7b29a2a5-515a-4e22-846f-03ad3d2c0a13,Water stress on food production,5be16fea-5b1a-4daf-a9e9-9dc1f6ea6d4e
-fb80535d-b829-47c0-a71a-161b2a15ee98,Summary table, total crops production area,5725b51a-f966-46f9-ac53-7e25fe052c00
 9ffaa6e5-4f31-41a6-bb62-3c994b326f98,Gender Development Index (UNDP),9a74e4c4-33b5-46d8-90d0-ea0615b1620f
-05567af7-4bf2-48f4-a381-0c164f03674f,Crop's producing areas exposed to water stress.,419db543-70a9-4b37-925d-1ea79042e5dd
 3b17ba8d-e63c-4370-9c12-d1ff964d767a,SDG Indicators Tracker,f3d6d6c1-3b3b-4dfc-a2a0-dcf38d258ae9
-8739c082-712e-4c06-8023-9387030711de,Projected temperature changes in Puget Sound,4e6fbd04-253d-4fae-929e-0dbc8e106c86
 9bf57ac9-8949-45d5-b2c0-838674494009,Example Carto Dataset,be76f130-ed4e-4972-827d-aef8e0dc6b18
-2a59debe-8a0d-4728-8e44-49aa245f7a9c,Country Water Risk Exposure and Risk of Hunger,90199a31-1f11-4319-a615-35bf8a0c625f
 ff9d1891-c53b-4041-8312-8ad346a74997,Example Carto Dataset2,be76f130-ed4e-4972-827d-aef8e0dc6b18
 6ad9d6ca-9a21-4f41-b8d7-410933606038,Example Carto Dataset3,be76f130-ed4e-4972-827d-aef8e0dc6b18
-ea066dee-d886-4c07-9e38-25aa41e4b6ba,Projected increases in Climatic Water Deficit (in/year),ffe1db43-3f06-4409-a26d-4b8cb62598fd
-606e07d5-e6be-48ca-9efd-51658af95198,Maximum Annual Number of Consecutive Dry Days - Historical Climate,776ae93f-38bf-4639-b6f7-80169f875774
-25facdf3-acf6-4f0e-9a0a-5ec94216407f,Rainfed vs Irrigated,3e7154d1-2aad-4f64-a7e7-01bcf8f7f488
-18e72846-5eb2-43e3-b734-968c6a704a87,Projected Change in Frost Free Season Length (days) - Higher Emissions (A2),4d676794-7867-465e-a41b-db1b6986729c
-049f074a-3528-427d-922b-3c2320e9caf6,Growing crops under water stress conditions.,3f09c3eb-c259-4af0-9015-7077290fe6e8
-63d3ff2c-394a-4c45-9fd8-f6aeda5ad3cc,Projected Change in Temperature (ºF) - Higher Emissions (A2),308f0bc1-ba4c-480e-ac11-1f261a208e2d
-4f322f4a-dde6-4f63-b7c9-10b0ba0c1402,Water stress evolution over time for irrigated crops,9c35be67-2f1b-4991-be25-ca2a2baabe06
-f2fbd06e-8e2e-4b06-a883-0e4c1146c79c,Historical and Projected annual changes in summer air temperature (ºF),3feaf26c-42c8-43ce-b1b5-07a02a773c36
-bfb80957-f41c-4610-8e88-15ac47e7c33f,Water stress over crop area,d1c0ffe6-fe93-4027-976a-28ae05613c3e
-8af430e0-da39-4169-b88a-8a2b26e277f4,Rainfall by month,31ecf690-73a9-4153-a13d-ba0f2a694b9b
-a5f6003d-c268-4380-a7aa-666fa2158d4d,Projected Change in Number of Consecutive Dry Days -- U.S. (Great PLains),de274c78-2194-4f7c-83d4-1282c31ca2a9
-69963620-4cc4-4010-9072-0315cbc71265,Water stress ranking for irrigated vs Seasonal variability ranking for rainfed crops,6a5a2dd0-8bd3-4d56-99a1-aee0100c4bed
-bafd137a-26e3-43a6-b85e-ea951614c0e4,Seasonal variability change over time,cd3ca381-bca9-4d95-bcca-7e6031503c08
-abf5c0f9-4042-4ea6-9582-1b34209cb4ba,Seasonal variability change over time for rainfed crops,dcc870ef-6137-470c-8bfd-22a9060729fb
-8a149207-610d-47f7-a36b-1566323a3976,Water stress by month,1923920e-37b9-44c3-9b9f-bcb8426ab9d7
 8bd6eb5d-6f90-4d5c-b668-320699be7ce8,Worldwide emission by type in the year 2011 - 2,3ec6d181-fc7a-46db-a98e-90c18cb9e5e0
 1baf179f-f137-4df4-95e5-f4bdc3aa5bcc,Worldwide emission by type in the year 2011,3ec6d181-fc7a-46db-a98e-90c18cb9e5e0
-7e43cf2d-93f2-4275-aa84-6e07e5cf88e1,Projected Change in Number of Warm Nights - Higher Emissions -- U.S. (Great Plains),d4535f42-c6d6-436a-90b7-c97910f90b33
 61628091-8679-4db8-bc47-851c51784f32,Yearly CO2 Emissions,61628091-8679-4db8-bc47-851c51784f32
 4d57184f-cb40-49ee-bf16-89eb82f6d335,Worldwide emission by type in the year 2011 - 1,3ec6d181-fc7a-46db-a98e-90c18cb9e5e0
 67a92276-1bb7-4648-aa63-6ef0f80124a8,Percentage of urban population with access to an improved water source,8d513534-8ab0-4c05-b931-21bc8978fe17
-d65417cf-5c4e-40e3-955d-937506b56b36,Seasonal variability,43cf456f-e557-49d9-831d-6766a1fc2bc8
-a43d3629-46b3-4537-a96c-9ac67a260e0c,Precipitation in Porto Alegre,bd61bb68-592b-42ff-90d6-b6a5d0006101
 acf093a0-c627-4ca7-9963-9cf1cc0c563e,Poorest countries in the world in 2011,2b569ae2-9452-44f8-9c81-3c3afb6c3c25
 1a8989b1-1544-40f0-8a41-d3280e2c65c8,Population using improved drinking-water sources (%),f2fe7588-6d1b-400e-b79c-0c86bf1273ea
 2e929ef4-8a00-472d-8ae6-a07e18237665,Greatest GDP in 2015,3973a9b5-4ee7-44a9-aaba-24e6a4f23358

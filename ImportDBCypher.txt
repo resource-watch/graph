@@ -141,6 +141,28 @@ WITH line
 MATCH (u:USER { id: line[0]}), (L:LAYER { id: line[1]})
 MERGE (u)-[:LIKES]->(l)
 
+//===============CREATE INDICES=======================
+CREATE INDEX ON :DATASET(id)
+CREATE INDEX ON :WIDGET(id)
+CREATE INDEX ON :LAYER(id)
+CREATE INDEX ON :CONCEPT(id)
+CREATE INDEX ON :USER(id)
+
+
+//===============DELETE COMMANDS=======================
+
 // DELETE DATASET nodes and TAGGED_WITH relationships
 MATCH (d:DATASET)
 DETACH DELETE d
+
+// DELETE WIDGET nodes and BELONGS_TO relationships
+MATCH (w:WIDGET)
+DETACH DELETE w
+
+// DELETE LAYER nodes and BELONGS_TO relationships
+MATCH (l:LAYER)
+DETACH DELETE l
+
+// DELETE EVERYTHING
+MATCH (n)
+DETACH DELETE n

@@ -14357,9 +14357,9 @@
     }
   ],
   "links": {
-    "first": "http://api.resourcewatch.org/layer?page%5Bnumber%5D=1",
-    "prev": "http://api.resourcewatch.org/layer?page%5Bnumber%5D=1",
-    "next": "http://api.resourcewatch.org/layer?page%5Bnumber%5D=1",
-    "last": "http://api.resourcewatch.org/layer?page%5Bnumber%5D=1"
+    "first": "http://api.resourcewatch.org/layer?application=rw&page%5Bnumber%5D=1",
+    "prev": "http://api.resourcewatch.org/layer?application=rw&page%5Bnumber%5D=1",
+    "next": "http://api.resourcewatch.org/layer?application=rw&page%5Bnumber%5D=1",
+    "last": "http://api.resourcewatch.org/layer?application=rw&page%5Bnumber%5D=1"
   }
 }
