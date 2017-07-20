@@ -35,8 +35,11 @@ public class ExportToCSVFiles {
             while((line = reader.readLine()) != null){
                 String[] values = line.split("\t");
                 String valueID = values[0];
-//                System.out.println(values[0] + "," + values[1]);
-                nodesFileWriter.write( valueID.trim() + "," + values[1].trim() + "\n");
+                String synonymsSt = "";
+                if (values.length > 2) {
+                    synonymsSt = values[2].trim();
+                }
+                nodesFileWriter.write( valueID.trim() + "," + values[1].trim() + "," + synonymsSt + "\n");
                 for(int i=3;i<values.length;i++){
                     String relValue = values[i].trim();
                     if(relValue.length() > 0){
