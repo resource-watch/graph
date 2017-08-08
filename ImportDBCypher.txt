@@ -3,7 +3,7 @@
 LOAD CSV FROM 'file:///nodes.csv'
 AS line
 WITH line
-MERGE (c:CONCEPT { id: line[0], label: line[1] })
+MERGE (c:CONCEPT { id: line[0], label: line[1], synonyms: split(line[2],'|') })
 
 // CAN_AFFECT relationships
 LOAD CSV FROM 'file:///can_affect.csv'

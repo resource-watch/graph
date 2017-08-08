@@ -1,4 +1,6 @@
-destruction,damage
+damage,damage
+precipitation,precipitation
+precipitation,rainfall
 city,urban
 urban,city
 hurricane,typhoon

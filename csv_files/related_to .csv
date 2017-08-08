@@ -28,12 +28,18 @@ indicator,general
 resource,general
 natural_phenomena,general
 activity,general
+damage,explosion
+damage,natural_hazard
+damage,extreme_event
 land,general
+extreme_event,climate_change
+extreme_event,weather
 event,general
 temperature,climate
+exploitation,rights
+exploitation,land_rights
 chemical_compound,general
 financial_loss,damage
-damage,financial_loss
 forest,general
 logging,forest
 forest_cover,forest
@@ -110,6 +116,8 @@ fishery,primary_sector
 fishery,food
 fish,food
 climate,general
+climate,temperature
+climate,precipitation
 sea_ice,ice
 sea_ice,climate
 sea_ice,sea
@@ -119,13 +127,12 @@ snow_cover,snow
 snow_cover,climate
 glacier,snow
 glacier,ice
-glacier,climate_change
 climate_change,climate
+climate_change,sea_level snow_cover albedo  glacier
 sea_surface_temperature,climate
 acidification,sea
 acidification,ocean
 acidification,climate
-sea_level_rise,sea_level
 storm,climate
 storm_intensity,storm
 biome,climate
@@ -149,7 +156,7 @@ coal,energy
 oil,energy
 natural_gas,energy
 petroleoum,energy
-nuclear,energy
+nuclear_energy,energy
 radiation,nuclear
 energy_hazard,energy
 oil_refinery,oil
@@ -186,6 +193,7 @@ waste,urban
 environmental_health,environment
 environmental_health,health
 environmental_quality,environment
+heat_island,temperature
 natural_disaster,extreme_event
 earthquake,seismic
 volcano,natural_disaster
@@ -207,7 +215,6 @@ human_impact,people
 human_impact,biodiversity
 mammal,animal
 coral_reef,coral
-coral,fauna
 fauna,general
 reef,general
 bleaching,coral
@@ -244,9 +251,9 @@ governance,people
 governance,society
 government,society
 child_mortality,people
-displaced,people
-displaced,land
-displaced,conflict
+displaced_people,people
+displaced_people,land
+displaced_people,conflict
 sensitivity,quality
 discrimination,people
 fragility,quality
@@ -264,6 +271,7 @@ inequality,economic
 inequality,gini_index
 gini_index,inequality
 gdp,economic
+disease,health
 national_park,society
 national_park,biodiversity
 national_park,conservation

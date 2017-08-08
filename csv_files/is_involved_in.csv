@@ -76,7 +76,6 @@ biological_oxygen_demand,wastewater
 biological_oxygen_demand,water_quality
 chemical_oxygen_demand,wastewater
 chemical_oxygen_demand,water_quality
-uranium,nuclear
 bus,accessibility
 bus,transportation
 train,accessibility
@@ -88,4 +87,3 @@ car,transportation
 o3,environmental_health
 co,environmental_health
 so2,environmental_health
-disease,health
