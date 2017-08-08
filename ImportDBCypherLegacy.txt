@@ -75,5 +75,94 @@ WITH line
 MATCH (c1:CONCEPT { id: line[0]}), (c2:CONCEPT { id: line[1]})
 MERGE (c1)-[:TYPE_OF]->(c2)
 
+// CREATE DATASET NODES
+LOAD CSV FROM 'file:///dataset_tags.csv'
+AS line
+WITH line
+MERGE (d:DATASET {id: line[0], label: line[1]})
+
+// IMPORT DATASET TAGS
+LOAD CSV FROM 'file:///dataset_tags.csv'
+AS line
+WITH line
+MATCH (d:DATASET { id: line[0]}), (c:CONCEPT { id: line[2]})
+MERGE (d)-[:TAGGED_WITH]->(c)
+
+// IMPORT WIDGETS
+LOAD CSV FROM 'file:///widgets.csv'
+AS line
+WITH line
+CREATE (:WIDGET {id: line[0], name: line[1]})
+
+// WIDGET - DATASET relationships
+LOAD CSV FROM 'file:///widgets.csv'
+AS line
+WITH line
+MATCH (w:WIDGET { id: line[0]}), (d:DATASET { id: line[2]})
+MERGE (w)-[:BELONGS_TO]->(d)
+
+// IMPORT LAYERS
+LOAD CSV FROM 'file:///layers.csv'
+AS line
+WITH line
+CREATE (:LAYER {id: line[0], name: line[1]})
+
+// LAYER - DATASET relationships
+LOAD CSV FROM 'file:///layers.csv'
+AS line
+WITH line
+MATCH (l:LAYER { id: line[0]}), (d:DATASET { id: line[2]})
+MERGE (l)-[:BELONGS_TO]->(d)
+
+// IMPORT USERS
+LOAD CSV FROM 'file:///users.csv'
+AS line
+WITH line
+CREATE (:USER {id: line[0]})
+
+// USER - DATASET relationships
+LOAD CSV FROM 'file:///user_datasets.csv'
+AS line
+WITH line
+MATCH (u:USER { id: line[0]}), (d:DATASET { id: line[1]})
+MERGE (u)-[:LIKES]->(d)
+
+// USER - WIDGET relationships
+LOAD CSV FROM 'file:///user_widgets.csv'
+AS line
+WITH line
+MATCH (u:USER { id: line[0]}), (w:WIDGET { id: line[1]})
+MERGE (u)-[:LIKES]->(w)
+
+// USER - LAYER relationships
+LOAD CSV FROM 'file:///user_layers.csv'
+AS line
+WITH line
+MATCH (u:USER { id: line[0]}), (L:LAYER { id: line[1]})
+MERGE (u)-[:LIKES]->(l)
+
 //===============CREATE INDICES=======================
+CREATE INDEX ON :DATASET(id)
+CREATE INDEX ON :WIDGET(id)
+CREATE INDEX ON :LAYER(id)
 CREATE INDEX ON :CONCEPT(id)
+CREATE INDEX ON :USER(id)
+
+
+//===============DELETE COMMANDS=======================
+
+// DELETE DATASET nodes and TAGGED_WITH relationships
+MATCH (d:DATASET)
+DETACH DELETE d
+
+// DELETE WIDGET nodes and BELONGS_TO relationships
+MATCH (w:WIDGET)
+DETACH DELETE w
+
+// DELETE LAYER nodes and BELONGS_TO relationships
+MATCH (l:LAYER)
+DETACH DELETE l
+
+// DELETE EVERYTHING
+MATCH (n)
+DETACH DELETE n
