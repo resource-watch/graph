@@ -1,0 +1,36 @@
+// GET CONCEPT ANCESTORS OF A SPECIFIC CONCEPT
+MATCH (c:CONCEPT {id: 'xxxx'})-[*]->(c2:CONCEPT)
+RETURN DISTINCT c2.id
+
+// GET CONCEPT ANCESTORS OF LIST (LIST NOT INCLUDED)
+MATCH (c:CONCEPT)-[*]->(c2:CONCEPT)
+WHERE c.id IN ['xxx', 'yyyy', 'zzzz....']
+RETURN DISTINCT c2.id
+
+// GET CONCEPT ANCESTORS OF LIST (LIST INCLUDED)
+MATCH (c:CONCEPT)-[*]->(c2:CONCEPT)
+WHERE c.id IN ['xxx', 'yyyy', 'zzzz....']
+RETURN DISTINCT c2.id AS id
+UNION
+MATCH (c:CONCEPT)
+WHERE c.id IN ['xxx', 'yyyy', 'zzzz....']
+RETURN c.id AS id
+
+// GET DATASETS TAGGED WITH A COMMON TAG (or a less specific tag that is an ancestor of the set of tags provided)
+MATCH (c:CONCEPT)-[*]->(c2:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET)
+WHERE c.id IN ['xxx', 'yyyy', 'zzzz....']
+WITH COLLECT(d.id) AS datasets
+MATCH (c)<-[:TAGGED_WITH]-(d2:DATASET)
+WITH COLLECT(d2.id) + datasets AS results
+RETURN DISTINCT results
+
+// GET SIMILAR DATASETS 1 (datasets tagged with at least one of the concepts related to the dataset provided) (limit 3)
+MATCH (d:DATASET{id:'xxxx'})-[:TAGGED_WITH]->(:CONCEPT)<-[:TAGGED_WITH]-(d2:DATASET)
+RETURN DISTINCT d2.id LIMIT 3
+
+// GET SIMILAR DATASETS 2 (datasets tagged with at least one of the concepts -or concept ancestors- related to the dataset provided) (limit 3)
+MATCH (d:DATASET{id:'xxxx'})-[:TAGGED_WITH]->(c:CONCEPT)<-[:TAGGED_WITH]-(d2:DATASET)
+WITH COLLECT(DISTINCT d2.id) AS direct_datasets
+MATCH (c)-[*]->(c2:CONCEPT)<-[:TAGGED_WITH]-(d3:DATASET)
+WITH COLLECT(d3.id) + direct_datasets AS result
+RETURN DISTINCT result
