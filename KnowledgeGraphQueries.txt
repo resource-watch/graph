@@ -10,7 +10,22 @@ MATCH (c:CONCEPT)-[*2..100]->(c2:CONCEPT)
 WHERE c.id = c2.id
 RETURN c, c2
 
+// SPOT ISOLATED NODES
+MATCH (c:CONCEPT)-[r]-() WHERE r IS NULL
+RETURN c
+
 // +++++++++++++++++++++++++++++++++++++++
+
+//+++++++ META QUERIES++++++++
+
+// FIND 'DENSELY' CONNECTED NODES (more than 20 relationships)
+MATCH (c:CONCEPT)-[r]-(:CONCEPT)
+WITH count(r) as number_of_rels, c
+WHERE number_of_rels > 20
+RETURN c.id
+
+//++++++++++++++++++++++++++++
+
 
 // GET CONCEPT ANCESTORS OF A SPECIFIC CONCEPT
 MATCH (c:CONCEPT {id: 'xxxx'})-[*]->(c2:CONCEPT)
