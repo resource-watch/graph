@@ -9,6 +9,7 @@ bus,public_transportation
 car,transportation
 cfc,chemical_compound
 ch4,ghg
+child_mortality,mortality
 clean_water,water
 climate_hazard,hazard
 co,chemical_compound
@@ -18,7 +19,6 @@ coal,non_renewable
 coastal_erosion,erosion
 coastal_flooding,flooding
 cold_wave,extreme_event
-conflict,conflict
 conservation,human_activity
 coral_reef,reef
 coral_reef,marine_life
@@ -29,6 +29,7 @@ daily,frequency
 dam,infrastructure
 developed,country
 developing,country
+displaced_people,society
 drinking_water,water
 earthquake,natural_disaster
 earthquake,natural_phenomena
@@ -46,10 +47,12 @@ fish,food
 fish,animal
 fishing,human_activity
 fresh_water,water
+frozen_water,water
 gender,rights
 geospatial,dataset
 geothermal,energy_production
 geothermal,renewable
+glacier,frozen_water
 harmful_algal_blooms,pollution
 heat_wave,extreme_event
 high_income,country
@@ -61,6 +64,7 @@ hydropower,energy_production
 hydropower,renewable
 illegal_activity,human_activity
 Indigenous_rights,rights
+infant_mortality,mortality
 infrastructure,asset
 irrigation,water_use
 lake,surface_water
@@ -77,6 +81,7 @@ mangrove,forest
 mangrove,natural_infrastructure
 middle_income,country
 monthly,frequency
+n2o,ghg
 natural_disaster,disaster
 natural_gas,fuel
 natural_gas,non_renewable
@@ -95,22 +100,24 @@ poaching,human_activity
 poaching,illegal_activity
 power_lines,energy_infrastructure
 radiation,energy_hazard
-rain,precipitation
 rainfall,precipitation
 raster,dataset
+refugee,displaced_people
 renewable,energy
 resource,asset
 restoration,human_activity
 river,surface_water
 roads,infrastructure
 sea,surface_water
+sea_ice,frozen_water
 sea_surface_temperature,temperature
 seafood,food
 sewage,wastewater
 shrimp,food
 shrimp,animal
 shrimp,seafood
-snow,precipitation
+snow,frozen_water
+snow_cover,frozen_water
 so2,chemical_compound
 solar_energy,energy_production
 solar_energy,renewable
@@ -133,6 +140,7 @@ volcano,natural_phenomena
 waste,pollution
 wastewater,water
 wastewater,pollution
+water_conflict,conflict
 water_pollution,pollution
 weekly,frequency
 wildfire,fire
@@ -140,3 +148,4 @@ wind_energy,energy_production
 wind_energy,renewable
 women,rights
 women,person
+internally_displaced,displaced_people

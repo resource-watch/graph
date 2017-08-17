@@ -8,7 +8,6 @@ air_quality,mortality
 aquaculture,land_use
 aquaculture,land_cover
 aquaculture,deforestation
-asset,exposure
 beef,land_use
 beef,land_cover
 bike,emissions
@@ -25,7 +24,8 @@ ch4,climate_change
 climate,displaced_people
 climate,refugee
 climate_change,extreme_events
-climate_change,thermal_expansion. sea_level
+climate_change,thermal_expansion
+climate_change,sea_level
 climate_change,snow_cover
 climate_change,storm_intensity
 climate_change,acidification
@@ -40,12 +40,10 @@ coal,climate_change
 coastal_flooding,coastal_erosion
 commerce,deforestation
 commerce,logging
-conflict,water_security
 conflict ,mortality
 conflict ,damage
 conflict ,destruction
 conflict ,disaster
-conflict ,displaced_people
 conflict ,refugee
 corruption,protest
 crop_health,food_security
@@ -83,9 +81,6 @@ eutrophication,water_security
 exploitation,groundwater
 explosion,destruction
 explosion,financial_loss
-famine,society
-famine,people
-famine,refugee
 fertilizer,harmful_algal_blooms
 fire,forest
 flood,water_quality
@@ -105,12 +100,6 @@ gdp,vulnerability
 gender,vulnerability
 ghg,climate_change
 gini_index,vulnerability
-glacier,sea_level_rise
-governance,famine
-governance,protest
-governance,food_waste
-governance,displaced people
-governance,refugee
 habitat_loss,flora
 habitat_loss,fauna
 habitat_loss,mammal
@@ -142,15 +131,12 @@ logging,deforestation
 maize,land_use
 maize,land_cover
 malnutrition,mortality
-malnutrition,health
 mangrove,storm
 mangrove,damage
 mangrove,resilience
-n2o,climate_change
 national_park,intact_forest
 natural_disaster,displaced_people
 natural_disaster,refugee
-natural_gas,climate_change
 natural_infrastructure,disaster
 natural_infrastructure,resilience
 nitrogen,eutrophication
@@ -160,8 +146,7 @@ nuclear_energy,energy_hazard
 nutrients,harmful_algal_blooms
 o3,air_quality
 o3,radiation
-oil,climate_change
-people,climate_change
+oil,emissions
 petroleoum,climate_change
 phosphorus,harmful_algal_blooms
 pipelines,energy_access
@@ -173,10 +158,9 @@ pollution,mortality
 pollution,environmental_health
 pollution,enviornmental_quality
 population,resilience_planning
-poverty,inequality
 poverty,energy_access
 poverty,vulnerability
-poverty,infant_mortality
+poverty,mortality
 power_lines,energy_access
 precipitation,water_availability
 precipitation,crop_health
@@ -188,11 +172,8 @@ precipitation,runoff
 public_transportation,emissions
 public_transportation,accessibility
 radiation,health
-rain,water_availability
-rainfall,water_availability
 resource,exposure
 roads,deforestation
-sea_ice,sea_level
 sea_level,coast
 sea_surface_temperature,bleaching
 sea_surface_temperature,thermal_expansion
@@ -202,12 +183,10 @@ seasonality,sea_ice
 seasonality,water_avaliability
 sedimentation,water_quality
 sedimentation,hydropower
-sensitivity,resilience_planning
 shrimp,land_use
 shrimp,land_cover
 slope,landslide
 slope,erosion
-snow_cover,albedo
 so2,air_quality
 soil_type,food
 soil_type,landslide
@@ -228,6 +207,7 @@ urban_planning,greenspace
 urbanization,deforestation
 wastewater,water_quality
 water_access,irrigation
+water_conflict,water_security
 water_extent,water_availability
 water_pollution,health
 water_pollution,biodiversity
@@ -241,7 +221,6 @@ water_scarcity,water_availability
 water_scarcity,water_security
 water_stress,water_security
 water_supply,water_security
-wealth,inequality
 wealth,food_waste
 wealth,vulnerability
 wildfire,forest

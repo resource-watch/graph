@@ -85,8 +85,8 @@ cyprus,country
 czech_republic,country
 deforestation,process
 degradation,activity
-democratic_republic_of_congo,country
 democratic_republic_of_korea,country
+democratic_republic_of_congo,country
 denmark,country
 disaster,event
 djibouti,country
@@ -299,11 +299,8 @@ samoa,island
 san_marino,country
 sao_tome_and_principe,country
 saudi_arabia,country
-sea_ice,indicator
-sea_level,indicator
-sea_level_rise,climate_stressor
+sea_level,climate_stressor
 secondary_sector,sector
-security,indicator
 sedimentation,process
 senegal,country
 serbia,country
@@ -316,7 +313,6 @@ sint_marteen,island
 sint_marteen,overseas_territory
 slovakia,country
 slovenia,country
-snow_cover,indicator
 solomon_islands,country
 solomon_islands,island
 somalia,country
@@ -330,8 +326,6 @@ spain,country
 sri_lanka,island
 sri_lanka,country
 storm,natural_phenomena
-storm_intensity,indicator
-storm_intensity,climate_stressor
 sudan,country
 suriname,country
 swaziland,country
@@ -357,15 +351,15 @@ turks_and_calcos_islands,island
 tuvalu,island
 tuvalu,country
 uganda,country
-uk,island
-uk,country
 ukraine,country
 united_arab_emirates,country
+uk,island
+uk,country
+usa,country
 united_states_minor_outlying_islands,overseas_territory
 united_states_virgin_islands,island
 united_states_virgin_islands,overseas_territory
 uruguay,country
-usa,country
 uzbekistan,country
 vanuatu,island
 vanuatu,country
@@ -385,3 +379,5 @@ women,gender
 yemen,country
 zambia,country
 zimbabwe,country
+sea_level_rise,process
+temperature_rise,process

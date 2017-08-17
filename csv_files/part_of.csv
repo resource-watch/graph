@@ -68,8 +68,8 @@ curacao,south_america
 curacao,netherlands
 cyprus,europe
 czech_republic,europe
-democratic_republic_of_congo,africa
 democratic_republic_of_korea,asia
+democratic_republic_of_congo,africa
 denmark,europe
 djibouti,africa
 dominica,north_america
@@ -123,6 +123,7 @@ heard_island_and_mcdoland_islands,antarctica
 honduras,north_america
 hong_kong,asia
 hungary,europe
+ice,Frozen_water
 iceland,europe
 iceland,european_free_trade_association
 iceland,oecd
@@ -283,16 +284,16 @@ turks_and_calcos_islands,uk
 turks_and_calcos_islands,north_america
 tuvalu,oceania
 uganda,africa
-uk,europe
 ukraine,europe
 united_arab_emirates,asia
+uk,europe
+usa,north_america
+usa,oecd
 united_states_minor_outlying_islands,usa
 united_states_minor_outlying_islands,north_america
 united_states_virgin_islands,usa
 united_states_virgin_islands,north_america
 uruguay,south_america
-usa,north_america
-usa,oecd
 uzbekistan,asia
 vanuatu,oceania
 vatican,europe
