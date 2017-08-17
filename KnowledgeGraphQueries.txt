@@ -5,8 +5,8 @@ MATCH (c:CONCEPT)-[*1]->(c2:CONCEPT)
 WHERE c.id = c2.id
 RETURN c, c2
 
-// SPOT TRANSITIVE LOOPS
-MATCH (c:CONCEPT)-[*2..5]->(c2:CONCEPT)
+// SPOT TRANSITIVE LOOPS (max length of the path: 100)
+MATCH (c:CONCEPT)-[*2..100]->(c2:CONCEPT)
 WHERE c.id = c2.id
 RETURN c, c2
 
@@ -23,12 +23,9 @@ RETURN DISTINCT c2.id
 
 // GET CONCEPT ANCESTORS OF LIST (LIST INCLUDED)
 MATCH (c:CONCEPT)-[*]->(c2:CONCEPT)
-WHERE c.id IN ['xxx', 'yyyy', 'zzzz....']
-RETURN DISTINCT c2.id AS id
-UNION
-MATCH (c:CONCEPT)
-WHERE c.id IN ['xxx', 'yyyy', 'zzzz....']
-RETURN c.id AS id
+WHERE c.id IN ['xxxx', 'yyyy', 'zzzz']
+WITH collect(DISTINCT c.id) + collect(DISTINCT c2.id) as results
+RETURN results
 
 // GET CONCEPTS ASSOCIATED (explicitly) TO A DATASET
 MATCH (c2:CONCEPT)<-[*]-(c:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET{id: 'xxxx'})
@@ -38,6 +35,18 @@ RETURN concepts
 // GET CONCEPTS ASSOCIATED (explicitly + implicitly) TO A DATASET
 MATCH (c:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET{id: 'xxxx'})
 RETURN c.id
+
+// GET DATASETS EXPLICITLY TAGGED WITH ALL THE TAGS PROVIDED
+MATCH (c:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET)
+WITH d, collect(c.id) as concepts
+WHERE ALL (v IN ['xxx', 'yyyy', 'zzz...'] WHERE v IN concepts)
+RETURN d.id
+
+// GET DATASETS TAGGED WITH ALL THE TAGS PROVIDED (or a descendant of them)
+MATCH (c1:CONCEPT)-[*]->(c:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET)
+WITH d, collect(c.id) + collect(c1.id) AS concepts
+WHERE ALL (v IN ['global', 'water', 'precipitation'] WHERE v IN concepts)
+RETURN d.id, concepts
 
 // GET DATASETS TAGGED WITH A COMMON TAG (or a less specific tag that is an ancestor of the set of tags provided)
 MATCH (c:CONCEPT)-[*]->(c2:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET)
