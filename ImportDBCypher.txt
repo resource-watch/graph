@@ -77,3 +77,7 @@ MERGE (c1)-[:TYPE_OF]->(c2)
 
 //===============CREATE INDICES=======================
 CREATE INDEX ON :CONCEPT(id)
+CREATE INDEX ON :DATASET(id)
+CREATE INDEX ON :WIDGET(id)
+CREATE INDEX ON :LAYER(id)
+

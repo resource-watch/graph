@@ -23,6 +23,7 @@ climate_stressor,hazard
 coastal_erosion,vulnerability
 coastal_erosion,damage
 conservation,intact_forest
+crop,food_production
 dam,water_quality
 dead_zone,fish
 dead_zone,fisheries
@@ -39,7 +40,7 @@ drought,water_scarcity
 drought,crop_health
 drought,crop_yield
 drought,food_security
-drought,food_supply
+drought,food_production
 drought,malnutrition
 early_warning,vulnerability
 early_warning,response
@@ -52,17 +53,18 @@ emergency_response,vulnerability
 emergency_response,response
 emergency_response,damage
 emergency_response,resilience
-emissions,environmental_health
-emissions,enviornmental_quality
 emergency_services,vulnerability
 emergency_services,response
 emergency_services,damage
 emergency_services,resilience
+emissions,environmental_health
+emissions,enviornmental_quality
+emissions,climate_change
+energy_hazard,environmental_quality
 exploitation,water_scarcity
 exploitation,deforestation
 exploitation,habitat_loss
 exploitation,fishery
-exploitation,biodiversity
 exposure,vulnerability
 exposure,damage
 exposure,resilience
@@ -79,6 +81,7 @@ flood,food_supply
 food_price,food_security
 food_security,famine
 food_security,malnutrition
+fossil_fuel,emissions
 frozen_water,sea_level
 frozen_water,albedo
 governance,park
@@ -96,6 +99,7 @@ hazard,risk
 health,mortality
 human_impact,biodiversity
 human_impact,climate
+hunger,nutrition
 hurricane,storm_surge
 hurricane,wind
 hurricane,precipitation
@@ -108,9 +112,8 @@ inequality,wealth
 inequality,protest
 inequality,conflict
 inequality,protest
+land_use,land_cover
 livestock,hunger
-maize,commodities
-maize,production
 malnutrition,health
 mitigation,vulnerability
 mitigation,damage
@@ -118,10 +121,9 @@ mitigation,resilience
 mitigation,impact
 monsoon,precipitation
 monsoon,wind
-natural_gas,energy
-natural_gas,emissions
 natural_infrastructure,flood
 non_climate_stressor,hazard
+nonrenewable_energy,emissions
 nutrients,water_quality
 poverty,malnutrition
 precipitation,erosion
@@ -131,6 +133,7 @@ probability,resilience
 probability,risk
 resilience_planning,vulnerability
 resilience_planning,damage
+resource_scarcity,resource
 response,damage
 restoration,forest_gain
 risk_assesment,damage
@@ -142,6 +145,8 @@ roads,accessibility
 school,literacy
 sea_level,coastal_erosion
 sea_level,coastal_flooding
+seafood,land_use
+seafood,land_cover
 seasonality,monsoon
 seasonality,hurricane
 seasonality,typhoon
@@ -158,6 +163,7 @@ temperature,sea_level_rise
 temperature,sea_ice
 temperature,snow_cover
 temperature,glacier
+temperature_rise,climate_change
 transportation,accessibility
 typhoon,wind
 typhoon,precipitation
@@ -167,4 +173,3 @@ water_scarcity,conflict
 watershed,water_quality
 wildfire,air_quality
 wind,erosion
-temperature_rise,climate_change

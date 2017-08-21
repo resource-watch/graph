@@ -68,8 +68,8 @@ curacao,south_america
 curacao,netherlands
 cyprus,europe
 czech_republic,europe
-democratic_republic_of_korea,asia
 democratic_republic_of_congo,africa
+democratic_republic_of_korea,asia
 denmark,europe
 djibouti,africa
 dominica,north_america
@@ -77,7 +77,6 @@ dominican_republic,north_america
 ecuador,south_america
 egypt,africa
 el_salvador,north_america
-energy_production,secondary_sector
 equatorial_guinea,africa
 eritrea,africa
 estonia,europe
@@ -88,11 +87,6 @@ faroe_islands,europe
 faroe_islands,denmark
 fiji,oceania
 finland,europe
-fish,ocean
-fish,river
-fish,lake
-fish,wetlands
-fish,coast
 france,europe
 french_polynesia,oceania
 french_polynesia,france
@@ -128,6 +122,7 @@ iceland,europe
 iceland,european_free_trade_association
 iceland,oecd
 india,asia
+Indigenous_rights,land_rights
 indonesia,asia
 iran,asia
 iraq,asia
@@ -213,7 +208,6 @@ peru,south_america
 philippines,asia
 pitcairn_islands,australia
 pitcairn_islands,oceania
-plants,food
 poland,europe
 portugal,europe
 puerto_rico,north_america
@@ -238,6 +232,8 @@ san_marino,europe
 sao_tome_and_principe,africa
 saudi_arabia,africa
 seafood,ocean
+seafood,river
+seafood,lake
 seafood,wetlands
 seafood,coast
 senegal,africa
@@ -260,6 +256,7 @@ south_sudan,africa
 spain,europe
 sri_lanka,asia
 sudan,africa
+supply_chain,commerce
 suriname,south_america
 swaziland,africa
 sweden,europe
@@ -284,16 +281,16 @@ turks_and_calcos_islands,uk
 turks_and_calcos_islands,north_america
 tuvalu,oceania
 uganda,africa
+uk,europe
 ukraine,europe
 united_arab_emirates,asia
-uk,europe
-usa,north_america
-usa,oecd
 united_states_minor_outlying_islands,usa
 united_states_minor_outlying_islands,north_america
 united_states_virgin_islands,usa
 united_states_virgin_islands,north_america
 uruguay,south_america
+usa,north_america
+usa,oecd
 uzbekistan,asia
 vanuatu,oceania
 vatican,europe
@@ -301,6 +298,7 @@ venezuela,south_america
 vietnam,asia
 wallis_and_futuna,france
 wallis_and_futuna,oceania
+water_scarcity,water_stress
 western_sahara,africa
 yemen,asia
 zambia,africa

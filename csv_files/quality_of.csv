@@ -1,1 +1,5 @@
+crop_health,crop
+crop_yield,crop
+environmental_health,environment
+environmental_quality,environment
 storm_intensity,storm

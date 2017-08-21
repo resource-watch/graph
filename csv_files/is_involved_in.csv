@@ -6,12 +6,10 @@ belgium,eu
 belgium,schengen_area
 belgium,oecd
 bike,accessibility
-bike,transportation
 biological_oxygen_demand,wastewater
 biological_oxygen_demand,water_quality
 bulgaria,eu
 bus,accessibility
-bus,transportation
 car,accessibility
 car,transportation
 chemical_oxygen_demand,wastewater
@@ -22,7 +20,7 @@ cyprus,eu
 czech_republic,eu
 czech_republic,schengen_area
 czech_republic,oecd
-dam,energy_production
+dam,hydroelectricity
 denmark,eu
 denmark,schengen_area
 denmark,oecd
@@ -87,7 +85,7 @@ sweden,schengen_area
 sweden,oecd
 total_suspended_solids,water_quality
 train,accessibility
-train,transportation
 trend,climate_model
 uk,eu
 uk,oecd
+food_production,agriculture

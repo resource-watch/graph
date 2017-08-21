@@ -1,5 +1,3 @@
-acidification,process
-adaptation,process
 afghanistan,country
 africa,continent
 aland,autonomous_territory
@@ -85,8 +83,8 @@ cyprus,country
 czech_republic,country
 deforestation,process
 degradation,activity
-democratic_republic_of_korea,country
 democratic_republic_of_congo,country
+democratic_republic_of_korea,country
 denmark,country
 disaster,event
 djibouti,country
@@ -118,7 +116,6 @@ fiji,country
 finland,country
 fire,disaster
 flood,disaster
-forest_change,indicator
 forest_cover,indicator
 forest_gain,indicator
 forest_loss,indicator
@@ -147,7 +144,6 @@ guernsey,crown_dependency
 guinea,country
 guinea_bissau,country
 guyana,country
-habitat_loss,indicator
 haiti,island
 haiti,country
 harmful_algal_blooms,disaster
@@ -162,7 +158,6 @@ iceland,island
 india,country
 indonesia,country
 installation,infrastructure
-intact_forest,indicator
 iran,country
 iraq,country
 ireland,country
@@ -264,11 +259,8 @@ philippines,country
 pitcairn_islands,island
 pitcairn_islands,overseas_territory
 poland,country
-political_stability,indicator
 portugal,country
-power_plant,installation
 primary_sector,sector
-protest,event
 puerto_rico,island
 puerto_rico,unincorporated_territory
 qatar,country
@@ -300,6 +292,7 @@ san_marino,country
 sao_tome_and_principe,country
 saudi_arabia,country
 sea_level,climate_stressor
+sea_level_rise,process
 secondary_sector,sector
 sedimentation,process
 senegal,country
@@ -335,6 +328,7 @@ syria,country
 taiwan,country
 tajikistan,country
 tanzania,country
+temperature_rise,process
 tertiary_sector,sector
 thailand,country
 thorium,chemical_compound
@@ -351,15 +345,15 @@ turks_and_calcos_islands,island
 tuvalu,island
 tuvalu,country
 uganda,country
-ukraine,country
-united_arab_emirates,country
 uk,island
 uk,country
-usa,country
+ukraine,country
+united_arab_emirates,country
 united_states_minor_outlying_islands,overseas_territory
 united_states_virgin_islands,island
 united_states_virgin_islands,overseas_territory
 uruguay,country
+usa,country
 uzbekistan,country
 vanuatu,island
 vanuatu,country
@@ -368,16 +362,9 @@ venezuela,country
 vietnam,country
 wallis_and_futuna,island
 wallis_and_futuna,overseas_territory
-water_access,indicator
-water_availability,indicator
-water_consumption,indicator
-water_demand,indicator
-water_scarcity,indicator
 western_sahara,territory
 wind,natural_phenomena
 women,gender
 yemen,country
 zambia,country
 zimbabwe,country
-sea_level_rise,process
-temperature_rise,process
