@@ -42,12 +42,12 @@ WHERE c.id IN ['xxxx', 'yyyy', 'zzzz']
 WITH collect(DISTINCT c.id) + collect(DISTINCT c2.id) as results
 RETURN results
 
-// GET CONCEPTS ASSOCIATED (explicitly) TO A DATASET
+// GET CONCEPTS ASSOCIATED (explicitly + implicitly) TO A DATASET
 MATCH (c2:CONCEPT)<-[*]-(c:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET{id: 'xxxx'})
 WITH COLLECT(c2.id) + COLLECT(c.id) AS concepts
 RETURN concepts
 
-// GET CONCEPTS ASSOCIATED (explicitly + implicitly) TO A DATASET
+// GET CONCEPTS ASSOCIATED (explicitly) TO A DATASET
 MATCH (c:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET{id: 'xxxx'})
 RETURN c.id
 
@@ -63,7 +63,7 @@ WITH d, collect(c.id) + collect(c1.id) AS concepts
 WHERE ALL (v IN ['global', 'water', 'precipitation'] WHERE v IN concepts)
 RETURN d.id, concepts
 
-// GET DATASETS TAGGED WITH A COMMON TAG (or a less specific tag that is an ancestor of the set of tags provided)
+// GET DATASETS TAGGED WITH A COMMON TAG (or a more specific tag that is a descendant of the set of tags provided)
 MATCH (c:CONCEPT)-[*]->(c2:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET)
 WHERE c.id IN ['xxx', 'yyyy', 'zzzz....']
 WITH COLLECT(d.id) AS datasets
