@@ -1,0 +1,30 @@
+// 1. SEARCH endpoint (Explore)
+
+MATCH (c:CONCEPT)<-[*]-(c2:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET)
+WHERE (c.id IN ['water'] OR c2.id IN ['water'])
+WITH COLLECT(d.id) AS datasets
+MATCH (c:CONCEPT)<-[*]-(c2:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET)
+WHERE (c.id IN ['raster'] OR c2.id IN ['raster']) AND d.id IN datasets
+WITH COLLECT(d.id) AS intersection
+MATCH (c:CONCEPT)<-[*]-(c2:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET)
+WHERE (c.id IN ['nitrogen'] OR c2.id IN ['nitrogen']) AND d.id IN intersection
+RETURN DISTINCT d.id
+
+// 2. SIMILAR DATASETS
+
+// GET SIMILAR DATASETS 1 (datasets tagged with at least one of the concepts related to the dataset provided)
+MATCH p=(d:DATASET{id:'62494370-3799-4165-838e-0ebaf42804c2'})-[:TAGGED_WITH]->(c:CONCEPT)<-[:TAGGED_WITH]-(d2:DATASET)
+WITH count(p) AS number_of_shared_concepts, COLLECT(c.id) AS shared_concepts, d2
+RETURN d2.id, shared_concepts, number_of_shared_concepts
+ORDER BY number_of_shared_concepts DESC
+
+// 2. SIMILAR DATASETS Including descendants tags
+
+MATCH (d:DATASET{id:'62494370-3799-4165-838e-0ebaf42804c2'})-[:TAGGED_WITH]->(c:CONCEPT)
+WITH COLLECT(c.id) AS main_tags
+MATCH (d2:DATASET)-[:TAGGED_WITH]->(c1:CONCEPT)-[*]->(c2:CONCEPT)
+WHERE c1.id IN main_tags OR c2.id IN main_tags
+WITH COLLECT(DISTINCT c1.id) AS dataset_tags, d2.id AS dataset
+WITH size(dataset_tags) AS number_of_ocurrences, dataset_tags, dataset
+RETURN dataset, dataset_tags, number_of_ocurrences
+ORDER BY number_of_ocurrences DESC
