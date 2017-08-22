@@ -20,10 +20,11 @@ http://104.131.87.76:7474/browser/
 * PART_OF
 * LOCATED_AT
 * TAGGED_WITH
-* TRIGGERED_BY
+* AFFECTS
 * IS_A
-* GENERATED_BY
+* CAN_AFFECT
 * IS_INVOLVED_IN
+* IS_SIMILAR_TO
 
 ### Current database schema
 
