@@ -28,3 +28,22 @@ WITH COLLECT(DISTINCT c1.id) AS dataset_tags, d2.id AS dataset
 WITH size(dataset_tags) AS number_of_ocurrences, dataset_tags, dataset
 RETURN dataset, dataset_tags, number_of_ocurrences
 ORDER BY number_of_ocurrences DESC
+
+
+// 3. EXPLORE SELECTORS
+
+// DATA TYPE SELECTOR
+MATCH (c:CONCEPT{id:'dataset'})<-[]-(c2:CONCEPT)
+RETURN c2.id, c2.label
+ORDER BY c2.label
+
+// GEOGRAPHIES
+MATCH (c:CONCEPT{id:'continent'})<-[*]-(c2:CONCEPT)
+RETURN DISTINCT c2.id, c2.label
+ORDER BY c2.label
+
+// TOPICS
+MATCH (c:CONCEPT{id:'general'})<-[]-(c2:CONCEPT)
+WHERE NOT c2.id IN ['location', 'dataset']
+RETURN DISTINCT c2.id, c2.label
+ORDER BY c2.label
