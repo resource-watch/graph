@@ -81,3 +81,16 @@ WITH COLLECT(DISTINCT d2.id) AS direct_datasets
 MATCH (c)-[*]->(c2:CONCEPT)<-[:TAGGED_WITH]-(d3:DATASET)
 WITH COLLECT(d3.id) + direct_datasets AS result
 RETURN DISTINCT result
+
+// EXPORT DATABASE TO JSON
+MATCH (a:CONCEPT)-[r]->(b:CONCEPT)
+WITH collect(
+    {
+        source: a.id,
+        target: b.id,
+        relType: type(r)
+    }
+) AS edges
+MATCH (a:CONCEPT)
+WITH edges, COLLECT({ id: a.id, label: a.label, synonyms: a.synonyms}) AS nodes
+RETURN { edges: edges, nodes: nodes }

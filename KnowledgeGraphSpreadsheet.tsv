@@ -1,0 +1,593 @@
+	Element	Label	Synonyms	is_a	type_of	part_of	located_at	affects	can_affect	is_involved_in	quality_of	related_to	is_similar_to
+	Definition		Synonyms of the concept	instance of a type or category	type of an category	physically located within	physically coincident	High likelihood may result in or make changes to (term results in changes to _____)	Some likelihood may result in or make changes to (term results in changes to _____)	conceptually part of	an attribute of a category or instance	general relationships that don't fit well in other categories	means essentially the same thing
+441	accessibility	Accessibility										urban	
+390	acidification	Acidification							coral_reef			sea, ocean, climate	
+291	activity	Activity										general	
+537	adaptation	Adaptation						vulnerability, damage, resilience, impact	asset				
+544	adaptive_capacity	Adaptive Capacity						vulnerability, response, damage, resilience, asset, impact					
+50	afghanistan	Afghanistan		country		asia							
+15	africa	Africa		continent								global	
+369	agriculture	Agriculture				primary_sector		erosion, nutrients, water_availability	groundwater, water_scarcity				
+444	air_quality	Air quality							health			urban, air	
+51	aland	Aland		autonomous_territory		finland							
+52	albania	Albania		country		europe							
+386	albedo 	Albedo 	reflectance										
+53	algeria	Algeria		country		africa							
+54	american_samoa	American Samoa		island, unincorporated_territory		oceania							
+479	amphibian	Amphibian			animal								
+	bird	Bird			animal								
+	reptile	Reptile			animal								
+55	andorra	Andorra		country		europe							
+56	angola	Angola		country		africa							
+57	anguilla	Anguilla		island		north_america							
+286	animal	Animal			species								
+271	annual	Annual			frequency								
+3	antarctica	Antarctica		continent									
+58	antigua_and_barbuda	Antigua and Barbuda		island		north_america							
+373	aquaculture	Aquaculture			land_use	primary_sector			land_use, deforestation			food	
+59	argentina	Argentina		country		south_america							
+60	armenia	Armenia		country		asia							
+61	aruba	Aruba		island, country		south_america							
+16	asia	Asia		continent								global	
+558	asset	Asset											
+62	australia	Australia		island, country		oceania, oecd							
+30	austria	Austria		country		europe				eu, schengen_area, oecd			
+9	autonomous_territory	Autonomous Territory										territory	
+63	azerbaijan	Azerbaijan		country		europe, asia							
+64	bahamas	Bahamas		island, country		north_america							
+65	bahrain	Bahrain		island, country		asia							
+66	bangladesh	Bangladesh		country		asia							
+67	barbados	Barbados		island, country		north_america							
+567	baseline	Baseline								climate_model			
+371	beef	Beef			livestock		pasture					livestock, mammal	
+68	belarus	Belarus		country		europe							
+29	belgium	Belgium		country		europe				eu, schengen_area, oecd			
+69	belize	Belize		country		north_america							
+70	benin	Benin		country		africa							
+71	bermuda	Bermuda		island, overseas_territory		uk, north_america							
+72	bhutan	Bhutan		country		asia							
+439	bike	Bike			transportation		roads		emissions	accessibility		urban	
+468	biodiversity	Biodiversity										general	
+347	biological_oxygen_demand	Biological Oxygen Demand		indicator						wastewater, water_quality			
+393	biome	Biome										climate	
+482	bleaching	Bleaching		process					fisheries, coral_reef				
+73	bolivia	Bolivia		country		south_america							
+396	boreal	Boreal			habitat, climate_zone							climate	
+74	bosnia_and_herzegovina	Bosnia and Herzegovina		country		europe							
+75	botswana	Botswana		country		africa							
+76	brazil	Brazil		country		south_america							
+77	british_indian_ocean_territory	British Indian Ocean Territory		island, overseas_territory		uk, asia							
+252	brittish_virgin_islands	Brittish Virgin Islands		island, overseas_territory		uk, north_america							
+78	brunei	Brunei		country		asia							
+32	bulgaria	Bulgaria		country		europe				eu			
+79	burkina_faso	Burkina Faso		country		africa							
+80	burundi	Burundi		country		africa							
+437	bus	Bus			public_transportation		urban, roads		emissions	accessibility			
+81	cambodia	Cambodia		country		asia							
+82	cameroon	Cameroon		country		africa							
+83	canada	Canada		country		north_america, oecd							
+84	cape_verde	Cape_Verde		country		africa							
+440	car	Car			transportation		roads		emissions	accessibility, transportation		pollution, urban	
+85	cayman_islands	Cayman Islands		island, overseas_territory		north_america, uk							
+86	central_part_of:african_republic	Central African Republic		country		africa							
+446	cfc	CFC	Chlorofluorocarbon		chemical_compound				ozone, o3				
+395	ch4	CH4	Methane	chemical_compound	ghg				climate_change				
+87	chad	Chad		country		africa							
+300	chemical_compound	Chemical Compound										general	
+348	chemical_oxygen_demand	Chemical Oxygen Demand		indicator						wastewater, water_quality			
+506	child_mortality	Child mortality			mortality							people	
+88	chile	Chile		country		south_america, oecd							
+89	china	China		country		asia							
+342	clean_water	Clean water		indicator, resource	water								
+381	climate	Climate						temperature, precipitation	displaced_people			general	
+388	climate_change	Climate change						temperature, thermal_expansion, ecosystem_services	extreme_events,thermal_expansion,sea_level,snow_cover,storm_intensity,acidification,bleaching,habitat_loss,displaced_people			climate,sea_level,snow_cover,albedo,glacier,extreme_event,climate_stressor	
+557	climate_hazard	Climate Hazard			hazard							climate_change	
+563	climate_model	Climate Model											
+553	climate_stressor	Climate Stressor		event, trend				hazard					
+447	co	CO	Carbon Monoxide		chemical_compound				air_quality	environmental_health			
+394	CO2	CO2	Carbon Dioxide	chemical_compound	ghg				climate_change, acidification				
+414	coal	Coal			fuel, nonrenewable_energy								
+301	coast 	Coast				ocean							
+565	coastal_erosion	Coastal Erosion		process, climate_stressor	erosion			vulnerability, damage					
+571	coastal_flooding	Coastal Flooding			flooding				coastal_erosion				
+459	cold_wave	Cold wave			extreme_event							climate, disaster	
+90	colombia	Colombia		country		south_america							
+533	commerce	Commerce							deforestation, logging				
+280	commodity	Commodity				commerce						general	
+91	comoros	Comoros		island, country		africa							
+297	conflict 	Conflict		event					mortality, damage, destruction, disaster, displaced_people				
+92	congo	Congo		country		africa							
+485	conservation	Conservation			human_activity			intact_forest					
+2	continent	Continent										global	
+94	cook_islands	Cook islands		island		oceania							
+478	coral_reef	Coral reef	coral		marine_life		ocean, sea						
+259	coral_sea_islands_territory	Coral Sea Islands Territory		overseas_territory, island		australia, oceania							
+503	corruption	Corruption				governance			protest			political_stability	
+95	costa_rica	Costa Rica		country		north_america							
+10	country	Country										global	
+35	croatia	Croatia		country		europe				eu			
+360	crop	Crop					cropland	food_production				plants	
+361	crop_health	Crop health			indicator						crop		
+362	crop_yield	Crop yield			indicator						crop		
+7	crown_dependency	Crown Dependency										uk	
+97	cuba	Cuba		island		north_america							
+98	curacao	Curaçao		island, autonomous_territory		south_america, netherlands							
+36	cyprus	Cyprus		country		europe				eu			
+37	czech_republic	Czech Republic		country		europe				eu,schengen_area,oecd			
+267	daily	Daily			frequency								
+334	dam	Dam			energy_infrastructure		river	water_quality	fish	hydroelectricity			
+293	damage	Damage	destruction						financial_loss			explosion,natural_hazard,extreme_event	
+261	dataset	Dataset										general	
+	dead_zone	Dead Zone	Anoxic Water				ocean,bay	fish,fisheries,water_quality					
+550	decision_makers	Decision Makers											
+306	deforestation	Deforestation		process				erosion, forest_loss,landslide	forest, water, ghg,habitat_loss,environmental_health,environmental_quality				
+309	degradation	Degradation		activity					forest, habitat				
+93	democratic_republic_of_congo	Democratic Republic of the Congo		country		africa							
+145	democratic_republic_of_korea	Democratic Republic of Korea		country		asia							
+490	demographic	Demographic							resilience_planning			population	
+39	denmark	Denmark		country		europe				eu, schengen_area, oecd			
+528	developed	Developed			country								
+529	developing	Developing			country								
+548	development	Development						economic, developing					
+454	disaster	Disaster		event									
+509	discrimination	Discrimination										society	
+524	disease	Disease						mortality, health					
+507	displaced_people	Displaced people			society							land	
+99	djibouti	Djibouti		country		africa							
+100	dominica	Dominica		island, country		north_america							
+101	dominican_republic	Dominican Republic		island, country		north_america							
+341	drainage_basin	Drainage basin										river	
+330	drinking_water	Drinking water		resource	water			health					
+316	drought	Drought		disaster, climate_stressor				water_scarcity, crop_health, crop_yield, food_security, food_production, malnutrition	crop, water_access, irrigation, water_stress, famine, water_security			water	
+551	early_warning	Early Warning						vulnerability, response					
+456	earthquake	Earthquake			natural_disaster, natural_phenomena				tsunami			seismic	
+545	economic	Economic						vulnerability, damage					
+472	ecoregion	Ecoregion											
+	ecosystem	Ecosystem										general	
+549	ecosystem_services	Ecosystem Services						food, air_quality, water_quality					
+102	ecuador	Ecuador		country		south_america							
+494	education	Education										society	
+103	egypt	Egypt		country		africa							
+104	el_salvador	El Salvador		country		north_america							
+405	electricity	Electricity		commodity								energy	
+564	emergency_response	Emergency Response						vulnerability, response, damage, resilience					
+543	emergency_services	Energency Services			public_service			vulnerability, response, damage, resilience				emergency_response	
+407	emissions	Emissions			pollution			environmental_health, enviornmental_quality, climate_change	ghg, climate_change, air_quality, health				
+474	endangered	Endangered											
+403	energy	Energy										general	
+425	energy_access	Energy access										energy	
+406	energy_efficiency	Energy efficiency										energy	
+420	energy_hazard	Energy hazard			hazard			environmental_quality				energy	
+428	energy_infrastructure	Energy Infrastucture										energy	
+404	energy_production	Energy production										energy	
+	energy_demand	Energy demand										energy	
+	environment	Environment										general	
+450	environmental_health	Environmental health			health						environment		
+451	environmental_quality	Environmental quality			health						environment		
+105	equatorial_guinea	Equtorial Guinea		country		africa							
+106	eritrea	Eritrea		country		africa							
+274	erosion	Erosion		process					water_quality, hydropower				
+458	eruption	Eruption			process, natural_disaster, extreme_event, natural_phenomena		volcano						
+41	estonia	Estonia		country		europe				eu, schengen_area, oecd			
+107	ethiopia	Ethiopia		country		africa							
+19	eu	EU	European Union				europe						
+11	europe	Europe		continent								global	
+17	european_free_trade_association	European Free Trade Association					europe						
+353	eutrophication	Eutrophication							water_quality, water_avaliability, water_security				
+296	event	Event										general	
+299	exploitation	Exploitation			human_activity			water_scarcity, deforestation, habitat_loss, fishery	groundwater			land_rights, commerce	
+292	explosion	Explosion		event					destruction, financial_loss				
+536	exposure	Exposure						vulnerability, damage, resilience					
+475	extinction	Extinction										species	
+295	extreme_event	Extreme event		event								weather	
+108	falkland_islands	Falkland Islands		island, overseas_territory		south_america, uk							
+358	famine	Famine			disaster			mortality, displaced_people				hunger	
+367	farmland	Farmland			land_use							food	
+109	faroe_islands	Faroe Islands		island, autonomous_territory		europe, denmark							
+480	fauna	Fauna			animal								
+535	fertilizer	Fertilizer						nitrogen, phosphorus, nutrients, water_quality	harmful_algal_blooms	agriculture			
+110	fiji	Fiji		island, country		oceania							
+303	financial_loss	Financial Loss											
+42	finland	Finlad		country		europe				eu, schengen_area, oecd			
+305	fire	Fire		disaster					forest				
+378	fish	Fish			species								
+377	fishery	Fishery										fish	
+376	fishing	Fishing			human_activity							fish	
+317	flood	Flood		disaster				crop_health, crop_yield, food_security, food_supply	water_quality, malnutrition			water	
+483	flora	Flora											
+355	food	Food										general	
+368	food_price	Food price						food_security				food	
+363	food_security	Food security						famine, malnutrition				food	
+364	food_supply	Food supply							food_security, famine			food	
+365	food_waste	Food waste										food	
+304	forest	Forest										general	
+310	forest_cover	Forest cover		indicator					forest, biodiversity				
+312	forest_gain	Forest gain		indicator					forest_cover, biodiversity			forest	
+311	forest_loss	Forest loss		indicator					forest_cover, biodiversity				
+	fossil_fuel	Fossil fuel						emissions					
+510	fragility	Fragility										quality	
+49	france	France		country		europe				eu, schengen_area, oecd			
+111	french_polynesia	French Polynesia		island, overseas_territory		oceania, france							
+112	french_southern_and_antarctic_lands	French Southern and Antarctic lands		island, overseas_territory		africa, france, antarctica							
+266	frequency	Frequency										general	
+335	fresh_water	Fresh water		resource	water								
+	frozen_water	Frozen water			water			sea_level, albedo					
+424	fuel	Fuel		commodity								energy	
+113	gabon	Gabon		country		africa							
+114	gambia	Gambia		country		africa							
+523	gdp	GDP	Gross Domestic Product						vulnerability			economic	
+516	gender	Gender			rights				vulnerability			society	
+1	general	General											
+115	georgia	Georgia		country		europe, asia							
+265	geospatial	Geospatial			dataset								
+413	geothermal	Geothermal			renewable_energy							energy	
+24	germany	Germany		country		europe				eu, schengen_area, oecd			
+116	ghana	Ghana		country		africa							
+382	ghg	GHG	Greenhouse gas						climate_change				
+117	gibraltar	Gibraltar		overseas_territory		europe, uk							
+521	gini_index	GINI index							vulnerability				
+387	glacier	Glacier			frozen_water								
+5	global	Global										location	
+504	governance	Governance	government					park, reserve, environmental_health, enviornmental_quality, displaced_people				society	
+46	greece	Greece		country		europe				eu, schengen_area, oecd			
+118	greenland	Greenland		island, autonomous_territory		north_america, denmark							
+443	greenspace	Greenspace										urban	
+119	grenada	Grenada		island, country		north_america							
+	ground_water	Groundwater						water_availability					
+120	guam	Guam		island, country		oceania							
+121	guatemala	Guatemala		country		north_america							
+122	guernsey	Guernsey		crown_dependency		europe							
+123	guinea	Guinea		country		africa							
+124	guinea_bissau	Guinea-Bissau		country		africa							
+125	guyana	Guyana		country		south_america							
+473	habitat	Habitat			ecosystem							biodiversity	
+471	habitat_loss	Habitat loss							flora, fauna, plant, animal, amphibian, habitat				
+126	haiti	Haiti		island, country		north_america							
+344	harmful_algal_blooms	Harmful algal blooms		disaster	pollution				water_pollution, dead_zone, water_quality			water	
+574	hazard	Hazard		event				damage, asset, vulnerability, response, sensitivity, risk					
+522	health	Health						mortality	vulnerability			society	
+127	heard_island_and_mcdoland_islands	Heard Island and McDonald Islands		island, overseas_territory		australia, antarctica							
+453	heat_island	Heat Island										temperature	
+460	heat_wave	Heat wave			extreme_event							climate, disaster	
+532	high_income	High Income			country								
+129	honduras	Honduras		country		north_america							
+130	hong_kong	Hong Kong		country		asia							
+476	human_impact	Human impact						biodiversity, climate					
+497	human_rights	Human rights			rights							society	
+47	hungary	Hungary		country		europe				eu, schengen_area, oecd			
+356	hunger	Hunger						nutrition				food	
+470	hunting	Hunting			human_activity							animal	
+462	hurricane	Hurricane	typhoon		natural_disaster, natural_phenomena		sea, ocean	storm_surge, wind, precipitation					
+423	hydropower	Hydropower			renewable_energy								
+345	ice	Ice				Frozen_water							
+131	iceland	Iceland		country, island		europe, european_free_trade_association, oecd							
+467	illegal_activity	Illegal activity			human_activity								
+492	illiterate	Illiterate										education	
+560	impact	Impact						damage, vulnerability, response, resilience					
+436	impervious_surface	Impervious surface							erosion, flooding, heat_island				
+132	india	India		country		asia							
+288	indicator	Indicator										general	
+498	Indigenous_rights	Indigenous Rights			rights	land_rights							
+133	indonesia	Indonesia		country		asia							
+520	inequality	Inequality						poverty, wealth, protest, conflict, protest	vulnerability			economic, gini_index	
+513	infant_mortality	Infant mortality			mortality							health	
+282	infrastructure	Infrastructure			asset							general	
+285	installation	Installation		infrastructure									
+314	intact_forest	Intact forest			forest				biodiversity				
+	internally_displaced	Internally displaced			displaced_people								
+134	iran	Iran		country		asia							
+135	iraq	Iraq		country		asia							
+27	ireland	Ireland		country		europe				eu, oecd			
+370	irrigation	Irrigation			water_demand				water_risk, water_security, crop, crop_health, water_avaliablility, water_stress, water_security			crop, water	
+273	island	Island										general	
+136	isle_of_man	Isle of Man		island, crown_dependency		europe							
+137	israel	Israel		country		asia, oecd							
+26	italy	Italy		country		europe				eu, schengen_area, oecd			
+96	ivory_coast	Ivory Coast		country		africa							
+138	jamaica	Jamaica		island, country		north_america							
+139	japan	Japan		island, country		asia, oecd							
+140	jersey	Jersey		island, crown_dependency		europe							
+141	jordan	Jordan		country		asia							
+500	justice	Justice										rights	
+142	kazakhstan	Kazakhstan		country		asia							
+143	kenya	Kenya		country		africa							
+144	kiribati	Kiribati		island, country		oceania							
+147	kuwait	Kuwait		country		asia							
+148	kyrgyzstan	Kyrgyzstan		country		asia							
+337	lake	Lake			surface_water							water	
+372	lamb	Lamb			livestock		pasture					livestock, mammal	
+294	land	Land										general	
+	land_cover	Land cover											
+	land_use	Land use						land_cover					
+499	land_rights	Land rights			rights							society, land	
+461	landslide	Landslide			natural_disaster, natural_phenomena							disaster	
+149	laos	Lao People's Democratic Republic		country		asia							
+31	latvia	Latvia		country		europe				eu, schengen_area, oecd			
+150	lebanon	Lebanon		country		asia							
+151	lesotho	Lesotho		country		africa							
+152	liberia	Liberia		country		africa							
+153	libya	Libya		country		africa							
+154	liechtenstein	Liechtenstein		country		europe, european_free_trade_association							
+491	literacy	Literacy		indicator								education	
+33	lithuania	Lithuania		country		europe				eu, schengen_area			
+359	livestock	Livestock			food, animal 			hunger	income			primary_sector, commodity	
+287	location	Location										general	
+307	logging	Logging		activity		secondary_sector			deforestation			forest	
+530	low_income	Low Income			country								
+34	luxembourg	Luxembourg		country		europe				eu, schengen_area, oecd			
+155	macao	Macao		autonomous_territory		china, asia							
+156	macedonia	Macedonia		country		europe							
+157	madagascar	Madagascar		country, island		africa							
+374	maize	Maize			crop		cropland						
+158	malawi	Malawi		country		africa							
+159	malaysia	Malaysia		country		asia							
+160	maldives	Maldives		country, island		asia							
+161	mali	Mali		country		africa							
+366	malnutrition	Malnutrition						health	mortality			food	
+28	malta	Malta		island, country		europe				eu, schengen_area			
+477	mammal	Mammal			animal		ocean, sea, terrestrial						
+308	mangrove	Mangrove			forest, natural_infrastructure		coast, wetlands		storm, damage, resilience				
+484	marine_life	Marine life					sea, ocean					biodiversity	
+162	marshall_islands	Marshall Islands		island		oceania							
+163	mauritania	Mauritania		country		africa							
+164	mauritius	Mauritius		country, island		africa							
+165	mexico	Mexico		country		north_america, oecd							
+166	micronesia	Micronesia		country, island		oceania							
+531	middle_income	Middle Income			country								
+	migration	Migration										migrant, refugee	
+538	mitigation	Mitigation		process				vulnerability, damage, resilience, impact					
+167	moldova	Moldova		country		europe							
+168	monaco	Monaco		country		europe							
+169	mongolia	Mongolia		country		asia							
+	monsoon	Monsoon						precipitation, wind					
+170	montenegro	Montenegro		country		europe							
+270	monthly	Monthly			frequency								
+171	montserrat	Montserrat		overseas_territory, island		north_america, uk							
+172	morocco	Morocco		country		africa							
+518	mortality	Mortality											
+173	mozambique	Mozambique		country		africa							
+174	myanmar	Myanmar		country		asia							
+400	n2o	N2O	Nitrogeous Oxide	chemical_compound, pollutant	ghg							climate	
+175	namibia	Namibia		country		africa							
+525	national_park	National Park					land		conservation			biodiversity	
+455	natural_disaster	Natural disaster			disaster				displaced_people			extreme_event	
+416	natural_gas	Natural Gas			fuel, nonrenewable_energy								
+283	natural_infrastructure	Natural Infrastructure						flood	disaster, resilience				
+290	natural_phenomena	Natural phenomena										general	
+176	nauru	Nauru		country, island		oceania							
+268	near_real_time	Near real time			frequency								
+177	nepal	Nepal		country		asia							
+38	netherlands	Netherlands		country		europe				eu, schengen_area, oecd			
+178	new_caledonia	New Caledonia		overseas_territory, island		france, oceania							
+179	new_zealand	New Zealand		island, country		oceania, oecd							
+180	nicaragua	Nicaragua		country		north_america							
+181	niger	Niger		country		africa							
+182	nigeria	Nigeria		country		africa							
+349	nitrogen	Nitrogen		chemical_compound					eutrophication, harmful_algal_blooms, dead_zone				nutrients
+183	niue	Niue		country, island		oceania							
+555	non_climate_stressor	Non-Climate Stresor		trend				hazard				climate_change	
+409	nonrenewable_energy	Nonrenewable energy			energy_production			emissions					
+184	norfolk_island	Norfolk Island		overseas_territory, island		oceania, australia							
+12	north_america	North America		continent								global	
+185	northern_mariana_islands	Northern Mariana Islands		island, overseas_territory		oceania, usa							
+186	norway	Norway		country		europe, shengen_area, european_free_trade_association, oecd							
+418	nuclear_energy	Nuclear			energy_production				energy_hazard				
+	nutrients	Nutrients						water_quality	harmful_algal_blooms				
+357	nutrition	Nutrition										food, malnutrition	
+445	o3	O3	Ozone		chemical_compound				air_quality, radiation	environmental_health		pollution, urban	
+339	ocean	Ocean			surface_water							water, biodiversity, sea_level_rise	
+14	oceania	Oceania		continent								global	
+21	oecd	OECD	Organisation for Economic Co-operation and Development										
+415	oil	Oil			fuel, nonrenewable_energy								
+421	oil_refinery	Oil refinery		installation	energy_infrastructure							oil	
+187	oman	Oman		country		asia							
+6	overseas_territory	Overseas Territory										territory	
+188	pakistan	Pakistan		country		asia							
+189	palau	Palau		country, island		oceania							
+190	palestine	Palestine		territory		asia							
+191	panama	Panama		country		north_america							
+192	papua_new_guinea	Papua New Guinea		country, island		oceania							
+193	paraguay	Paraguay		country		south_america							
+442	park	Park										urban	
+	pasture	Pasture	grazing		land_use								
+194	peru	Peru		country		south_america							
+417	petroleoum	Petroleum			fuel, nonrenewable_energy				climate_change			energy	
+195	philippines	Philippines		island, country		asia							
+350	phosphorus	Phosphorus							harmful_algal_blooms				nutrients
+427	pipelines	Pipelines			energy_infrastructure				energy_access			energy	
+196	pitcairn_islands	Pitcairn Islands		island, overseas_territory		australia,oceania							
+281	plant	Plant			biodiversity							flora	
+469	poaching	Poaching			human_activity, illegal_activity				extinction, endangered, biodiversity				
+40	poland	Poland		country		europe				eu, oecd			
+495	political_stability	Political stability										governance	
+433	pollution	Pollution							health, mortality, environmental_health, environmental_quality, air_quality, urban, water_quality				
+489	population	Population							resilience_planning			society	
+23	portugal	Portugal		country		europe				eu, schengen_area, oecd			
+517	poverty	Poverty						malnutrition	energy_access, vulnerability, mortality			economic	
+426	power_lines	Power Lines			energy_infrastructure								
+410	power_plant	Power plant			energy_infrastructure							energy_production	
+324	precipitation	Precipitation	rain|rainfall					erosion, landslide	water_availability, crop_health, crop_yield, food_security, food_supply, stormwater, runoff	erosion		water	
+277	primary_sector	Primary sector		sector									
+561	probability	Probability						vulnerability, resilience, risk					
+272	process	Process										general	
+556	projection	Projection								climate_model			
+527	protected_area	Protected Area					land					biodiversity, conservation	
+501	protest	Protest										governance	
+435	public_transportation	Public transportation			transportation, public_service				emissions, accessibility				
+197	puerto_rico	Puerto Rico		island, unincorporated_territory		north_america							
+198	qatar	Qatar		country		asia							
+284	quality	Quality										general	
+419	radiation	Radiation			energy_hazard				health			nuclear	
+325	rainfall	Rainfall		indicator	precipitation								
+262	raster	Raster			dataset								
+481	reef	Reef			habitat		ocean						
+514	refugee	Refugee			displaced_people								
+408	renewable_energy 	Renewable			energy_production								
+260	republic_of_kosovo	Republic of Kosovo		country		europe							
+526	reserve	Reserve					land					biodiversity, conservation	national_park, protected_area
+511	resilience	Resilience										quality	
+547	resilience_planning	Resilience Planning		process				vulnerability, damage					
+289	resource	Resource			asset				exposure			general. commerce	
+	resource_scarcity	Resource scarcity						resource				environment	
+546	response	Response						damage					
+486	restoration	Restoration			human_activity			forest_gain					
+496	rights	Rights										society	
+552	risk	Risk											
+541	risk_assesment	Risk Assesment 		process				damage, risk					
+542	risk_management	Risk Management 		process				damage, resilience_planning,  risk					
+336	river	River			surface_water							water	
+430	roads	Roads			infrastructure, public_service			accessibility	deforestation				
+44	romania	Romania		country		europe				eu			
+572	runoff	Runoff											
+199	russia	Russia		country		europe, asia							
+200	rwanda	Rwanda		country		africa							
+201	saint_barthelemy	Saint Barthélemy		overseas_territory, island		north_america							
+202	saint_helena	Saint Helena		island, overseas_territory		africa, uk							
+203	saint_kitts_and_nevis	Saint Kitts and Nevis		country, island		north_america							
+204	saint_lucia	Saint Lucia		country, island		north_america							
+205	saint_martin	Saint Martin		island, overseas_territory		france, north_america							
+206	saint_pierre_and_miquelon	Saint Pierre and Miquelon		island, overseas_territory		france, north_america							
+207	saint_vincent_and_the_grenadines	Saint Vincent and the Grenadines		island, country		north_america							
+208	samoa	Samoa		country, island		oceania							
+209	san_marino	San Marino		country		europe							
+210	sao_tome_and_principe	São Tomé and Principe		country		africa							
+211	saudi_arabia	Saudi Arabia		country		africa							
+18	schengen_area	Schengen Area					europe						
+493	school	School			public_service			literacy				education	
+338	sea	Sea			surface_water							water	
+383	sea_ice	Sea ice			frozen_water		sea, ocean						
+384	sea_level	Sea level		climate_stressor			sea, ocean	coastal_erosion, coastal_flooding	coast				
+	sea_level_rise	Sea level rise		process								sea	
+389	sea_surface_temperature	Sea surface temperature			temperature		sea, ocean		bleaching, thermal_expansion			climate	
+379	seafood	Seafood			food_production	ocean, river, lake, wetlands, coast		land_use, land_cover				fish	
+402	seasonality	Seasonality						monsoon, hurricane, typhoon	sea_ice, water_avaliability				
+278	secondary_sector	Secondary sector		sector									
+276	sector	Sector										general	
+502	security	Security										people	
+275	sedimentation	Sedimentation		process					water_quality, hydropower			water	
+212	senegal	Senegal		country		africa							
+213	serbia	Serbia		country		europe							
+318	sewage	Sewage		pollutant	wastewater			water_quality				water, urban	
+214	seychelles	Seychelles		country, island		africa							
+375	shrimp	Shrimp			seafood								
+215	sierra_leone	Sierra Leone		country		africa							
+216	singapore	Singapore		country		asia							
+217	sint_marteen	Sint Maarten		island, overseas_territory		north_america, netherlands							
+465	slope	Slope							landslide, erosion				
+43	slovakia	Slovakia		country		europe				eu, schengen_area, oecd			
+45	slovenia	Slovenia		country		europe				eu, schengen_area, oecd			
+351	snow	Snow			frozen_water			snow_cover					
+385	snow_cover	Snow cover			frozen_water								
+448	so2	SO2	Sulfur Dioxide		chemical_compound				air_quality	environmental_health			
+487	society	Society	people					food_waste				general	
+380	soil_type	Soil type							food, landslide				
+411	solar_energy	Solar energy			renewable_energy							energy	
+218	solomon_islands	Solomon Islands		country, island		oceania							
+219	somalia	Somalia		country		africa							
+220	south_africa	South Africa		country		africa							
+13	south_america	South America		continent								global	
+221	south_georgia_and_the_south_sandwich_islands	South Georgia and the South Sandwich Islands		island, overseas_territory		antarctica, uk							
+146	south_korea	South Korea		country		asia, oecd							
+222	south_sudan	South Sudan		country		africa							
+22	spain	Spain		country		europe				eu, schengen_area, oecd			
+466	species	Species										biodiversity	
+	spill	Spill			energy_hazard								
+223	sri_lanka	Sri Lanka		island, country		asia							
+391	storm	Storm		natural_phenomena									
+392	storm_intensity	Storm intensity 									storm		
+539	storm_surge	Storm Surge						damage	mortality				
+554	stormwater	Stormwater						runoff	flood, flooding				
+224	sudan	Sudan		country		africa							
+534	supply_chain	Supply Chain				commerce							
+225	suriname	Suriname		country		south_america							
+540	sustainable_development	Sustainable Development			development			economic, developing, climate_change	vulnerability				
+226	swaziland	Swaziland		country		africa							
+48	sweden	Sweden		country		europe				eu, schengen_area, oecd			
+227	switzerland	Switzerland		country		europe, european_free_trade_association, oecd							
+228	syria	Syria		country		asia							
+264	table	Table			dataset								
+229	taiwan	Taiwan		country		asia							
+230	tajikistan	Tajikistan		country		asia							
+231	tanzania	Tanzania		country		africa							
+397	temperate	Temperate			habitat, climate_zone							climate	
+298	temperature	Temperature						thermal_expansion, sea_level_rise, sea_ice, snow_cover, glacier	health				
+	temperature_rise	Temperature rise		process				climate_change				temperature	
+4	territory	Territory										global	
+279	tertiary_sector	Tertiary sector		sector									
+232	thailand	Thailand		country		asia							
+401	thermal_expansion	Thermal_Expansion					ocean, sea		sea_level_rise				
+422	thorium	Thorium		chemical_compound									
+233	timor_lest	Timor-Leste		country		asia							
+234	togo	Togo		country		africa							
+235	tonga	Tonga		country		oceania							
+346	total_suspended_solids	Total suspended solids		indicator						water_quality		water	
+438	train	Train	Rail		public_transportation				emissions	accessibility			
+434	transport	Transport										urban	
+	transportation	Transportation						accessibility	emissions			urban	
+573	trend	Trend								climate_model			
+236	trinidad_and_tobago	Trinidad and Tobago		country		south_america							
+398	tropical	Tropical			habitat, climate_zone							climate	
+464	tsunami	Tsunami			natural_disaster, natural_phenomena								
+237	tunisia	Tunisia		country		africa							
+238	turkey	Turkey		country		europe, asia, oecd							
+239	turkmenistan	Turkmenistan		country		asia							
+240	turks_and_calcos_islands	Turks and Calcos Islands		overseas_territory, island		uk, north_america							
+241	tuvalu	Tuvalu		island, country		oceania							
+463	typhoon	Typhoon	hurricane		natural_disaster, natural_phenomena		sea, ocean	wind, precipitation					
+242	uganda	Uganda		country		africa							
+25	uk	United Kingdom		island, country		europe				eu, oecd			
+243	ukraine	Ukraine		country		europe							
+20	un	UN	United Nations										
+562	uncertainty	Uncertainty										climate_model	
+8	unincorporated_territory	Unincorporated Territory										usa	
+244	united_arab_emirates	United Arab Emirates		country		asia							
+246	united_states_minor_outlying_islands	United States Minort Outlying Islands		overseas_territory		usa, north_america							
+253	united_states_virgin_islands	United States Virgin Islands		island, overseas_territory		usa, north_america							
+432	urban	Urban	city, cities									general	
+452	urban_planning	Urban Planning							accessibility, heat_island, park, greenspace			urban	
+429	urbanization	Urbanization							deforestation			urban	
+247	uruguay	Uruguay		country		south_america							
+245	usa	United States		country		north_america, oecd							
+248	uzbekistan	Uzbekistan		country		asia							
+249	vanuatu	Vanuatu		island, country		oceania							
+128	vatican	Vatican		country		europe							
+263	vector	Vector			dataset								
+250	venezuela	Venezuela		country		south_america							
+251	vietnam	Vietnam		country		asia							
+457	volcano	Volcano			natural_disaster, natural_phenomena							natural_disaster	
+512	vulnerability	Vulnerability					coast	asset, sensitivity				quality	
+254	wallis_and_futuna	Wallis and Futuna		island, overseas_territory		france, oceania							
+449	waste	Waste			pollution							urban	
+331	wastewater	Wastewater			water, pollution				water_quality			water	
+315	water	Water										general	
+332	water_access	Water access							irrigation			water	
+343	water_conflict	Water conflict			conflict				water_security			water	
+333	water_consumption	Water consumption			water_demand								
+322	water_demand	Water demand										water	
+320	water_extent	Water extent			land_cover				water_access			water	
+323	water_pollution	Water pollution			pollution				health, biodiversity, water_quality, water_security			water	
+327	water_quality	Water quality							health, fish, fisheries			water	
+328	water_risk	Water risk							water_security			water	
+321	water_scarcity	Water scarcity			resource_scarcity	water_stress		conflict					
+566	water_security	Water Security											
+329	water_stress	Water stress			resource _scarcity				water_security			water	
+570	water_supply	Water Supply							water_security				
+340	watershed	Watershed						water_quality				water	
+519	wealth	Wealth							food_waste, vulnerability			economic	
+269	weekly	Weekly			frequency								
+255	western_sahara	Western Sahara		territory		africa							
+302	wetland	Wetland											
+568	wildfire	Wildfire			fire			air_quality	forest				
+399	wind	Wind		natural_phenomena				erosion	extreme_events				
+412	wind_energy	Wind energy			renewable_energy								
+515	women	Women		gender	rights, person								
+256	yemen	Yemen		country		asia							
+257	zambia	Zambia		country		africa							
+258	zimbabwe	Zimbabwe		country		africa							
+	wheat	Wheat			crop								
+	corn	Corn			crop								
+	soy	Soy			crop								
+	rice	Rice			crop								
+	food_production	Food production								agriculture		food	
+	public_service	Public service										society	
+	hospital	Hospital			public_service								

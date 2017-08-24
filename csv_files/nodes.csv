@@ -20,7 +20,6 @@ angola,Angola,
 anguilla,Anguilla,
 animal,Animal,
 annual,Annual,
-anoxic_water,Anoxic Water,
 antarctica,Antarctica,
 antigua_and_barbuda,Antigua and Barbuda,
 aquaculture,Aquaculture,
@@ -117,8 +116,7 @@ daily,Daily,
 dam,Dam,
 damage,Damage,destruction
 dataset,Dataset,
-dead_zone,Dead Zone,
-dead_zone,Dead Zone,anoxic_water
+dead_zone,Dead Zone,Anoxic Water
 decision_makers,Decision Makers,
 deforestation,Deforestation,
 degradation,Degradation,
