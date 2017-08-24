@@ -83,10 +83,14 @@ public class ConvertKnowledgeGraphIntoTreeFormat {
 
         if (children != null && children.size() > 0) {
             JSONArray childrenArray = new JSONArray();
+            HashSet<String> alreadyVisited = new HashSet<>();
             for (JSONObject child : children) {
-                if (!conceptsAdded.contains(currentNode.getString("id"))) {
-                    childrenArray.put(generateJSONForChildren(nodesMap.get(child.getString("source")), edgesMap, nodesMap, conceptsAdded));
-                }
+//                if (!conceptsAdded.contains(child.getString("source"))) {
+                    if (!alreadyVisited.contains(currentNode.getString("id"))) {
+                        childrenArray.put(generateJSONForChildren(nodesMap.get(child.getString("source")), edgesMap, nodesMap, conceptsAdded));
+                    }
+                    alreadyVisited.add(child.getString("source"));
+//                }
             }
             newJSON.put("children", childrenArray);
         }

@@ -14,7 +14,7 @@ RETURN DISTINCT d.id
 
 // GET SIMILAR DATASETS 1 (datasets tagged with at least one of the concepts related to the dataset provided)
 MATCH p=(d:DATASET{id:'62494370-3799-4165-838e-0ebaf42804c2'})-[:TAGGED_WITH]->(c:CONCEPT)<-[:TAGGED_WITH]-(d2:DATASET)
-WITH count(p) AS number_of_shared_concepts, COLLECT(c.id) AS shared_concepts, d2
+WITH count(c) AS number_of_shared_concepts, COLLECT(c.id) AS shared_concepts, d2
 RETURN d2.id, shared_concepts, number_of_shared_concepts
 ORDER BY number_of_shared_concepts DESC
 
