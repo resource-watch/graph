@@ -8,6 +8,7 @@ import org.json.JSONObject;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Iterator;
 
 public class ConvertKnowledgeGraphIntoTreeFormat {
@@ -54,9 +55,11 @@ public class ConvertKnowledgeGraphIntoTreeFormat {
                 edgesMap.put(object.getString("target"), array);
             }
 
+            HashSet<String> conceptsAdded = new HashSet();
+
             JSONObject generalConcept = nodesMap.get("general");
 
-            JSONObject resultJSON = generateJSONForChildren(generalConcept, edgesMap, nodesMap);
+            JSONObject resultJSON = generateJSONForChildren(generalConcept, edgesMap, nodesMap, conceptsAdded);
 
             Gson prettyGson = new GsonBuilder().setPrettyPrinting().create();
             String pretJson = prettyGson.toJson(resultJSON);
@@ -70,7 +73,7 @@ public class ConvertKnowledgeGraphIntoTreeFormat {
         }
     }
 
-    private static JSONObject generateJSONForChildren(JSONObject currentNode, HashMap<String, ArrayList<JSONObject>> edgesMap, HashMap<String, JSONObject> nodesMap) {
+    private static JSONObject generateJSONForChildren(JSONObject currentNode, HashMap<String, ArrayList<JSONObject>> edgesMap, HashMap<String, JSONObject> nodesMap, HashSet<String> conceptsAdded){
         JSONObject newJSON = new JSONObject();
         newJSON.put("label", currentNode.getString("label"));
         newJSON.put("value", currentNode.getString("id"));
@@ -81,10 +84,14 @@ public class ConvertKnowledgeGraphIntoTreeFormat {
         if (children != null && children.size() > 0) {
             JSONArray childrenArray = new JSONArray();
             for (JSONObject child : children) {
-                childrenArray.put(generateJSONForChildren(nodesMap.get(child.getString("source")), edgesMap, nodesMap));
+                if (!conceptsAdded.contains(currentNode.getString("id"))) {
+                    childrenArray.put(generateJSONForChildren(nodesMap.get(child.getString("source")), edgesMap, nodesMap, conceptsAdded));
+                }
             }
             newJSON.put("children", childrenArray);
         }
+
+        conceptsAdded.add(currentNode.getString("id"));
 
         return newJSON;
     }
