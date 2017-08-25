@@ -68,10 +68,10 @@ public class ConvertKnowledgeGraphIntoTreeFormat {
             writer.write(resultJSON.toString());
             writer.close();
             writer = new BufferedWriter(new FileWriter(new File("GeographiesTree.json")));
-            writer.write(geographiesJSON.toString());
+            writer.write(geographiesJSON.getJSONArray("children").toString());
             writer.close();
             writer = new BufferedWriter(new FileWriter(new File("DataTypesTree.json")));
-            writer.write(dataTypesJSON.toString());
+            writer.write(dataTypesJSON.getJSONArray("children").toString());
             writer.close();
 
 
@@ -91,7 +91,7 @@ public class ConvertKnowledgeGraphIntoTreeFormat {
             resultJSON.put("children", tempArray);
 
             writer = new BufferedWriter(new FileWriter(new File("TopicsTree.json")));
-            writer.write(resultJSON.toString());
+            writer.write(resultJSON.getJSONArray("children").toString());
             writer.close();
 
         }catch (Exception e) {
