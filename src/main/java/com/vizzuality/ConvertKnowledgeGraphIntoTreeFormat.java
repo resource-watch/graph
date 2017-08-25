@@ -19,7 +19,6 @@ public class ConvertKnowledgeGraphIntoTreeFormat {
         File file = new File(fileSt);
 
         try {
-            BufferedWriter writer = new BufferedWriter(new FileWriter(new File("KnowledgeGraphTree.json")));
             BufferedReader reader = new BufferedReader(new FileReader(file));
             StringBuffer stringBuffer =  new StringBuffer();
             String line;
@@ -58,14 +57,41 @@ public class ConvertKnowledgeGraphIntoTreeFormat {
             HashSet<String> conceptsAdded = new HashSet();
 
             JSONObject generalConcept = nodesMap.get("general");
+            JSONObject datasetConcept = nodesMap.get("dataset");
+            JSONObject geographiesConcept = nodesMap.get("global");
 
             JSONObject resultJSON = generateJSONForChildren(generalConcept, edgesMap, nodesMap, conceptsAdded);
+            JSONObject dataTypesJSON = generateJSONForChildren(datasetConcept, edgesMap, nodesMap, conceptsAdded);
+            JSONObject geographiesJSON = generateJSONForChildren(geographiesConcept, edgesMap, nodesMap, conceptsAdded);
 
-            Gson prettyGson = new GsonBuilder().setPrettyPrinting().create();
-            String pretJson = prettyGson.toJson(resultJSON);
-
+            BufferedWriter writer = new BufferedWriter(new FileWriter(new File("KnowledgeGraphTree.json")));
             writer.write(resultJSON.toString());
+            writer.close();
+            writer = new BufferedWriter(new FileWriter(new File("GeographiesTree.json")));
+            writer.write(geographiesJSON.toString());
+            writer.close();
+            writer = new BufferedWriter(new FileWriter(new File("DataTypesTree.json")));
+            writer.write(dataTypesJSON.toString());
+            writer.close();
 
+
+            // Remove location + dataset + their descendants in order to create the topics tree
+            iterator = resultJSON.getJSONArray("children").iterator();
+            JSONArray tempArray = new JSONArray();
+
+            while(iterator.hasNext()) {
+                JSONObject obj = (JSONObject) iterator.next();
+                String objID = obj.getString("value");
+                if (!objID.equals("location") && !objID.equals("dataset")) {
+                    tempArray.put(obj);
+                }
+            }
+
+            resultJSON.remove("children");
+            resultJSON.put("children", tempArray);
+
+            writer = new BufferedWriter(new FileWriter(new File("TopicsTree.json")));
+            writer.write(resultJSON.toString());
             writer.close();
 
         }catch (Exception e) {
@@ -74,19 +100,24 @@ public class ConvertKnowledgeGraphIntoTreeFormat {
     }
 
     private static JSONObject generateJSONForChildren(JSONObject currentNode, HashMap<String, ArrayList<JSONObject>> edgesMap, HashMap<String, JSONObject> nodesMap, HashSet<String> conceptsAdded){
+        String currentId = currentNode.getString("id");
+
         JSONObject newJSON = new JSONObject();
         newJSON.put("label", currentNode.getString("label"));
         newJSON.put("value", currentNode.getString("id"));
         newJSON.put("checked", false);
 
-        ArrayList<JSONObject> children = edgesMap.get(currentNode.get("id"));
+        ArrayList<JSONObject> children = edgesMap.get(currentId);
 
         if (children != null && children.size() > 0) {
             JSONArray childrenArray = new JSONArray();
             HashSet<String> alreadyVisited = new HashSet<>();
+            System.out.println("currentId: " + currentId);
             for (JSONObject child : children) {
+                System.out.println("child: " + child.getString("source"));
 //                if (!conceptsAdded.contains(child.getString("source"))) {
-                    if (!alreadyVisited.contains(currentNode.getString("id"))) {
+                    if (!alreadyVisited.contains(child.getString("source"))) {
+                        System.out.println("not visited!");
                         childrenArray.put(generateJSONForChildren(nodesMap.get(child.getString("source")), edgesMap, nodesMap, conceptsAdded));
                     }
                     alreadyVisited.add(child.getString("source"));
