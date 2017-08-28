@@ -58,10 +58,12 @@ public class ConvertKnowledgeGraphIntoTreeFormat {
 
             JSONObject generalConcept = nodesMap.get("general");
             JSONObject datasetConcept = nodesMap.get("dataset");
-            JSONObject geographiesConcept = nodesMap.get("global");
+            JSONObject geographiesConcept = nodesMap.get("continent");
 
             JSONObject resultJSON = generateJSONForChildren(generalConcept, edgesMap, nodesMap, conceptsAdded);
+            conceptsAdded.clear();
             JSONObject dataTypesJSON = generateJSONForChildren(datasetConcept, edgesMap, nodesMap, conceptsAdded);
+            conceptsAdded.clear();
             JSONObject geographiesJSON = generateJSONForChildren(geographiesConcept, edgesMap, nodesMap, conceptsAdded);
 
             BufferedWriter writer = new BufferedWriter(new FileWriter(new File("KnowledgeGraphTree.json")));
@@ -115,13 +117,13 @@ public class ConvertKnowledgeGraphIntoTreeFormat {
             System.out.println("currentId: " + currentId);
             for (JSONObject child : children) {
                 System.out.println("child: " + child.getString("source"));
-//                if (!conceptsAdded.contains(child.getString("source"))) {
+                if (!conceptsAdded.contains(child.getString("source"))) {
                     if (!alreadyVisited.contains(child.getString("source"))) {
                         System.out.println("not visited!");
                         childrenArray.put(generateJSONForChildren(nodesMap.get(child.getString("source")), edgesMap, nodesMap, conceptsAdded));
                     }
                     alreadyVisited.add(child.getString("source"));
-//                }
+                }
             }
             newJSON.put("children", childrenArray);
         }

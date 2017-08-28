@@ -1,14 +1,28 @@
 // 1. SEARCH endpoint (Explore)
 
-MATCH (c:CONCEPT)<-[*]-(c2:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET)
-WHERE (c.id IN ['water'] OR c2.id IN ['water'])
+// FILTER 1
+MATCH (c:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET)
+WHERE c.id IN ['water']
 WITH COLLECT(d.id) AS datasets
-MATCH (c:CONCEPT)<-[*]-(c2:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET)
-WHERE (c.id IN ['raster'] OR c2.id IN ['raster']) AND d.id IN datasets
-WITH COLLECT(d.id) AS intersection
-MATCH (c:CONCEPT)<-[*]-(c2:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET)
-WHERE (c.id IN ['nitrogen'] OR c2.id IN ['nitrogen']) AND d.id IN intersection
-RETURN DISTINCT d.id
+OPTIONAL MATCH (c:CONCEPT)<-[*]-(c2:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET)
+WHERE (c.id IN ['water'])
+WITH COLLECT(d.id) + datasets AS datasets
+// FILTER 2
+MATCH (c:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET)
+WHERE c.id IN ['raster'] AND d.id IN datasets
+WITH COLLECT(d.id) AS tempSet, datasets
+OPTIONAL MATCH (c:CONCEPT)<-[*]-(c2:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET)
+WHERE (c.id IN ['raster']) AND d.id IN datasets
+WITH COLLECT(d.id) + tempSet AS intersection
+// FILTER 3
+MATCH (c:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET)
+WHERE c.id IN ['nitrogen'] AND d.id IN intersection
+WITH COLLECT(d.id) AS tempSet, intersection
+OPTIONAL MATCH (c:CONCEPT)<-[*]-(c2:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET)
+WHERE (c.id IN ['nitrogen']) AND d.id IN intersection
+WITH COLLECT(d.id) + tempSet AS results
+RETURN DISTINCT results
+
 
 // 2. SIMILAR DATASETS
 
