@@ -148,7 +148,6 @@ CREATE INDEX ON :LAYER(id)
 CREATE INDEX ON :CONCEPT(id)
 CREATE INDEX ON :USER(id)
 
-
 //===============DELETE COMMANDS=======================
 
 // DELETE DATASET nodes and TAGGED_WITH relationships
