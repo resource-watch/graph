@@ -1,5 +1,8 @@
+acidification,process
+adaptation,process
 afghanistan,country
 africa,continent
+air_quality,indicator
 aland,autonomous_territory
 albania,country
 algeria,country
@@ -57,6 +60,7 @@ central_part_of:african_republic,country
 ch4,chemical_compound
 chad,country
 chemical_oxygen_demand,indicator
+child_mortality,indicator
 chile,country
 china,country
 clean_water,indicator
@@ -105,6 +109,7 @@ erosion,process
 estonia,country
 ethiopia,country
 europe,continent
+eutrophication,process
 explosion,event
 extreme_event,event
 falkland_islands,island
@@ -115,6 +120,7 @@ fiji,island
 fiji,country
 finland,country
 fire,disaster
+fish,animal
 flood,disaster
 forest_cover,indicator
 forest_gain,indicator
@@ -132,6 +138,7 @@ georgia,country
 germany,country
 ghana,country
 gibraltar,overseas_territory
+gini_index,indicator
 greece,country
 greenland,island
 greenland,autonomous_territory
@@ -256,6 +263,7 @@ paraguay,country
 peru,country
 philippines,island
 philippines,country
+phosphorus,chemical_compound
 pitcairn_islands,island
 pitcairn_islands,overseas_territory
 poland,country

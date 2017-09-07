@@ -142,8 +142,6 @@ precipitation,crop_health
 precipitation,crop_yield
 precipitation,food_security
 precipitation,food_supply
-precipitation,stormwater
-precipitation,runoff
 public_transportation,emissions
 public_transportation,accessibility
 radiation,health
@@ -159,8 +157,6 @@ sedimentation,hydropower
 slope,landslide
 slope,erosion
 so2,air_quality
-soil_type,food
-soil_type,landslide
 storm_surge,mortality
 stormwater,flood
 stormwater,flooding

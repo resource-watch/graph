@@ -1,591 +1,588 @@
-accessibility,Accessibility,
-acidification,Acidification,
-activity,Activity,
-adaptation,Adaptation,
-adaptive_capacity,Adaptive Capacity,
-afghanistan,Afghanistan,
-africa,Africa,
-agriculture,Agriculture,
-air_quality,Air quality,
-aland,Aland,
-albania,Albania,
-albedo,Albedo,reflectance
-algeria,Algeria,
-american_samoa,American Samoa,
-amphibian,Amphibian,
-bird,Bird,
-reptile,Reptile,
-andorra,Andorra,
-angola,Angola,
-anguilla,Anguilla,
-animal,Animal,
-annual,Annual,
-antarctica,Antarctica,
-antigua_and_barbuda,Antigua and Barbuda,
-aquaculture,Aquaculture,
-argentina,Argentina,
-armenia,Armenia,
-aruba,Aruba,
-asia,Asia,
-asset,Asset,
-australia,Australia,
-austria,Austria,
-autonomous_territory,Autonomous Territory,
-azerbaijan,Azerbaijan,
-bahamas,Bahamas,
-bahrain,Bahrain,
-bangladesh,Bangladesh,
-barbados,Barbados,
-baseline,Baseline,
-beef,Beef,
-belarus,Belarus,
-belgium,Belgium,
-belize,Belize,
-benin,Benin,
-bermuda,Bermuda,
-bhutan,Bhutan,
-bike,Bike,
-biodiversity,Biodiversity,
-biological_oxygen_demand,Biological Oxygen Demand,
-biome,Biome,
-bleaching,Bleaching,
-bolivia,Bolivia,
-boreal,Boreal,
-bosnia_and_herzegovina,Bosnia and Herzegovina,
-botswana,Botswana,
-brazil,Brazil,
-british_indian_ocean_territory,British Indian Ocean Territory,
-brittish_virgin_islands,Brittish Virgin Islands,
-brunei,Brunei,
-bulgaria,Bulgaria,
-burkina_faso,Burkina Faso,
-burundi,Burundi,
-bus,Bus,
-cambodia,Cambodia,
-cameroon,Cameroon,
-canada,Canada,
-cape_verde,Cape_Verde,
-car,Car,
-cayman_islands,Cayman Islands,
-central_part_of:african_republic,Central African Republic,
-cfc,CFC,Chlorofluorocarbon
-ch4,CH4,Methane
-chad,Chad,
-chemical_compound,Chemical Compound,
-chemical_oxygen_demand,Chemical Oxygen Demand,
-child_mortality,Child mortality,
-chile,Chile,
-china,China,
-clean_water,Clean water,
-climate,Climate,
-climate_change,Climate change,
-climate_hazard,Climate Hazard,
-climate_model,Climate Model,
-climate_stressor,Climate Stressor,
-co,CO,Carbon Monoxide
-CO2,CO2,Carbon Dioxide
-coal,Coal,
-coast,Coast,
-coastal_erosion,Coastal Erosion,
-coastal_flooding,Coastal Flooding,
-cold_wave,Cold wave,
-colombia,Colombia,
-commerce,Commerce,
-commodity,Commodity,
-comoros,Comoros,
-conflict,Conflict,
-congo,Congo,
-conservation,Conservation,
-continent,Continent,
-cook_islands,Cook islands,
-coral_reef,Coral reef,coral
-coral_sea_islands_territory,Coral Sea Islands Territory,
-corruption,Corruption,
-costa_rica,Costa Rica,
-country,Country,
-croatia,Croatia,
-crop,Crop,
-crop_health,Crop health,
-crop_yield,Crop yield,
-crown_dependency,Crown Dependency,
-cuba,Cuba,
-curacao,Curaçao,
-cyprus,Cyprus,
-czech_republic,Czech Republic,
-daily,Daily,
-dam,Dam,
-damage,Damage,destruction
-dataset,Dataset,
-dead_zone,Dead Zone,Anoxic Water
-decision_makers,Decision Makers,
-deforestation,Deforestation,
-degradation,Degradation,
-democratic_republic_of_congo,Democratic Republic of the Congo,
-democratic_republic_of_korea,Democratic Republic of Korea,
-demographic,Demographic,
-denmark,Denmark,
-developed,Developed,
-developing,Developing,
-development,Development,
-disaster,Disaster,
-discrimination,Discrimination,
-disease,Disease,
-displaced_people,Displaced people,
-djibouti,Djibouti,
-dominica,Dominica,
-dominican_republic,Dominican Republic,
-drainage_basin,Drainage basin,
-drinking_water,Drinking water,
-drought,Drought,
-early_warning,Early Warning,
-earthquake,Earthquake,
-economic,Economic,
-ecoregion,Ecoregion,
-ecosystem,Ecosystem,
-ecosystem_services,Ecosystem Services,
-ecuador,Ecuador,
-education,Education,
-egypt,Egypt,
-el_salvador,El Salvador,
-electricity,Electricity,
-emergency_response,Emergency Response,
-emergency_services,Energency Services,
-emissions,Emissions,
-endangered,Endangered,
-energy,Energy,
-energy_access,Energy access,
-energy_efficiency,Energy efficiency,
-energy_hazard,Energy hazard,
-energy_infrastructure,Energy Infrastucture,
-energy_production,Energy production,
-energy_demand,Energy demand,
-environment,Environment,
-environmental_health,Environmental health,
-environmental_quality,Environmental quality,
-equatorial_guinea,Equtorial Guinea,
-eritrea,Eritrea,
-erosion,Erosion,
-eruption,Eruption,
-estonia,Estonia,
-ethiopia,Ethiopia,
-eu,EU,European Union
-europe,Europe,
-european_free_trade_association,European Free Trade Association,
-eutrophication,Eutrophication,
-event,Event,
-exploitation,Exploitation,
-explosion,Explosion,
-exposure,Exposure,
-extinction,Extinction,
-extreme_event,Extreme event,
-falkland_islands,Falkland Islands,
-famine,Famine,
-farmland,Farmland,
-faroe_islands,Faroe Islands,
-fauna,Fauna,
-fertilizer,Fertilizer,
-fiji,Fiji,
-financial_loss,Financial Loss,
-finland,Finlad,
-fire,Fire,
-fish,Fish,
-fishery,Fishery,
-fishing,Fishing,
-flood,Flood,
-flora,Flora,
-food,Food,
-food_price,Food price,
-food_security,Food security,
-food_supply,Food supply,
-food_waste,Food waste,
-forest,Forest,
-forest_cover,Forest cover,
-forest_gain,Forest gain,
-forest_loss,Forest loss,
-fossil_fuel,Fossil fuel,
-fragility,Fragility,
-france,France,
-french_polynesia,French Polynesia,
-french_southern_and_antarctic_lands,French Southern and Antarctic lands,
-frequency,Frequency,
-fresh_water,Fresh water,
-frozen_water,Frozen water,
-fuel,Fuel,
-gabon,Gabon,
-gambia,Gambia,
-gdp,GDP,Gross Domestic Product
-gender,Gender,
-general,General,
-georgia,Georgia,
-geospatial,Geospatial,
-geothermal,Geothermal,
-germany,Germany,
-ghana,Ghana,
-ghg,GHG,Greenhouse gas
-gibraltar,Gibraltar,
-gini_index,GINI index,
-glacier,Glacier,
-global,Global,
-governance,Governance,government
-greece,Greece,
-greenland,Greenland,
-greenspace,Greenspace,
-grenada,Grenada,
-ground_water,Groundwater,
-guam,Guam,
-guatemala,Guatemala,
-guernsey,Guernsey,
-guinea,Guinea,
-guinea_bissau,Guinea-Bissau,
-guyana,Guyana,
-habitat,Habitat,
-habitat_loss,Habitat loss,
-haiti,Haiti,
-harmful_algal_blooms,Harmful algal blooms,
-hazard,Hazard,
-health,Health,
-heard_island_and_mcdoland_islands,Heard Island and McDonald Islands,
-heat_island,Heat Island,
-heat_wave,Heat wave,
-high_income,High Income,
-honduras,Honduras,
-hong_kong,Hong Kong,
-human_impact,Human impact,
-human_rights,Human rights,
-hungary,Hungary,
-hunger,Hunger,
-hunting,Hunting,
-hurricane,Hurricane,typhoon
-hydropower,Hydropower,
-ice,Ice,
-iceland,Iceland,
-illegal_activity,Illegal activity,
-illiterate,Illiterate,
-impact,Impact,
-impervious_surface,Impervious surface,
-india,India,
-indicator,Indicator,
-Indigenous_rights,Indigenous Rights,
-indonesia,Indonesia,
-inequality,Inequality,
-infant_mortality,Infant mortality,
-infrastructure,Infrastructure,
-installation,Installation,
-intact_forest,Intact forest,
-internally_displaced,Internally displaced,
-iran,Iran,
-iraq,Iraq,
-ireland,Ireland,
-irrigation,Irrigation,
-island,Island,
-isle_of_man,Isle of Man,
-israel,Israel,
-italy,Italy,
-ivory_coast,Ivory Coast,
-jamaica,Jamaica,
-japan,Japan,
-jersey,Jersey,
-jordan,Jordan,
-justice,Justice,
-kazakhstan,Kazakhstan,
-kenya,Kenya,
-kiribati,Kiribati,
-kuwait,Kuwait,
-kyrgyzstan,Kyrgyzstan,
-lake,Lake,
-lamb,Lamb,
-land,Land,
-land_cover,Land cover,
-land_use,Land use,
-land_rights,Land rights,
-landslide,Landslide,
-laos,Lao People's Democratic Republic,
-latvia,Latvia,
-lebanon,Lebanon,
-lesotho,Lesotho,
-liberia,Liberia,
-libya,Libya,
-liechtenstein,Liechtenstein,
-literacy,Literacy,
-lithuania,Lithuania,
-livestock,Livestock,
-location,Location,
-logging,Logging,
-low_income,Low Income,
-luxembourg,Luxembourg,
-macao,Macao,
-macedonia,Macedonia,
-madagascar,Madagascar,
-maize,Maize,
-malawi,Malawi,
-malaysia,Malaysia,
-maldives,Maldives,
-mali,Mali,
-malnutrition,Malnutrition,
-malta,Malta,
-mammal,Mammal,
-mangrove,Mangrove,
-marine_life,Marine life,
-marshall_islands,Marshall Islands,
-mauritania,Mauritania,
-mauritius,Mauritius,
-mexico,Mexico,
-micronesia,Micronesia,
-middle_income,Middle Income,
-migration,Migration,
-mitigation,Mitigation,
-moldova,Moldova,
-monaco,Monaco,
-mongolia,Mongolia,
-monsoon,Monsoon,
-montenegro,Montenegro,
-monthly,Monthly,
-montserrat,Montserrat,
-morocco,Morocco,
-mortality,Mortality,
-mozambique,Mozambique,
-myanmar,Myanmar,
-n2o,N2O,Nitrogeous Oxide
-namibia,Namibia,
-national_park,National Park,
-natural_disaster,Natural disaster,
-natural_gas,Natural Gas,
-natural_infrastructure,Natural Infrastructure,
-natural_phenomena,Natural phenomena,
-nauru,Nauru,
-near_real_time,Near real time,
-nepal,Nepal,
-netherlands,Netherlands,
-new_caledonia,New Caledonia,
-new_zealand,New Zealand,
-nicaragua,Nicaragua,
-niger,Niger,
-nigeria,Nigeria,
-nitrogen,Nitrogen,
-niue,Niue,
-non_climate_stressor,Non-Climate Stresor,
-nonrenewable_energy,Nonrenewable energy,
-norfolk_island,Norfolk Island,
-north_america,North America,
-northern_mariana_islands,Northern Mariana Islands,
-norway,Norway,
-nuclear_energy,Nuclear,
-nutrients,Nutrients,
-nutrition,Nutrition,
-o3,O3,Ozone
-ocean,Ocean,
-oceania,Oceania,
-oecd,OECD,Organisation for Economic Co-operation and Development
-oil,Oil,
-oil_refinery,Oil refinery,
-oman,Oman,
-overseas_territory,Overseas Territory,
-pakistan,Pakistan,
-palau,Palau,
-palestine,Palestine,
-panama,Panama,
-papua_new_guinea,Papua New Guinea,
-paraguay,Paraguay,
-park,Park,
-pasture,Pasture,grazing
-peru,Peru,
-petroleoum,Petroleum,
-philippines,Philippines,
-phosphorus,Phosphorus,
-pipelines,Pipelines,
-pitcairn_islands,Pitcairn Islands,
-plant,Plant,
-poaching,Poaching,
-poland,Poland,
-political_stability,Political stability,
-pollution,Pollution,
-population,Population,
-portugal,Portugal,
-poverty,Poverty,
-power_lines,Power Lines,
-power_plant,Power plant,
-precipitation,Precipitation,rain|rainfall
-primary_sector,Primary sector,
-probability,Probability,
-process,Process,
-projection,Projection,
-protected_area,Protected Area,
-protest,Protest,
-public_transportation,Public transportation,
-puerto_rico,Puerto Rico,
-qatar,Qatar,
-quality,Quality,
-radiation,Radiation,
-rainfall,Rainfall,
-raster,Raster,
-reef,Reef,
-refugee,Refugee,
-renewable_energy,Renewable,
-republic_of_kosovo,Republic of Kosovo,
-reserve,Reserve,
-resilience,Resilience,
-resilience_planning,Resilience Planning,
-resource,Resource,
-resource_scarcity,Resource scarcity,
-response,Response,
-restoration,Restoration,
-rights,Rights,
-risk,Risk,
-risk_assesment,Risk Assesment,
-risk_management,Risk Management,
-river,River,
-roads,Roads,
-romania,Romania,
-runoff,Runoff,
-russia,Russia,
-rwanda,Rwanda,
-saint_barthelemy,Saint Barthélemy,
-saint_helena,Saint Helena,
-saint_kitts_and_nevis,Saint Kitts and Nevis,
-saint_lucia,Saint Lucia,
-saint_martin,Saint Martin,
-saint_pierre_and_miquelon,Saint Pierre and Miquelon,
-saint_vincent_and_the_grenadines,Saint Vincent and the Grenadines,
-samoa,Samoa,
-san_marino,San Marino,
-sao_tome_and_principe,São Tomé and Principe,
-saudi_arabia,Saudi Arabia,
-schengen_area,Schengen Area,
-school,School,
-sea,Sea,
-sea_ice,Sea ice,
-sea_level,Sea level,
-sea_level_rise,Sea level rise,
-sea_surface_temperature,Sea surface temperature,
-seafood,Seafood,
-seasonality,Seasonality,
-secondary_sector,Secondary sector,
-sector,Sector,
-security,Security,
-sedimentation,Sedimentation,
-senegal,Senegal,
-serbia,Serbia,
-sewage,Sewage,
-seychelles,Seychelles,
-shrimp,Shrimp,
-sierra_leone,Sierra Leone,
-singapore,Singapore,
-sint_marteen,Sint Maarten,
-slope,Slope,
-slovakia,Slovakia,
-slovenia,Slovenia,
-snow,Snow,
-snow_cover,Snow cover,
-so2,SO2,Sulfur Dioxide
-society,Society,people
-soil_type,Soil type,
-solar_energy,Solar energy,
-solomon_islands,Solomon Islands,
-somalia,Somalia,
-south_africa,South Africa,
-south_america,South America,
-south_georgia_and_the_south_sandwich_islands,South Georgia and the South Sandwich Islands,
-south_korea,South Korea,
-south_sudan,South Sudan,
-spain,Spain,
-species,Species,
-spill,Spill,
-sri_lanka,Sri Lanka,
-storm,Storm,
-storm_intensity,Storm intensity,
-storm_surge,Storm Surge,
-stormwater,Stormwater,
-sudan,Sudan,
-supply_chain,Supply Chain,
-suriname,Suriname,
-sustainable_development,Sustainable Development,
-swaziland,Swaziland,
-sweden,Sweden,
-switzerland,Switzerland,
-syria,Syria,
-table,Table,
-taiwan,Taiwan,
-tajikistan,Tajikistan,
-tanzania,Tanzania,
-temperate,Temperate,
-temperature,Temperature,
-temperature_rise,Temperature rise,
-territory,Territory,
-tertiary_sector,Tertiary sector,
-thailand,Thailand,
-thermal_expansion,Thermal_Expansion,
-thorium,Thorium,
-timor_lest,Timor-Leste,
-togo,Togo,
-tonga,Tonga,
-total_suspended_solids,Total suspended solids,
-train,Train,Rail
-transport,Transport,
-transportation,Transportation,
-trend,Trend,
-trinidad_and_tobago,Trinidad and Tobago,
-tropical,Tropical,
-tsunami,Tsunami,
-tunisia,Tunisia,
-turkey,Turkey,
-turkmenistan,Turkmenistan,
-turks_and_calcos_islands,Turks and Calcos Islands,
-tuvalu,Tuvalu,
-typhoon,Typhoon,hurricane
-uganda,Uganda,
-uk,United Kingdom,
-ukraine,Ukraine,
-un,UN,United Nations
-uncertainty,Uncertainty,
-unincorporated_territory,Unincorporated Territory,
-united_arab_emirates,United Arab Emirates,
-united_states_minor_outlying_islands,United States Minort Outlying Islands,
-united_states_virgin_islands,United States Virgin Islands,
-urban,Urban,city, cities
-urban_planning,Urban Planning,
-urbanization,Urbanization,
-uruguay,Uruguay,
-usa,United States,
-uzbekistan,Uzbekistan,
-vanuatu,Vanuatu,
-vatican,Vatican,
-vector,Vector,
-venezuela,Venezuela,
-vietnam,Vietnam,
-volcano,Volcano,
-vulnerability,Vulnerability,
-wallis_and_futuna,Wallis and Futuna,
-waste,Waste,
-wastewater,Wastewater,
-water,Water,
-water_access,Water access,
-water_conflict,Water conflict,
-water_consumption,Water consumption,
-water_demand,Water demand,
-water_extent,Water extent,
-water_pollution,Water pollution,
-water_quality,Water quality,
-water_risk,Water risk,
-water_scarcity,Water scarcity,
-water_security,Water Security,
-water_stress,Water stress,
-water_supply,Water Supply,
-watershed,Watershed,
-wealth,Wealth,
-weekly,Weekly,
-western_sahara,Western Sahara,
-wetland,Wetland,
-wildfire,Wildfire,
-wind,Wind,
-wind_energy,Wind energy,
-women,Women,
-yemen,Yemen,
-zambia,Zambia,
-zimbabwe,Zimbabwe,
-wheat,Wheat,
-corn,Corn,
-soy,Soy,
-rice,Rice,
-food_production,Food production,
-public_service,Public service,
-hospital,Hospital,
+accessibility,Accessibility,,urban
+acidification,Acidification,,process
+activity,Activity,,general
+adaptation,Adaptation,,process
+adaptive_capacity,Adaptive Capacity,,asset
+afghanistan,Afghanistan,,asia
+africa,Africa,,continent
+agriculture,Agriculture,,primary_sector
+air_quality,Air quality,,air
+aland,Aland,,finland
+albania,Albania,,europe
+albedo,Albedo,reflectance,
+algeria,Algeria,,africa
+american_samoa,American Samoa,,oceania
+amphibian,Amphibian,,animal
+bird,Bird,,animal
+reptile,Reptile,,animal
+andorra,Andorra,,europe
+angola,Angola,,africa
+anguilla,Anguilla,,north_america
+animal,Animal,,species
+annual,Annual,,frequency
+antarctica,Antarctica,,continent
+antigua_and_barbuda,Antigua and Barbuda,,north_america
+aquaculture,Aquaculture,,primary_sector
+argentina,Argentina,,south_america
+armenia,Armenia,,asia
+aruba,Aruba,,south_america
+asia,Asia,,continent
+asset,Asset,,
+australia,Australia,,oceania
+austria,Austria,,eu
+autonomous_territory,Autonomous Territory,,territory
+azerbaijan,Azerbaijan,,asia
+bahamas,Bahamas,,north_america
+bahrain,Bahrain,,asia
+bangladesh,Bangladesh,,asia
+barbados,Barbados,,north_america
+baseline,Baseline,,climate_model
+beef,Beef,,livestock
+belarus,Belarus,,europe
+belgium,Belgium,,eu
+belize,Belize,,north_america
+benin,Benin,,africa
+bermuda,Bermuda,,uk
+bhutan,Bhutan,,asia
+bike,Bike,,transportation
+biodiversity,Biodiversity,,general
+biological_oxygen_demand,Biological Oxygen Demand,,indicator
+biome,Biome,,climate
+bleaching,Bleaching,,process
+bolivia,Bolivia,,south_america
+boreal,Boreal,,climate
+bosnia_and_herzegovina,Bosnia and Herzegovina,,europe
+botswana,Botswana,,africa
+brazil,Brazil,,south_america
+british_indian_ocean_territory,British Indian Ocean Territory,,uk
+brittish_virgin_islands,Brittish Virgin Islands,,uk
+brunei,Brunei,,asia
+bulgaria,Bulgaria,,eu
+burkina_faso,Burkina Faso,,africa
+burundi,Burundi,,africa
+bus,Bus,,public_transportation
+cambodia,Cambodia,,asia
+cameroon,Cameroon,,africa
+canada,Canada,,north_america
+cape_verde,Cape_Verde,,africa
+car,Car,,transportation
+cayman_islands,Cayman Islands,,uk
+central_part_of:african_republic,Central African Republic,,africa
+cfc,CFC,Chlorofluorocarbon,chemical_compound
+ch4,CH4,Methane,chemical_compound
+chad,Chad,,africa
+chemical_compound,Chemical Compound,,general
+chemical_oxygen_demand,Chemical Oxygen Demand,,indicator
+child_mortality,Child mortality,,indicator
+chile,Chile,,south_america
+china,China,,asia
+clean_water,Clean water,,water
+climate,Climate,,general
+climate_change,Climate change,,climate
+climate_hazard,Climate Hazard,,climate
+climate_model,Climate Model,,climate
+climate_stressor,Climate Stressor,,climate
+co,CO,Carbon Monoxide,chemical_compound
+CO2,CO2,Carbon Dioxide,chemical_compound
+coal,Coal,,fuel
+coast,Coast,,ocean
+coastal_erosion,Coastal Erosion,,coast
+coastal_flooding,Coastal Flooding,,coast
+cold_wave,Cold wave,,extreme_event
+colombia,Colombia,,south_america
+commerce,Commerce,,general
+commodity,Commodity,,general
+comoros,Comoros,,africa
+conflict,Conflict,,event
+congo,Congo,,africa
+conservation,Conservation,,human_activity
+continent,Continent,,global
+cook_islands,Cook islands,,oceania
+coral_reef,Coral reef,coral,marine_life
+coral_sea_islands_territory,Coral Sea Islands Territory,,australia
+corruption,Corruption,,governance
+costa_rica,Costa Rica,,north_america
+country,Country,,global
+croatia,Croatia,,eu
+crop,Crop,,plant
+crop_health,Crop health,,crop
+crop_yield,Crop yield,,crop
+crown_dependency,Crown Dependency,,uk
+cuba,Cuba,,north_america
+curacao,Curaçao,,netherlands
+cyprus,Cyprus,,eu
+czech_republic,Czech Republic,,eu
+daily,Daily,,frequency
+dam,Dam,,energy_infrastructure
+damage,Damage,destruction,event
+dataset,Dataset,,general
+dead_zone,Dead Zone,Anoxic Water,fish
+deforestation,Deforestation,,process
+degradation,Degradation,,activity
+democratic_republic_of_congo,Democratic Republic of the Congo,,africa
+democratic_republic_of_korea,Democratic Republic of Korea,,asia
+demographic,Demographic,,population
+denmark,Denmark,,eu
+developed,Developed,,country
+developing,Developing,,country
+development,Development,,
+disaster,Disaster,,event
+discrimination,Discrimination,,society
+disease,Disease,,health
+displaced_people,Displaced people,,society
+djibouti,Djibouti,,africa
+dominica,Dominica,,north_america
+dominican_republic,Dominican Republic,,north_america
+drainage_basin,Drainage basin,,river
+drinking_water,Drinking water,,water
+drought,Drought,,disaster
+early_warning,Early Warning,,vulnerability
+earthquake,Earthquake,,natural_disaster
+economic,Economic,,general
+ecoregion,Ecoregion,,ecosystem
+ecosystem,Ecosystem,,general
+ecosystem_services,Ecosystem Services,,ecosystem
+ecuador,Ecuador,,south_america
+education,Education,,society
+egypt,Egypt,,africa
+el_salvador,El Salvador,,north_america
+electricity,Electricity,,commodity
+emergency_response,Emergency Response,,resilience
+emergency_services,Energency Services,,public_service
+emissions,Emissions,,pollution
+endangered,Endangered,,species
+energy,Energy,,general
+energy_access,Energy access,,energy
+energy_efficiency,Energy efficiency,,energy
+energy_hazard,Energy hazard,,energy
+energy_infrastructure,Energy Infrastucture,,energy
+energy_production,Energy production,,energy
+energy_demand,Energy demand,,energy
+environment,Environment,,general
+environmental_health,Environmental health,,envinroment
+environmental_quality,Environmental quality,,envinroment
+equatorial_guinea,Equtorial Guinea,,africa
+eritrea,Eritrea,,africa
+erosion,Erosion,,process
+eruption,Eruption,,extreme_event
+estonia,Estonia,,eu
+ethiopia,Ethiopia,,africa
+eu,EU,European Union,europe
+europe,Europe,,continent
+european_free_trade_association,European Free Trade Association,,europe
+eutrophication,Eutrophication,,process
+event,Event,,general
+exploitation,Exploitation,,human_activity
+explosion,Explosion,,event
+exposure,Exposure,,resilience
+extinction,Extinction,,species
+extreme_event,Extreme event,,event
+falkland_islands,Falkland Islands,,uk
+famine,Famine,,disaster
+farmland,Farmland,,food
+faroe_islands,Faroe Islands,,denmark
+fauna,Fauna,,animal
+fertilizer,Fertilizer,,agriculture
+fiji,Fiji,,oceania
+financial_loss,Financial Loss,,economic
+finland,Finlad,,eu
+fire,Fire,,disaster
+fish,Fish,,animal
+fishery,Fishery,,fish
+fishing,Fishing,,fishing
+flood,Flood,,disaster
+flora,Flora,,envinroment
+food,Food,,general
+food_price,Food price,,food
+food_security,Food security,,food
+food_supply,Food supply,,food
+food_waste,Food waste,,food
+forest,Forest,,envinroment
+forest_cover,Forest cover,,forest
+forest_gain,Forest gain,,forest
+forest_loss,Forest loss,,forest
+fossil_fuel,Fossil fuel,,fuel
+fragility,Fragility,,quality
+france,France,,eu
+french_polynesia,French Polynesia,,france
+french_southern_and_antarctic_lands,French Southern and Antarctic lands,,france
+frequency,Frequency,,general
+fresh_water,Fresh water,,water
+frozen_water,Frozen water,,water
+fuel,Fuel,,commodity
+gabon,Gabon,,africa
+gambia,Gambia,,africa
+gdp,GDP,Gross Domestic Product,economic
+gender,Gender,,society
+general,General,,
+georgia,Georgia,,europe
+geospatial,Geospatial,,dataset
+geothermal,Geothermal,,renewable_energy
+germany,Germany,,eu
+ghana,Ghana,,africa
+ghg,GHG,Greenhouse gas,climate_change
+gibraltar,Gibraltar,,uk
+gini_index,GINI index,,indicator
+glacier,Glacier,,frozen_water
+global,Global,,location
+governance,Governance,government,society
+greece,Greece,,eu
+greenland,Greenland,,denmark
+greenspace,Greenspace,,urban
+grenada,Grenada,,north_america
+ground_water,Groundwater,,water
+guam,Guam,,oceania
+guatemala,Guatemala,,north_america
+guernsey,Guernsey,,crown_dependency
+guinea,Guinea,,africa
+guinea_bissau,Guinea-Bissau,,africa
+guyana,Guyana,,south_america
+habitat,Habitat,,ecosystem
+habitat_loss,Habitat loss,,habitat
+haiti,Haiti,,north_america
+harmful_algal_blooms,Harmful algal blooms,,disaster
+hazard,Hazard,,event
+health,Health,,society
+heard_island_and_mcdoland_islands,Heard Island and McDonald Islands,,australia
+heat_island,Heat Island,,temperature
+heat_wave,Heat wave,,extreme_event
+high_income,High Income,,society
+honduras,Honduras,,north_america
+hong_kong,Hong Kong,,asia
+human_impact,Human impact,,society
+human_rights,Human rights,,rights
+hungary,Hungary,,eu
+hunger,Hunger,,food
+hunting,Hunting,,human_activity
+hurricane,Hurricane,typhoon,natural_disaster
+hydropower,Hydropower,,renewable_energy
+ice,Ice,,frozen_water
+iceland,Iceland,,europe
+illegal_activity,Illegal activity,,human_activity
+illiterate,Illiterate,,education
+impact,Impact,,damage
+impervious_surface,Impervious surface,,flooding
+india,India,,asia
+indicator,Indicator,,general
+Indigenous_rights,Indigenous Rights,,rights
+indonesia,Indonesia,,asia
+inequality,Inequality,,economic
+infant_mortality,Infant mortality,,health
+infrastructure,Infrastructure,,asset
+installation,Installation,,infrastructure
+intact_forest,Intact forest,,forest
+internally_displaced,Internally displaced,,displaced_people
+iran,Iran,,asia
+iraq,Iraq,,asia
+ireland,Ireland,,eu
+irrigation,Irrigation,,crop
+island,Island,,general
+isle_of_man,Isle of Man,,crown_dependency
+israel,Israel,,asia
+italy,Italy,,eu
+ivory_coast,Ivory Coast,,africa
+jamaica,Jamaica,,north_america
+japan,Japan,,asia
+jersey,Jersey,,crown_dependency
+jordan,Jordan,,asia
+justice,Justice,,rights
+kazakhstan,Kazakhstan,,asia
+kenya,Kenya,,africa
+kiribati,Kiribati,,oceania
+kuwait,Kuwait,,asia
+kyrgyzstan,Kyrgyzstan,,asia
+lake,Lake,,water
+lamb,Lamb,,livestock
+land,Land,,general
+land_cover,Land cover,,land
+land_use,Land use,,land
+land_rights,Land rights,,land
+landslide,Landslide,,natural_disaster
+laos,Lao People's Democratic Republic,,asia
+latvia,Latvia,,eu
+lebanon,Lebanon,,asia
+lesotho,Lesotho,,africa
+liberia,Liberia,,africa
+libya,Libya,,africa
+liechtenstein,Liechtenstein,,europe
+literacy,Literacy,,education
+lithuania,Lithuania,,eu
+livestock,Livestock,,food
+location,Location,,general
+logging,Logging,,secondary_sector
+low_income,Low Income,,economic
+luxembourg,Luxembourg,,eu
+macao,Macao,,china
+macedonia,Macedonia,,europe
+madagascar,Madagascar,,africa
+maize,Maize,,crop
+malawi,Malawi,,africa
+malaysia,Malaysia,,asia
+maldives,Maldives,,asia
+mali,Mali,,africa
+malnutrition,Malnutrition,,health
+malta,Malta,,eu
+mammal,Mammal,,animal
+mangrove,Mangrove,,forest
+marine_life,Marine life,,ocean
+marshall_islands,Marshall Islands,,oceania
+mauritania,Mauritania,,africa
+mauritius,Mauritius,,africa
+mexico,Mexico,,north_america
+micronesia,Micronesia,,oceania
+middle_income,Middle Income,,economic
+migration,Migration,,refugee
+mitigation,Mitigation,,process
+moldova,Moldova,,europe
+monaco,Monaco,,europe
+mongolia,Mongolia,,asia
+monsoon,Monsoon,,precipitation
+montenegro,Montenegro,,europe
+monthly,Monthly,,frequency
+montserrat,Montserrat,,uk
+morocco,Morocco,,africa
+mortality,Mortality,,health
+mozambique,Mozambique,,africa
+myanmar,Myanmar,,asia
+n2o,N2O,Nitrogeous Oxide,chemical_compound
+namibia,Namibia,,africa
+national_park,National Park,,conservation
+natural_disaster,Natural disaster,,disaster
+natural_gas,Natural Gas,,fuel
+natural_infrastructure,Natural Infrastructure,,infrastructure
+natural_phenomena,Natural phenomena,,general
+nauru,Nauru,,oceania
+near_real_time,Near real time,,frequency
+nepal,Nepal,,asia
+netherlands,Netherlands,,eu
+new_caledonia,New Caledonia,,france
+new_zealand,New Zealand,,oceania
+nicaragua,Nicaragua,,north_america
+niger,Niger,,africa
+nigeria,Nigeria,,africa
+nitrogen,Nitrogen,,chemical_compound
+niue,Niue,,oceania
+non_climate_stressor,Non-Climate Stresor,,trend
+nonrenewable_energy,Nonrenewable energy,,energy_production
+norfolk_island,Norfolk Island,,australia
+north_america,North America,,continent
+northern_mariana_islands,Northern Mariana Islands,,usa
+norway,Norway,,europe
+nuclear_energy,Nuclear,,energy_production
+nutrients,Nutrients,,plant
+nutrition,Nutrition,,food
+o3,O3,Ozone,chemical_compound
+ocean,Ocean,,water
+oceania,Oceania,,continent
+oecd,OECD,Organisation for Economic Co-operation and Development,economic
+oil,Oil,,fuel
+oil_refinery,Oil refinery,,oil
+oman,Oman,,asia
+overseas_territory,Overseas Territory,,territory
+pakistan,Pakistan,,asia
+palau,Palau,,oceania
+palestine,Palestine,,asia
+panama,Panama,,north_america
+papua_new_guinea,Papua New Guinea,,oceania
+paraguay,Paraguay,,south_america
+park,Park,,urban
+pasture,Pasture,grazing,land_use
+peru,Peru,,south_america
+petroleoum,Petroleum,,fuel
+philippines,Philippines,,asia
+phosphorus,Phosphorus,,chemical_compound
+pipelines,Pipelines,,energy_infrastructure
+pitcairn_islands,Pitcairn Islands,,oceania
+plant,Plant,,flora
+poaching,Poaching,,human_activity
+poland,Poland,,eu
+political_stability,Political stability,,governance
+pollution,Pollution,,environmental_quality
+population,Population,,society
+portugal,Portugal,,eu
+poverty,Poverty,,economic
+power_lines,Power Lines,,energy_infrastructure
+power_plant,Power plant,,energy_infrastructure
+precipitation,Precipitation,rain|rainfall,water
+primary_sector,Primary sector,,sector
+probability,Probability,,general
+process,Process,,general
+projection,Projection,,climate_model
+protected_area,Protected Area,,conservation
+protest,Protest,,governance
+public_transportation,Public transportation,,transportation
+puerto_rico,Puerto Rico,,north_america
+qatar,Qatar,,asia
+quality,Quality,,general
+radiation,Radiation,,energy_hazard
+rainfall,Rainfall,,precipitation
+raster,Raster,,dataset
+reef,Reef,,habitat
+refugee,Refugee,,displaced_people
+renewable_energy,Renewable,,energy_production
+republic_of_kosovo,Republic of Kosovo,,europe
+reserve,Reserve,,conservation
+resilience,Resilience,,quality
+resilience_planning,Resilience Planning,,process
+resource,Resource,,asset
+resource_scarcity,Resource scarcity,,resource
+response,Response,,general
+restoration,Restoration,,human_activity
+rights,Rights,,society
+risk,Risk,,general
+risk_assesment,Risk Assesment,,risk
+risk_management,Risk Management,,risk
+river,River,,water
+roads,Roads,,infrastructure
+romania,Romania,,eu
+runoff,Runoff,,precipitation
+russia,Russia,,asia
+rwanda,Rwanda,,africa
+saint_barthelemy,Saint Barthélemy,,north_america
+saint_helena,Saint Helena,,uk
+saint_kitts_and_nevis,Saint Kitts and Nevis,,north_america
+saint_lucia,Saint Lucia,,north_america
+saint_martin,Saint Martin,,france
+saint_pierre_and_miquelon,Saint Pierre and Miquelon,,france
+saint_vincent_and_the_grenadines,Saint Vincent and the Grenadines,,north_america
+samoa,Samoa,,oceania
+san_marino,San Marino,,europe
+sao_tome_and_principe,São Tomé and Principe,,africa
+saudi_arabia,Saudi Arabia,,africa
+schengen_area,Schengen Area,,europe
+school,School,,education
+sea,Sea,,water
+sea_ice,Sea ice,,frozen_water
+sea_level,Sea level,,sea
+sea_level_rise,Sea level rise,,sea_level
+sea_surface_temperature,Sea surface temperature,,sea
+seafood,Seafood,,food_production
+seasonality,Seasonality,,frequency
+secondary_sector,Secondary sector,,sector
+sector,Sector,,general
+security,Security,,society
+sedimentation,Sedimentation,,process
+senegal,Senegal,,africa
+serbia,Serbia,,europe
+sewage,Sewage,,wastewater
+seychelles,Seychelles,,africa
+shrimp,Shrimp,,seafood
+sierra_leone,Sierra Leone,,africa
+singapore,Singapore,,asia
+sint_marteen,Sint Maarten,,netherlands
+slope,Slope,,landslide
+slovakia,Slovakia,,eu
+slovenia,Slovenia,,eu
+snow,Snow,,frozen_water
+snow_cover,Snow cover,,snow
+so2,SO2,Sulfur Dioxide,chemical_compound
+society,Society,people,general
+solar_energy,Solar energy,,renewable_energy
+solomon_islands,Solomon Islands,,oceania
+somalia,Somalia,,africa
+south_africa,South Africa,,africa
+south_america,South America,,continent
+south_georgia_and_the_south_sandwich_islands,South Georgia and the South Sandwich Islands,,uk
+south_korea,South Korea,,asia
+south_sudan,South Sudan,,africa
+spain,Spain,,eu
+species,Species,,biodiversity
+spill,Spill,,energy_hazard
+sri_lanka,Sri Lanka,,asia
+storm,Storm,,natural_phenomena
+storm_intensity,Storm intensity,,storm
+storm_surge,Storm Surge,,storm
+stormwater,Stormwater,,storm
+sudan,Sudan,,africa
+supply_chain,Supply Chain,,commerce
+suriname,Suriname,,south_america
+sustainable_development,Sustainable Development,,development
+swaziland,Swaziland,,africa
+sweden,Sweden,,eu
+switzerland,Switzerland,,europe
+syria,Syria,,asia
+table,Table,,dataset
+taiwan,Taiwan,,asia
+tajikistan,Tajikistan,,asia
+tanzania,Tanzania,,africa
+temperate,Temperate,,climate_zone
+temperature,Temperature,,climate
+temperature_rise,Temperature rise,,temperature
+territory,Territory,,global
+tertiary_sector,Tertiary sector,,sector
+thailand,Thailand,,asia
+thermal_expansion,Thermal_Expansion,,temperature
+thorium,Thorium,,chemical_compound
+timor_lest,Timor-Leste,,asia
+togo,Togo,,africa
+tonga,Tonga,,oceania
+total_suspended_solids,Total suspended solids,,indicator
+train,Train,Rail,public_transportation
+transportation,Transportation,Transport,urban
+trend,Trend,,climate_model
+trinidad_and_tobago,Trinidad and Tobago,,south_america
+tropical,Tropical,,climate_zone
+tsunami,Tsunami,,natural_disaster
+tunisia,Tunisia,,africa
+turkey,Turkey,,asia
+turkmenistan,Turkmenistan,,asia
+turks_and_calcos_islands,Turks and Calcos Islands,,uk
+tuvalu,Tuvalu,,oceania
+typhoon,Typhoon,hurricane,natural_disaster
+uganda,Uganda,,africa
+uk,United Kingdom,,europe
+ukraine,Ukraine,,europe
+un,UN,United Nations,general
+uncertainty,Uncertainty,,climate_model
+unincorporated_territory,Unincorporated Territory,,usa
+united_arab_emirates,United Arab Emirates,,asia
+united_states_minor_outlying_islands,United States Minort Outlying Islands,,usa
+united_states_virgin_islands,United States Virgin Islands,,usa
+urban,Urban,city, cities,general
+urban_planning,Urban Planning,,urban
+urbanization,Urbanization,,urban
+uruguay,Uruguay,,south_america
+usa,United States,,north_america
+uzbekistan,Uzbekistan,,asia
+vanuatu,Vanuatu,,oceania
+vatican,Vatican,,europe
+vector,Vector,,dataset
+venezuela,Venezuela,,south_america
+vietnam,Vietnam,,asia
+volcano,Volcano,,natural_disaster
+vulnerability,Vulnerability,,quality
+wallis_and_futuna,Wallis and Futuna,,france
+waste,Waste,,urban
+wastewater,Wastewater,,waster
+water,Water,,general
+water_access,Water access,,water
+water_conflict,Water conflict,,water
+water_consumption,Water consumption,,water
+water_demand,Water demand,,water
+water_extent,Water extent,,water
+water_pollution,Water pollution,,water
+water_quality,Water quality,,water
+water_risk,Water risk,,water
+water_scarcity,Water scarcity,,water
+water_security,Water Security,,water
+water_stress,Water stress,,water
+water_supply,Water Supply,,water
+watershed,Watershed,,water
+wealth,Wealth,,economic
+weekly,Weekly,,frequency
+western_sahara,Western Sahara,,africa
+wetland,Wetland,,land
+wildfire,Wildfire,,fire
+wind,Wind,,natural_phenomena
+wind_energy,Wind energy,,renewable_energy
+women,Women,,people
+yemen,Yemen,,asia
+zambia,Zambia,,africa
+zimbabwe,Zimbabwe,,africa
+wheat,Wheat,,crop
+corn,Corn,,crop
+soy,Soy,,crop
+rice,Rice,,crop
+food_production,Food production,,food
+public_service,Public service,,society
+hospital,Hospital,,public_service

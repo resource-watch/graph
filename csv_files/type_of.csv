@@ -49,6 +49,7 @@ farmland,land_use
 fauna,animal
 fish,species
 fishing,human_activity
+fossil_fuel,fuel
 fresh_water,water
 frozen_water,water
 gender,rights
@@ -58,7 +59,7 @@ glacier,frozen_water
 habitat,ecosystem
 harmful_algal_blooms,pollution
 heat_wave,extreme_event
-high_income,country
+high_income,society
 human_rights,rights
 hunting,human_activity
 hurricane,natural_disaster
@@ -78,17 +79,16 @@ landslide,natural_disaster
 landslide,natural_phenomena
 livestock,food
 livestock,animal
-low_income,country
 maize,crop
 mammal,animal
 mangrove,forest
 mangrove,natural_infrastructure
-middle_income,country
 monthly,frequency
 n2o,ghg
 natural_disaster,disaster
 natural_gas,fuel
 natural_gas,nonrenewable_energy
+natural_infrastructure,infrastructure
 near_real_time,frequency
 nonrenewable_energy,energy_production
 nuclear_energy,energy_production
@@ -127,7 +127,6 @@ seafood,food_production
 sewage,wastewater
 shrimp,seafood
 snow,frozen_water
-snow_cover,frozen_water
 so2,chemical_compound
 solar_energy,renewable_energy
 spill,energy_hazard
@@ -158,7 +157,7 @@ weekly,frequency
 wildfire,fire
 wind_energy,renewable_energy
 women,rights
-women,person
+women,people
 wheat,crop
 corn,crop
 soy,crop

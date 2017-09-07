@@ -21,7 +21,7 @@ public class ExportToCSVFiles {
             ArrayList<String> relTypes = new ArrayList<>();
             HashMap<String, BufferedWriter> writersMap = new HashMap<>();
 
-            for(int i=4;i<columns.length;i++){
+            for(int i=5;i<columns.length;i++){
                 String relName = columns[i];
                 relTypes.add(relName);
                 writersMap.put(relName, new BufferedWriter(new FileWriter(new File("csv_files/" + relName + ".csv"))));
@@ -39,13 +39,17 @@ public class ExportToCSVFiles {
                 if (values.length > 3) {
                     synonymsSt = values[3].trim();
                 }
-                nodesFileWriter.write( valueID.trim() + "," + values[2].trim() + "," + synonymsSt + "\n");
-                for(int i=4;i<values.length;i++){
+                String defalutParentSt = "";
+                if (values.length > 4) {
+                    defalutParentSt = values[4];
+                }
+                nodesFileWriter.write( valueID.trim() + "," + values[2].trim() + "," + synonymsSt + "," + defalutParentSt + "\n");
+                for(int i=5;i<values.length;i++){
                     String relValue = values[i].trim();
                     if(relValue.length() > 0){
                         String[] relColumns = relValue.split(",");
                         for(String relColumn : relColumns){
-                            writersMap.get(relTypes.get(i-4)).write(valueID + "," + relColumn.trim() + "\n");
+                            writersMap.get(relTypes.get(i-5)).write(valueID + "," + relColumn.trim() + "\n");
                         }
                     }
                 }

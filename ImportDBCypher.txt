@@ -1,9 +1,7 @@
-// IMPORT NODES
-
 LOAD CSV FROM 'file:///nodes.csv'
 AS line
 WITH line
-MERGE (c:CONCEPT { id: line[0], label: line[1], synonyms: CASE line[2] WHEN null THEN '' ELSE split(line[2],'|') END })
+MERGE (c:CONCEPT { id: line[0], label: line[1], synonyms: CASE line[2] WHEN null THEN '' ELSE split(line[2],'|') END, default_parent: CASE line[3] WHEN null THEN '' else line[3] END})
 
 // AFFECTS relationships
 LOAD CSV FROM 'file:///affects.csv'
