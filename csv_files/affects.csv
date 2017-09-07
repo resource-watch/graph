@@ -11,7 +11,6 @@ adaptive_capacity,impact
 agriculture,erosion
 agriculture,nutrients
 agriculture,water_availability
-climate,temperature
 climate,precipitation
 climate_change,temperature
 climate_change,thermal_expansion
@@ -42,7 +41,6 @@ drought,malnutrition
 early_warning,vulnerability
 early_warning,response
 economic,vulnerability
-economic,damage
 ecosystem_services,food
 ecosystem_services,air_quality
 ecosystem_services,water_quality
@@ -93,7 +91,6 @@ hazard,vulnerability
 hazard,response
 hazard,sensitivity
 hazard,risk
-health,mortality
 human_impact,biodiversity
 human_impact,climate
 hunger,nutrition
@@ -148,14 +145,12 @@ seasonality,monsoon
 seasonality,hurricane
 seasonality,typhoon
 sewage,water_quality
-snow,snow_cover
 society,food_waste
 storm_surge,damage
 stormwater,runoff
 sustainable_development,economic
 sustainable_development,developing
 sustainable_development,climate_change
-temperature,thermal_expansion
 temperature,sea_level_rise
 temperature,sea_ice
 temperature,snow_cover

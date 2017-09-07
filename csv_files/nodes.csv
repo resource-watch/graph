@@ -13,8 +13,6 @@ albedo,Albedo,reflectance,
 algeria,Algeria,,africa
 american_samoa,American Samoa,,oceania
 amphibian,Amphibian,,animal
-bird,Bird,,animal
-reptile,Reptile,,animal
 andorra,Andorra,,europe
 angola,Angola,,africa
 anguilla,Anguilla,,north_america
@@ -48,6 +46,7 @@ bike,Bike,,transportation
 biodiversity,Biodiversity,,general
 biological_oxygen_demand,Biological Oxygen Demand,,indicator
 biome,Biome,,climate
+bird,Bird,,animal
 bleaching,Bleaching,,process
 bolivia,Bolivia,,south_america
 boreal,Boreal,,climate
@@ -100,6 +99,7 @@ continent,Continent,,global
 cook_islands,Cook islands,,oceania
 coral_reef,Coral reef,coral,marine_life
 coral_sea_islands_territory,Coral Sea Islands Territory,,australia
+corn,Corn,,crop
 corruption,Corruption,,governance
 costa_rica,Costa Rica,,north_america
 country,Country,,global
@@ -153,11 +153,11 @@ emissions,Emissions,,pollution
 endangered,Endangered,,species
 energy,Energy,,general
 energy_access,Energy access,,energy
+energy_demand,Energy demand,,energy
 energy_efficiency,Energy efficiency,,energy
 energy_hazard,Energy hazard,,energy
 energy_infrastructure,Energy Infrastucture,,energy
 energy_production,Energy production,,energy
-energy_demand,Energy demand,,energy
 environment,Environment,,general
 environmental_health,Environmental health,,envinroment
 environmental_quality,Environmental quality,,envinroment
@@ -194,6 +194,7 @@ flood,Flood,,disaster
 flora,Flora,,envinroment
 food,Food,,general
 food_price,Food price,,food
+food_production,Food production,,food
 food_security,Food security,,food
 food_supply,Food supply,,food
 food_waste,Food waste,,food
@@ -249,6 +250,7 @@ heat_wave,Heat wave,,extreme_event
 high_income,High Income,,society
 honduras,Honduras,,north_america
 hong_kong,Hong Kong,,asia
+hospital,Hospital,,public_service
 human_impact,Human impact,,society
 human_rights,Human rights,,rights
 hungary,Hungary,,eu
@@ -295,8 +297,8 @@ lake,Lake,,water
 lamb,Lamb,,livestock
 land,Land,,general
 land_cover,Land cover,,land
-land_use,Land use,,land
 land_rights,Land rights,,land
+land_use,Land use,,land
 landslide,Landslide,,natural_disaster
 laos,Lao People's Democratic Republic,,asia
 latvia,Latvia,,eu
@@ -410,6 +412,7 @@ process,Process,,general
 projection,Projection,,climate_model
 protected_area,Protected Area,,conservation
 protest,Protest,,governance
+public_service,Public service,,society
 public_transportation,Public transportation,,transportation
 puerto_rico,Puerto Rico,,north_america
 qatar,Qatar,,asia
@@ -420,6 +423,7 @@ raster,Raster,,dataset
 reef,Reef,,habitat
 refugee,Refugee,,displaced_people
 renewable_energy,Renewable,,energy_production
+reptile,Reptile,,animal
 republic_of_kosovo,Republic of Kosovo,,europe
 reserve,Reserve,,conservation
 resilience,Resilience,,quality
@@ -428,6 +432,7 @@ resource,Resource,,asset
 resource_scarcity,Resource scarcity,,resource
 response,Response,,general
 restoration,Restoration,,human_activity
+rice,Rice,,crop
 rights,Rights,,society
 risk,Risk,,general
 risk_assesment,Risk Assesment,,risk
@@ -485,6 +490,7 @@ south_america,South America,,continent
 south_georgia_and_the_south_sandwich_islands,South Georgia and the South Sandwich Islands,,uk
 south_korea,South Korea,,asia
 south_sudan,South Sudan,,africa
+soy,Soy,,crop
 spain,Spain,,eu
 species,Species,,biodiversity
 spill,Spill,,energy_hazard
@@ -572,6 +578,7 @@ wealth,Wealth,,economic
 weekly,Weekly,,frequency
 western_sahara,Western Sahara,,africa
 wetland,Wetland,,land
+wheat,Wheat,,crop
 wildfire,Wildfire,,fire
 wind,Wind,,natural_phenomena
 wind_energy,Wind energy,,renewable_energy
@@ -579,10 +586,3 @@ women,Women,,people
 yemen,Yemen,,asia
 zambia,Zambia,,africa
 zimbabwe,Zimbabwe,,africa
-wheat,Wheat,,crop
-corn,Corn,,crop
-soy,Soy,,crop
-rice,Rice,,crop
-food_production,Food production,,food
-public_service,Public service,,society
-hospital,Hospital,,public_service

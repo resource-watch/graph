@@ -1,11 +1,10 @@
 amphibian,animal
-bird,animal
-reptile,animal
 animal,species
 annual,frequency
 aquaculture,land_use
 beef,livestock
 bike,transportation
+bird,animal
 boreal,habitat
 boreal,climate_zone
 bus,public_transportation
@@ -24,6 +23,7 @@ coastal_flooding,flooding
 cold_wave,extreme_event
 conservation,human_activity
 coral_reef,marine_life
+corn,crop
 crop_health,indicator
 crop_yield,indicator
 daily,frequency
@@ -60,6 +60,7 @@ habitat,ecosystem
 harmful_algal_blooms,pollution
 heat_wave,extreme_event
 high_income,society
+hospital,public_service
 human_rights,rights
 hunting,human_activity
 hurricane,natural_disaster
@@ -114,8 +115,10 @@ raster,dataset
 reef,habitat
 refugee,displaced_people
 renewable_energy ,energy_production
+reptile,animal
 resource,asset
 restoration,human_activity
+rice,crop
 river,surface_water
 roads,infrastructure
 roads,public_service
@@ -129,6 +132,7 @@ shrimp,seafood
 snow,frozen_water
 so2,chemical_compound
 solar_energy,renewable_energy
+soy,crop
 spill,energy_hazard
 sustainable_development,development
 table,dataset
@@ -154,12 +158,8 @@ water_pollution,pollution
 water_scarcity,resource_scarcity
 water_stress,resource _scarcity
 weekly,frequency
+wheat,crop
 wildfire,fire
 wind_energy,renewable_energy
 women,rights
 women,people
-wheat,crop
-corn,crop
-soy,crop
-rice,crop
-hospital,public_service

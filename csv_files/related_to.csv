@@ -60,11 +60,11 @@ emergency_services,emergency_response
 endangered,species
 energy,general
 energy_access,energy
+energy_demand,energy
 energy_efficiency,energy
 energy_hazard,energy
 energy_infrastructure,energy
 energy_production,energy
-energy_demand,energy
 environment,general
 europe,global
 event,general
@@ -81,6 +81,7 @@ flood,water
 flora,environment
 food,general
 food_price,food
+food_production,food
 food_security,food
 food_supply,food
 food_waste,food
@@ -122,9 +123,9 @@ lamb,livestock
 lamb,mammal
 land,general
 land_cover,land
-land_use,land
 land_rights,society
 land_rights,land
+land_use,land
 landslide,disaster
 literacy,education
 livestock,primary_sector
@@ -168,6 +169,7 @@ process,general
 protected_area,biodiversity
 protected_area,conservation
 protest,governance
+public_service,society
 quality,general
 radiation,nuclear
 reserve,biodiversity
@@ -233,5 +235,3 @@ watershed,water
 wealth,economic
 wetland,water
 wetland,land
-food_production,food
-public_service,society

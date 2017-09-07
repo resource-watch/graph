@@ -31,6 +31,7 @@ fertilizer,agriculture
 finland,eu
 finland,schengen_area
 finland,oecd
+food_production,agriculture
 france,eu
 france,schengen_area
 france,oecd
@@ -88,4 +89,3 @@ train,accessibility
 trend,climate_model
 uk,eu
 uk,oecd
-food_production,agriculture

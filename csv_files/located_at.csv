@@ -30,8 +30,6 @@ reserve,land
 schengen_area,europe
 sea_ice,sea
 sea_ice,ocean
-sea_level,sea
-sea_level,ocean
 sea_surface_temperature,sea
 sea_surface_temperature,ocean
 thermal_expansion,ocean
