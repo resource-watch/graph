@@ -92,5 +92,5 @@ WITH collect(
     }
 ) AS edges
 MATCH (a:CONCEPT)
-WITH edges, COLLECT({ id: a.id, label: a.label, synonyms: a.synonyms}) AS nodes
+WITH edges, COLLECT({ id: a.id, label: a.label, synonyms: a.synonyms, default_parent: a.default_parent}) AS nodes
 RETURN { edges: edges, nodes: nodes }
