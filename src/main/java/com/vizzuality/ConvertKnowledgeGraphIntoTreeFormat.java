@@ -19,6 +19,8 @@ public class ConvertKnowledgeGraphIntoTreeFormat {
         File file = new File(fileSt);
 
         try {
+
+            // Read JSON file exported with Cypher
             BufferedReader reader = new BufferedReader(new FileReader(file));
             StringBuffer stringBuffer =  new StringBuffer();
             String line;
@@ -34,6 +36,7 @@ public class ConvertKnowledgeGraphIntoTreeFormat {
 
             HashMap<String, JSONObject> nodesMap = new HashMap<>();
 
+            // Create a map holding the attributes of the nodes stored by ID
             Iterator<Object> iterator = nodes.iterator();
             while(iterator.hasNext()) {
                 JSONObject object = (JSONObject) iterator.next();
@@ -42,6 +45,7 @@ public class ConvertKnowledgeGraphIntoTreeFormat {
 
             HashMap<String, ArrayList<JSONObject>> edgesMap = new HashMap<>(); //target, edge
 
+            // Create a map holding the edges of the graph stored by the ID of the edge target
             iterator = edges.iterator();
             while(iterator.hasNext()) {
                 JSONObject object = (JSONObject) iterator.next();
@@ -54,6 +58,7 @@ public class ConvertKnowledgeGraphIntoTreeFormat {
                 edgesMap.put(object.getString("target"), array);
             }
 
+            // Set including the concepts that have already been added to the tree
             HashSet<String> conceptsAdded = new HashSet();
 
             JSONObject generalConcept = nodesMap.get("general");
@@ -114,13 +119,17 @@ public class ConvertKnowledgeGraphIntoTreeFormat {
         if (children != null && children.size() > 0) {
             JSONArray childrenArray = new JSONArray();
             HashSet<String> alreadyVisited = new HashSet<>();
+
             System.out.println("currentId: " + currentId);
             for (JSONObject child : children) {
                 System.out.println("child: " + child.getString("source"));
                 if (!conceptsAdded.contains(child.getString("source"))) {
                     if (!alreadyVisited.contains(child.getString("source"))) {
                         System.out.println("not visited!");
-                        childrenArray.put(generateJSONForChildren(nodesMap.get(child.getString("source")), edgesMap, nodesMap, conceptsAdded));
+                        if (nodesMap.get(child.getString("source")).get("default_parent").equals(currentId)) {
+                            // We are in the default parent of the child
+                            childrenArray.put(generateJSONForChildren(nodesMap.get(child.getString("source")), edgesMap, nodesMap, conceptsAdded));
+                        }
                     }
                     alreadyVisited.add(child.getString("source"));
                 }
