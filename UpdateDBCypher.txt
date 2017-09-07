@@ -96,7 +96,7 @@ WHERE c.id = c2.id
 MERGE (w)-[:TAGGED_WITH]->(c2)
 
 // =========================================================================================================
-// ============ "REPLICATE" EDGES AMONG WIDGETS -> CONCEPT into WIDGETS -> CONCEPT_NEW =====================
+// ============ "REPLICATE" EDGES AMONG LAYERS -> CONCEPT into LAYERS -> CONCEPT_NEW =======================
 // =========================================================================================================
 
 MATCH (l:LAYER)-[:TAGGED_WITH]->(c:CONCEPT)
