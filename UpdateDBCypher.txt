@@ -126,7 +126,7 @@ SET c :CONCEPT;
 // =========================================================================================================
 
 MATCH (c:CONCEPT_NEW)
-REMOVE c :CONCEPT_NEW
+REMOVE c :CONCEPT_NEW;
 
 // ============ COMMIT TRANSACTION ======
 :commit
