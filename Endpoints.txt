@@ -54,4 +54,6 @@ RETURN c.id, c.label, c.synonyms
 MATCH (c:CONCEPT)-[*]->(c2:CONCEPT)
 WHERE c.id IN ['xxxx', 'yyyy', 'zzzz']
 WITH collect(DISTINCT c.id) + collect(DISTINCT c2.id) as results
-RETURN results
+MATCH (c:CONCEPT)
+WHERE c.id IN results
+RETURN c.id, c.label, c.synonyms
