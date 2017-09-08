@@ -44,20 +44,14 @@ RETURN dataset, dataset_tags, number_of_ocurrences
 ORDER BY number_of_ocurrences DESC
 
 
-// 3. EXPLORE SELECTORS
+// 3. GET LIST OF CONCEPTS
 
-// DATA TYPE SELECTOR
-MATCH (c:CONCEPT{id:'dataset'})<-[]-(c2:CONCEPT)
-RETURN c2.id, c2.label
-ORDER BY c2.label
+MATCH (c:CONCEPT)
+RETURN c.id, c.label, c.synonyms
 
-// GEOGRAPHIES
-MATCH (c:CONCEPT{id:'continent'})<-[*]-(c2:CONCEPT)
-RETURN DISTINCT c2.id, c2.label
-ORDER BY c2.label
+// 4. GET CONCEPTS INFERRED FROM LIST
 
-// TOPICS
-MATCH (c:CONCEPT{id:'general'})<-[]-(c2:CONCEPT)
-WHERE NOT c2.id IN ['location', 'dataset']
-RETURN DISTINCT c2.id, c2.label
-ORDER BY c2.label
+MATCH (c:CONCEPT)-[*]->(c2:CONCEPT)
+WHERE c.id IN ['xxxx', 'yyyy', 'zzzz']
+WITH collect(DISTINCT c.id) + collect(DISTINCT c2.id) as results
+RETURN results
