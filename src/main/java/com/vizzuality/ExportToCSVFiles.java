@@ -43,13 +43,13 @@ public class ExportToCSVFiles {
                 if (values.length > 4) {
                     defalutParentSt = values[4];
                 }
-                nodesFileWriter.write( valueID.trim() + "," + values[2].trim() + "," + synonymsSt + "," + defalutParentSt + "\n");
+                nodesFileWriter.write( valueID.trim() + "," + values[2].trim() + "," + synonymsSt + "," + defalutParentSt.trim() + "\n");
                 for(int i=5;i<values.length;i++){
                     String relValue = values[i].trim();
                     if(relValue.length() > 0){
                         String[] relColumns = relValue.split(",");
                         for(String relColumn : relColumns){
-                            writersMap.get(relTypes.get(i-5)).write(valueID + "," + relColumn.trim() + "\n");
+                            writersMap.get(relTypes.get(i-5)).write(valueID.trim() + "," + relColumn.trim() + "\n");
                         }
                     }
                 }
