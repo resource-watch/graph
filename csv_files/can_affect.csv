@@ -29,11 +29,11 @@ CO2,acidification
 coastal_flooding,coastal_erosion
 commerce,deforestation
 commerce,logging
-conflict ,mortality
-conflict ,damage
-conflict ,destruction
-conflict ,disaster
-conflict ,displaced_people
+conflict,mortality
+conflict,damage
+conflict,destruction
+conflict,disaster
+conflict,displaced_people
 corruption,protest
 dam,fish
 damage,financial_loss
