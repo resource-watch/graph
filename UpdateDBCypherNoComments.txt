@@ -1,0 +1,93 @@
+:begin
+
+
+LOAD CSV FROM 'file:///nodes.csv'
+AS line
+WITH line
+MERGE (c:CONCEPT_NEW { id: line[0], label: line[1], synonyms: CASE line[2] WHEN null THEN '' ELSE split(line[2],'|') END, default_parent: CASE line[3] WHEN null THEN '' else line[3] END});
+
+LOAD CSV FROM 'file:///affects.csv'
+AS line
+WITH line
+MATCH (c1:CONCEPT_NEW { id: line[0]}), (c2:CONCEPT_NEW { id: line[1]})
+MERGE (c1)-[:AFFECTS]->(c2);
+
+LOAD CSV FROM 'file:///can_affect.csv'
+AS line
+WITH line
+MATCH (c1:CONCEPT_NEW { id: line[0]}), (c2:CONCEPT_NEW { id: line[1]})
+MERGE (c1)-[:CAN_AFFECT]->(c2);
+
+LOAD CSV FROM 'file:///is_a.csv'
+AS line
+WITH line
+MATCH (c1:CONCEPT_NEW { id: line[0]}), (c2:CONCEPT_NEW { id: line[1]})
+MERGE (c1)-[:IS_A]->(c2);
+
+LOAD CSV FROM 'file:///is_involved_in.csv'
+AS line
+WITH line
+MATCH (c1:CONCEPT_NEW { id: line[0]}), (c2:CONCEPT_NEW { id: line[1]})
+MERGE (c1)-[:IS_INVOLVED_IN]->(c2);
+
+LOAD CSV FROM 'file:///located_at.csv'
+AS line
+WITH line
+MATCH (c1:CONCEPT_NEW { id: line[0]}), (c2:CONCEPT_NEW { id: line[1]})
+MERGE (c1)-[:LOCATED_AT]->(c2);
+
+LOAD CSV FROM 'file:///is_similar_to.csv'
+AS line
+WITH line
+MATCH (c1:CONCEPT_NEW { id: line[0]}), (c2:CONCEPT_NEW { id: line[1]})
+MERGE (c1)-[:IS_SIMILAR_TO]->(c2);
+
+LOAD CSV FROM 'file:///part_of.csv'
+AS line
+WITH line
+MATCH (c1:CONCEPT_NEW { id: line[0]}), (c2:CONCEPT_NEW { id: line[1]})
+MERGE (c1)-[:PART_OF]->(c2);
+
+LOAD CSV FROM 'file:///quality_of.csv'
+AS line
+WITH line
+MATCH (c1:CONCEPT_NEW { id: line[0]}), (c2:CONCEPT_NEW { id: line[1]})
+MERGE (c1)-[:QUALITY_OF]->(c2);
+
+LOAD CSV FROM 'file:///related_to.csv'
+AS line
+WITH line
+MATCH (c1:CONCEPT_NEW { id: line[0]}), (c2:CONCEPT_NEW { id: line[1]})
+MERGE (c1)-[:RELATED_TO]->(c2);
+
+LOAD CSV FROM 'file:///type_of.csv'
+AS line
+WITH line
+MATCH (c1:CONCEPT_NEW { id: line[0]}), (c2:CONCEPT_NEW { id: line[1]})
+MERGE (c1)-[:TYPE_OF]->(c2);
+
+MATCH (d:DATASET)-[:TAGGED_WITH]->(c:CONCEPT)
+MATCH (c2:CONCEPT_NEW)
+WHERE c.id = c2.id
+MERGE (d)-[:TAGGED_WITH]->(c2);
+
+MATCH (w:WIDGET)-[:TAGGED_WITH]->(c:CONCEPT)
+MATCH (c2:CONCEPT_NEW)
+WHERE c.id = c2.id
+MERGE (w)-[:TAGGED_WITH]->(c2);
+
+MATCH (l:LAYER)-[:TAGGED_WITH]->(c:CONCEPT)
+MATCH (c2:CONCEPT_NEW)
+WHERE c.id = c2.id
+MERGE (l)-[:TAGGED_WITH]->(c2);
+
+MATCH (c:CONCEPT)
+DETACH DELETE c;
+
+MATCH (c:CONCEPT_NEW)
+SET c :CONCEPT;
+
+MATCH (c:CONCEPT_NEW)
+REMOVE c :CONCEPT_NEW;
+
+:commit
