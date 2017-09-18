@@ -52,6 +52,13 @@ WITH line
 MATCH (c1:CONCEPT_NEW { id: line[0]}), (c2:CONCEPT_NEW { id: line[1]})
 MERGE (c1)-[:IS_SIMILAR_TO]->(c2);
 
+// QUALITY_OF relationships
+LOAD CSV FROM 'file:///quality_of.csv'
+AS line
+WITH line
+MATCH (c1:CONCEPT_NEW { id: line[0]}), (c2:CONCEPT_NEW { id: line[1]})
+MERGE (c1)-[:QUALITY_OF]->(c2);
+
 // PART_OF relationships
 LOAD CSV FROM 'file:///part_of.csv'
 AS line

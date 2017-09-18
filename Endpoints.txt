@@ -4,21 +4,21 @@
 MATCH (c:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET)
 WHERE c.id IN ['water']
 WITH COLLECT(d.id) AS datasets
-OPTIONAL MATCH (c:CONCEPT)<-[:TYPE_OF|:PART_OF|:IS_A*1..15]-(c2:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET)
+OPTIONAL MATCH (c:CONCEPT)<-[:TYPE_OF|:PART_OF|:IS_A|QUALITY_OF*1..15]-(c2:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET)
 WHERE (c.id IN ['water'])
 WITH COLLECT(d.id) + datasets AS datasets
 // FILTER 2
 MATCH (c:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET)
 WHERE c.id IN ['raster'] AND d.id IN datasets
 WITH COLLECT(d.id) AS tempSet, datasets
-OPTIONAL MATCH (c:CONCEPT)<-[:TYPE_OF|:PART_OF|:IS_A*1..15]-(c2:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET)
+OPTIONAL MATCH (c:CONCEPT)<-[:TYPE_OF|:PART_OF|:IS_A|QUALITY_OF*1..15]-(c2:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET)
 WHERE (c.id IN ['raster']) AND d.id IN datasets
 WITH COLLECT(d.id) + tempSet AS datasets
 // FILTER 3
 MATCH (c:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET)
 WHERE c.id IN ['nitrogen'] AND d.id IN datasets
 WITH COLLECT(d.id) AS tempSet, datasets
-OPTIONAL MATCH (c:CONCEPT)<-[:TYPE_OF|:PART_OF|:IS_A*1..15]-(c2:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET)
+OPTIONAL MATCH (c:CONCEPT)<-[:TYPE_OF|:PART_OF|:IS_A|QUALITY_OF*1..15]-(c2:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET)
 WHERE (c.id IN ['nitrogen']) AND d.id IN datasets
 WITH COLLECT(d.id) + tempSet AS datasets
 RETURN DISTINCT datasets
