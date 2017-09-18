@@ -113,10 +113,12 @@ public class ConvertKnowledgeGraphIntoTreeFormat {
         newJSON.put("label", currentNode.getString("label"));
         newJSON.put("value", currentNode.getString("id"));
         newJSON.put("checked", false);
+        newJSON.put("tagClassName", "selected-item");
 
         ArrayList<JSONObject> children = edgesMap.get(currentId);
 
         if (children != null && children.size() > 0) {
+            newJSON.put("className", "parent-category");
             JSONArray childrenArray = new JSONArray();
             HashSet<String> alreadyVisited = new HashSet<>();
 
