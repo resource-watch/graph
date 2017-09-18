@@ -37,7 +37,6 @@ conflict,displaced_people
 corruption,protest
 dam,fish
 damage,financial_loss
-deforestation,forest
 deforestation,water
 deforestation,ghg
 deforestation,habitat_loss
@@ -79,7 +78,6 @@ forest_loss,forest_cover
 forest_loss,biodiversity
 gdp,vulnerability
 gender,vulnerability
-ghg,climate_change
 gini_index,vulnerability
 habitat_loss,flora
 habitat_loss,fauna

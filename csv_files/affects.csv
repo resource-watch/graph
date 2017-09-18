@@ -27,6 +27,7 @@ dead_zone,water_quality
 deforestation,erosion
 deforestation,forest_loss
 deforestation,landslide
+deforestation,forest
 development,economic
 development,developing
 disease,mortality
@@ -79,6 +80,7 @@ food_security,malnutrition
 fossil_fuel,emissions
 frozen_water,sea_level
 frozen_water,albedo
+ghg,climate_change
 governance,park
 governance,reserve
 governance,environmental_health
@@ -113,7 +115,6 @@ mitigation,vulnerability
 mitigation,damage
 mitigation,resilience
 mitigation,impact
-monsoon,precipitation
 monsoon,wind
 natural_infrastructure,flood
 non_climate_stressor,hazard

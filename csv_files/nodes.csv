@@ -2,14 +2,14 @@ accessibility,Accessibility,,urban
 acidification,Acidification,,process
 activity,Activity,,general
 adaptation,Adaptation,,process
-adaptive_capacity,Adaptive Capacity,,asset
+adaptive_capacity,Adaptive Capacity,,general
 afghanistan,Afghanistan,,asia
 africa,Africa,,continent
 agriculture,Agriculture,,primary_sector
 air_quality,Air quality,,air
 aland,Aland,,finland
 albania,Albania,,europe
-albedo,Albedo,reflectance,
+albedo,Albedo,reflectance,general
 algeria,Algeria,,africa
 american_samoa,American Samoa,,oceania
 amphibian,Amphibian,,animal
@@ -25,7 +25,7 @@ argentina,Argentina,,south_america
 armenia,Armenia,,asia
 aruba,Aruba,,south_america
 asia,Asia,,continent
-asset,Asset,,
+asset,Asset,,general
 australia,Australia,,oceania
 austria,Austria,,eu
 autonomous_territory,Autonomous Territory,,territory
@@ -45,7 +45,7 @@ bhutan,Bhutan,,asia
 bike,Bike,,transportation
 biodiversity,Biodiversity,,general
 biological_oxygen_demand,Biological Oxygen Demand,,indicator
-biome,Biome,,climate
+biome,Biome,,general
 bird,Bird,,animal
 bleaching,Bleaching,,process
 bolivia,Bolivia,,south_america
@@ -114,9 +114,9 @@ cyprus,Cyprus,,eu
 czech_republic,Czech Republic,,eu
 daily,Daily,,frequency
 dam,Dam,,energy_infrastructure
-damage,Damage,destruction,event
+damage,Damage,destruction,general
 dataset,Dataset,,general
-dead_zone,Dead Zone,Anoxic Water,fish
+dead_zone,Dead Zone,Anoxic Water,general
 deforestation,Deforestation,,process
 degradation,Degradation,,activity
 democratic_republic_of_congo,Democratic Republic of the Congo,,africa
@@ -125,7 +125,7 @@ demographic,Demographic,,population
 denmark,Denmark,,eu
 developed,Developed,,country
 developing,Developing,,country
-development,Development,,
+development,Development,,general
 disaster,Disaster,,event
 discrimination,Discrimination,,society
 disease,Disease,,health
@@ -136,7 +136,7 @@ dominican_republic,Dominican Republic,,north_america
 drainage_basin,Drainage basin,,river
 drinking_water,Drinking water,,water
 drought,Drought,,disaster
-early_warning,Early Warning,,vulnerability
+early_warning,Early Warning,,general
 earthquake,Earthquake,,natural_disaster
 economic,Economic,,general
 ecoregion,Ecoregion,,ecosystem
@@ -147,8 +147,9 @@ education,Education,,society
 egypt,Egypt,,africa
 el_salvador,El Salvador,,north_america
 electricity,Electricity,,commodity
-emergency_response,Emergency Response,,resilience
-emergency_services,Energency Services,,public_service
+emergency,Emergency,,general
+emergency_response,Emergency Response,,emergency
+emergency_services,Energency Services,,emergency
 emissions,Emissions,,pollution
 endangered,Endangered,,species
 energy,Energy,,general
@@ -189,7 +190,7 @@ finland,Finlad,,eu
 fire,Fire,,disaster
 fish,Fish,,animal
 fishery,Fishery,,fish
-fishing,Fishing,,fishing
+fishing,Fishing,,human_activity
 flood,Flood,,disaster
 flora,Flora,,envinroment
 food,Food,,general
@@ -221,7 +222,7 @@ geospatial,Geospatial,,dataset
 geothermal,Geothermal,,renewable_energy
 germany,Germany,,eu
 ghana,Ghana,,africa
-ghg,GHG,Greenhouse gas,climate_change
+ghg,GHG,Greenhouse gas,general
 gibraltar,Gibraltar,,uk
 gini_index,GINI index,,indicator
 glacier,Glacier,,frozen_water
@@ -254,7 +255,7 @@ hospital,Hospital,,public_service
 human_impact,Human impact,,society
 human_rights,Human rights,,rights
 hungary,Hungary,,eu
-hunger,Hunger,,food
+hunger,Hunger,,general
 hunting,Hunting,,human_activity
 hurricane,Hurricane,typhoon,natural_disaster
 hydropower,Hydropower,,renewable_energy
@@ -262,14 +263,14 @@ ice,Ice,,frozen_water
 iceland,Iceland,,europe
 illegal_activity,Illegal activity,,human_activity
 illiterate,Illiterate,,education
-impact,Impact,,damage
-impervious_surface,Impervious surface,,flooding
+impact,Impact,,general
+impervious_surface,Impervious surface,,general
 india,India,,asia
 indicator,Indicator,,general
 Indigenous_rights,Indigenous Rights,,rights
 indonesia,Indonesia,,asia
-inequality,Inequality,,economic
-infant_mortality,Infant mortality,,health
+inequality,Inequality,,society
+infant_mortality,Infant mortality,,mortality
 infrastructure,Infrastructure,,asset
 installation,Installation,,infrastructure
 intact_forest,Intact forest,,forest
@@ -277,7 +278,7 @@ internally_displaced,Internally displaced,,displaced_people
 iran,Iran,,asia
 iraq,Iraq,,asia
 ireland,Ireland,,eu
-irrigation,Irrigation,,crop
+irrigation,Irrigation,,general
 island,Island,,general
 isle_of_man,Isle of Man,,crown_dependency
 israel,Israel,,asia
@@ -287,7 +288,7 @@ jamaica,Jamaica,,north_america
 japan,Japan,,asia
 jersey,Jersey,,crown_dependency
 jordan,Jordan,,asia
-justice,Justice,,rights
+justice,Justice,,general
 kazakhstan,Kazakhstan,,asia
 kenya,Kenya,,africa
 kiribati,Kiribati,,oceania
@@ -307,12 +308,12 @@ lesotho,Lesotho,,africa
 liberia,Liberia,,africa
 libya,Libya,,africa
 liechtenstein,Liechtenstein,,europe
-literacy,Literacy,,education
+literacy,Literacy,,indicator
 lithuania,Lithuania,,eu
 livestock,Livestock,,food
 location,Location,,general
 logging,Logging,,secondary_sector
-low_income,Low Income,,economic
+low_income,Low Income,,society
 luxembourg,Luxembourg,,eu
 macao,Macao,,china
 macedonia,Macedonia,,europe
@@ -332,8 +333,8 @@ mauritania,Mauritania,,africa
 mauritius,Mauritius,,africa
 mexico,Mexico,,north_america
 micronesia,Micronesia,,oceania
-middle_income,Middle Income,,economic
-migration,Migration,,refugee
+middle_income,Middle Income,,society
+migration,Migration,,general
 mitigation,Mitigation,,process
 moldova,Moldova,,europe
 monaco,Monaco,,europe
@@ -348,7 +349,7 @@ mozambique,Mozambique,,africa
 myanmar,Myanmar,,asia
 n2o,N2O,Nitrogeous Oxide,chemical_compound
 namibia,Namibia,,africa
-national_park,National Park,,conservation
+national_park,National Park,,land
 natural_disaster,Natural disaster,,disaster
 natural_gas,Natural Gas,,fuel
 natural_infrastructure,Natural Infrastructure,,infrastructure
@@ -371,14 +372,14 @@ north_america,North America,,continent
 northern_mariana_islands,Northern Mariana Islands,,usa
 norway,Norway,,europe
 nuclear_energy,Nuclear,,energy_production
-nutrients,Nutrients,,plant
-nutrition,Nutrition,,food
+nutrients,Nutrients,,general
+nutrition,Nutrition,,general
 o3,O3,Ozone,chemical_compound
-ocean,Ocean,,water
+ocean,Ocean,,surface_water
 oceania,Oceania,,continent
-oecd,OECD,Organisation for Economic Co-operation and Development,economic
+oecd,OECD,Organisation for Economic Co-operation and Development,general
 oil,Oil,,fuel
-oil_refinery,Oil refinery,,oil
+oil_refinery,Oil refinery,,energy_infrastructure
 oman,Oman,,asia
 overseas_territory,Overseas Territory,,territory
 pakistan,Pakistan,,asia
@@ -399,8 +400,8 @@ plant,Plant,,flora
 poaching,Poaching,,human_activity
 poland,Poland,,eu
 political_stability,Political stability,,governance
-pollution,Pollution,,environmental_quality
-population,Population,,society
+pollution,Pollution,,general
+population,Population,,general
 portugal,Portugal,,eu
 poverty,Poverty,,economic
 power_lines,Power Lines,,energy_infrastructure
@@ -410,9 +411,9 @@ primary_sector,Primary sector,,sector
 probability,Probability,,general
 process,Process,,general
 projection,Projection,,climate_model
-protected_area,Protected Area,,conservation
-protest,Protest,,governance
-public_service,Public service,,society
+protected_area,Protected Area,,land
+protest,Protest,,event
+public_service,Public service,,general
 public_transportation,Public transportation,,transportation
 puerto_rico,Puerto Rico,,north_america
 qatar,Qatar,,asia
@@ -425,7 +426,7 @@ refugee,Refugee,,displaced_people
 renewable_energy,Renewable,,energy_production
 reptile,Reptile,,animal
 republic_of_kosovo,Republic of Kosovo,,europe
-reserve,Reserve,,conservation
+reserve,Reserve,,land
 resilience,Resilience,,quality
 resilience_planning,Resilience Planning,,process
 resource,Resource,,asset
@@ -437,7 +438,7 @@ rights,Rights,,society
 risk,Risk,,general
 risk_assesment,Risk Assesment,,risk
 risk_management,Risk Management,,risk
-river,River,,water
+river,River,,surface_water
 roads,Roads,,infrastructure
 romania,Romania,,eu
 runoff,Runoff,,precipitation
@@ -455,9 +456,9 @@ san_marino,San Marino,,europe
 sao_tome_and_principe,São Tomé and Principe,,africa
 saudi_arabia,Saudi Arabia,,africa
 schengen_area,Schengen Area,,europe
-school,School,,education
-sea,Sea,,water
-sea_ice,Sea ice,,frozen_water
+school,School,,public_service
+sea,Sea,,surface_water
+sea_ice,Sea ice,,sea
 sea_level,Sea level,,sea
 sea_level_rise,Sea level rise,,sea_level
 sea_surface_temperature,Sea surface temperature,,sea
@@ -475,7 +476,7 @@ shrimp,Shrimp,,seafood
 sierra_leone,Sierra Leone,,africa
 singapore,Singapore,,asia
 sint_marteen,Sint Maarten,,netherlands
-slope,Slope,,landslide
+slope,Slope,,general
 slovakia,Slovakia,,eu
 slovenia,Slovenia,,eu
 snow,Snow,,frozen_water
@@ -498,9 +499,10 @@ sri_lanka,Sri Lanka,,asia
 storm,Storm,,natural_phenomena
 storm_intensity,Storm intensity,,storm
 storm_surge,Storm Surge,,storm
-stormwater,Stormwater,,storm
+stormwater,Stormwater,,water
 sudan,Sudan,,africa
 supply_chain,Supply Chain,,commerce
+surface_water,Surface water,,water
 suriname,Suriname,,south_america
 sustainable_development,Sustainable Development,,development
 swaziland,Swaziland,,africa
@@ -584,5 +586,6 @@ wind,Wind,,natural_phenomena
 wind_energy,Wind energy,,renewable_energy
 women,Women,,people
 yemen,Yemen,,asia
+yearly,Yearly,,frequency
 zambia,Zambia,,africa
 zimbabwe,Zimbabwe,,africa
