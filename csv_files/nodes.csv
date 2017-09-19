@@ -547,7 +547,7 @@ unincorporated_territory,Unincorporated Territory,,usa
 united_arab_emirates,United Arab Emirates,,asia
 united_states_minor_outlying_islands,United States Minort Outlying Islands,,usa
 united_states_virgin_islands,United States Virgin Islands,,usa
-urban,Urban,city, cities,general
+urban,Urban,city|cities,general
 urban_planning,Urban Planning,,urban
 urbanization,Urbanization,,urban
 uruguay,Uruguay,,south_america
@@ -586,7 +586,7 @@ wildfire,Wildfire,,fire
 wind,Wind,,natural_phenomena
 wind_energy,Wind energy,,renewable_energy
 women,Women,,people
-yemen,Yemen,,asia
 yearly,Yearly,,frequency
+yemen,Yemen,,asia
 zambia,Zambia,,africa
 zimbabwe,Zimbabwe,,africa

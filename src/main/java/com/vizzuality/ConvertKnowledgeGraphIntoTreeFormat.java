@@ -50,12 +50,16 @@ public class ConvertKnowledgeGraphIntoTreeFormat {
             while(iterator.hasNext()) {
                 JSONObject object = (JSONObject) iterator.next();
                 ArrayList<JSONObject> array = edgesMap.get(object.getString("target"));
-                if (array == null) {
-                    array = new ArrayList<>();
+                String relType = object.getString("relType");
+                if (relType.equals("PART_OF") || relType.equals("IS_A") || relType.equals("TYPE_OF") ||
+                    relType.equals("QUALITY_OF")) {
+                    if (array == null) {
+                        array = new ArrayList<>();
+                        edgesMap.put(object.getString("target"), array);
+                    }
+                    array.add(object);
                     edgesMap.put(object.getString("target"), array);
                 }
-                array.add(object);
-                edgesMap.put(object.getString("target"), array);
             }
 
             // Set including the concepts that have already been added to the tree
@@ -108,6 +112,7 @@ public class ConvertKnowledgeGraphIntoTreeFormat {
 
     private static JSONObject generateJSONForChildren(JSONObject currentNode, HashMap<String, ArrayList<JSONObject>> edgesMap, HashMap<String, JSONObject> nodesMap, HashSet<String> conceptsAdded){
         String currentId = currentNode.getString("id");
+        System.out.println("currentId " + currentId);
 
         JSONObject newJSON = new JSONObject();
         newJSON.put("label", currentNode.getString("label"));
@@ -122,12 +127,10 @@ public class ConvertKnowledgeGraphIntoTreeFormat {
             JSONArray childrenArray = new JSONArray();
             HashSet<String> alreadyVisited = new HashSet<>();
 
-            System.out.println("currentId: " + currentId);
             for (JSONObject child : children) {
                 System.out.println("child: " + child.getString("source"));
                 if (!conceptsAdded.contains(child.getString("source"))) {
                     if (!alreadyVisited.contains(child.getString("source"))) {
-                        System.out.println("not visited!");
                         if (nodesMap.get(child.getString("source")).get("default_parent").equals(currentId)) {
                             // We are in the default parent of the child
                             childrenArray.put(generateJSONForChildren(nodesMap.get(child.getString("source")), edgesMap, nodesMap, conceptsAdded));
