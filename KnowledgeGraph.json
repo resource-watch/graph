@@ -1,11 +1,6 @@
 {
   "edges": [
     {
-      "source": "train",
-      "target": "accessibility",
-      "relType": "IS_INVOLVED_IN"
-    },
-    {
       "source": "bike",
       "target": "accessibility",
       "relType": "IS_INVOLVED_IN"
@@ -21,12 +16,17 @@
       "relType": "IS_INVOLVED_IN"
     },
     {
-      "source": "urban_planning",
+      "source": "train",
+      "target": "accessibility",
+      "relType": "IS_INVOLVED_IN"
+    },
+    {
+      "source": "public_transportation",
       "target": "accessibility",
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "public_transportation",
+      "source": "urban_planning",
       "target": "accessibility",
       "relType": "CAN_AFFECT"
     },
@@ -41,12 +41,12 @@
       "relType": "AFFECTS"
     },
     {
-      "source": "CO2",
+      "source": "climate_change",
       "target": "acidification",
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "climate_change",
+      "source": "CO2",
       "target": "acidification",
       "relType": "CAN_AFFECT"
     },
@@ -56,17 +56,247 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "logging",
-      "target": "activity",
-      "relType": "IS_A"
-    },
-    {
       "source": "degradation",
       "target": "activity",
       "relType": "IS_A"
     },
     {
-      "source": "uganda",
+      "source": "logging",
+      "target": "activity",
+      "relType": "IS_A"
+    },
+    {
+      "source": "congo",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "comoros",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "cameroon",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "burundi",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "burkina_faso",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "chad",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "cape_verde",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "central_part_of:african_republic",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "benin",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "ethiopia",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "gabon",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "french_southern_and_antarctic_lands",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "djibouti",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "democratic_republic_of_congo",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "eritrea",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "equatorial_guinea",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "egypt",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "guinea",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "guinea_bissau",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "ghana",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "gambia",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "kenya",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "lesotho",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "liberia",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "libya",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "ivory_coast",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "morocco",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "mozambique",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "namibia",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "malawi",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "madagascar",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "mali",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "mauritania",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "mauritius",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "rwanda",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "niger",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "nigeria",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "south_africa",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "somalia",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "senegal",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "sierra_leone",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "seychelles",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "sao_tome_and_principe",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "saudi_arabia",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "saint_helena",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "tunisia",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "tanzania",
       "target": "africa",
       "relType": "PART_OF"
     },
@@ -76,7 +306,17 @@
       "relType": "PART_OF"
     },
     {
-      "source": "tunisia",
+      "source": "swaziland",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "sudan",
+      "target": "africa",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "south_sudan",
       "target": "africa",
       "relType": "PART_OF"
     },
@@ -96,22 +336,7 @@
       "relType": "PART_OF"
     },
     {
-      "source": "liberia",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "lesotho",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "libya",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "angola",
+      "source": "uganda",
       "target": "africa",
       "relType": "PART_OF"
     },
@@ -121,237 +346,12 @@
       "relType": "PART_OF"
     },
     {
-      "source": "benin",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "ivory_coast",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "kenya",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "french_southern_and_antarctic_lands",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "gambia",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "gabon",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "ghana",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "guinea",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "guinea_bissau",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "democratic_republic_of_congo",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "egypt",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "djibouti",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "ethiopia",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "equatorial_guinea",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "eritrea",
+      "source": "angola",
       "target": "africa",
       "relType": "PART_OF"
     },
     {
       "source": "botswana",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "burkina_faso",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "burundi",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "central_part_of:african_republic",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "chad",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "cameroon",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "cape_verde",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "comoros",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "congo",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "tanzania",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "sudan",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "swaziland",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "somalia",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "south_africa",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "south_sudan",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "seychelles",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "sierra_leone",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "saudi_arabia",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "senegal",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "sao_tome_and_principe",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "rwanda",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "saint_helena",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "nigeria",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "niger",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "mozambique",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "namibia",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "morocco",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "mauritius",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "mauritania",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "mali",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "malawi",
-      "target": "africa",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "madagascar",
       "target": "africa",
       "relType": "PART_OF"
     },
@@ -371,12 +371,7 @@
       "relType": "IS_INVOLVED_IN"
     },
     {
-      "source": "pollution",
-      "target": "air_quality",
-      "relType": "CAN_AFFECT"
-    },
-    {
-      "source": "o3",
+      "source": "emissions",
       "target": "air_quality",
       "relType": "CAN_AFFECT"
     },
@@ -386,7 +381,12 @@
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "emissions",
+      "source": "o3",
+      "target": "air_quality",
+      "relType": "CAN_AFFECT"
+    },
+    {
+      "source": "pollution",
       "target": "air_quality",
       "relType": "CAN_AFFECT"
     },
@@ -396,12 +396,12 @@
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "ecosystem_services",
+      "source": "wildfire",
       "target": "air_quality",
       "relType": "AFFECTS"
     },
     {
-      "source": "wildfire",
+      "source": "ecosystem_services",
       "target": "air_quality",
       "relType": "AFFECTS"
     },
@@ -426,12 +426,12 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "bird",
+      "source": "amphibian",
       "target": "animal",
       "relType": "TYPE_OF"
     },
     {
-      "source": "amphibian",
+      "source": "bird",
       "target": "animal",
       "relType": "TYPE_OF"
     },
@@ -471,47 +471,32 @@
       "relType": "PART_OF"
     },
     {
-      "source": "french_southern_and_antarctic_lands",
-      "target": "antarctica",
-      "relType": "PART_OF"
-    },
-    {
       "source": "heard_island_and_mcdoland_islands",
       "target": "antarctica",
       "relType": "PART_OF"
     },
     {
-      "source": "united_arab_emirates",
+      "source": "french_southern_and_antarctic_lands",
+      "target": "antarctica",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "cambodia",
       "target": "asia",
       "relType": "PART_OF"
     },
     {
-      "source": "turkey",
+      "source": "brunei",
       "target": "asia",
       "relType": "PART_OF"
     },
     {
-      "source": "afghanistan",
+      "source": "democratic_republic_of_korea",
       "target": "asia",
       "relType": "PART_OF"
     },
     {
-      "source": "bangladesh",
-      "target": "asia",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "bahrain",
-      "target": "asia",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "armenia",
-      "target": "asia",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "azerbaijan",
+      "source": "india",
       "target": "asia",
       "relType": "PART_OF"
     },
@@ -521,7 +506,27 @@
       "relType": "PART_OF"
     },
     {
-      "source": "india",
+      "source": "georgia",
+      "target": "asia",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "kuwait",
+      "target": "asia",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "kyrgyzstan",
+      "target": "asia",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "lebanon",
+      "target": "asia",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "laos",
       "target": "asia",
       "relType": "PART_OF"
     },
@@ -561,92 +566,32 @@
       "relType": "PART_OF"
     },
     {
-      "source": "kyrgyzstan",
+      "source": "mongolia",
       "target": "asia",
       "relType": "PART_OF"
     },
     {
-      "source": "laos",
+      "source": "myanmar",
       "target": "asia",
       "relType": "PART_OF"
     },
     {
-      "source": "kuwait",
+      "source": "nepal",
       "target": "asia",
       "relType": "PART_OF"
     },
     {
-      "source": "georgia",
+      "source": "macao",
       "target": "asia",
       "relType": "PART_OF"
     },
     {
-      "source": "democratic_republic_of_korea",
+      "source": "maldives",
       "target": "asia",
       "relType": "PART_OF"
     },
     {
-      "source": "bhutan",
-      "target": "asia",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "cambodia",
-      "target": "asia",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "british_indian_ocean_territory",
-      "target": "asia",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "brunei",
-      "target": "asia",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "china",
-      "target": "asia",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "taiwan",
-      "target": "asia",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "syria",
-      "target": "asia",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "tajikistan",
-      "target": "asia",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "timor_lest",
-      "target": "asia",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "thailand",
-      "target": "asia",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "sri_lanka",
-      "target": "asia",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "south_korea",
-      "target": "asia",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "singapore",
+      "source": "malaysia",
       "target": "asia",
       "relType": "PART_OF"
     },
@@ -681,42 +626,52 @@
       "relType": "PART_OF"
     },
     {
-      "source": "nepal",
+      "source": "singapore",
       "target": "asia",
       "relType": "PART_OF"
     },
     {
-      "source": "myanmar",
+      "source": "turkey",
       "target": "asia",
       "relType": "PART_OF"
     },
     {
-      "source": "mongolia",
+      "source": "turkmenistan",
       "target": "asia",
       "relType": "PART_OF"
     },
     {
-      "source": "maldives",
+      "source": "thailand",
       "target": "asia",
       "relType": "PART_OF"
     },
     {
-      "source": "malaysia",
+      "source": "tajikistan",
       "target": "asia",
       "relType": "PART_OF"
     },
     {
-      "source": "macao",
+      "source": "taiwan",
       "target": "asia",
       "relType": "PART_OF"
     },
     {
-      "source": "lebanon",
+      "source": "timor_lest",
       "target": "asia",
       "relType": "PART_OF"
     },
     {
-      "source": "uzbekistan",
+      "source": "syria",
+      "target": "asia",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "south_korea",
+      "target": "asia",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "sri_lanka",
       "target": "asia",
       "relType": "PART_OF"
     },
@@ -726,12 +681,57 @@
       "relType": "PART_OF"
     },
     {
+      "source": "uzbekistan",
+      "target": "asia",
+      "relType": "PART_OF"
+    },
+    {
       "source": "vietnam",
       "target": "asia",
       "relType": "PART_OF"
     },
     {
-      "source": "turkmenistan",
+      "source": "united_arab_emirates",
+      "target": "asia",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "afghanistan",
+      "target": "asia",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "azerbaijan",
+      "target": "asia",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "bahrain",
+      "target": "asia",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "bangladesh",
+      "target": "asia",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "armenia",
+      "target": "asia",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "british_indian_ocean_territory",
+      "target": "asia",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "bhutan",
+      "target": "asia",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "china",
       "target": "asia",
       "relType": "PART_OF"
     },
@@ -751,6 +751,11 @@
       "relType": "CAN_AFFECT"
     },
     {
+      "source": "vulnerability",
+      "target": "asset",
+      "relType": "AFFECTS"
+    },
+    {
       "source": "hazard",
       "target": "asset",
       "relType": "AFFECTS"
@@ -761,9 +766,9 @@
       "relType": "AFFECTS"
     },
     {
-      "source": "vulnerability",
-      "target": "asset",
-      "relType": "AFFECTS"
+      "source": "coral_sea_islands_territory",
+      "target": "australia",
+      "relType": "PART_OF"
     },
     {
       "source": "norfolk_island",
@@ -776,17 +781,17 @@
       "relType": "PART_OF"
     },
     {
-      "source": "coral_sea_islands_territory",
-      "target": "australia",
-      "relType": "PART_OF"
-    },
-    {
       "source": "heard_island_and_mcdoland_islands",
       "target": "australia",
       "relType": "PART_OF"
     },
     {
-      "source": "macao",
+      "source": "greenland",
+      "target": "autonomous_territory",
+      "relType": "IS_A"
+    },
+    {
+      "source": "faroe_islands",
       "target": "autonomous_territory",
       "relType": "IS_A"
     },
@@ -796,12 +801,7 @@
       "relType": "IS_A"
     },
     {
-      "source": "greenland",
-      "target": "autonomous_territory",
-      "relType": "IS_A"
-    },
-    {
-      "source": "faroe_islands",
+      "source": "macao",
       "target": "autonomous_territory",
       "relType": "IS_A"
     },
@@ -816,6 +816,21 @@
       "relType": "TYPE_OF"
     },
     {
+      "source": "habitat",
+      "target": "biodiversity",
+      "relType": "RELATED_TO"
+    },
+    {
+      "source": "marine_life",
+      "target": "biodiversity",
+      "relType": "RELATED_TO"
+    },
+    {
+      "source": "national_park",
+      "target": "biodiversity",
+      "relType": "RELATED_TO"
+    },
+    {
       "source": "protected_area",
       "target": "biodiversity",
       "relType": "RELATED_TO"
@@ -826,37 +841,17 @@
       "relType": "RELATED_TO"
     },
     {
-      "source": "species",
-      "target": "biodiversity",
-      "relType": "RELATED_TO"
-    },
-    {
       "source": "reserve",
       "target": "biodiversity",
       "relType": "RELATED_TO"
     },
     {
-      "source": "national_park",
+      "source": "species",
       "target": "biodiversity",
       "relType": "RELATED_TO"
     },
     {
-      "source": "marine_life",
-      "target": "biodiversity",
-      "relType": "RELATED_TO"
-    },
-    {
-      "source": "habitat",
-      "target": "biodiversity",
-      "relType": "RELATED_TO"
-    },
-    {
-      "source": "intact_forest",
-      "target": "biodiversity",
-      "relType": "CAN_AFFECT"
-    },
-    {
-      "source": "poaching",
+      "source": "forest_loss",
       "target": "biodiversity",
       "relType": "CAN_AFFECT"
     },
@@ -866,12 +861,17 @@
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "forest_loss",
+      "source": "forest_gain",
       "target": "biodiversity",
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "forest_gain",
+      "source": "intact_forest",
+      "target": "biodiversity",
+      "relType": "CAN_AFFECT"
+    },
+    {
+      "source": "poaching",
       "target": "biodiversity",
       "relType": "CAN_AFFECT"
     },
@@ -901,32 +901,17 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "cfc",
-      "target": "chemical_compound",
-      "relType": "TYPE_OF"
-    },
-    {
       "source": "o3",
       "target": "chemical_compound",
       "relType": "TYPE_OF"
     },
     {
-      "source": "thorium",
+      "source": "cfc",
       "target": "chemical_compound",
-      "relType": "IS_A"
+      "relType": "TYPE_OF"
     },
     {
-      "source": "phosphorus",
-      "target": "chemical_compound",
-      "relType": "IS_A"
-    },
-    {
-      "source": "n2o",
-      "target": "chemical_compound",
-      "relType": "IS_A"
-    },
-    {
-      "source": "nitrogen",
+      "source": "CO2",
       "target": "chemical_compound",
       "relType": "IS_A"
     },
@@ -936,12 +921,27 @@
       "relType": "IS_A"
     },
     {
-      "source": "CO2",
+      "source": "ch4",
       "target": "chemical_compound",
       "relType": "IS_A"
     },
     {
-      "source": "ch4",
+      "source": "phosphorus",
+      "target": "chemical_compound",
+      "relType": "IS_A"
+    },
+    {
+      "source": "nitrogen",
+      "target": "chemical_compound",
+      "relType": "IS_A"
+    },
+    {
+      "source": "n2o",
+      "target": "chemical_compound",
+      "relType": "IS_A"
+    },
+    {
+      "source": "thorium",
       "target": "chemical_compound",
       "relType": "IS_A"
     },
@@ -949,36 +949,6 @@
       "source": "macao",
       "target": "china",
       "relType": "PART_OF"
-    },
-    {
-      "source": "tropical",
-      "target": "climate",
-      "relType": "RELATED_TO"
-    },
-    {
-      "source": "temperate",
-      "target": "climate",
-      "relType": "RELATED_TO"
-    },
-    {
-      "source": "sea_surface_temperature",
-      "target": "climate",
-      "relType": "RELATED_TO"
-    },
-    {
-      "source": "n2o",
-      "target": "climate",
-      "relType": "RELATED_TO"
-    },
-    {
-      "source": "cold_wave",
-      "target": "climate",
-      "relType": "RELATED_TO"
-    },
-    {
-      "source": "heat_wave",
-      "target": "climate",
-      "relType": "RELATED_TO"
     },
     {
       "source": "boreal",
@@ -996,7 +966,42 @@
       "relType": "RELATED_TO"
     },
     {
+      "source": "cold_wave",
+      "target": "climate",
+      "relType": "RELATED_TO"
+    },
+    {
+      "source": "heat_wave",
+      "target": "climate",
+      "relType": "RELATED_TO"
+    },
+    {
+      "source": "n2o",
+      "target": "climate",
+      "relType": "RELATED_TO"
+    },
+    {
+      "source": "sea_surface_temperature",
+      "target": "climate",
+      "relType": "RELATED_TO"
+    },
+    {
+      "source": "tropical",
+      "target": "climate",
+      "relType": "RELATED_TO"
+    },
+    {
+      "source": "temperate",
+      "target": "climate",
+      "relType": "RELATED_TO"
+    },
+    {
       "source": "climate_change",
+      "target": "climate",
+      "relType": "QUALITY_OF"
+    },
+    {
+      "source": "climate_stressor",
       "target": "climate",
       "relType": "QUALITY_OF"
     },
@@ -1007,11 +1012,6 @@
     },
     {
       "source": "climate_model",
-      "target": "climate",
-      "relType": "QUALITY_OF"
-    },
-    {
-      "source": "climate_stressor",
       "target": "climate",
       "relType": "QUALITY_OF"
     },
@@ -1031,7 +1031,7 @@
       "relType": "RELATED_TO"
     },
     {
-      "source": "CO2",
+      "source": "emissions",
       "target": "climate_change",
       "relType": "CAN_AFFECT"
     },
@@ -1041,22 +1041,17 @@
       "relType": "CAN_AFFECT"
     },
     {
+      "source": "CO2",
+      "target": "climate_change",
+      "relType": "CAN_AFFECT"
+    },
+    {
       "source": "petroleoum",
       "target": "climate_change",
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "emissions",
-      "target": "climate_change",
-      "relType": "CAN_AFFECT"
-    },
-    {
-      "source": "emissions",
-      "target": "climate_change",
-      "relType": "AFFECTS"
-    },
-    {
-      "source": "ghg",
+      "source": "sustainable_development",
       "target": "climate_change",
       "relType": "AFFECTS"
     },
@@ -1066,7 +1061,12 @@
       "relType": "AFFECTS"
     },
     {
-      "source": "sustainable_development",
+      "source": "ghg",
+      "target": "climate_change",
+      "relType": "AFFECTS"
+    },
+    {
+      "source": "emissions",
       "target": "climate_change",
       "relType": "AFFECTS"
     },
@@ -1081,12 +1081,12 @@
       "relType": "QUALITY_OF"
     },
     {
-      "source": "uncertainty",
+      "source": "trend",
       "target": "climate_model",
       "relType": "QUALITY_OF"
     },
     {
-      "source": "trend",
+      "source": "uncertainty",
       "target": "climate_model",
       "relType": "QUALITY_OF"
     },
@@ -1096,12 +1096,12 @@
       "relType": "PART_OF"
     },
     {
-      "source": "trend",
+      "source": "projection",
       "target": "climate_model",
       "relType": "IS_INVOLVED_IN"
     },
     {
-      "source": "projection",
+      "source": "trend",
       "target": "climate_model",
       "relType": "IS_INVOLVED_IN"
     },
@@ -1116,11 +1116,6 @@
       "relType": "RELATED_TO"
     },
     {
-      "source": "sea_level",
-      "target": "climate_stressor",
-      "relType": "IS_A"
-    },
-    {
       "source": "coastal_erosion",
       "target": "climate_stressor",
       "relType": "IS_A"
@@ -1131,12 +1126,17 @@
       "relType": "IS_A"
     },
     {
-      "source": "coastal_erosion",
+      "source": "sea_level",
+      "target": "climate_stressor",
+      "relType": "IS_A"
+    },
+    {
+      "source": "coastal_flooding",
       "target": "coast",
       "relType": "QUALITY_OF"
     },
     {
-      "source": "coastal_flooding",
+      "source": "coastal_erosion",
       "target": "coast",
       "relType": "QUALITY_OF"
     },
@@ -1181,12 +1181,17 @@
       "relType": "RELATED_TO"
     },
     {
-      "source": "supply_chain",
+      "source": "resource",
+      "target": "commerce",
+      "relType": "RELATED_TO"
+    },
+    {
+      "source": "commodity",
       "target": "commerce",
       "relType": "PART_OF"
     },
     {
-      "source": "commodity",
+      "source": "supply_chain",
       "target": "commerce",
       "relType": "PART_OF"
     },
@@ -1211,12 +1216,12 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "inequality",
+      "source": "water_scarcity",
       "target": "conflict",
       "relType": "AFFECTS"
     },
     {
-      "source": "water_scarcity",
+      "source": "inequality",
       "target": "conflict",
       "relType": "AFFECTS"
     },
@@ -1236,12 +1241,7 @@
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "south_america",
-      "target": "continent",
-      "relType": "IS_A"
-    },
-    {
-      "source": "north_america",
+      "source": "europe",
       "target": "continent",
       "relType": "IS_A"
     },
@@ -1251,7 +1251,17 @@
       "relType": "IS_A"
     },
     {
-      "source": "europe",
+      "source": "north_america",
+      "target": "continent",
+      "relType": "IS_A"
+    },
+    {
+      "source": "south_america",
+      "target": "continent",
+      "relType": "IS_A"
+    },
+    {
+      "source": "africa",
       "target": "continent",
       "relType": "IS_A"
     },
@@ -1266,9 +1276,9 @@
       "relType": "IS_A"
     },
     {
-      "source": "africa",
-      "target": "continent",
-      "relType": "IS_A"
+      "source": "acidification",
+      "target": "coral_reef",
+      "relType": "CAN_AFFECT"
     },
     {
       "source": "bleaching",
@@ -1276,892 +1286,27 @@
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "acidification",
-      "target": "coral_reef",
-      "relType": "CAN_AFFECT"
-    },
-    {
-      "source": "south_sudan",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "spain",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "south_korea",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "somalia",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "south_africa",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "solomon_islands",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "slovakia",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "slovenia",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "sierra_leone",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "singapore",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "timor_lest",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "thailand",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "tanzania",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "tajikistan",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "taiwan",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "syria",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "switzerland",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "sweden",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "swaziland",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "suriname",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "sudan",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "sri_lanka",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "saint_kitts_and_nevis",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "saint_lucia",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "rwanda",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "romania",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "russia",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "serbia",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "senegal",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "seychelles",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "san_marino",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "saudi_arabia",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "sao_tome_and_principe",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "samoa",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "saint_vincent_and_the_grenadines",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "zambia",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "zimbabwe",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "yemen",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "tuvalu",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "uganda",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "uk",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "ukraine",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "united_arab_emirates",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "togo",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "tonga",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "trinidad_and_tobago",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "tunisia",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "turkey",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "turkmenistan",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "venezuela",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "vatican",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "vietnam",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "uruguay",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "uzbekistan",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "usa",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "vanuatu",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "laos",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "kyrgyzstan",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "kuwait",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "kiribati",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "kenya",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "kazakhstan",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "jordan",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "lithuania",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "liechtenstein",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "libya",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "liberia",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "lesotho",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "lebanon",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "latvia",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "malawi",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "malaysia",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "madagascar",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "macedonia",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "luxembourg",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "mauritania",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "mauritius",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "malta",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "mali",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "maldives",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "haiti",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "guinea",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "guyana",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "guinea_bissau",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "iceland",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "hungary",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "india",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "hong_kong",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "honduras",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "ireland",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "israel",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "indonesia",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "iran",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "iraq",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "japan",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "italy",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "ivory_coast",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "jamaica",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "oman",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "norway",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "palau",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "pakistan",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "paraguay",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "papua_new_guinea",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "panama",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "philippines",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "peru",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "poland",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "portugal",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "qatar",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "republic_of_kosovo",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "mexico",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "micronesia",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "moldova",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "mongolia",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "monaco",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "montenegro",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "morocco",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "myanmar",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "mozambique",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "namibia",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "nauru",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "nepal",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "netherlands",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "new_zealand",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "nicaragua",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "niger",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "nigeria",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "niue",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "cyprus",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "croatia",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "costa_rica",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "comoros",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "congo",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "colombia",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "chile",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "china",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "chad",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "cape_verde",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "central_part_of:african_republic",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "canada",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "cameroon",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "cambodia",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "burundi",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "burkina_faso",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "bulgaria",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "brunei",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "albania",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "afghanistan",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "austria",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "australia",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "aruba",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "armenia",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "argentina",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "angola",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "andorra",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "algeria",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "denmark",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "democratic_republic_of_korea",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "djibouti",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "czech_republic",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "democratic_republic_of_congo",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "ecuador",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "dominica",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "dominican_republic",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "eritrea",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "estonia",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "ethiopia",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "egypt",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "el_salvador",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "equatorial_guinea",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "finland",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "fiji",
-      "target": "country",
-      "relType": "IS_A"
-    },
-    {
-      "source": "france",
+      "source": "grenada",
       "target": "country",
       "relType": "IS_A"
     },
     {
-      "source": "ghana",
+      "source": "guam",
       "target": "country",
       "relType": "IS_A"
     },
     {
-      "source": "georgia",
+      "source": "greece",
       "target": "country",
       "relType": "IS_A"
     },
     {
       "source": "germany",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "ghana",
       "target": "country",
       "relType": "IS_A"
     },
@@ -2176,7 +1321,112 @@
       "relType": "IS_A"
     },
     {
-      "source": "guam",
+      "source": "georgia",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "france",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "finland",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "fiji",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "japan",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "jamaica",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "ivory_coast",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "israel",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "italy",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "iraq",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "ireland",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "iran",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "india",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "indonesia",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "iceland",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "hungary",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "hong_kong",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "honduras",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "haiti",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "guyana",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "guinea_bissau",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "guinea",
       "target": "country",
       "relType": "IS_A"
     },
@@ -2186,62 +1436,617 @@
       "relType": "IS_A"
     },
     {
-      "source": "grenada",
+      "source": "costa_rica",
       "target": "country",
       "relType": "IS_A"
     },
     {
-      "source": "greece",
+      "source": "croatia",
       "target": "country",
       "relType": "IS_A"
     },
     {
-      "source": "azerbaijan",
+      "source": "colombia",
       "target": "country",
       "relType": "IS_A"
     },
     {
-      "source": "bahamas",
+      "source": "comoros",
       "target": "country",
       "relType": "IS_A"
     },
     {
-      "source": "bangladesh",
+      "source": "congo",
       "target": "country",
       "relType": "IS_A"
     },
     {
-      "source": "bahrain",
+      "source": "chile",
       "target": "country",
       "relType": "IS_A"
     },
     {
-      "source": "barbados",
+      "source": "china",
       "target": "country",
       "relType": "IS_A"
     },
     {
-      "source": "belgium",
+      "source": "cape_verde",
       "target": "country",
       "relType": "IS_A"
     },
     {
-      "source": "belarus",
+      "source": "canada",
       "target": "country",
       "relType": "IS_A"
     },
     {
-      "source": "benin",
+      "source": "central_part_of:african_republic",
       "target": "country",
       "relType": "IS_A"
     },
     {
-      "source": "belize",
+      "source": "chad",
       "target": "country",
       "relType": "IS_A"
     },
     {
-      "source": "bhutan",
+      "source": "ethiopia",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "el_salvador",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "ecuador",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "egypt",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "estonia",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "equatorial_guinea",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "eritrea",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "dominica",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "djibouti",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "dominican_republic",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "czech_republic",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "cyprus",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "denmark",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "democratic_republic_of_korea",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "democratic_republic_of_congo",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "poland",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "peru",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "paraguay",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "philippines",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "qatar",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "republic_of_kosovo",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "portugal",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "norway",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "panama",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "papua_new_guinea",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "oman",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "pakistan",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "palau",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "sao_tome_and_principe",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "san_marino",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "samoa",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "saint_vincent_and_the_grenadines",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "seychelles",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "serbia",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "senegal",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "saudi_arabia",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "russia",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "rwanda",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "romania",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "saint_lucia",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "saint_kitts_and_nevis",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "lithuania",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "luxembourg",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "madagascar",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "macedonia",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "malawi",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "maldives",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "malaysia",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "mali",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "malta",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "mauritania",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "jordan",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "kazakhstan",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "kenya",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "kiribati",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "kuwait",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "kyrgyzstan",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "laos",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "latvia",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "lebanon",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "lesotho",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "liberia",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "libya",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "liechtenstein",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "nepal",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "nauru",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "namibia",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "netherlands",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "nigeria",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "niger",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "nicaragua",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "new_zealand",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "niue",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "mexico",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "micronesia",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "mauritius",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "moldova",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "monaco",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "mongolia",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "montenegro",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "myanmar",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "morocco",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "mozambique",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "tunisia",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "trinidad_and_tobago",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "turkmenistan",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "turkey",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "togo",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "timor_lest",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "tonga",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "uganda",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "ukraine",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "uk",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "tuvalu",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "uruguay",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "usa",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "uzbekistan",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "united_arab_emirates",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "vanuatu",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "vatican",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "venezuela",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "vietnam",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "solomon_islands",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "slovenia",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "slovakia",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "singapore",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "brunei",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "bulgaria",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "cambodia",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "cameroon",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "burkina_faso",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "burundi",
       "target": "country",
       "relType": "IS_A"
     },
@@ -2266,6 +2071,206 @@
       "relType": "IS_A"
     },
     {
+      "source": "belize",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "belgium",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "belarus",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "barbados",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "bhutan",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "benin",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "bahamas",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "azerbaijan",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "austria",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "bangladesh",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "bahrain",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "argentina",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "armenia",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "aruba",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "australia",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "albania",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "algeria",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "andorra",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "angola",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "afghanistan",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "zimbabwe",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "yemen",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "zambia",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "syria",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "switzerland",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "tajikistan",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "taiwan",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "tanzania",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "thailand",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "spain",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "sri_lanka",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "suriname",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "sudan",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "sweden",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "swaziland",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "somalia",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "south_africa",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "south_korea",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "south_sudan",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
+      "source": "sierra_leone",
+      "target": "country",
+      "relType": "IS_A"
+    },
+    {
       "source": "developed",
       "target": "country",
       "relType": "TYPE_OF"
@@ -2276,7 +2281,7 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "wheat",
+      "source": "soy",
       "target": "crop",
       "relType": "TYPE_OF"
     },
@@ -2286,12 +2291,7 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "soy",
-      "target": "crop",
-      "relType": "TYPE_OF"
-    },
-    {
-      "source": "maize",
+      "source": "wheat",
       "target": "crop",
       "relType": "TYPE_OF"
     },
@@ -2301,14 +2301,14 @@
       "relType": "TYPE_OF"
     },
     {
+      "source": "maize",
+      "target": "crop",
+      "relType": "TYPE_OF"
+    },
+    {
       "source": "irrigation",
       "target": "crop",
       "relType": "RELATED_TO"
-    },
-    {
-      "source": "crop_health",
-      "target": "crop",
-      "relType": "QUALITY_OF"
     },
     {
       "source": "crop_yield",
@@ -2316,9 +2316,9 @@
       "relType": "QUALITY_OF"
     },
     {
-      "source": "irrigation",
+      "source": "crop_health",
       "target": "crop",
-      "relType": "CAN_AFFECT"
+      "relType": "QUALITY_OF"
     },
     {
       "source": "drought",
@@ -2326,12 +2326,17 @@
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "precipitation",
-      "target": "crop_health",
+      "source": "irrigation",
+      "target": "crop",
       "relType": "CAN_AFFECT"
     },
     {
       "source": "irrigation",
+      "target": "crop_health",
+      "relType": "CAN_AFFECT"
+    },
+    {
+      "source": "precipitation",
       "target": "crop_health",
       "relType": "CAN_AFFECT"
     },
@@ -2361,12 +2366,12 @@
       "relType": "AFFECTS"
     },
     {
-      "source": "guernsey",
+      "source": "isle_of_man",
       "target": "crown_dependency",
       "relType": "IS_A"
     },
     {
-      "source": "isle_of_man",
+      "source": "guernsey",
       "target": "crown_dependency",
       "relType": "IS_A"
     },
@@ -2376,32 +2381,42 @@
       "relType": "IS_A"
     },
     {
-      "source": "conflict",
-      "target": "damage",
-      "relType": "CAN_AFFECT"
-    },
-    {
       "source": "mangrove",
       "target": "damage",
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "exposure",
+      "source": "conflict",
+      "target": "damage",
+      "relType": "CAN_AFFECT"
+    },
+    {
+      "source": "storm_surge",
       "target": "damage",
       "relType": "AFFECTS"
     },
     {
-      "source": "emergency_response",
+      "source": "response",
       "target": "damage",
       "relType": "AFFECTS"
     },
     {
-      "source": "emergency_services",
+      "source": "resilience_planning",
       "target": "damage",
       "relType": "AFFECTS"
     },
     {
-      "source": "impact",
+      "source": "risk_management",
+      "target": "damage",
+      "relType": "AFFECTS"
+    },
+    {
+      "source": "risk_assesment",
+      "target": "damage",
+      "relType": "AFFECTS"
+    },
+    {
+      "source": "mitigation",
       "target": "damage",
       "relType": "AFFECTS"
     },
@@ -2411,7 +2426,22 @@
       "relType": "AFFECTS"
     },
     {
-      "source": "adaptation",
+      "source": "impact",
+      "target": "damage",
+      "relType": "AFFECTS"
+    },
+    {
+      "source": "emergency_services",
+      "target": "damage",
+      "relType": "AFFECTS"
+    },
+    {
+      "source": "exposure",
+      "target": "damage",
+      "relType": "AFFECTS"
+    },
+    {
+      "source": "emergency_response",
       "target": "damage",
       "relType": "AFFECTS"
     },
@@ -2426,34 +2456,14 @@
       "relType": "AFFECTS"
     },
     {
-      "source": "resilience_planning",
+      "source": "adaptation",
       "target": "damage",
       "relType": "AFFECTS"
     },
     {
-      "source": "response",
-      "target": "damage",
-      "relType": "AFFECTS"
-    },
-    {
-      "source": "risk_assesment",
-      "target": "damage",
-      "relType": "AFFECTS"
-    },
-    {
-      "source": "risk_management",
-      "target": "damage",
-      "relType": "AFFECTS"
-    },
-    {
-      "source": "mitigation",
-      "target": "damage",
-      "relType": "AFFECTS"
-    },
-    {
-      "source": "storm_surge",
-      "target": "damage",
-      "relType": "AFFECTS"
+      "source": "raster",
+      "target": "dataset",
+      "relType": "TYPE_OF"
     },
     {
       "source": "vector",
@@ -2462,11 +2472,6 @@
     },
     {
       "source": "table",
-      "target": "dataset",
-      "relType": "TYPE_OF"
-    },
-    {
-      "source": "raster",
       "target": "dataset",
       "relType": "TYPE_OF"
     },
@@ -2486,11 +2491,6 @@
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "commerce",
-      "target": "deforestation",
-      "relType": "CAN_AFFECT"
-    },
-    {
       "source": "logging",
       "target": "deforestation",
       "relType": "CAN_AFFECT"
@@ -2501,7 +2501,7 @@
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "urbanization",
+      "source": "commerce",
       "target": "deforestation",
       "relType": "CAN_AFFECT"
     },
@@ -2511,14 +2511,14 @@
       "relType": "CAN_AFFECT"
     },
     {
+      "source": "urbanization",
+      "target": "deforestation",
+      "relType": "CAN_AFFECT"
+    },
+    {
       "source": "exploitation",
       "target": "deforestation",
       "relType": "AFFECTS"
-    },
-    {
-      "source": "faroe_islands",
-      "target": "denmark",
-      "relType": "PART_OF"
     },
     {
       "source": "greenland",
@@ -2526,12 +2526,17 @@
       "relType": "PART_OF"
     },
     {
-      "source": "development",
+      "source": "faroe_islands",
+      "target": "denmark",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "sustainable_development",
       "target": "developing",
       "relType": "AFFECTS"
     },
     {
-      "source": "sustainable_development",
+      "source": "development",
       "target": "developing",
       "relType": "AFFECTS"
     },
@@ -2551,11 +2556,6 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "landslide",
-      "target": "disaster",
-      "relType": "RELATED_TO"
-    },
-    {
       "source": "cold_wave",
       "target": "disaster",
       "relType": "RELATED_TO"
@@ -2566,9 +2566,9 @@
       "relType": "RELATED_TO"
     },
     {
-      "source": "harmful_algal_blooms",
+      "source": "landslide",
       "target": "disaster",
-      "relType": "IS_A"
+      "relType": "RELATED_TO"
     },
     {
       "source": "fire",
@@ -2577,6 +2577,11 @@
     },
     {
       "source": "flood",
+      "target": "disaster",
+      "relType": "IS_A"
+    },
+    {
+      "source": "harmful_algal_blooms",
       "target": "disaster",
       "relType": "IS_A"
     },
@@ -2606,17 +2611,12 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "conflict",
-      "target": "displaced_people",
-      "relType": "CAN_AFFECT"
-    },
-    {
-      "source": "natural_disaster",
-      "target": "displaced_people",
-      "relType": "CAN_AFFECT"
-    },
-    {
       "source": "climate",
+      "target": "displaced_people",
+      "relType": "CAN_AFFECT"
+    },
+    {
+      "source": "conflict",
       "target": "displaced_people",
       "relType": "CAN_AFFECT"
     },
@@ -2626,9 +2626,9 @@
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "famine",
+      "source": "natural_disaster",
       "target": "displaced_people",
-      "relType": "AFFECTS"
+      "relType": "CAN_AFFECT"
     },
     {
       "source": "governance",
@@ -2636,12 +2636,17 @@
       "relType": "AFFECTS"
     },
     {
-      "source": "oecd",
+      "source": "famine",
+      "target": "displaced_people",
+      "relType": "AFFECTS"
+    },
+    {
+      "source": "inequality",
       "target": "economic",
       "relType": "RELATED_TO"
     },
     {
-      "source": "inequality",
+      "source": "middle_income",
       "target": "economic",
       "relType": "RELATED_TO"
     },
@@ -2651,7 +2656,7 @@
       "relType": "RELATED_TO"
     },
     {
-      "source": "middle_income",
+      "source": "oecd",
       "target": "economic",
       "relType": "RELATED_TO"
     },
@@ -2676,12 +2681,12 @@
       "relType": "PART_OF"
     },
     {
-      "source": "development",
+      "source": "sustainable_development",
       "target": "economic",
       "relType": "AFFECTS"
     },
     {
-      "source": "sustainable_development",
+      "source": "development",
       "target": "economic",
       "relType": "AFFECTS"
     },
@@ -2706,12 +2711,12 @@
       "relType": "AFFECTS"
     },
     {
-      "source": "school",
+      "source": "literacy",
       "target": "education",
       "relType": "RELATED_TO"
     },
     {
-      "source": "literacy",
+      "source": "school",
       "target": "education",
       "relType": "RELATED_TO"
     },
@@ -2721,12 +2726,12 @@
       "relType": "PART_OF"
     },
     {
-      "source": "emergency_services",
+      "source": "emergency_response",
       "target": "emergency",
       "relType": "QUALITY_OF"
     },
     {
-      "source": "emergency_response",
+      "source": "emergency_services",
       "target": "emergency",
       "relType": "QUALITY_OF"
     },
@@ -2736,7 +2741,7 @@
       "relType": "RELATED_TO"
     },
     {
-      "source": "public_transportation",
+      "source": "car",
       "target": "emissions",
       "relType": "CAN_AFFECT"
     },
@@ -2746,12 +2751,12 @@
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "car",
+      "source": "bus",
       "target": "emissions",
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "bus",
+      "source": "public_transportation",
       "target": "emissions",
       "relType": "CAN_AFFECT"
     },
@@ -2766,12 +2771,12 @@
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "fossil_fuel",
+      "source": "nonrenewable_energy",
       "target": "emissions",
       "relType": "AFFECTS"
     },
     {
-      "source": "nonrenewable_energy",
+      "source": "fossil_fuel",
       "target": "emissions",
       "relType": "AFFECTS"
     },
@@ -2786,7 +2791,7 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "pipelines",
+      "source": "fuel",
       "target": "energy",
       "relType": "RELATED_TO"
     },
@@ -2796,12 +2801,12 @@
       "relType": "RELATED_TO"
     },
     {
-      "source": "solar_energy",
+      "source": "pipelines",
       "target": "energy",
       "relType": "RELATED_TO"
     },
     {
-      "source": "fuel",
+      "source": "solar_energy",
       "target": "energy",
       "relType": "RELATED_TO"
     },
@@ -2811,12 +2816,7 @@
       "relType": "QUALITY_OF"
     },
     {
-      "source": "energy_infrastructure",
-      "target": "energy",
-      "relType": "QUALITY_OF"
-    },
-    {
-      "source": "energy_hazard",
+      "source": "energy_demand",
       "target": "energy",
       "relType": "QUALITY_OF"
     },
@@ -2826,7 +2826,12 @@
       "relType": "QUALITY_OF"
     },
     {
-      "source": "energy_demand",
+      "source": "energy_hazard",
+      "target": "energy",
+      "relType": "QUALITY_OF"
+    },
+    {
+      "source": "energy_infrastructure",
       "target": "energy",
       "relType": "QUALITY_OF"
     },
@@ -2836,12 +2841,12 @@
       "relType": "QUALITY_OF"
     },
     {
-      "source": "poverty",
+      "source": "pipelines",
       "target": "energy_access",
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "pipelines",
+      "source": "poverty",
       "target": "energy_access",
       "relType": "CAN_AFFECT"
     },
@@ -2861,12 +2866,12 @@
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "power_lines",
+      "source": "power_plant",
       "target": "energy_infrastructure",
       "relType": "TYPE_OF"
     },
     {
-      "source": "power_plant",
+      "source": "power_lines",
       "target": "energy_infrastructure",
       "relType": "TYPE_OF"
     },
@@ -2906,22 +2911,22 @@
       "relType": "RELATED_TO"
     },
     {
-      "source": "resource_scarcity",
-      "target": "environment",
-      "relType": "RELATED_TO"
-    },
-    {
       "source": "forest",
       "target": "environment",
       "relType": "RELATED_TO"
     },
     {
-      "source": "environmental_quality",
+      "source": "resource_scarcity",
+      "target": "environment",
+      "relType": "RELATED_TO"
+    },
+    {
+      "source": "environmental_health",
       "target": "environment",
       "relType": "QUALITY_OF"
     },
     {
-      "source": "environmental_health",
+      "source": "environmental_quality",
       "target": "environment",
       "relType": "QUALITY_OF"
     },
@@ -2931,12 +2936,12 @@
       "relType": "PART_OF"
     },
     {
-      "source": "so2",
+      "source": "o3",
       "target": "environmental_health",
       "relType": "IS_INVOLVED_IN"
     },
     {
-      "source": "o3",
+      "source": "so2",
       "target": "environmental_health",
       "relType": "IS_INVOLVED_IN"
     },
@@ -2946,19 +2951,14 @@
       "relType": "IS_INVOLVED_IN"
     },
     {
-      "source": "pollution",
-      "target": "environmental_health",
-      "relType": "CAN_AFFECT"
-    },
-    {
       "source": "deforestation",
       "target": "environmental_health",
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "emissions",
+      "source": "pollution",
       "target": "environmental_health",
-      "relType": "AFFECTS"
+      "relType": "CAN_AFFECT"
     },
     {
       "source": "governance",
@@ -2966,12 +2966,17 @@
       "relType": "AFFECTS"
     },
     {
-      "source": "pollution",
+      "source": "emissions",
+      "target": "environmental_health",
+      "relType": "AFFECTS"
+    },
+    {
+      "source": "deforestation",
       "target": "environmental_quality",
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "deforestation",
+      "source": "pollution",
       "target": "environmental_quality",
       "relType": "CAN_AFFECT"
     },
@@ -3001,6 +3006,16 @@
       "relType": "CAN_AFFECT"
     },
     {
+      "source": "wind",
+      "target": "erosion",
+      "relType": "AFFECTS"
+    },
+    {
+      "source": "precipitation",
+      "target": "erosion",
+      "relType": "AFFECTS"
+    },
+    {
       "source": "deforestation",
       "target": "erosion",
       "relType": "AFFECTS"
@@ -3011,27 +3026,17 @@
       "relType": "AFFECTS"
     },
     {
-      "source": "precipitation",
-      "target": "erosion",
-      "relType": "AFFECTS"
-    },
-    {
-      "source": "wind",
-      "target": "erosion",
-      "relType": "AFFECTS"
-    },
-    {
-      "source": "italy",
+      "source": "poland",
       "target": "eu",
       "relType": "IS_INVOLVED_IN"
     },
     {
-      "source": "ireland",
+      "source": "portugal",
       "target": "eu",
       "relType": "IS_INVOLVED_IN"
     },
     {
-      "source": "latvia",
+      "source": "netherlands",
       "target": "eu",
       "relType": "IS_INVOLVED_IN"
     },
@@ -3041,12 +3046,32 @@
       "relType": "IS_INVOLVED_IN"
     },
     {
+      "source": "malta",
+      "target": "eu",
+      "relType": "IS_INVOLVED_IN"
+    },
+    {
       "source": "lithuania",
       "target": "eu",
       "relType": "IS_INVOLVED_IN"
     },
     {
-      "source": "malta",
+      "source": "italy",
+      "target": "eu",
+      "relType": "IS_INVOLVED_IN"
+    },
+    {
+      "source": "latvia",
+      "target": "eu",
+      "relType": "IS_INVOLVED_IN"
+    },
+    {
+      "source": "ireland",
+      "target": "eu",
+      "relType": "IS_INVOLVED_IN"
+    },
+    {
+      "source": "hungary",
       "target": "eu",
       "relType": "IS_INVOLVED_IN"
     },
@@ -3061,27 +3086,12 @@
       "relType": "IS_INVOLVED_IN"
     },
     {
-      "source": "greece",
-      "target": "eu",
-      "relType": "IS_INVOLVED_IN"
-    },
-    {
       "source": "germany",
       "target": "eu",
       "relType": "IS_INVOLVED_IN"
     },
     {
-      "source": "hungary",
-      "target": "eu",
-      "relType": "IS_INVOLVED_IN"
-    },
-    {
-      "source": "spain",
-      "target": "eu",
-      "relType": "IS_INVOLVED_IN"
-    },
-    {
-      "source": "sweden",
+      "source": "greece",
       "target": "eu",
       "relType": "IS_INVOLVED_IN"
     },
@@ -3091,32 +3101,7 @@
       "relType": "IS_INVOLVED_IN"
     },
     {
-      "source": "netherlands",
-      "target": "eu",
-      "relType": "IS_INVOLVED_IN"
-    },
-    {
-      "source": "poland",
-      "target": "eu",
-      "relType": "IS_INVOLVED_IN"
-    },
-    {
-      "source": "portugal",
-      "target": "eu",
-      "relType": "IS_INVOLVED_IN"
-    },
-    {
-      "source": "romania",
-      "target": "eu",
-      "relType": "IS_INVOLVED_IN"
-    },
-    {
-      "source": "slovakia",
-      "target": "eu",
-      "relType": "IS_INVOLVED_IN"
-    },
-    {
-      "source": "slovenia",
+      "source": "austria",
       "target": "eu",
       "relType": "IS_INVOLVED_IN"
     },
@@ -3131,22 +3116,17 @@
       "relType": "IS_INVOLVED_IN"
     },
     {
-      "source": "austria",
+      "source": "slovakia",
       "target": "eu",
       "relType": "IS_INVOLVED_IN"
     },
     {
-      "source": "denmark",
+      "source": "romania",
       "target": "eu",
       "relType": "IS_INVOLVED_IN"
     },
     {
-      "source": "estonia",
-      "target": "eu",
-      "relType": "IS_INVOLVED_IN"
-    },
-    {
-      "source": "czech_republic",
+      "source": "croatia",
       "target": "eu",
       "relType": "IS_INVOLVED_IN"
     },
@@ -3156,7 +3136,32 @@
       "relType": "IS_INVOLVED_IN"
     },
     {
-      "source": "croatia",
+      "source": "slovenia",
+      "target": "eu",
+      "relType": "IS_INVOLVED_IN"
+    },
+    {
+      "source": "sweden",
+      "target": "eu",
+      "relType": "IS_INVOLVED_IN"
+    },
+    {
+      "source": "denmark",
+      "target": "eu",
+      "relType": "IS_INVOLVED_IN"
+    },
+    {
+      "source": "czech_republic",
+      "target": "eu",
+      "relType": "IS_INVOLVED_IN"
+    },
+    {
+      "source": "spain",
+      "target": "eu",
+      "relType": "IS_INVOLVED_IN"
+    },
+    {
+      "source": "estonia",
       "target": "eu",
       "relType": "IS_INVOLVED_IN"
     },
@@ -3176,52 +3181,22 @@
       "relType": "LOCATED_AT"
     },
     {
-      "source": "uk",
+      "source": "cyprus",
       "target": "europe",
       "relType": "PART_OF"
     },
     {
-      "source": "ukraine",
+      "source": "czech_republic",
       "target": "europe",
       "relType": "PART_OF"
     },
     {
-      "source": "turkey",
+      "source": "croatia",
       "target": "europe",
       "relType": "PART_OF"
     },
     {
-      "source": "vatican",
-      "target": "europe",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "latvia",
-      "target": "europe",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "liechtenstein",
-      "target": "europe",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "lithuania",
-      "target": "europe",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "luxembourg",
-      "target": "europe",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "andorra",
-      "target": "europe",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "albania",
+      "source": "bulgaria",
       "target": "europe",
       "relType": "PART_OF"
     },
@@ -3236,42 +3211,12 @@
       "relType": "PART_OF"
     },
     {
+      "source": "bosnia_and_herzegovina",
+      "target": "europe",
+      "relType": "PART_OF"
+    },
+    {
       "source": "azerbaijan",
-      "target": "europe",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "austria",
-      "target": "europe",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "iceland",
-      "target": "europe",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "hungary",
-      "target": "europe",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "ireland",
-      "target": "europe",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "italy",
-      "target": "europe",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "isle_of_man",
-      "target": "europe",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "jersey",
       "target": "europe",
       "relType": "PART_OF"
     },
@@ -3281,12 +3226,37 @@
       "relType": "PART_OF"
     },
     {
+      "source": "faroe_islands",
+      "target": "europe",
+      "relType": "PART_OF"
+    },
+    {
       "source": "france",
       "target": "europe",
       "relType": "PART_OF"
     },
     {
-      "source": "georgia",
+      "source": "denmark",
+      "target": "europe",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "estonia",
+      "target": "europe",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "guernsey",
+      "target": "europe",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "hungary",
+      "target": "europe",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "iceland",
       "target": "europe",
       "relType": "PART_OF"
     },
@@ -3301,117 +3271,57 @@
       "relType": "PART_OF"
     },
     {
+      "source": "georgia",
+      "target": "europe",
+      "relType": "PART_OF"
+    },
+    {
       "source": "greece",
       "target": "europe",
       "relType": "PART_OF"
     },
     {
-      "source": "guernsey",
+      "source": "latvia",
       "target": "europe",
       "relType": "PART_OF"
     },
     {
-      "source": "croatia",
+      "source": "liechtenstein",
       "target": "europe",
       "relType": "PART_OF"
     },
     {
-      "source": "denmark",
+      "source": "luxembourg",
       "target": "europe",
       "relType": "PART_OF"
     },
     {
-      "source": "czech_republic",
+      "source": "lithuania",
       "target": "europe",
       "relType": "PART_OF"
     },
     {
-      "source": "cyprus",
+      "source": "isle_of_man",
       "target": "europe",
       "relType": "PART_OF"
     },
     {
-      "source": "faroe_islands",
+      "source": "ireland",
       "target": "europe",
       "relType": "PART_OF"
     },
     {
-      "source": "estonia",
+      "source": "italy",
       "target": "europe",
       "relType": "PART_OF"
     },
     {
-      "source": "bosnia_and_herzegovina",
+      "source": "jersey",
       "target": "europe",
       "relType": "PART_OF"
     },
     {
-      "source": "bulgaria",
-      "target": "europe",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "spain",
-      "target": "europe",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "switzerland",
-      "target": "europe",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "sweden",
-      "target": "europe",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "serbia",
-      "target": "europe",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "slovakia",
-      "target": "europe",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "slovenia",
-      "target": "europe",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "san_marino",
-      "target": "europe",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "russia",
-      "target": "europe",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "poland",
-      "target": "europe",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "portugal",
-      "target": "europe",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "republic_of_kosovo",
-      "target": "europe",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "romania",
-      "target": "europe",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "norway",
+      "source": "montenegro",
       "target": "europe",
       "relType": "PART_OF"
     },
@@ -3421,7 +3331,12 @@
       "relType": "PART_OF"
     },
     {
-      "source": "montenegro",
+      "source": "macedonia",
+      "target": "europe",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "malta",
       "target": "europe",
       "relType": "PART_OF"
     },
@@ -3436,17 +3351,107 @@
       "relType": "PART_OF"
     },
     {
-      "source": "malta",
+      "source": "russia",
       "target": "europe",
       "relType": "PART_OF"
     },
     {
-      "source": "macedonia",
+      "source": "romania",
       "target": "europe",
       "relType": "PART_OF"
     },
     {
-      "source": "liechtenstein",
+      "source": "republic_of_kosovo",
+      "target": "europe",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "portugal",
+      "target": "europe",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "poland",
+      "target": "europe",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "norway",
+      "target": "europe",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "slovenia",
+      "target": "europe",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "slovakia",
+      "target": "europe",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "serbia",
+      "target": "europe",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "san_marino",
+      "target": "europe",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "turkey",
+      "target": "europe",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "sweden",
+      "target": "europe",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "switzerland",
+      "target": "europe",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "spain",
+      "target": "europe",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "vatican",
+      "target": "europe",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "uk",
+      "target": "europe",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "ukraine",
+      "target": "europe",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "andorra",
+      "target": "europe",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "albania",
+      "target": "europe",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "austria",
+      "target": "europe",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "switzerland",
       "target": "european_free_trade_association",
       "relType": "PART_OF"
     },
@@ -3456,7 +3461,7 @@
       "relType": "PART_OF"
     },
     {
-      "source": "switzerland",
+      "source": "liechtenstein",
       "target": "european_free_trade_association",
       "relType": "PART_OF"
     },
@@ -3476,11 +3481,6 @@
       "relType": "IS_A"
     },
     {
-      "source": "protest",
-      "target": "event",
-      "relType": "IS_A"
-    },
-    {
       "source": "conflict",
       "target": "event",
       "relType": "IS_A"
@@ -3491,17 +3491,22 @@
       "relType": "IS_A"
     },
     {
-      "source": "extreme_event",
-      "target": "event",
-      "relType": "IS_A"
-    },
-    {
       "source": "explosion",
       "target": "event",
       "relType": "IS_A"
     },
     {
+      "source": "extreme_event",
+      "target": "event",
+      "relType": "IS_A"
+    },
+    {
       "source": "disaster",
+      "target": "event",
+      "relType": "IS_A"
+    },
+    {
+      "source": "protest",
       "target": "event",
       "relType": "IS_A"
     },
@@ -3521,11 +3526,6 @@
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "heat_wave",
-      "target": "extreme_event",
-      "relType": "TYPE_OF"
-    },
-    {
       "source": "eruption",
       "target": "extreme_event",
       "relType": "TYPE_OF"
@@ -3536,9 +3536,9 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "natural_disaster",
+      "source": "heat_wave",
       "target": "extreme_event",
-      "relType": "RELATED_TO"
+      "relType": "TYPE_OF"
     },
     {
       "source": "damage",
@@ -3551,12 +3551,17 @@
       "relType": "RELATED_TO"
     },
     {
-      "source": "food_supply",
+      "source": "natural_disaster",
+      "target": "extreme_event",
+      "relType": "RELATED_TO"
+    },
+    {
+      "source": "drought",
       "target": "famine",
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "drought",
+      "source": "food_supply",
       "target": "famine",
       "relType": "CAN_AFFECT"
     },
@@ -3591,7 +3596,7 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "seafood",
+      "source": "fishing",
       "target": "fish",
       "relType": "RELATED_TO"
     },
@@ -3601,7 +3606,7 @@
       "relType": "RELATED_TO"
     },
     {
-      "source": "fishing",
+      "source": "seafood",
       "target": "fish",
       "relType": "RELATED_TO"
     },
@@ -3651,21 +3656,6 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "hunger",
-      "target": "food",
-      "relType": "RELATED_TO"
-    },
-    {
-      "source": "nutrition",
-      "target": "food",
-      "relType": "RELATED_TO"
-    },
-    {
-      "source": "malnutrition",
-      "target": "food",
-      "relType": "RELATED_TO"
-    },
-    {
       "source": "aquaculture",
       "target": "food",
       "relType": "RELATED_TO"
@@ -3676,7 +3666,22 @@
       "relType": "RELATED_TO"
     },
     {
-      "source": "food_security",
+      "source": "hunger",
+      "target": "food",
+      "relType": "RELATED_TO"
+    },
+    {
+      "source": "malnutrition",
+      "target": "food",
+      "relType": "RELATED_TO"
+    },
+    {
+      "source": "nutrition",
+      "target": "food",
+      "relType": "RELATED_TO"
+    },
+    {
+      "source": "food_price",
       "target": "food",
       "relType": "QUALITY_OF"
     },
@@ -3686,17 +3691,17 @@
       "relType": "QUALITY_OF"
     },
     {
-      "source": "food_price",
-      "target": "food",
-      "relType": "QUALITY_OF"
-    },
-    {
-      "source": "food_waste",
+      "source": "food_security",
       "target": "food",
       "relType": "QUALITY_OF"
     },
     {
       "source": "food_supply",
+      "target": "food",
+      "relType": "QUALITY_OF"
+    },
+    {
+      "source": "food_waste",
       "target": "food",
       "relType": "QUALITY_OF"
     },
@@ -3721,22 +3726,22 @@
       "relType": "AFFECTS"
     },
     {
-      "source": "precipitation",
-      "target": "food_security",
-      "relType": "CAN_AFFECT"
-    },
-    {
       "source": "food_supply",
       "target": "food_security",
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "food_price",
+      "source": "precipitation",
+      "target": "food_security",
+      "relType": "CAN_AFFECT"
+    },
+    {
+      "source": "flood",
       "target": "food_security",
       "relType": "AFFECTS"
     },
     {
-      "source": "flood",
+      "source": "food_price",
       "target": "food_security",
       "relType": "AFFECTS"
     },
@@ -3796,7 +3801,7 @@
       "relType": "QUALITY_OF"
     },
     {
-      "source": "fire",
+      "source": "degradation",
       "target": "forest",
       "relType": "CAN_AFFECT"
     },
@@ -3806,7 +3811,7 @@
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "degradation",
+      "source": "fire",
       "target": "forest",
       "relType": "CAN_AFFECT"
     },
@@ -3821,12 +3826,12 @@
       "relType": "AFFECTS"
     },
     {
-      "source": "forest_loss",
+      "source": "forest_gain",
       "target": "forest_cover",
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "forest_gain",
+      "source": "forest_loss",
       "target": "forest_cover",
       "relType": "CAN_AFFECT"
     },
@@ -3846,7 +3851,7 @@
       "relType": "PART_OF"
     },
     {
-      "source": "new_caledonia",
+      "source": "saint_pierre_and_miquelon",
       "target": "france",
       "relType": "PART_OF"
     },
@@ -3856,7 +3861,12 @@
       "relType": "PART_OF"
     },
     {
-      "source": "saint_pierre_and_miquelon",
+      "source": "new_caledonia",
+      "target": "france",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "french_polynesia",
       "target": "france",
       "relType": "PART_OF"
     },
@@ -3866,9 +3876,14 @@
       "relType": "PART_OF"
     },
     {
-      "source": "french_polynesia",
-      "target": "france",
-      "relType": "PART_OF"
+      "source": "seasonality",
+      "target": "frequency",
+      "relType": "TYPE_OF"
+    },
+    {
+      "source": "near_real_time",
+      "target": "frequency",
+      "relType": "TYPE_OF"
     },
     {
       "source": "yearly",
@@ -3881,7 +3896,7 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "seasonality",
+      "source": "daily",
       "target": "frequency",
       "relType": "TYPE_OF"
     },
@@ -3892,16 +3907,6 @@
     },
     {
       "source": "monthly",
-      "target": "frequency",
-      "relType": "TYPE_OF"
-    },
-    {
-      "source": "near_real_time",
-      "target": "frequency",
-      "relType": "TYPE_OF"
-    },
-    {
-      "source": "daily",
       "target": "frequency",
       "relType": "TYPE_OF"
     },
@@ -3926,11 +3931,6 @@
       "relType": "PART_OF"
     },
     {
-      "source": "natural_gas",
-      "target": "fuel",
-      "relType": "TYPE_OF"
-    },
-    {
       "source": "oil",
       "target": "fuel",
       "relType": "TYPE_OF"
@@ -3941,12 +3941,17 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "fossil_fuel",
+      "source": "coal",
       "target": "fuel",
       "relType": "TYPE_OF"
     },
     {
-      "source": "coal",
+      "source": "natural_gas",
+      "target": "fuel",
+      "relType": "TYPE_OF"
+    },
+    {
+      "source": "fossil_fuel",
       "target": "fuel",
       "relType": "TYPE_OF"
     },
@@ -3956,37 +3961,17 @@
       "relType": "IS_A"
     },
     {
-      "source": "biodiversity",
-      "target": "general",
-      "relType": "RELATED_TO"
-    },
-    {
       "source": "infrastructure",
       "target": "general",
       "relType": "RELATED_TO"
     },
     {
-      "source": "un",
+      "source": "biodiversity",
       "target": "general",
       "relType": "RELATED_TO"
     },
     {
-      "source": "urban",
-      "target": "general",
-      "relType": "TYPE_OF"
-    },
-    {
-      "source": "water",
-      "target": "general",
-      "relType": "TYPE_OF"
-    },
-    {
-      "source": "risk",
-      "target": "general",
-      "relType": "TYPE_OF"
-    },
-    {
-      "source": "response",
+      "source": "slope",
       "target": "general",
       "relType": "TYPE_OF"
     },
@@ -3996,57 +3981,22 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "development",
+      "source": "sector",
       "target": "general",
       "relType": "TYPE_OF"
     },
     {
-      "source": "early_warning",
+      "source": "response",
       "target": "general",
       "relType": "TYPE_OF"
     },
     {
-      "source": "economic",
+      "source": "risk",
       "target": "general",
       "relType": "TYPE_OF"
     },
     {
-      "source": "ecosystem",
-      "target": "general",
-      "relType": "TYPE_OF"
-    },
-    {
-      "source": "damage",
-      "target": "general",
-      "relType": "TYPE_OF"
-    },
-    {
-      "source": "dataset",
-      "target": "general",
-      "relType": "TYPE_OF"
-    },
-    {
-      "source": "dead_zone",
-      "target": "general",
-      "relType": "TYPE_OF"
-    },
-    {
-      "source": "commodity",
-      "target": "general",
-      "relType": "TYPE_OF"
-    },
-    {
-      "source": "commerce",
-      "target": "general",
-      "relType": "TYPE_OF"
-    },
-    {
-      "source": "chemical_compound",
-      "target": "general",
-      "relType": "TYPE_OF"
-    },
-    {
-      "source": "climate",
+      "source": "accessibility",
       "target": "general",
       "relType": "TYPE_OF"
     },
@@ -4056,7 +4006,7 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "ghg",
+      "source": "event",
       "target": "general",
       "relType": "TYPE_OF"
     },
@@ -4066,37 +4016,17 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "event",
+      "source": "hunger",
       "target": "general",
       "relType": "TYPE_OF"
     },
     {
-      "source": "emergency",
+      "source": "impact",
       "target": "general",
       "relType": "TYPE_OF"
     },
     {
-      "source": "environment",
-      "target": "general",
-      "relType": "TYPE_OF"
-    },
-    {
-      "source": "energy",
-      "target": "general",
-      "relType": "TYPE_OF"
-    },
-    {
-      "source": "land",
-      "target": "general",
-      "relType": "TYPE_OF"
-    },
-    {
-      "source": "irrigation",
-      "target": "general",
-      "relType": "TYPE_OF"
-    },
-    {
-      "source": "island",
+      "source": "ghg",
       "target": "general",
       "relType": "TYPE_OF"
     },
@@ -4106,7 +4036,12 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "impact",
+      "source": "island",
+      "target": "general",
+      "relType": "TYPE_OF"
+    },
+    {
+      "source": "land",
       "target": "general",
       "relType": "TYPE_OF"
     },
@@ -4121,12 +4056,132 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "hunger",
+      "source": "irrigation",
       "target": "general",
       "relType": "TYPE_OF"
     },
     {
-      "source": "oecd",
+      "source": "location",
+      "target": "general",
+      "relType": "TYPE_OF"
+    },
+    {
+      "source": "migration",
+      "target": "general",
+      "relType": "TYPE_OF"
+    },
+    {
+      "source": "asset",
+      "target": "general",
+      "relType": "TYPE_OF"
+    },
+    {
+      "source": "biome",
+      "target": "general",
+      "relType": "TYPE_OF"
+    },
+    {
+      "source": "adaptive_capacity",
+      "target": "general",
+      "relType": "TYPE_OF"
+    },
+    {
+      "source": "activity",
+      "target": "general",
+      "relType": "TYPE_OF"
+    },
+    {
+      "source": "albedo",
+      "target": "general",
+      "relType": "TYPE_OF"
+    },
+    {
+      "source": "albania",
+      "target": "general",
+      "relType": "TYPE_OF"
+    },
+    {
+      "source": "commerce",
+      "target": "general",
+      "relType": "TYPE_OF"
+    },
+    {
+      "source": "commodity",
+      "target": "general",
+      "relType": "TYPE_OF"
+    },
+    {
+      "source": "climate",
+      "target": "general",
+      "relType": "TYPE_OF"
+    },
+    {
+      "source": "chemical_compound",
+      "target": "general",
+      "relType": "TYPE_OF"
+    },
+    {
+      "source": "early_warning",
+      "target": "general",
+      "relType": "TYPE_OF"
+    },
+    {
+      "source": "development",
+      "target": "general",
+      "relType": "TYPE_OF"
+    },
+    {
+      "source": "dead_zone",
+      "target": "general",
+      "relType": "TYPE_OF"
+    },
+    {
+      "source": "dataset",
+      "target": "general",
+      "relType": "TYPE_OF"
+    },
+    {
+      "source": "damage",
+      "target": "general",
+      "relType": "TYPE_OF"
+    },
+    {
+      "source": "environment",
+      "target": "general",
+      "relType": "TYPE_OF"
+    },
+    {
+      "source": "energy",
+      "target": "general",
+      "relType": "TYPE_OF"
+    },
+    {
+      "source": "emergency",
+      "target": "general",
+      "relType": "TYPE_OF"
+    },
+    {
+      "source": "economic",
+      "target": "general",
+      "relType": "TYPE_OF"
+    },
+    {
+      "source": "ecosystem",
+      "target": "general",
+      "relType": "TYPE_OF"
+    },
+    {
+      "source": "un",
+      "target": "general",
+      "relType": "TYPE_OF"
+    },
+    {
+      "source": "urban",
+      "target": "general",
+      "relType": "TYPE_OF"
+    },
+    {
+      "source": "water",
       "target": "general",
       "relType": "TYPE_OF"
     },
@@ -4146,47 +4201,7 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "migration",
-      "target": "general",
-      "relType": "TYPE_OF"
-    },
-    {
-      "source": "location",
-      "target": "general",
-      "relType": "TYPE_OF"
-    },
-    {
-      "source": "asset",
-      "target": "general",
-      "relType": "TYPE_OF"
-    },
-    {
-      "source": "albedo",
-      "target": "general",
-      "relType": "TYPE_OF"
-    },
-    {
-      "source": "albania",
-      "target": "general",
-      "relType": "TYPE_OF"
-    },
-    {
-      "source": "biome",
-      "target": "general",
-      "relType": "TYPE_OF"
-    },
-    {
-      "source": "activity",
-      "target": "general",
-      "relType": "TYPE_OF"
-    },
-    {
-      "source": "adaptive_capacity",
-      "target": "general",
-      "relType": "TYPE_OF"
-    },
-    {
-      "source": "accessibility",
+      "source": "oecd",
       "target": "general",
       "relType": "TYPE_OF"
     },
@@ -4201,7 +4216,7 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "probability",
+      "source": "public_service",
       "target": "general",
       "relType": "TYPE_OF"
     },
@@ -4211,22 +4226,12 @@
       "relType": "TYPE_OF"
     },
     {
+      "source": "probability",
+      "target": "general",
+      "relType": "TYPE_OF"
+    },
+    {
       "source": "process",
-      "target": "general",
-      "relType": "TYPE_OF"
-    },
-    {
-      "source": "public_service",
-      "target": "general",
-      "relType": "TYPE_OF"
-    },
-    {
-      "source": "slope",
-      "target": "general",
-      "relType": "TYPE_OF"
-    },
-    {
-      "source": "sector",
       "target": "general",
       "relType": "TYPE_OF"
     },
@@ -4236,12 +4241,12 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "n2o",
+      "source": "CO2",
       "target": "ghg",
       "relType": "TYPE_OF"
     },
     {
-      "source": "CO2",
+      "source": "n2o",
       "target": "ghg",
       "relType": "TYPE_OF"
     },
@@ -4271,32 +4276,7 @@
       "relType": "AFFECTS"
     },
     {
-      "source": "territory",
-      "target": "global",
-      "relType": "RELATED_TO"
-    },
-    {
-      "source": "oceania",
-      "target": "global",
-      "relType": "RELATED_TO"
-    },
-    {
-      "source": "south_america",
-      "target": "global",
-      "relType": "RELATED_TO"
-    },
-    {
-      "source": "north_america",
-      "target": "global",
-      "relType": "RELATED_TO"
-    },
-    {
-      "source": "country",
-      "target": "global",
-      "relType": "RELATED_TO"
-    },
-    {
-      "source": "continent",
+      "source": "africa",
       "target": "global",
       "relType": "RELATED_TO"
     },
@@ -4306,12 +4286,37 @@
       "relType": "RELATED_TO"
     },
     {
-      "source": "africa",
+      "source": "continent",
+      "target": "global",
+      "relType": "RELATED_TO"
+    },
+    {
+      "source": "country",
       "target": "global",
       "relType": "RELATED_TO"
     },
     {
       "source": "europe",
+      "target": "global",
+      "relType": "RELATED_TO"
+    },
+    {
+      "source": "north_america",
+      "target": "global",
+      "relType": "RELATED_TO"
+    },
+    {
+      "source": "oceania",
+      "target": "global",
+      "relType": "RELATED_TO"
+    },
+    {
+      "source": "territory",
+      "target": "global",
+      "relType": "RELATED_TO"
+    },
+    {
+      "source": "south_america",
       "target": "global",
       "relType": "RELATED_TO"
     },
@@ -4336,6 +4341,11 @@
       "relType": "CAN_AFFECT"
     },
     {
+      "source": "reef",
+      "target": "habitat",
+      "relType": "TYPE_OF"
+    },
+    {
       "source": "tropical",
       "target": "habitat",
       "relType": "TYPE_OF"
@@ -4346,22 +4356,17 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "reef",
-      "target": "habitat",
-      "relType": "TYPE_OF"
-    },
-    {
       "source": "boreal",
       "target": "habitat",
       "relType": "TYPE_OF"
     },
     {
-      "source": "habitat_loss",
+      "source": "degradation",
       "target": "habitat",
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "degradation",
+      "source": "habitat_loss",
       "target": "habitat",
       "relType": "CAN_AFFECT"
     },
@@ -4381,6 +4386,11 @@
       "relType": "AFFECTS"
     },
     {
+      "source": "fertilizer",
+      "target": "harmful_algal_blooms",
+      "relType": "CAN_AFFECT"
+    },
+    {
       "source": "nitrogen",
       "target": "harmful_algal_blooms",
       "relType": "CAN_AFFECT"
@@ -4396,11 +4406,6 @@
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "fertilizer",
-      "target": "harmful_algal_blooms",
-      "relType": "CAN_AFFECT"
-    },
-    {
       "source": "energy_hazard",
       "target": "hazard",
       "relType": "TYPE_OF"
@@ -4411,22 +4416,22 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "climate_stressor",
-      "target": "hazard",
-      "relType": "AFFECTS"
-    },
-    {
       "source": "non_climate_stressor",
       "target": "hazard",
       "relType": "AFFECTS"
     },
     {
-      "source": "environmental_health",
+      "source": "climate_stressor",
+      "target": "hazard",
+      "relType": "AFFECTS"
+    },
+    {
+      "source": "environmental_quality",
       "target": "health",
       "relType": "TYPE_OF"
     },
     {
-      "source": "environmental_quality",
+      "source": "environmental_health",
       "target": "health",
       "relType": "TYPE_OF"
     },
@@ -4436,12 +4441,12 @@
       "relType": "RELATED_TO"
     },
     {
-      "source": "mortality",
+      "source": "malnutrition",
       "target": "health",
       "relType": "QUALITY_OF"
     },
     {
-      "source": "malnutrition",
+      "source": "mortality",
       "target": "health",
       "relType": "QUALITY_OF"
     },
@@ -4451,22 +4456,7 @@
       "relType": "PART_OF"
     },
     {
-      "source": "pollution",
-      "target": "health",
-      "relType": "CAN_AFFECT"
-    },
-    {
       "source": "emissions",
-      "target": "health",
-      "relType": "CAN_AFFECT"
-    },
-    {
-      "source": "water_quality",
-      "target": "health",
-      "relType": "CAN_AFFECT"
-    },
-    {
-      "source": "temperature",
       "target": "health",
       "relType": "CAN_AFFECT"
     },
@@ -4476,7 +4466,12 @@
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "water_pollution",
+      "source": "water_quality",
+      "target": "health",
+      "relType": "CAN_AFFECT"
+    },
+    {
+      "source": "pollution",
       "target": "health",
       "relType": "CAN_AFFECT"
     },
@@ -4486,17 +4481,27 @@
       "relType": "CAN_AFFECT"
     },
     {
+      "source": "temperature",
+      "target": "health",
+      "relType": "CAN_AFFECT"
+    },
+    {
+      "source": "water_pollution",
+      "target": "health",
+      "relType": "CAN_AFFECT"
+    },
+    {
+      "source": "malnutrition",
+      "target": "health",
+      "relType": "AFFECTS"
+    },
+    {
       "source": "drinking_water",
       "target": "health",
       "relType": "AFFECTS"
     },
     {
       "source": "disease",
-      "target": "health",
-      "relType": "AFFECTS"
-    },
-    {
-      "source": "malnutrition",
       "target": "health",
       "relType": "AFFECTS"
     },
@@ -4521,7 +4526,7 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "hunting",
+      "source": "conservation",
       "target": "human_activity",
       "relType": "TYPE_OF"
     },
@@ -4531,7 +4536,7 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "exploitation",
+      "source": "hunting",
       "target": "human_activity",
       "relType": "TYPE_OF"
     },
@@ -4541,7 +4546,7 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "conservation",
+      "source": "exploitation",
       "target": "human_activity",
       "relType": "TYPE_OF"
     },
@@ -4576,17 +4581,17 @@
       "relType": "TYPE_OF"
     },
     {
+      "source": "mitigation",
+      "target": "impact",
+      "relType": "AFFECTS"
+    },
+    {
       "source": "adaptation",
       "target": "impact",
       "relType": "AFFECTS"
     },
     {
       "source": "adaptive_capacity",
-      "target": "impact",
-      "relType": "AFFECTS"
-    },
-    {
-      "source": "mitigation",
       "target": "impact",
       "relType": "AFFECTS"
     },
@@ -4601,17 +4606,27 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "total_suspended_solids",
+      "source": "gini_index",
       "target": "indicator",
       "relType": "IS_A"
     },
     {
-      "source": "literacy",
+      "source": "forest_loss",
       "target": "indicator",
       "relType": "IS_A"
     },
     {
-      "source": "rainfall",
+      "source": "forest_gain",
+      "target": "indicator",
+      "relType": "IS_A"
+    },
+    {
+      "source": "forest_cover",
+      "target": "indicator",
+      "relType": "IS_A"
+    },
+    {
+      "source": "child_mortality",
       "target": "indicator",
       "relType": "IS_A"
     },
@@ -4626,37 +4641,27 @@
       "relType": "IS_A"
     },
     {
-      "source": "child_mortality",
+      "source": "rainfall",
       "target": "indicator",
       "relType": "IS_A"
     },
     {
-      "source": "biological_oxygen_demand",
+      "source": "literacy",
       "target": "indicator",
       "relType": "IS_A"
     },
     {
-      "source": "gini_index",
-      "target": "indicator",
-      "relType": "IS_A"
-    },
-    {
-      "source": "forest_loss",
-      "target": "indicator",
-      "relType": "IS_A"
-    },
-    {
-      "source": "forest_cover",
-      "target": "indicator",
-      "relType": "IS_A"
-    },
-    {
-      "source": "forest_gain",
+      "source": "total_suspended_solids",
       "target": "indicator",
       "relType": "IS_A"
     },
     {
       "source": "air_quality",
+      "target": "indicator",
+      "relType": "IS_A"
+    },
+    {
+      "source": "biological_oxygen_demand",
       "target": "indicator",
       "relType": "IS_A"
     },
@@ -4696,162 +4701,17 @@
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "south_georgia_and_the_south_sandwich_islands",
+      "source": "grenada",
       "target": "island",
       "relType": "IS_A"
     },
     {
-      "source": "solomon_islands",
+      "source": "guam",
       "target": "island",
       "relType": "IS_A"
     },
     {
-      "source": "sint_marteen",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "sri_lanka",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "saint_lucia",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "saint_martin",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "saint_pierre_and_miquelon",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "saint_kitts_and_nevis",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "saint_barthelemy",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "saint_helena",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "seychelles",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "samoa",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "saint_vincent_and_the_grenadines",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "turks_and_calcos_islands",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "tuvalu",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "uk",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "wallis_and_futuna",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "united_states_virgin_islands",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "vanuatu",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "kiribati",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "madagascar",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "marshall_islands",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "australia",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "aruba",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "antigua_and_barbuda",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "anguilla",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "american_samoa",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "dominica",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "dominican_republic",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "falkland_islands",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "faroe_islands",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "fiji",
+      "source": "greenland",
       "target": "island",
       "relType": "IS_A"
     },
@@ -4866,57 +4726,42 @@
       "relType": "IS_A"
     },
     {
-      "source": "guam",
+      "source": "fiji",
       "target": "island",
       "relType": "IS_A"
     },
     {
-      "source": "grenada",
+      "source": "jersey",
       "target": "island",
       "relType": "IS_A"
     },
     {
-      "source": "greenland",
+      "source": "japan",
       "target": "island",
       "relType": "IS_A"
     },
     {
-      "source": "bahamas",
+      "source": "jamaica",
       "target": "island",
       "relType": "IS_A"
     },
     {
-      "source": "bahrain",
+      "source": "isle_of_man",
       "target": "island",
       "relType": "IS_A"
     },
     {
-      "source": "barbados",
+      "source": "iceland",
       "target": "island",
       "relType": "IS_A"
     },
     {
-      "source": "bermuda",
+      "source": "heard_island_and_mcdoland_islands",
       "target": "island",
       "relType": "IS_A"
     },
     {
-      "source": "british_indian_ocean_territory",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "brittish_virgin_islands",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "cayman_islands",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "comoros",
+      "source": "haiti",
       "target": "island",
       "relType": "IS_A"
     },
@@ -4941,22 +4786,137 @@
       "relType": "IS_A"
     },
     {
-      "source": "niue",
+      "source": "comoros",
       "target": "island",
       "relType": "IS_A"
     },
     {
-      "source": "new_zealand",
+      "source": "cayman_islands",
       "target": "island",
       "relType": "IS_A"
     },
     {
-      "source": "new_caledonia",
+      "source": "faroe_islands",
       "target": "island",
       "relType": "IS_A"
     },
     {
-      "source": "nauru",
+      "source": "falkland_islands",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "dominican_republic",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "brittish_virgin_islands",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "british_indian_ocean_territory",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "bermuda",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "bahamas",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "barbados",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "bahrain",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "antigua_and_barbuda",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "aruba",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "australia",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "american_samoa",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "anguilla",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "sri_lanka",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "solomon_islands",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "south_georgia_and_the_south_sandwich_islands",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "seychelles",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "sint_marteen",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "wallis_and_futuna",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "united_states_virgin_islands",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "vanuatu",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "tuvalu",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "turks_and_calcos_islands",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "uk",
       "target": "island",
       "relType": "IS_A"
     },
@@ -4976,77 +4936,32 @@
       "relType": "IS_A"
     },
     {
-      "source": "puerto_rico",
+      "source": "niue",
       "target": "island",
       "relType": "IS_A"
     },
     {
-      "source": "pitcairn_islands",
+      "source": "new_caledonia",
       "target": "island",
       "relType": "IS_A"
     },
     {
-      "source": "philippines",
+      "source": "new_zealand",
       "target": "island",
       "relType": "IS_A"
     },
     {
-      "source": "papua_new_guinea",
+      "source": "nauru",
       "target": "island",
       "relType": "IS_A"
     },
     {
-      "source": "palau",
+      "source": "kiribati",
       "target": "island",
       "relType": "IS_A"
     },
     {
-      "source": "norfolk_island",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "northern_mariana_islands",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "jamaica",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "jersey",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "japan",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "isle_of_man",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "heard_island_and_mcdoland_islands",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "iceland",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "haiti",
-      "target": "island",
-      "relType": "IS_A"
-    },
-    {
-      "source": "maldives",
+      "source": "marshall_islands",
       "target": "island",
       "relType": "IS_A"
     },
@@ -5056,14 +4971,99 @@
       "relType": "IS_A"
     },
     {
+      "source": "maldives",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "madagascar",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "saint_helena",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "saint_kitts_and_nevis",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "saint_lucia",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "saint_martin",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "saint_barthelemy",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "saint_pierre_and_miquelon",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "saint_vincent_and_the_grenadines",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "samoa",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "palau",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "papua_new_guinea",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "northern_mariana_islands",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "norfolk_island",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "puerto_rico",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "philippines",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "pitcairn_islands",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
+      "source": "dominica",
+      "target": "island",
+      "relType": "IS_A"
+    },
+    {
       "source": "seafood",
       "target": "lake",
       "relType": "PART_OF"
-    },
-    {
-      "source": "wetland",
-      "target": "land",
-      "relType": "TYPE_OF"
     },
     {
       "source": "reserve",
@@ -5072,6 +5072,11 @@
     },
     {
       "source": "protected_area",
+      "target": "land",
+      "relType": "TYPE_OF"
+    },
+    {
+      "source": "wetland",
       "target": "land",
       "relType": "TYPE_OF"
     },
@@ -5086,7 +5091,7 @@
       "relType": "RELATED_TO"
     },
     {
-      "source": "land_use",
+      "source": "land_rights",
       "target": "land",
       "relType": "QUALITY_OF"
     },
@@ -5096,17 +5101,17 @@
       "relType": "QUALITY_OF"
     },
     {
-      "source": "land_rights",
+      "source": "land_use",
       "target": "land",
       "relType": "QUALITY_OF"
     },
     {
-      "source": "reserve",
+      "source": "protected_area",
       "target": "land",
       "relType": "LOCATED_AT"
     },
     {
-      "source": "protected_area",
+      "source": "reserve",
       "target": "land",
       "relType": "LOCATED_AT"
     },
@@ -5116,12 +5121,12 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "land_use",
+      "source": "seafood",
       "target": "land_cover",
       "relType": "AFFECTS"
     },
     {
-      "source": "seafood",
+      "source": "land_use",
       "target": "land_cover",
       "relType": "AFFECTS"
     },
@@ -5136,12 +5141,12 @@
       "relType": "PART_OF"
     },
     {
-      "source": "aquaculture",
+      "source": "pasture",
       "target": "land_use",
       "relType": "TYPE_OF"
     },
     {
-      "source": "pasture",
+      "source": "aquaculture",
       "target": "land_use",
       "relType": "TYPE_OF"
     },
@@ -5166,12 +5171,12 @@
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "deforestation",
+      "source": "precipitation",
       "target": "landslide",
       "relType": "AFFECTS"
     },
     {
-      "source": "precipitation",
+      "source": "deforestation",
       "target": "landslide",
       "relType": "AFFECTS"
     },
@@ -5211,7 +5216,7 @@
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "drought",
+      "source": "poverty",
       "target": "malnutrition",
       "relType": "AFFECTS"
     },
@@ -5221,17 +5226,17 @@
       "relType": "AFFECTS"
     },
     {
-      "source": "poverty",
+      "source": "drought",
       "target": "malnutrition",
       "relType": "AFFECTS"
     },
     {
-      "source": "lamb",
+      "source": "beef",
       "target": "mammal",
       "relType": "RELATED_TO"
     },
     {
-      "source": "beef",
+      "source": "lamb",
       "target": "mammal",
       "relType": "RELATED_TO"
     },
@@ -5246,14 +5251,19 @@
       "relType": "AFFECTS"
     },
     {
+      "source": "child_mortality",
+      "target": "mortality",
+      "relType": "TYPE_OF"
+    },
+    {
       "source": "infant_mortality",
       "target": "mortality",
       "relType": "TYPE_OF"
     },
     {
-      "source": "child_mortality",
+      "source": "malnutrition",
       "target": "mortality",
-      "relType": "TYPE_OF"
+      "relType": "CAN_AFFECT"
     },
     {
       "source": "conflict",
@@ -5267,11 +5277,6 @@
     },
     {
       "source": "poverty",
-      "target": "mortality",
-      "relType": "CAN_AFFECT"
-    },
-    {
-      "source": "malnutrition",
       "target": "mortality",
       "relType": "CAN_AFFECT"
     },
@@ -5311,7 +5316,12 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "hurricane",
+      "source": "eruption",
+      "target": "natural_disaster",
+      "relType": "TYPE_OF"
+    },
+    {
+      "source": "earthquake",
       "target": "natural_disaster",
       "relType": "TYPE_OF"
     },
@@ -5321,12 +5331,7 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "eruption",
-      "target": "natural_disaster",
-      "relType": "TYPE_OF"
-    },
-    {
-      "source": "earthquake",
+      "source": "hurricane",
       "target": "natural_disaster",
       "relType": "TYPE_OF"
     },
@@ -5351,7 +5356,12 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "hurricane",
+      "source": "eruption",
+      "target": "natural_phenomena",
+      "relType": "TYPE_OF"
+    },
+    {
+      "source": "earthquake",
       "target": "natural_phenomena",
       "relType": "TYPE_OF"
     },
@@ -5361,12 +5371,7 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "eruption",
-      "target": "natural_phenomena",
-      "relType": "TYPE_OF"
-    },
-    {
-      "source": "earthquake",
+      "source": "hurricane",
       "target": "natural_phenomena",
       "relType": "TYPE_OF"
     },
@@ -5381,12 +5386,12 @@
       "relType": "IS_A"
     },
     {
-      "source": "sint_marteen",
+      "source": "curacao",
       "target": "netherlands",
       "relType": "PART_OF"
     },
     {
-      "source": "curacao",
+      "source": "sint_marteen",
       "target": "netherlands",
       "relType": "PART_OF"
     },
@@ -5394,11 +5399,6 @@
       "source": "fertilizer",
       "target": "nitrogen",
       "relType": "AFFECTS"
-    },
-    {
-      "source": "natural_gas",
-      "target": "nonrenewable_energy",
-      "relType": "TYPE_OF"
     },
     {
       "source": "oil",
@@ -5416,82 +5416,17 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "turks_and_calcos_islands",
+      "source": "natural_gas",
+      "target": "nonrenewable_energy",
+      "relType": "TYPE_OF"
+    },
+    {
+      "source": "costa_rica",
       "target": "north_america",
       "relType": "PART_OF"
     },
     {
-      "source": "united_states_minor_outlying_islands",
-      "target": "north_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "united_states_virgin_islands",
-      "target": "north_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "usa",
-      "target": "north_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "mexico",
-      "target": "north_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "montserrat",
-      "target": "north_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "nicaragua",
-      "target": "north_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "panama",
-      "target": "north_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "puerto_rico",
-      "target": "north_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "saint_lucia",
-      "target": "north_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "saint_kitts_and_nevis",
-      "target": "north_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "saint_barthelemy",
-      "target": "north_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "saint_vincent_and_the_grenadines",
-      "target": "north_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "saint_martin",
-      "target": "north_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "saint_pierre_and_miquelon",
-      "target": "north_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "sint_marteen",
+      "source": "cuba",
       "target": "north_america",
       "relType": "PART_OF"
     },
@@ -5506,72 +5441,7 @@
       "relType": "PART_OF"
     },
     {
-      "source": "brittish_virgin_islands",
-      "target": "north_america",
-      "relType": "PART_OF"
-    },
-    {
       "source": "bermuda",
-      "target": "north_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "dominica",
-      "target": "north_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "dominican_republic",
-      "target": "north_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "el_salvador",
-      "target": "north_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "costa_rica",
-      "target": "north_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "cuba",
-      "target": "north_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "haiti",
-      "target": "north_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "guatemala",
-      "target": "north_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "grenada",
-      "target": "north_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "greenland",
-      "target": "north_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "jamaica",
-      "target": "north_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "honduras",
-      "target": "north_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "bahamas",
       "target": "north_america",
       "relType": "PART_OF"
     },
@@ -5581,7 +5451,7 @@
       "relType": "PART_OF"
     },
     {
-      "source": "barbados",
+      "source": "brittish_virgin_islands",
       "target": "north_america",
       "relType": "PART_OF"
     },
@@ -5596,12 +5466,147 @@
       "relType": "PART_OF"
     },
     {
-      "source": "phosphorus",
+      "source": "barbados",
+      "target": "north_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "bahamas",
+      "target": "north_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "united_states_virgin_islands",
+      "target": "north_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "united_states_minor_outlying_islands",
+      "target": "north_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "usa",
+      "target": "north_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "turks_and_calcos_islands",
+      "target": "north_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "saint_kitts_and_nevis",
+      "target": "north_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "saint_barthelemy",
+      "target": "north_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "saint_martin",
+      "target": "north_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "saint_lucia",
+      "target": "north_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "saint_vincent_and_the_grenadines",
+      "target": "north_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "saint_pierre_and_miquelon",
+      "target": "north_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "sint_marteen",
+      "target": "north_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "panama",
+      "target": "north_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "puerto_rico",
+      "target": "north_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "mexico",
+      "target": "north_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "nicaragua",
+      "target": "north_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "montserrat",
+      "target": "north_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "jamaica",
+      "target": "north_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "greenland",
+      "target": "north_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "guatemala",
+      "target": "north_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "grenada",
+      "target": "north_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "honduras",
+      "target": "north_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "haiti",
+      "target": "north_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "el_salvador",
+      "target": "north_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "dominica",
+      "target": "north_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "dominican_republic",
+      "target": "north_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "nitrogen",
       "target": "nutrients",
       "relType": "IS_SIMILAR_TO"
     },
     {
-      "source": "nitrogen",
+      "source": "phosphorus",
       "target": "nutrients",
       "relType": "IS_SIMILAR_TO"
     },
@@ -5631,22 +5636,17 @@
       "relType": "RELATED_TO"
     },
     {
-      "source": "seafood",
-      "target": "ocean",
-      "relType": "PART_OF"
-    },
-    {
       "source": "coast",
       "target": "ocean",
       "relType": "PART_OF"
     },
     {
-      "source": "reef",
+      "source": "seafood",
       "target": "ocean",
-      "relType": "LOCATED_AT"
+      "relType": "PART_OF"
     },
     {
-      "source": "marine_life",
+      "source": "thermal_expansion",
       "target": "ocean",
       "relType": "LOCATED_AT"
     },
@@ -5656,17 +5656,32 @@
       "relType": "LOCATED_AT"
     },
     {
-      "source": "sea_surface_temperature",
+      "source": "hurricane",
       "target": "ocean",
       "relType": "LOCATED_AT"
     },
     {
-      "source": "thermal_expansion",
+      "source": "mammal",
+      "target": "ocean",
+      "relType": "LOCATED_AT"
+    },
+    {
+      "source": "marine_life",
+      "target": "ocean",
+      "relType": "LOCATED_AT"
+    },
+    {
+      "source": "reef",
       "target": "ocean",
       "relType": "LOCATED_AT"
     },
     {
       "source": "sea_ice",
+      "target": "ocean",
+      "relType": "LOCATED_AT"
+    },
+    {
+      "source": "sea_surface_temperature",
       "target": "ocean",
       "relType": "LOCATED_AT"
     },
@@ -5681,27 +5696,22 @@
       "relType": "LOCATED_AT"
     },
     {
-      "source": "mammal",
-      "target": "ocean",
-      "relType": "LOCATED_AT"
-    },
-    {
-      "source": "hurricane",
-      "target": "ocean",
-      "relType": "LOCATED_AT"
-    },
-    {
-      "source": "tuvalu",
+      "source": "cook_islands",
       "target": "oceania",
       "relType": "PART_OF"
     },
     {
-      "source": "tonga",
+      "source": "coral_sea_islands_territory",
       "target": "oceania",
       "relType": "PART_OF"
     },
     {
-      "source": "wallis_and_futuna",
+      "source": "australia",
+      "target": "oceania",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "american_samoa",
       "target": "oceania",
       "relType": "PART_OF"
     },
@@ -5711,27 +5721,27 @@
       "relType": "PART_OF"
     },
     {
-      "source": "marshall_islands",
+      "source": "wallis_and_futuna",
       "target": "oceania",
       "relType": "PART_OF"
     },
     {
-      "source": "micronesia",
+      "source": "tonga",
       "target": "oceania",
       "relType": "PART_OF"
     },
     {
-      "source": "nauru",
+      "source": "tuvalu",
       "target": "oceania",
       "relType": "PART_OF"
     },
     {
-      "source": "new_caledonia",
+      "source": "samoa",
       "target": "oceania",
       "relType": "PART_OF"
     },
     {
-      "source": "new_zealand",
+      "source": "solomon_islands",
       "target": "oceania",
       "relType": "PART_OF"
     },
@@ -5766,22 +5776,32 @@
       "relType": "PART_OF"
     },
     {
-      "source": "samoa",
+      "source": "micronesia",
       "target": "oceania",
       "relType": "PART_OF"
     },
     {
-      "source": "solomon_islands",
+      "source": "marshall_islands",
       "target": "oceania",
       "relType": "PART_OF"
     },
     {
-      "source": "cook_islands",
+      "source": "new_zealand",
       "target": "oceania",
       "relType": "PART_OF"
     },
     {
-      "source": "coral_sea_islands_territory",
+      "source": "new_caledonia",
+      "target": "oceania",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "nauru",
+      "target": "oceania",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "kiribati",
       "target": "oceania",
       "relType": "PART_OF"
     },
@@ -5801,42 +5821,22 @@
       "relType": "PART_OF"
     },
     {
-      "source": "kiribati",
-      "target": "oceania",
+      "source": "canada",
+      "target": "oecd",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "chile",
+      "target": "oecd",
       "relType": "PART_OF"
     },
     {
       "source": "australia",
-      "target": "oceania",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "american_samoa",
-      "target": "oceania",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "turkey",
       "target": "oecd",
       "relType": "PART_OF"
     },
     {
       "source": "usa",
-      "target": "oecd",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "mexico",
-      "target": "oecd",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "new_zealand",
-      "target": "oecd",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "norway",
       "target": "oecd",
       "relType": "PART_OF"
     },
@@ -5851,12 +5851,22 @@
       "relType": "PART_OF"
     },
     {
-      "source": "chile",
+      "source": "turkey",
       "target": "oecd",
       "relType": "PART_OF"
     },
     {
-      "source": "canada",
+      "source": "norway",
+      "target": "oecd",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "mexico",
+      "target": "oecd",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "new_zealand",
       "target": "oecd",
       "relType": "PART_OF"
     },
@@ -5876,22 +5886,22 @@
       "relType": "PART_OF"
     },
     {
-      "source": "australia",
-      "target": "oecd",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "ireland",
+      "source": "portugal",
       "target": "oecd",
       "relType": "IS_INVOLVED_IN"
     },
     {
-      "source": "hungary",
+      "source": "poland",
       "target": "oecd",
       "relType": "IS_INVOLVED_IN"
     },
     {
-      "source": "italy",
+      "source": "netherlands",
+      "target": "oecd",
+      "relType": "IS_INVOLVED_IN"
+    },
+    {
+      "source": "luxembourg",
       "target": "oecd",
       "relType": "IS_INVOLVED_IN"
     },
@@ -5901,7 +5911,27 @@
       "relType": "IS_INVOLVED_IN"
     },
     {
-      "source": "luxembourg",
+      "source": "italy",
+      "target": "oecd",
+      "relType": "IS_INVOLVED_IN"
+    },
+    {
+      "source": "hungary",
+      "target": "oecd",
+      "relType": "IS_INVOLVED_IN"
+    },
+    {
+      "source": "ireland",
+      "target": "oecd",
+      "relType": "IS_INVOLVED_IN"
+    },
+    {
+      "source": "greece",
+      "target": "oecd",
+      "relType": "IS_INVOLVED_IN"
+    },
+    {
+      "source": "estonia",
       "target": "oecd",
       "relType": "IS_INVOLVED_IN"
     },
@@ -5921,12 +5951,32 @@
       "relType": "IS_INVOLVED_IN"
     },
     {
-      "source": "greece",
+      "source": "uk",
+      "target": "oecd",
+      "relType": "IS_INVOLVED_IN"
+    },
+    {
+      "source": "austria",
+      "target": "oecd",
+      "relType": "IS_INVOLVED_IN"
+    },
+    {
+      "source": "belgium",
+      "target": "oecd",
+      "relType": "IS_INVOLVED_IN"
+    },
+    {
+      "source": "slovakia",
       "target": "oecd",
       "relType": "IS_INVOLVED_IN"
     },
     {
       "source": "slovenia",
+      "target": "oecd",
+      "relType": "IS_INVOLVED_IN"
+    },
+    {
+      "source": "czech_republic",
       "target": "oecd",
       "relType": "IS_INVOLVED_IN"
     },
@@ -5941,51 +5991,6 @@
       "relType": "IS_INVOLVED_IN"
     },
     {
-      "source": "uk",
-      "target": "oecd",
-      "relType": "IS_INVOLVED_IN"
-    },
-    {
-      "source": "netherlands",
-      "target": "oecd",
-      "relType": "IS_INVOLVED_IN"
-    },
-    {
-      "source": "poland",
-      "target": "oecd",
-      "relType": "IS_INVOLVED_IN"
-    },
-    {
-      "source": "portugal",
-      "target": "oecd",
-      "relType": "IS_INVOLVED_IN"
-    },
-    {
-      "source": "slovakia",
-      "target": "oecd",
-      "relType": "IS_INVOLVED_IN"
-    },
-    {
-      "source": "belgium",
-      "target": "oecd",
-      "relType": "IS_INVOLVED_IN"
-    },
-    {
-      "source": "austria",
-      "target": "oecd",
-      "relType": "IS_INVOLVED_IN"
-    },
-    {
-      "source": "czech_republic",
-      "target": "oecd",
-      "relType": "IS_INVOLVED_IN"
-    },
-    {
-      "source": "estonia",
-      "target": "oecd",
-      "relType": "IS_INVOLVED_IN"
-    },
-    {
       "source": "denmark",
       "target": "oecd",
       "relType": "IS_INVOLVED_IN"
@@ -5994,111 +5999,6 @@
       "source": "oil_refinery",
       "target": "oil",
       "relType": "RELATED_TO"
-    },
-    {
-      "source": "south_georgia_and_the_south_sandwich_islands",
-      "target": "overseas_territory",
-      "relType": "IS_A"
-    },
-    {
-      "source": "sint_marteen",
-      "target": "overseas_territory",
-      "relType": "IS_A"
-    },
-    {
-      "source": "saint_martin",
-      "target": "overseas_territory",
-      "relType": "IS_A"
-    },
-    {
-      "source": "saint_helena",
-      "target": "overseas_territory",
-      "relType": "IS_A"
-    },
-    {
-      "source": "saint_barthelemy",
-      "target": "overseas_territory",
-      "relType": "IS_A"
-    },
-    {
-      "source": "saint_pierre_and_miquelon",
-      "target": "overseas_territory",
-      "relType": "IS_A"
-    },
-    {
-      "source": "turks_and_calcos_islands",
-      "target": "overseas_territory",
-      "relType": "IS_A"
-    },
-    {
-      "source": "wallis_and_futuna",
-      "target": "overseas_territory",
-      "relType": "IS_A"
-    },
-    {
-      "source": "united_states_minor_outlying_islands",
-      "target": "overseas_territory",
-      "relType": "IS_A"
-    },
-    {
-      "source": "united_states_virgin_islands",
-      "target": "overseas_territory",
-      "relType": "IS_A"
-    },
-    {
-      "source": "heard_island_and_mcdoland_islands",
-      "target": "overseas_territory",
-      "relType": "IS_A"
-    },
-    {
-      "source": "northern_mariana_islands",
-      "target": "overseas_territory",
-      "relType": "IS_A"
-    },
-    {
-      "source": "pitcairn_islands",
-      "target": "overseas_territory",
-      "relType": "IS_A"
-    },
-    {
-      "source": "montserrat",
-      "target": "overseas_territory",
-      "relType": "IS_A"
-    },
-    {
-      "source": "new_caledonia",
-      "target": "overseas_territory",
-      "relType": "IS_A"
-    },
-    {
-      "source": "norfolk_island",
-      "target": "overseas_territory",
-      "relType": "IS_A"
-    },
-    {
-      "source": "coral_sea_islands_territory",
-      "target": "overseas_territory",
-      "relType": "IS_A"
-    },
-    {
-      "source": "cayman_islands",
-      "target": "overseas_territory",
-      "relType": "IS_A"
-    },
-    {
-      "source": "brittish_virgin_islands",
-      "target": "overseas_territory",
-      "relType": "IS_A"
-    },
-    {
-      "source": "british_indian_ocean_territory",
-      "target": "overseas_territory",
-      "relType": "IS_A"
-    },
-    {
-      "source": "bermuda",
-      "target": "overseas_territory",
-      "relType": "IS_A"
     },
     {
       "source": "gibraltar",
@@ -6116,7 +6016,112 @@
       "relType": "IS_A"
     },
     {
+      "source": "heard_island_and_mcdoland_islands",
+      "target": "overseas_territory",
+      "relType": "IS_A"
+    },
+    {
+      "source": "coral_sea_islands_territory",
+      "target": "overseas_territory",
+      "relType": "IS_A"
+    },
+    {
+      "source": "cayman_islands",
+      "target": "overseas_territory",
+      "relType": "IS_A"
+    },
+    {
       "source": "falkland_islands",
+      "target": "overseas_territory",
+      "relType": "IS_A"
+    },
+    {
+      "source": "pitcairn_islands",
+      "target": "overseas_territory",
+      "relType": "IS_A"
+    },
+    {
+      "source": "northern_mariana_islands",
+      "target": "overseas_territory",
+      "relType": "IS_A"
+    },
+    {
+      "source": "norfolk_island",
+      "target": "overseas_territory",
+      "relType": "IS_A"
+    },
+    {
+      "source": "saint_pierre_and_miquelon",
+      "target": "overseas_territory",
+      "relType": "IS_A"
+    },
+    {
+      "source": "saint_barthelemy",
+      "target": "overseas_territory",
+      "relType": "IS_A"
+    },
+    {
+      "source": "saint_martin",
+      "target": "overseas_territory",
+      "relType": "IS_A"
+    },
+    {
+      "source": "saint_helena",
+      "target": "overseas_territory",
+      "relType": "IS_A"
+    },
+    {
+      "source": "new_caledonia",
+      "target": "overseas_territory",
+      "relType": "IS_A"
+    },
+    {
+      "source": "montserrat",
+      "target": "overseas_territory",
+      "relType": "IS_A"
+    },
+    {
+      "source": "turks_and_calcos_islands",
+      "target": "overseas_territory",
+      "relType": "IS_A"
+    },
+    {
+      "source": "united_states_minor_outlying_islands",
+      "target": "overseas_territory",
+      "relType": "IS_A"
+    },
+    {
+      "source": "united_states_virgin_islands",
+      "target": "overseas_territory",
+      "relType": "IS_A"
+    },
+    {
+      "source": "wallis_and_futuna",
+      "target": "overseas_territory",
+      "relType": "IS_A"
+    },
+    {
+      "source": "sint_marteen",
+      "target": "overseas_territory",
+      "relType": "IS_A"
+    },
+    {
+      "source": "south_georgia_and_the_south_sandwich_islands",
+      "target": "overseas_territory",
+      "relType": "IS_A"
+    },
+    {
+      "source": "bermuda",
+      "target": "overseas_territory",
+      "relType": "IS_A"
+    },
+    {
+      "source": "british_indian_ocean_territory",
+      "target": "overseas_territory",
+      "relType": "IS_A"
+    },
+    {
+      "source": "brittish_virgin_islands",
       "target": "overseas_territory",
       "relType": "IS_A"
     },
@@ -6146,12 +6151,12 @@
       "relType": "AFFECTS"
     },
     {
-      "source": "nutrients",
+      "source": "crop",
       "target": "plant",
       "relType": "RELATED_TO"
     },
     {
-      "source": "crop",
+      "source": "nutrients",
       "target": "plant",
       "relType": "RELATED_TO"
     },
@@ -6166,11 +6171,6 @@
       "relType": "RELATED_TO"
     },
     {
-      "source": "waste",
-      "target": "pollution",
-      "relType": "TYPE_OF"
-    },
-    {
       "source": "water_pollution",
       "target": "pollution",
       "relType": "TYPE_OF"
@@ -6181,7 +6181,7 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "harmful_algal_blooms",
+      "source": "waste",
       "target": "pollution",
       "relType": "TYPE_OF"
     },
@@ -6191,12 +6191,17 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "o3",
+      "source": "harmful_algal_blooms",
+      "target": "pollution",
+      "relType": "TYPE_OF"
+    },
+    {
+      "source": "car",
       "target": "pollution",
       "relType": "RELATED_TO"
     },
     {
-      "source": "car",
+      "source": "o3",
       "target": "pollution",
       "relType": "RELATED_TO"
     },
@@ -6221,6 +6226,11 @@
       "relType": "TYPE_OF"
     },
     {
+      "source": "runoff",
+      "target": "precipitation",
+      "relType": "RELATED_TO"
+    },
+    {
       "source": "stormwater",
       "target": "precipitation",
       "relType": "RELATED_TO"
@@ -6228,12 +6238,12 @@
     {
       "source": "runoff",
       "target": "precipitation",
-      "relType": "RELATED_TO"
+      "relType": "QUALITY_OF"
     },
     {
-      "source": "runoff",
+      "source": "typhoon",
       "target": "precipitation",
-      "relType": "QUALITY_OF"
+      "relType": "AFFECTS"
     },
     {
       "source": "hurricane",
@@ -6246,22 +6256,17 @@
       "relType": "AFFECTS"
     },
     {
-      "source": "typhoon",
-      "target": "precipitation",
-      "relType": "AFFECTS"
-    },
-    {
       "source": "livestock",
       "target": "primary_sector",
       "relType": "RELATED_TO"
     },
     {
-      "source": "agriculture",
+      "source": "aquaculture",
       "target": "primary_sector",
       "relType": "PART_OF"
     },
     {
-      "source": "aquaculture",
+      "source": "agriculture",
       "target": "primary_sector",
       "relType": "PART_OF"
     },
@@ -6271,47 +6276,7 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "temperature_rise",
-      "target": "process",
-      "relType": "IS_A"
-    },
-    {
-      "source": "risk_assesment",
-      "target": "process",
-      "relType": "IS_A"
-    },
-    {
-      "source": "risk_management",
-      "target": "process",
-      "relType": "IS_A"
-    },
-    {
-      "source": "sea_level_rise",
-      "target": "process",
-      "relType": "IS_A"
-    },
-    {
-      "source": "sedimentation",
-      "target": "process",
-      "relType": "IS_A"
-    },
-    {
-      "source": "resilience_planning",
-      "target": "process",
-      "relType": "IS_A"
-    },
-    {
-      "source": "mitigation",
-      "target": "process",
-      "relType": "IS_A"
-    },
-    {
       "source": "coastal_erosion",
-      "target": "process",
-      "relType": "IS_A"
-    },
-    {
-      "source": "bleaching",
       "target": "process",
       "relType": "IS_A"
     },
@@ -6331,12 +6296,52 @@
       "relType": "IS_A"
     },
     {
+      "source": "sedimentation",
+      "target": "process",
+      "relType": "IS_A"
+    },
+    {
+      "source": "sea_level_rise",
+      "target": "process",
+      "relType": "IS_A"
+    },
+    {
+      "source": "risk_management",
+      "target": "process",
+      "relType": "IS_A"
+    },
+    {
+      "source": "resilience_planning",
+      "target": "process",
+      "relType": "IS_A"
+    },
+    {
+      "source": "risk_assesment",
+      "target": "process",
+      "relType": "IS_A"
+    },
+    {
+      "source": "mitigation",
+      "target": "process",
+      "relType": "IS_A"
+    },
+    {
+      "source": "temperature_rise",
+      "target": "process",
+      "relType": "IS_A"
+    },
+    {
       "source": "acidification",
       "target": "process",
       "relType": "IS_A"
     },
     {
       "source": "adaptation",
+      "target": "process",
+      "relType": "IS_A"
+    },
+    {
+      "source": "bleaching",
       "target": "process",
       "relType": "IS_A"
     },
@@ -6356,12 +6361,12 @@
       "relType": "AFFECTS"
     },
     {
-      "source": "roads",
+      "source": "school",
       "target": "public_service",
       "relType": "TYPE_OF"
     },
     {
-      "source": "school",
+      "source": "roads",
       "target": "public_service",
       "relType": "TYPE_OF"
     },
@@ -6371,12 +6376,12 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "hospital",
+      "source": "emergency_services",
       "target": "public_service",
       "relType": "TYPE_OF"
     },
     {
-      "source": "emergency_services",
+      "source": "hospital",
       "target": "public_service",
       "relType": "TYPE_OF"
     },
@@ -6396,12 +6401,12 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "vulnerability",
+      "source": "resilience",
       "target": "quality",
       "relType": "IS_A"
     },
     {
-      "source": "resilience",
+      "source": "vulnerability",
       "target": "quality",
       "relType": "IS_A"
     },
@@ -6416,12 +6421,12 @@
       "relType": "RELATED_TO"
     },
     {
-      "source": "wind_energy",
+      "source": "solar_energy",
       "target": "renewable_energy",
       "relType": "TYPE_OF"
     },
     {
-      "source": "solar_energy",
+      "source": "wind_energy",
       "target": "renewable_energy",
       "relType": "TYPE_OF"
     },
@@ -6441,14 +6446,34 @@
       "relType": "AFFECTS"
     },
     {
+      "source": "mangrove",
+      "target": "resilience",
+      "relType": "CAN_AFFECT"
+    },
+    {
       "source": "natural_infrastructure",
       "target": "resilience",
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "mangrove",
+      "source": "probability",
       "target": "resilience",
-      "relType": "CAN_AFFECT"
+      "relType": "AFFECTS"
+    },
+    {
+      "source": "impact",
+      "target": "resilience",
+      "relType": "AFFECTS"
+    },
+    {
+      "source": "mitigation",
+      "target": "resilience",
+      "relType": "AFFECTS"
+    },
+    {
+      "source": "emergency_services",
+      "target": "resilience",
+      "relType": "AFFECTS"
     },
     {
       "source": "exposure",
@@ -6461,12 +6486,7 @@
       "relType": "AFFECTS"
     },
     {
-      "source": "emergency_services",
-      "target": "resilience",
-      "relType": "AFFECTS"
-    },
-    {
-      "source": "impact",
+      "source": "adaptive_capacity",
       "target": "resilience",
       "relType": "AFFECTS"
     },
@@ -6476,27 +6496,12 @@
       "relType": "AFFECTS"
     },
     {
-      "source": "adaptive_capacity",
-      "target": "resilience",
-      "relType": "AFFECTS"
-    },
-    {
-      "source": "probability",
-      "target": "resilience",
-      "relType": "AFFECTS"
-    },
-    {
-      "source": "mitigation",
-      "target": "resilience",
-      "relType": "AFFECTS"
-    },
-    {
-      "source": "population",
+      "source": "demographic",
       "target": "resilience_planning",
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "demographic",
+      "source": "population",
       "target": "resilience_planning",
       "relType": "CAN_AFFECT"
     },
@@ -6511,12 +6516,12 @@
       "relType": "QUALITY_OF"
     },
     {
-      "source": "clean_water",
+      "source": "fresh_water",
       "target": "resource",
       "relType": "IS_A"
     },
     {
-      "source": "fresh_water",
+      "source": "clean_water",
       "target": "resource",
       "relType": "IS_A"
     },
@@ -6536,7 +6541,12 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "emergency_response",
+      "source": "impact",
+      "target": "response",
+      "relType": "AFFECTS"
+    },
+    {
+      "source": "hazard",
       "target": "response",
       "relType": "AFFECTS"
     },
@@ -6551,12 +6561,7 @@
       "relType": "AFFECTS"
     },
     {
-      "source": "impact",
-      "target": "response",
-      "relType": "AFFECTS"
-    },
-    {
-      "source": "hazard",
+      "source": "emergency_response",
       "target": "response",
       "relType": "AFFECTS"
     },
@@ -6571,17 +6576,17 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "human_rights",
-      "target": "rights",
-      "relType": "TYPE_OF"
-    },
-    {
       "source": "Indigenous_rights",
       "target": "rights",
       "relType": "TYPE_OF"
     },
     {
       "source": "land_rights",
+      "target": "rights",
+      "relType": "TYPE_OF"
+    },
+    {
+      "source": "human_rights",
       "target": "rights",
       "relType": "TYPE_OF"
     },
@@ -6606,7 +6611,7 @@
       "relType": "QUALITY_OF"
     },
     {
-      "source": "hazard",
+      "source": "risk_management",
       "target": "risk",
       "relType": "AFFECTS"
     },
@@ -6616,12 +6621,12 @@
       "relType": "AFFECTS"
     },
     {
-      "source": "risk_management",
+      "source": "risk_assesment",
       "target": "risk",
       "relType": "AFFECTS"
     },
     {
-      "source": "risk_assesment",
+      "source": "hazard",
       "target": "risk",
       "relType": "AFFECTS"
     },
@@ -6641,12 +6646,12 @@
       "relType": "LOCATED_AT"
     },
     {
-      "source": "car",
+      "source": "bus",
       "target": "roads",
       "relType": "LOCATED_AT"
     },
     {
-      "source": "bus",
+      "source": "car",
       "target": "roads",
       "relType": "LOCATED_AT"
     },
@@ -6661,17 +6666,7 @@
       "relType": "AFFECTS"
     },
     {
-      "source": "latvia",
-      "target": "schengen_area",
-      "relType": "IS_INVOLVED_IN"
-    },
-    {
-      "source": "italy",
-      "target": "schengen_area",
-      "relType": "IS_INVOLVED_IN"
-    },
-    {
-      "source": "lithuania",
+      "source": "portugal",
       "target": "schengen_area",
       "relType": "IS_INVOLVED_IN"
     },
@@ -6681,7 +6676,37 @@
       "relType": "IS_INVOLVED_IN"
     },
     {
+      "source": "netherlands",
+      "target": "schengen_area",
+      "relType": "IS_INVOLVED_IN"
+    },
+    {
       "source": "luxembourg",
+      "target": "schengen_area",
+      "relType": "IS_INVOLVED_IN"
+    },
+    {
+      "source": "latvia",
+      "target": "schengen_area",
+      "relType": "IS_INVOLVED_IN"
+    },
+    {
+      "source": "lithuania",
+      "target": "schengen_area",
+      "relType": "IS_INVOLVED_IN"
+    },
+    {
+      "source": "italy",
+      "target": "schengen_area",
+      "relType": "IS_INVOLVED_IN"
+    },
+    {
+      "source": "hungary",
+      "target": "schengen_area",
+      "relType": "IS_INVOLVED_IN"
+    },
+    {
+      "source": "greece",
       "target": "schengen_area",
       "relType": "IS_INVOLVED_IN"
     },
@@ -6701,12 +6726,17 @@
       "relType": "IS_INVOLVED_IN"
     },
     {
-      "source": "hungary",
+      "source": "austria",
       "target": "schengen_area",
       "relType": "IS_INVOLVED_IN"
     },
     {
-      "source": "greece",
+      "source": "belgium",
+      "target": "schengen_area",
+      "relType": "IS_INVOLVED_IN"
+    },
+    {
+      "source": "slovakia",
       "target": "schengen_area",
       "relType": "IS_INVOLVED_IN"
     },
@@ -6721,41 +6751,6 @@
       "relType": "IS_INVOLVED_IN"
     },
     {
-      "source": "sweden",
-      "target": "schengen_area",
-      "relType": "IS_INVOLVED_IN"
-    },
-    {
-      "source": "netherlands",
-      "target": "schengen_area",
-      "relType": "IS_INVOLVED_IN"
-    },
-    {
-      "source": "portugal",
-      "target": "schengen_area",
-      "relType": "IS_INVOLVED_IN"
-    },
-    {
-      "source": "slovakia",
-      "target": "schengen_area",
-      "relType": "IS_INVOLVED_IN"
-    },
-    {
-      "source": "belgium",
-      "target": "schengen_area",
-      "relType": "IS_INVOLVED_IN"
-    },
-    {
-      "source": "austria",
-      "target": "schengen_area",
-      "relType": "IS_INVOLVED_IN"
-    },
-    {
-      "source": "denmark",
-      "target": "schengen_area",
-      "relType": "IS_INVOLVED_IN"
-    },
-    {
       "source": "czech_republic",
       "target": "schengen_area",
       "relType": "IS_INVOLVED_IN"
@@ -6766,12 +6761,22 @@
       "relType": "IS_INVOLVED_IN"
     },
     {
-      "source": "storm_surge",
+      "source": "denmark",
+      "target": "schengen_area",
+      "relType": "IS_INVOLVED_IN"
+    },
+    {
+      "source": "sweden",
+      "target": "schengen_area",
+      "relType": "IS_INVOLVED_IN"
+    },
+    {
+      "source": "acidification",
       "target": "sea",
       "relType": "RELATED_TO"
     },
     {
-      "source": "acidification",
+      "source": "storm_surge",
       "target": "sea",
       "relType": "RELATED_TO"
     },
@@ -6786,16 +6791,6 @@
       "relType": "PART_OF"
     },
     {
-      "source": "sea_ice",
-      "target": "sea",
-      "relType": "LOCATED_AT"
-    },
-    {
-      "source": "marine_life",
-      "target": "sea",
-      "relType": "LOCATED_AT"
-    },
-    {
       "source": "thermal_expansion",
       "target": "sea",
       "relType": "LOCATED_AT"
@@ -6806,17 +6801,27 @@
       "relType": "LOCATED_AT"
     },
     {
+      "source": "mammal",
+      "target": "sea",
+      "relType": "LOCATED_AT"
+    },
+    {
+      "source": "marine_life",
+      "target": "sea",
+      "relType": "LOCATED_AT"
+    },
+    {
+      "source": "sea_ice",
+      "target": "sea",
+      "relType": "LOCATED_AT"
+    },
+    {
       "source": "sea_surface_temperature",
       "target": "sea",
       "relType": "LOCATED_AT"
     },
     {
       "source": "coral_reef",
-      "target": "sea",
-      "relType": "LOCATED_AT"
-    },
-    {
-      "source": "mammal",
       "target": "sea",
       "relType": "LOCATED_AT"
     },
@@ -6876,12 +6881,12 @@
       "relType": "PART_OF"
     },
     {
-      "source": "tertiary_sector",
+      "source": "primary_sector",
       "target": "sector",
       "relType": "TYPE_OF"
     },
     {
-      "source": "primary_sector",
+      "source": "tertiary_sector",
       "target": "sector",
       "relType": "TYPE_OF"
     },
@@ -6916,6 +6921,26 @@
       "relType": "TYPE_OF"
     },
     {
+      "source": "child_mortality",
+      "target": "society",
+      "relType": "RELATED_TO"
+    },
+    {
+      "source": "human_impact",
+      "target": "society",
+      "relType": "RELATED_TO"
+    },
+    {
+      "source": "human_rights",
+      "target": "society",
+      "relType": "RELATED_TO"
+    },
+    {
+      "source": "land_rights",
+      "target": "society",
+      "relType": "RELATED_TO"
+    },
+    {
       "source": "population",
       "target": "society",
       "relType": "RELATED_TO"
@@ -6936,52 +6961,12 @@
       "relType": "RELATED_TO"
     },
     {
-      "source": "land_rights",
-      "target": "society",
-      "relType": "RELATED_TO"
-    },
-    {
-      "source": "human_rights",
-      "target": "society",
-      "relType": "RELATED_TO"
-    },
-    {
-      "source": "human_impact",
-      "target": "society",
-      "relType": "RELATED_TO"
-    },
-    {
-      "source": "child_mortality",
-      "target": "society",
-      "relType": "RELATED_TO"
-    },
-    {
       "source": "discrimination",
       "target": "society",
       "relType": "QUALITY_OF"
     },
     {
       "source": "education",
-      "target": "society",
-      "relType": "QUALITY_OF"
-    },
-    {
-      "source": "low_income",
-      "target": "society",
-      "relType": "QUALITY_OF"
-    },
-    {
-      "source": "middle_income",
-      "target": "society",
-      "relType": "QUALITY_OF"
-    },
-    {
-      "source": "illiterate",
-      "target": "society",
-      "relType": "QUALITY_OF"
-    },
-    {
-      "source": "inequality",
       "target": "society",
       "relType": "QUALITY_OF"
     },
@@ -6996,14 +6981,29 @@
       "relType": "QUALITY_OF"
     },
     {
-      "source": "security",
+      "source": "inequality",
       "target": "society",
       "relType": "QUALITY_OF"
     },
     {
-      "source": "displaced_people",
+      "source": "illiterate",
       "target": "society",
-      "relType": "PART_OF"
+      "relType": "QUALITY_OF"
+    },
+    {
+      "source": "low_income",
+      "target": "society",
+      "relType": "QUALITY_OF"
+    },
+    {
+      "source": "middle_income",
+      "target": "society",
+      "relType": "QUALITY_OF"
+    },
+    {
+      "source": "security",
+      "target": "society",
+      "relType": "QUALITY_OF"
     },
     {
       "source": "governance",
@@ -7011,62 +7011,12 @@
       "relType": "PART_OF"
     },
     {
-      "source": "trinidad_and_tobago",
-      "target": "south_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "venezuela",
-      "target": "south_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "uruguay",
-      "target": "south_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "paraguay",
-      "target": "south_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "peru",
-      "target": "south_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "suriname",
-      "target": "south_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "chile",
-      "target": "south_america",
+      "source": "displaced_people",
+      "target": "society",
       "relType": "PART_OF"
     },
     {
       "source": "colombia",
-      "target": "south_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "bolivia",
-      "target": "south_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "brazil",
-      "target": "south_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "falkland_islands",
-      "target": "south_america",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "ecuador",
       "target": "south_america",
       "relType": "PART_OF"
     },
@@ -7076,7 +7026,17 @@
       "relType": "PART_OF"
     },
     {
-      "source": "guyana",
+      "source": "chile",
+      "target": "south_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "brazil",
+      "target": "south_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "bolivia",
       "target": "south_america",
       "relType": "PART_OF"
     },
@@ -7091,12 +7051,57 @@
       "relType": "PART_OF"
     },
     {
-      "source": "animal",
+      "source": "venezuela",
+      "target": "south_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "uruguay",
+      "target": "south_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "suriname",
+      "target": "south_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "trinidad_and_tobago",
+      "target": "south_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "paraguay",
+      "target": "south_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "peru",
+      "target": "south_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "guyana",
+      "target": "south_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "ecuador",
+      "target": "south_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "falkland_islands",
+      "target": "south_america",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "endangered",
       "target": "species",
       "relType": "TYPE_OF"
     },
     {
-      "source": "endangered",
+      "source": "animal",
       "target": "species",
       "relType": "TYPE_OF"
     },
@@ -7141,12 +7146,12 @@
       "relType": "AFFECTS"
     },
     {
-      "source": "river",
+      "source": "sea",
       "target": "surface_water",
       "relType": "TYPE_OF"
     },
     {
-      "source": "sea",
+      "source": "river",
       "target": "surface_water",
       "relType": "TYPE_OF"
     },
@@ -7171,12 +7176,12 @@
       "relType": "QUALITY_OF"
     },
     {
-      "source": "thermal_expansion",
+      "source": "temperature_rise",
       "target": "temperature",
       "relType": "QUALITY_OF"
     },
     {
-      "source": "temperature_rise",
+      "source": "thermal_expansion",
       "target": "temperature",
       "relType": "QUALITY_OF"
     },
@@ -7186,22 +7191,22 @@
       "relType": "AFFECTS"
     },
     {
-      "source": "overseas_territory",
-      "target": "territory",
-      "relType": "RELATED_TO"
-    },
-    {
       "source": "autonomous_territory",
       "target": "territory",
       "relType": "RELATED_TO"
     },
     {
-      "source": "western_sahara",
+      "source": "overseas_territory",
+      "target": "territory",
+      "relType": "RELATED_TO"
+    },
+    {
+      "source": "palestine",
       "target": "territory",
       "relType": "IS_A"
     },
     {
-      "source": "palestine",
+      "source": "western_sahara",
       "target": "territory",
       "relType": "IS_A"
     },
@@ -7241,12 +7246,12 @@
       "relType": "IS_INVOLVED_IN"
     },
     {
-      "source": "non_climate_stressor",
+      "source": "climate_stressor",
       "target": "trend",
       "relType": "IS_A"
     },
     {
-      "source": "climate_stressor",
+      "source": "non_climate_stressor",
       "target": "trend",
       "relType": "IS_A"
     },
@@ -7266,32 +7271,7 @@
       "relType": "RELATED_TO"
     },
     {
-      "source": "turks_and_calcos_islands",
-      "target": "uk",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "montserrat",
-      "target": "uk",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "saint_helena",
-      "target": "uk",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "south_georgia_and_the_south_sandwich_islands",
-      "target": "uk",
-      "relType": "PART_OF"
-    },
-    {
       "source": "cayman_islands",
-      "target": "uk",
-      "relType": "PART_OF"
-    },
-    {
-      "source": "brittish_virgin_islands",
       "target": "uk",
       "relType": "PART_OF"
     },
@@ -7301,17 +7281,42 @@
       "relType": "PART_OF"
     },
     {
+      "source": "brittish_virgin_islands",
+      "target": "uk",
+      "relType": "PART_OF"
+    },
+    {
       "source": "british_indian_ocean_territory",
       "target": "uk",
       "relType": "PART_OF"
     },
     {
-      "source": "falkland_islands",
+      "source": "south_georgia_and_the_south_sandwich_islands",
+      "target": "uk",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "turks_and_calcos_islands",
+      "target": "uk",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "saint_helena",
+      "target": "uk",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "montserrat",
       "target": "uk",
       "relType": "PART_OF"
     },
     {
       "source": "gibraltar",
+      "target": "uk",
+      "relType": "PART_OF"
+    },
+    {
+      "source": "falkland_islands",
       "target": "uk",
       "relType": "PART_OF"
     },
@@ -7331,7 +7336,22 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "transportation",
+      "source": "car",
+      "target": "urban",
+      "relType": "RELATED_TO"
+    },
+    {
+      "source": "bike",
+      "target": "urban",
+      "relType": "RELATED_TO"
+    },
+    {
+      "source": "air_quality",
+      "target": "urban",
+      "relType": "RELATED_TO"
+    },
+    {
+      "source": "accessibility",
       "target": "urban",
       "relType": "RELATED_TO"
     },
@@ -7346,22 +7366,7 @@
       "relType": "RELATED_TO"
     },
     {
-      "source": "accessibility",
-      "target": "urban",
-      "relType": "RELATED_TO"
-    },
-    {
-      "source": "car",
-      "target": "urban",
-      "relType": "RELATED_TO"
-    },
-    {
-      "source": "bike",
-      "target": "urban",
-      "relType": "RELATED_TO"
-    },
-    {
-      "source": "air_quality",
+      "source": "transportation",
       "target": "urban",
       "relType": "RELATED_TO"
     },
@@ -7401,12 +7406,12 @@
       "relType": "RELATED_TO"
     },
     {
-      "source": "united_states_minor_outlying_islands",
+      "source": "united_states_virgin_islands",
       "target": "usa",
       "relType": "PART_OF"
     },
     {
-      "source": "united_states_virgin_islands",
+      "source": "united_states_minor_outlying_islands",
       "target": "usa",
       "relType": "PART_OF"
     },
@@ -7421,6 +7426,21 @@
       "relType": "LOCATED_AT"
     },
     {
+      "source": "gdp",
+      "target": "vulnerability",
+      "relType": "CAN_AFFECT"
+    },
+    {
+      "source": "gini_index",
+      "target": "vulnerability",
+      "relType": "CAN_AFFECT"
+    },
+    {
+      "source": "gender",
+      "target": "vulnerability",
+      "relType": "CAN_AFFECT"
+    },
+    {
       "source": "inequality",
       "target": "vulnerability",
       "relType": "CAN_AFFECT"
@@ -7431,17 +7451,7 @@
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "gini_index",
-      "target": "vulnerability",
-      "relType": "CAN_AFFECT"
-    },
-    {
-      "source": "gdp",
-      "target": "vulnerability",
-      "relType": "CAN_AFFECT"
-    },
-    {
-      "source": "gender",
+      "source": "wealth",
       "target": "vulnerability",
       "relType": "CAN_AFFECT"
     },
@@ -7451,62 +7461,12 @@
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "wealth",
-      "target": "vulnerability",
-      "relType": "CAN_AFFECT"
-    },
-    {
       "source": "sustainable_development",
       "target": "vulnerability",
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "exposure",
-      "target": "vulnerability",
-      "relType": "AFFECTS"
-    },
-    {
-      "source": "emergency_services",
-      "target": "vulnerability",
-      "relType": "AFFECTS"
-    },
-    {
-      "source": "early_warning",
-      "target": "vulnerability",
-      "relType": "AFFECTS"
-    },
-    {
-      "source": "economic",
-      "target": "vulnerability",
-      "relType": "AFFECTS"
-    },
-    {
-      "source": "emergency_response",
-      "target": "vulnerability",
-      "relType": "AFFECTS"
-    },
-    {
-      "source": "impact",
-      "target": "vulnerability",
-      "relType": "AFFECTS"
-    },
-    {
-      "source": "hazard",
-      "target": "vulnerability",
-      "relType": "AFFECTS"
-    },
-    {
-      "source": "adaptive_capacity",
-      "target": "vulnerability",
-      "relType": "AFFECTS"
-    },
-    {
       "source": "adaptation",
-      "target": "vulnerability",
-      "relType": "AFFECTS"
-    },
-    {
-      "source": "coastal_erosion",
       "target": "vulnerability",
       "relType": "AFFECTS"
     },
@@ -7526,6 +7486,51 @@
       "relType": "AFFECTS"
     },
     {
+      "source": "hazard",
+      "target": "vulnerability",
+      "relType": "AFFECTS"
+    },
+    {
+      "source": "impact",
+      "target": "vulnerability",
+      "relType": "AFFECTS"
+    },
+    {
+      "source": "emergency_services",
+      "target": "vulnerability",
+      "relType": "AFFECTS"
+    },
+    {
+      "source": "exposure",
+      "target": "vulnerability",
+      "relType": "AFFECTS"
+    },
+    {
+      "source": "early_warning",
+      "target": "vulnerability",
+      "relType": "AFFECTS"
+    },
+    {
+      "source": "emergency_response",
+      "target": "vulnerability",
+      "relType": "AFFECTS"
+    },
+    {
+      "source": "economic",
+      "target": "vulnerability",
+      "relType": "AFFECTS"
+    },
+    {
+      "source": "coastal_erosion",
+      "target": "vulnerability",
+      "relType": "AFFECTS"
+    },
+    {
+      "source": "adaptive_capacity",
+      "target": "vulnerability",
+      "relType": "AFFECTS"
+    },
+    {
       "source": "sewage",
       "target": "wastewater",
       "relType": "TYPE_OF"
@@ -7539,6 +7544,11 @@
       "source": "chemical_oxygen_demand",
       "target": "wastewater",
       "relType": "IS_INVOLVED_IN"
+    },
+    {
+      "source": "precipitation",
+      "target": "water",
+      "relType": "TYPE_OF"
     },
     {
       "source": "wastewater",
@@ -7556,17 +7566,7 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "precipitation",
-      "target": "water",
-      "relType": "TYPE_OF"
-    },
-    {
-      "source": "fresh_water",
-      "target": "water",
-      "relType": "TYPE_OF"
-    },
-    {
-      "source": "frozen_water",
+      "source": "drinking_water",
       "target": "water",
       "relType": "TYPE_OF"
     },
@@ -7576,49 +7576,14 @@
       "relType": "TYPE_OF"
     },
     {
-      "source": "drinking_water",
+      "source": "frozen_water",
       "target": "water",
       "relType": "TYPE_OF"
     },
     {
-      "source": "wetland",
+      "source": "fresh_water",
       "target": "water",
-      "relType": "RELATED_TO"
-    },
-    {
-      "source": "total_suspended_solids",
-      "target": "water",
-      "relType": "RELATED_TO"
-    },
-    {
-      "source": "ocean",
-      "target": "water",
-      "relType": "RELATED_TO"
-    },
-    {
-      "source": "sedimentation",
-      "target": "water",
-      "relType": "RELATED_TO"
-    },
-    {
-      "source": "sewage",
-      "target": "water",
-      "relType": "RELATED_TO"
-    },
-    {
-      "source": "river",
-      "target": "water",
-      "relType": "RELATED_TO"
-    },
-    {
-      "source": "lake",
-      "target": "water",
-      "relType": "RELATED_TO"
-    },
-    {
-      "source": "drought",
-      "target": "water",
-      "relType": "RELATED_TO"
+      "relType": "TYPE_OF"
     },
     {
       "source": "harmful_algal_blooms",
@@ -7636,57 +7601,47 @@
       "relType": "RELATED_TO"
     },
     {
-      "source": "watershed",
+      "source": "drought",
       "target": "water",
-      "relType": "QUALITY_OF"
+      "relType": "RELATED_TO"
     },
     {
-      "source": "water_stress",
+      "source": "lake",
       "target": "water",
-      "relType": "QUALITY_OF"
+      "relType": "RELATED_TO"
     },
     {
-      "source": "water_supply",
+      "source": "ocean",
       "target": "water",
-      "relType": "QUALITY_OF"
+      "relType": "RELATED_TO"
     },
     {
-      "source": "water_scarcity",
+      "source": "river",
       "target": "water",
-      "relType": "QUALITY_OF"
+      "relType": "RELATED_TO"
     },
     {
-      "source": "water_security",
+      "source": "sewage",
       "target": "water",
-      "relType": "QUALITY_OF"
+      "relType": "RELATED_TO"
     },
     {
-      "source": "water_quality",
+      "source": "sedimentation",
       "target": "water",
-      "relType": "QUALITY_OF"
+      "relType": "RELATED_TO"
     },
     {
-      "source": "water_risk",
+      "source": "total_suspended_solids",
       "target": "water",
-      "relType": "QUALITY_OF"
+      "relType": "RELATED_TO"
     },
     {
-      "source": "water_extent",
+      "source": "wetland",
       "target": "water",
-      "relType": "QUALITY_OF"
+      "relType": "RELATED_TO"
     },
     {
-      "source": "water_pollution",
-      "target": "water",
-      "relType": "QUALITY_OF"
-    },
-    {
-      "source": "water_consumption",
-      "target": "water",
-      "relType": "QUALITY_OF"
-    },
-    {
-      "source": "water_demand",
+      "source": "water_conflict",
       "target": "water",
       "relType": "QUALITY_OF"
     },
@@ -7696,7 +7651,57 @@
       "relType": "QUALITY_OF"
     },
     {
-      "source": "water_conflict",
+      "source": "water_pollution",
+      "target": "water",
+      "relType": "QUALITY_OF"
+    },
+    {
+      "source": "water_extent",
+      "target": "water",
+      "relType": "QUALITY_OF"
+    },
+    {
+      "source": "water_demand",
+      "target": "water",
+      "relType": "QUALITY_OF"
+    },
+    {
+      "source": "water_consumption",
+      "target": "water",
+      "relType": "QUALITY_OF"
+    },
+    {
+      "source": "water_security",
+      "target": "water",
+      "relType": "QUALITY_OF"
+    },
+    {
+      "source": "water_scarcity",
+      "target": "water",
+      "relType": "QUALITY_OF"
+    },
+    {
+      "source": "water_risk",
+      "target": "water",
+      "relType": "QUALITY_OF"
+    },
+    {
+      "source": "water_quality",
+      "target": "water",
+      "relType": "QUALITY_OF"
+    },
+    {
+      "source": "watershed",
+      "target": "water",
+      "relType": "QUALITY_OF"
+    },
+    {
+      "source": "water_supply",
+      "target": "water",
+      "relType": "QUALITY_OF"
+    },
+    {
+      "source": "water_stress",
       "target": "water",
       "relType": "QUALITY_OF"
     },
@@ -7731,11 +7736,6 @@
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "total_suspended_solids",
-      "target": "water_quality",
-      "relType": "IS_INVOLVED_IN"
-    },
-    {
       "source": "biological_oxygen_demand",
       "target": "water_quality",
       "relType": "IS_INVOLVED_IN"
@@ -7746,12 +7746,12 @@
       "relType": "IS_INVOLVED_IN"
     },
     {
-      "source": "harmful_algal_blooms",
+      "source": "total_suspended_solids",
       "target": "water_quality",
-      "relType": "CAN_AFFECT"
+      "relType": "IS_INVOLVED_IN"
     },
     {
-      "source": "pollution",
+      "source": "flood",
       "target": "water_quality",
       "relType": "CAN_AFFECT"
     },
@@ -7761,17 +7761,12 @@
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "flood",
-      "target": "water_quality",
-      "relType": "CAN_AFFECT"
-    },
-    {
       "source": "erosion",
       "target": "water_quality",
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "wastewater",
+      "source": "harmful_algal_blooms",
       "target": "water_quality",
       "relType": "CAN_AFFECT"
     },
@@ -7781,9 +7776,34 @@
       "relType": "CAN_AFFECT"
     },
     {
+      "source": "pollution",
+      "target": "water_quality",
+      "relType": "CAN_AFFECT"
+    },
+    {
       "source": "sedimentation",
       "target": "water_quality",
       "relType": "CAN_AFFECT"
+    },
+    {
+      "source": "wastewater",
+      "target": "water_quality",
+      "relType": "CAN_AFFECT"
+    },
+    {
+      "source": "sewage",
+      "target": "water_quality",
+      "relType": "AFFECTS"
+    },
+    {
+      "source": "watershed",
+      "target": "water_quality",
+      "relType": "AFFECTS"
+    },
+    {
+      "source": "nutrients",
+      "target": "water_quality",
+      "relType": "AFFECTS"
     },
     {
       "source": "fertilizer",
@@ -7796,27 +7816,12 @@
       "relType": "AFFECTS"
     },
     {
-      "source": "dead_zone",
-      "target": "water_quality",
-      "relType": "AFFECTS"
-    },
-    {
       "source": "dam",
       "target": "water_quality",
       "relType": "AFFECTS"
     },
     {
-      "source": "nutrients",
-      "target": "water_quality",
-      "relType": "AFFECTS"
-    },
-    {
-      "source": "watershed",
-      "target": "water_quality",
-      "relType": "AFFECTS"
-    },
-    {
-      "source": "sewage",
+      "source": "dead_zone",
       "target": "water_quality",
       "relType": "AFFECTS"
     },
@@ -7841,7 +7846,7 @@
       "relType": "AFFECTS"
     },
     {
-      "source": "irrigation",
+      "source": "drought",
       "target": "water_security",
       "relType": "CAN_AFFECT"
     },
@@ -7851,17 +7856,7 @@
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "drought",
-      "target": "water_security",
-      "relType": "CAN_AFFECT"
-    },
-    {
-      "source": "water_pollution",
-      "target": "water_security",
-      "relType": "CAN_AFFECT"
-    },
-    {
-      "source": "water_risk",
+      "source": "irrigation",
       "target": "water_security",
       "relType": "CAN_AFFECT"
     },
@@ -7871,7 +7866,17 @@
       "relType": "CAN_AFFECT"
     },
     {
+      "source": "water_risk",
+      "target": "water_security",
+      "relType": "CAN_AFFECT"
+    },
+    {
       "source": "water_stress",
+      "target": "water_security",
+      "relType": "CAN_AFFECT"
+    },
+    {
+      "source": "water_pollution",
       "target": "water_security",
       "relType": "CAN_AFFECT"
     },
@@ -7886,12 +7891,12 @@
       "relType": "PART_OF"
     },
     {
-      "source": "irrigation",
+      "source": "drought",
       "target": "water_stress",
       "relType": "CAN_AFFECT"
     },
     {
-      "source": "drought",
+      "source": "irrigation",
       "target": "water_stress",
       "relType": "CAN_AFFECT"
     },
@@ -7911,7 +7916,7 @@
       "relType": "LOCATED_AT"
     },
     {
-      "source": "hurricane",
+      "source": "typhoon",
       "target": "wind",
       "relType": "AFFECTS"
     },
@@ -7921,7 +7926,7 @@
       "relType": "AFFECTS"
     },
     {
-      "source": "typhoon",
+      "source": "hurricane",
       "target": "wind",
       "relType": "AFFECTS"
     }
