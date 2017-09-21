@@ -103,7 +103,7 @@ public_service,society
 radiation,nuclear
 reserve,biodiversity
 reserve,conservation
-resource,general. commerce
+resource,commerce
 resource_scarcity,environment
 rights,society
 river,water
@@ -126,7 +126,6 @@ territory,global
 total_suspended_solids,water
 transportation,urban
 tropical,climate
-un,general
 uncertainty,climate_model
 unincorporated_territory,usa
 wetland,water
