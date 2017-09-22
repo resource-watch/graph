@@ -9,7 +9,6 @@ asia,global
 autonomous_territory,territory
 beef,mammal
 bike,urban
-biodiversity,general
 biome,climate
 boreal,climate
 car,pollution
@@ -42,7 +41,6 @@ farmland,food
 fishery,fish
 fishing,fish
 flood,water
-forest,environment
 fuel,energy
 ground_water,water
 habitat,biodiversity
@@ -114,7 +112,6 @@ sewage,water
 sewage,urban
 solar_energy,energy
 south_america,global
-species,biodiversity
 storm_surge,storm
 storm_surge,sea
 stormwater,precipitation

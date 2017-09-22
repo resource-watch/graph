@@ -96,6 +96,7 @@ fertilizer,agriculture
 fiji,oceania
 finland,europe
 flora,environment
+forest,environment
 france,europe
 french_polynesia,oceania
 french_polynesia,france
@@ -270,6 +271,7 @@ south_korea,asia
 south_korea,oecd
 south_sudan,africa
 spain,europe
+species,biodiversity
 sri_lanka,asia
 sudan,africa
 supply_chain,commerce
