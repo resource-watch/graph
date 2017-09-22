@@ -35,6 +35,7 @@ commodity,general
 conservation,human_activity
 coral_reef,marine_life
 corn,crop
+crop,plant
 crop_health,indicator
 crop_yield,indicator
 daily,frequency
