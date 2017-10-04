@@ -1,3 +1,48 @@
+bike,Bike,,transportation
+bus,Bus,,public_transportation
+train,Train,Rail,public_transportation
+car,Car,,transportation
+fertilizer,Fertilizer,,agriculture
+food_production,Food production,,food
+baseline,Baseline,,climate_model
+projection,Projection,,climate_model
+trend,Trend,,climate_model
+co,CO,Carbon Monoxide,chemical_compound
+o3,O3,Ozone,chemical_compound
+so2,SO2,Sulfur Dioxide,chemical_compound
+precipitation,Precipitation,rain|rainfall,water
+bulgaria,Bulgaria,,eu
+croatia,Croatia,,eu
+cyprus,Cyprus,,eu
+romania,Romania,,eu
+ireland,Ireland,,eu
+poland,Poland,,eu
+uk,United Kingdom,,europe
+lithuania,Lithuania,,eu
+malta,Malta,,eu
+austria,Austria,,eu
+belgium,Belgium,,eu
+denmark,Denmark,,eu
+estonia,Estonia,,eu
+finland,Finlad,,eu
+france,France,,eu
+germany,Germany,,eu
+greece,Greece,,eu
+hungary,Hungary,,eu
+italy,Italy,,eu
+latvia,Latvia,,eu
+luxembourg,Luxembourg,,eu
+netherlands,Netherlands,,eu
+portugal,Portugal,,eu
+slovakia,Slovakia,,eu
+slovenia,Slovenia,,eu
+spain,Spain,,eu
+sweden,Sweden,,eu
+czech_republic,Czech Republic,,eu
+dam,Dam,,energy_infrastructure
+biological_oxygen_demand,Biological Oxygen Demand,,indicator
+chemical_oxygen_demand,Chemical Oxygen Demand,,indicator
+total_suspended_solids,Total suspended solids,,indicator
 accessibility,Accessibility,,urban
 acidification,Acidification,,process
 activity,Activity,,general
@@ -27,24 +72,19 @@ aruba,Aruba,,south_america
 asia,Asia,,continent
 asset,Asset,,general
 australia,Australia,,oceania
-austria,Austria,,eu
 autonomous_territory,Autonomous Territory,,territory
 azerbaijan,Azerbaijan,,asia
 bahamas,Bahamas,,north_america
 bahrain,Bahrain,,asia
 bangladesh,Bangladesh,,asia
 barbados,Barbados,,north_america
-baseline,Baseline,,climate_model
 beef,Beef,,livestock
 belarus,Belarus,,europe
-belgium,Belgium,,eu
 belize,Belize,,north_america
 benin,Benin,,africa
 bermuda,Bermuda,,uk
 bhutan,Bhutan,,asia
-bike,Bike,,transportation
 biodiversity,Biodiversity,,general
-biological_oxygen_demand,Biological Oxygen Demand,,indicator
 biome,Biome,,general
 bird,Bird,,animal
 bleaching,Bleaching,,process
@@ -56,22 +96,18 @@ brazil,Brazil,,south_america
 british_indian_ocean_territory,British Indian Ocean Territory,,uk
 brittish_virgin_islands,Brittish Virgin Islands,,uk
 brunei,Brunei,,asia
-bulgaria,Bulgaria,,eu
 burkina_faso,Burkina Faso,,africa
 burundi,Burundi,,africa
-bus,Bus,,public_transportation
 cambodia,Cambodia,,asia
 cameroon,Cameroon,,africa
 canada,Canada,,north_america
 cape_verde,Cape_Verde,,africa
-car,Car,,transportation
 cayman_islands,Cayman Islands,,uk
 central_part_of:african_republic,Central African Republic,,africa
 cfc,CFC,Chlorofluorocarbon,chemical_compound
 ch4,CH4,Methane,chemical_compound
 chad,Chad,,africa
 chemical_compound,Chemical Compound,,general
-chemical_oxygen_demand,Chemical Oxygen Demand,,indicator
 child_mortality,Child mortality,,indicator
 chile,Chile,,south_america
 china,China,,asia
@@ -81,7 +117,6 @@ climate_change,Climate change,,climate
 climate_hazard,Climate Hazard,,climate
 climate_model,Climate Model,,climate
 climate_stressor,Climate Stressor,,climate
-co,CO,Carbon Monoxide,chemical_compound
 CO2,CO2,Carbon Dioxide,chemical_compound
 coal,Coal,,fuel
 coast,Coast,,ocean
@@ -103,17 +138,13 @@ corn,Corn,,crop
 corruption,Corruption,,governance
 costa_rica,Costa Rica,,north_america
 country,Country,,global
-croatia,Croatia,,eu
 crop,Crop,,plant
 crop_health,Crop health,,crop
 crop_yield,Crop yield,,crop
 crown_dependency,Crown Dependency,,uk
 cuba,Cuba,,north_america
 curacao,Curaçao,,netherlands
-cyprus,Cyprus,,eu
-czech_republic,Czech Republic,,eu
 daily,Daily,,frequency
-dam,Dam,,energy_infrastructure
 damage,Damage,destruction,general
 dataset,Dataset,,general
 dead_zone,Dead Zone,Anoxic Water,general
@@ -122,7 +153,6 @@ degradation,Degradation,,activity
 democratic_republic_of_congo,Democratic Republic of the Congo,,africa
 democratic_republic_of_korea,Democratic Republic of Korea,,asia
 demographic,Demographic,,population
-denmark,Denmark,,eu
 developed,Developed,,country
 developing,Developing,,country
 development,Development,,general
@@ -166,7 +196,6 @@ equatorial_guinea,Equtorial Guinea,,africa
 eritrea,Eritrea,,africa
 erosion,Erosion,,process
 eruption,Eruption,,extreme_event
-estonia,Estonia,,eu
 ethiopia,Ethiopia,,africa
 eu,EU,European Union,europe
 europe,Europe,,continent
@@ -183,10 +212,8 @@ famine,Famine,,disaster
 farmland,Farmland,,food
 faroe_islands,Faroe Islands,,denmark
 fauna,Fauna,,animal
-fertilizer,Fertilizer,,agriculture
 fiji,Fiji,,oceania
 financial_loss,Financial Loss,,economic
-finland,Finlad,,eu
 fire,Fire,,disaster
 fish,Fish,,animal
 fishery,Fishery,,fish
@@ -195,7 +222,6 @@ flood,Flood,,disaster
 flora,Flora,,envinroment
 food,Food,,general
 food_price,Food price,,food
-food_production,Food production,,food
 food_security,Food security,,food
 food_supply,Food supply,,food
 food_waste,Food waste,,food
@@ -205,7 +231,6 @@ forest_gain,Forest gain,,forest
 forest_loss,Forest loss,,forest
 fossil_fuel,Fossil fuel,,fuel
 fragility,Fragility,,quality
-france,France,,eu
 french_polynesia,French Polynesia,,france
 french_southern_and_antarctic_lands,French Southern and Antarctic lands,,france
 frequency,Frequency,,general
@@ -220,7 +245,6 @@ general,General,,
 georgia,Georgia,,europe
 geospatial,Geospatial,,dataset
 geothermal,Geothermal,,renewable_energy
-germany,Germany,,eu
 ghana,Ghana,,africa
 ghg,GHG,Greenhouse gas,general
 gibraltar,Gibraltar,,uk
@@ -228,7 +252,6 @@ gini_index,GINI index,,indicator
 glacier,Glacier,,frozen_water
 global,Global,,location
 governance,Governance,government,society
-greece,Greece,,eu
 greenland,Greenland,,denmark
 greenspace,Greenspace,,urban
 grenada,Grenada,,north_america
@@ -255,7 +278,6 @@ hospital,Hospital,,public_service
 human_activity,Human activity,,activity
 human_impact,Human impact,,society
 human_rights,Human rights,,rights
-hungary,Hungary,,eu
 hunger,Hunger,,general
 hunting,Hunting,,human_activity
 hurricane,Hurricane,typhoon,natural_disaster
@@ -278,12 +300,10 @@ intact_forest,Intact forest,,forest
 internally_displaced,Internally displaced,,displaced_people
 iran,Iran,,asia
 iraq,Iraq,,asia
-ireland,Ireland,,eu
 irrigation,Irrigation,,general
 island,Island,,general
 isle_of_man,Isle of Man,,crown_dependency
 israel,Israel,,asia
-italy,Italy,,eu
 ivory_coast,Ivory Coast,,africa
 jamaica,Jamaica,,north_america
 japan,Japan,,asia
@@ -303,19 +323,16 @@ land_rights,Land rights,,land
 land_use,Land use,,land
 landslide,Landslide,,natural_disaster
 laos,Lao People's Democratic Republic,,asia
-latvia,Latvia,,eu
 lebanon,Lebanon,,asia
 lesotho,Lesotho,,africa
 liberia,Liberia,,africa
 libya,Libya,,africa
 liechtenstein,Liechtenstein,,europe
 literacy,Literacy,,indicator
-lithuania,Lithuania,,eu
 livestock,Livestock,,food
 location,Location,,general
 logging,Logging,,secondary_sector
 low_income,Low Income,,society
-luxembourg,Luxembourg,,eu
 macao,Macao,,china
 macedonia,Macedonia,,europe
 madagascar,Madagascar,,africa
@@ -325,7 +342,6 @@ malaysia,Malaysia,,asia
 maldives,Maldives,,asia
 mali,Mali,,africa
 malnutrition,Malnutrition,,health
-malta,Malta,,eu
 mammal,Mammal,,animal
 mangrove,Mangrove,,forest
 marine_life,Marine life,,ocean
@@ -358,7 +374,6 @@ natural_phenomena,Natural phenomena,,general
 nauru,Nauru,,oceania
 near_real_time,Near real time,,frequency
 nepal,Nepal,,asia
-netherlands,Netherlands,,eu
 new_caledonia,New Caledonia,,france
 new_zealand,New Zealand,,oceania
 nicaragua,Nicaragua,,north_america
@@ -375,7 +390,6 @@ norway,Norway,,europe
 nuclear_energy,Nuclear,,energy_production
 nutrients,Nutrients,,general
 nutrition,Nutrition,,general
-o3,O3,Ozone,chemical_compound
 ocean,Ocean,,surface_water
 oceania,Oceania,,continent
 oecd,OECD,Organisation for Economic Co-operation and Development,general
@@ -399,19 +413,15 @@ pipelines,Pipelines,,energy_infrastructure
 pitcairn_islands,Pitcairn Islands,,oceania
 plant,Plant,,flora
 poaching,Poaching,,human_activity
-poland,Poland,,eu
 political_stability,Political stability,,governance
 pollution,Pollution,,general
 population,Population,,general
-portugal,Portugal,,eu
 poverty,Poverty,,economic
 power_lines,Power Lines,,energy_infrastructure
 power_plant,Power plant,,energy_infrastructure
-precipitation,Precipitation,rain|rainfall,water
 primary_sector,Primary sector,,sector
 probability,Probability,,general
 process,Process,,general
-projection,Projection,,climate_model
 protected_area,Protected Area,,land
 protest,Protest,,event
 public_service,Public service,,general
@@ -441,7 +451,6 @@ risk_assesment,Risk Assesment,,risk
 risk_management,Risk Management,,risk
 river,River,,surface_water
 roads,Roads,,infrastructure
-romania,Romania,,eu
 runoff,Runoff,,precipitation
 russia,Russia,,asia
 rwanda,Rwanda,,africa
@@ -478,11 +487,8 @@ sierra_leone,Sierra Leone,,africa
 singapore,Singapore,,asia
 sint_marteen,Sint Maarten,,netherlands
 slope,Slope,,general
-slovakia,Slovakia,,eu
-slovenia,Slovenia,,eu
 snow,Snow,,frozen_water
 snow_cover,Snow cover,,snow
-so2,SO2,Sulfur Dioxide,chemical_compound
 society,Society,people,general
 solar_energy,Solar energy,,renewable_energy
 solomon_islands,Solomon Islands,,oceania
@@ -493,7 +499,6 @@ south_georgia_and_the_south_sandwich_islands,South Georgia and the South Sandwic
 south_korea,South Korea,,asia
 south_sudan,South Sudan,,africa
 soy,Soy,,crop
-spain,Spain,,eu
 species,Species,,biodiversity
 spill,Spill,,energy_hazard
 sri_lanka,Sri Lanka,,asia
@@ -507,7 +512,6 @@ surface_water,Surface water,,water
 suriname,Suriname,,south_america
 sustainable_development,Sustainable Development,,development
 swaziland,Swaziland,,africa
-sweden,Sweden,,eu
 switzerland,Switzerland,,europe
 syria,Syria,,asia
 table,Table,,dataset
@@ -525,10 +529,7 @@ thorium,Thorium,,chemical_compound
 timor_lest,Timor-Leste,,asia
 togo,Togo,,africa
 tonga,Tonga,,oceania
-total_suspended_solids,Total suspended solids,,indicator
-train,Train,Rail,public_transportation
 transportation,Transportation,Transport,urban
-trend,Trend,,climate_model
 trinidad_and_tobago,Trinidad and Tobago,,south_america
 tropical,Tropical,,climate_zone
 tsunami,Tsunami,,natural_disaster
@@ -539,7 +540,6 @@ turks_and_calcos_islands,Turks and Calcos Islands,,uk
 tuvalu,Tuvalu,,oceania
 typhoon,Typhoon,hurricane,natural_disaster
 uganda,Uganda,,africa
-uk,United Kingdom,,europe
 ukraine,Ukraine,,europe
 un,UN,United Nations,general
 uncertainty,Uncertainty,,climate_model

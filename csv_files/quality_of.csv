@@ -1,3 +1,6 @@
+food_production,food
+projection,climate_model
+trend,climate_model
 air_quality,air
 climate_change,climate
 climate_hazard,climate
@@ -23,7 +26,6 @@ environmental_quality,environment
 extinction,species
 financial_loss,economic
 food_price,food
-food_production,food
 food_security,food
 food_supply,food
 food_waste,food
@@ -44,7 +46,6 @@ middle_income,society
 mortality,health
 political_stability,governance
 poverty,economic
-projection,climate_model
 resource_scarcity,resource
 risk_assesment,risk
 risk_management,risk
@@ -57,7 +58,6 @@ storm_intensity,storm
 temperature,climate
 temperature_rise,temperature
 thermal_expansion,temperature
-trend,climate_model
 uncertainty,climate_model
 urban_planning,urban
 waste,urban

@@ -1,3 +1,10 @@
+fertilizer,nitrogen
+fertilizer,phosphorus
+fertilizer,nutrients
+fertilizer,water_quality
+precipitation,erosion
+precipitation,landslide
+dam,water_quality
 adaptation,vulnerability
 adaptation,damage
 adaptation,resilience
@@ -20,7 +27,6 @@ coastal_erosion,vulnerability
 coastal_erosion,damage
 conservation,intact_forest
 crop,food_production
-dam,water_quality
 dead_zone,fish
 dead_zone,fisheries
 dead_zone,water_quality
@@ -66,10 +72,6 @@ exposure,damage
 exposure,resilience
 famine,mortality
 famine,displaced_people
-fertilizer,nitrogen
-fertilizer,phosphorus
-fertilizer,nutrients
-fertilizer,water_quality
 flood,crop_health
 flood,crop_yield
 flood,food_security
@@ -121,8 +123,6 @@ non_climate_stressor,hazard
 nonrenewable_energy,emissions
 nutrients,water_quality
 poverty,malnutrition
-precipitation,erosion
-precipitation,landslide
 probability,vulnerability
 probability,resilience
 probability,risk

@@ -1,3 +1,9 @@
+bike,urban
+car,pollution
+car,urban
+o3,pollution
+o3,urban
+total_suspended_solids,water
 accessibility,urban
 acidification,sea
 acidification,ocean
@@ -8,11 +14,8 @@ aquaculture,food
 asia,global
 autonomous_territory,territory
 beef,mammal
-bike,urban
 biome,climate
 boreal,climate
-car,pollution
-car,urban
 child_mortality,society
 climate_change,sea_level
 climate_change,snow_cover
@@ -79,8 +82,6 @@ north_america,global
 nutrients,plant
 nutrition,food
 nutrition,society
-o3,pollution
-o3,urban
 ocean,water
 ocean,biodiversity
 oceania,global
@@ -117,7 +118,6 @@ stormwater,precipitation
 stormwater,storm
 temperate,climate
 territory,global
-total_suspended_solids,water
 transportation,urban
 tropical,climate
 uncertainty,climate_model

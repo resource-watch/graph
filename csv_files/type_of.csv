@@ -1,3 +1,11 @@
+bike,transportation
+bus,public_transportation
+train,public_transportation
+car,transportation
+o3,chemical_compound
+so2,chemical_compound
+precipitation,water
+dam,energy_infrastructure
 accessibility,general
 activity,general
 adaptive_capacity,general
@@ -9,14 +17,11 @@ annual,frequency
 aquaculture,land_use
 asset,general
 beef,livestock
-bike,transportation
 biodiversity,general
 biome,general
 bird,animal
 boreal,habitat
 boreal,climate_zone
-bus,public_transportation
-car,transportation
 cfc,chemical_compound
 ch4,ghg
 chemical_compound,general
@@ -39,7 +44,6 @@ crop,plant
 crop_health,indicator
 crop_yield,indicator
 daily,frequency
-dam,energy_infrastructure
 damage,general
 dataset,general
 dead_zone,general
@@ -137,7 +141,6 @@ nonrenewable_energy,energy_production
 nuclear_energy,energy_production
 nutrients,general
 nutrition,general
-o3,chemical_compound
 ocean,surface_water
 oecd,general
 oil,fuel
@@ -154,7 +157,6 @@ pollution,general
 population,general
 power_lines,energy_infrastructure
 power_plant,energy_infrastructure
-precipitation,water
 primary_sector,sector
 probability,general
 process,general
@@ -190,7 +192,6 @@ sewage,wastewater
 shrimp,seafood
 slope,general
 snow,frozen_water
-so2,chemical_compound
 society,general
 solar_energy,renewable_energy
 soy,crop
@@ -202,7 +203,6 @@ table,dataset
 temperate,habitat
 temperate,climate_zone
 tertiary_sector,sector
-train,public_transportation
 tropical,habitat
 tropical,climate_zone
 tsunami,natural_disaster
