@@ -35,7 +35,7 @@ ORDER BY number_of_shared_concepts DESC
 // 2. SIMILAR DATASETS Including descendants tags
 
 MATCH (d:DATASET{id:'62494370-3799-4165-838e-0ebaf42804c2'})-[:TAGGED_WITH]->(c:CONCEPT)
-WITH COLLECT(c.id) AS main_tags
+WITH COLLECT(c.id) AS main_tags, d
 MATCH (d2:DATASET)-[:TAGGED_WITH]->(c1:CONCEPT)-[:TYPE_OF|:PART_OF|:IS_A|QUALITY_OF*1..15]->(c2:CONCEPT)
 WHERE (c1.id IN main_tags OR c2.id IN main_tags) AND d2.id <> d.id
 WITH COLLECT(DISTINCT c1.id) AS dataset_tags, d2.id AS dataset
