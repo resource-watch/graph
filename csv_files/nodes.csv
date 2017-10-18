@@ -420,7 +420,7 @@ precipitation,Precipitation,rain|rainfall,water,TOPIC
 primary_sector,Primary sector,,sector,TOPIC
 probability,Probability,,general,TOPIC
 process,Process,,general,TOPIC
-projection,Projection,,climate_model,TOPIC
+projection,Projection,,general,TOPIC
 protected_area,Protected Area,,land,TOPIC
 protest,Protest,,event,TOPIC
 public_infrastructure,Public infrastructure,,infrastructure,TOPIC

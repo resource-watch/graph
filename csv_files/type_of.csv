@@ -166,6 +166,7 @@ precipitation,water
 primary_sector,sector
 probability,general
 process,general
+projection,general
 protected_area,land
 public_infrastructure,infrastructure
 public_service,general
