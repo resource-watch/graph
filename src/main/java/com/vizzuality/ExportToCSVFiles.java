@@ -36,20 +36,21 @@ public class ExportToCSVFiles {
                 String[] values = line.split("\t");
                 String valueID = values[1];
                 String synonymsSt = "";
-                if (values.length > 3) {
-                    synonymsSt = values[3].trim();
-                }
-                String defalutParentSt = "";
                 if (values.length > 4) {
-                    defalutParentSt = values[4];
+                    synonymsSt = values[4].trim();
                 }
-                nodesFileWriter.write( valueID.trim() + "," + values[2].trim() + "," + synonymsSt + "," + defalutParentSt.trim() + "\n");
-                for(int i=5;i<values.length;i++){
+                String defaultParentSt = "";
+                if (values.length > 5) {
+                    defaultParentSt = values[5];
+                }
+                String typeSt = values[2];
+                nodesFileWriter.write( valueID.trim() + "," + values[3].trim() + "," + synonymsSt + "," + defaultParentSt.trim() + "," + typeSt + "\n");
+                for(int i=6;i<values.length;i++){
                     String relValue = values[i].trim();
                     if(relValue.length() > 0){
                         String[] relColumns = relValue.split(",");
                         for(String relColumn : relColumns){
-                            writersMap.get(relTypes.get(i-5)).write(valueID.trim() + "," + relColumn.trim() + "\n");
+                            writersMap.get(relTypes.get(i-6)).write(valueID.trim() + "," + relColumn.trim() + "\n");
                         }
                     }
                 }
