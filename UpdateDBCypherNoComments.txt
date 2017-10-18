@@ -6,6 +6,14 @@ AS line
 WITH line
 MERGE (c:CONCEPT_NEW { id: line[0], label: line[1], synonyms: CASE line[2] WHEN null THEN '' ELSE split(line[2],'|') END, default_parent: CASE line[3] WHEN null THEN '' else line[3] END});
 
+LOAD CSV FROM 'file:///nodes.csv'
+AS line
+WITH line
+MATCH (c:CONCEPT_NEW { id: line[0]})
+FOREACH(ignoreMe IN CASE WHEN line[4] = 'TOPIC' THEN [1] ELSE [] END | SET c:TOPIC)
+FOREACH(ignoreMe IN CASE WHEN line[4] = 'GEOGRAPHY' THEN [1] ELSE [] END | SET c:GEOGRAPHY)
+FOREACH(ignoreMe IN CASE WHEN line[4] = 'DATA_TYPE' THEN [1] ELSE [] END | SET c:DATA_TYPE)
+
 LOAD CSV FROM 'file:///affects.csv'
 AS line
 WITH line
