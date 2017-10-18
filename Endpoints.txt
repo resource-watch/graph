@@ -47,7 +47,7 @@ ORDER BY number_of_ocurrences DESC
 // 3. GET LIST OF CONCEPTS
 
 MATCH (c:CONCEPT)
-RETURN c.id, c.label, c.synonyms
+RETURN c.id, c.label, c.synonyms, labels(c) as labels
 
 // 4. GET CONCEPTS INFERRED FROM LIST
 
@@ -56,7 +56,7 @@ WHERE c.id IN ['xxxx', 'yyyy', 'zzzz']
 WITH collect(DISTINCT c.id) + collect(DISTINCT c2.id) as results
 MATCH (c:CONCEPT)
 WHERE c.id IN results
-RETURN c.id, c.label, c.synonyms
+RETURN c.id, c.label, c.synonyms, labels(c) as labels
 
 // 5. DIRECT ANCESTORS OF SET OF CONCEPTS
 MATCH (c:CONCEPT)-[:TYPE_OF|:PART_OF|:IS_A|QUALITY_OF]->(c2:CONCEPT)
@@ -64,4 +64,4 @@ WHERE c.id IN ['xxx', 'yyy']
 WITH collect(DISTINCT c2.id) as results
 MATCH (c:CONCEPT)
 WHERE c.id IN results
-RETURN c.id, c.label, c.synonyms
+RETURN c.id, c.label, c.synonyms, labels(c) as labels
