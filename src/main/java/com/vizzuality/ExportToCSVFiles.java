@@ -21,7 +21,7 @@ public class ExportToCSVFiles {
             ArrayList<String> relTypes = new ArrayList<>();
             HashMap<String, BufferedWriter> writersMap = new HashMap<>();
 
-            for(int i=5;i<columns.length;i++){
+            for(int i=6;i<columns.length;i++){
                 String relName = columns[i];
                 relTypes.add(relName);
                 writersMap.put(relName, new BufferedWriter(new FileWriter(new File("csv_files/" + relName + ".csv"))));
