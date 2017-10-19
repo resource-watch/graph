@@ -17,7 +17,7 @@ MATCH (c:CONCEPT_NEW { id: line[0]})
 FOREACH(ignoreMe IN CASE WHEN line[4] = 'TOPIC' THEN [1] ELSE [] END | SET c:TOPIC)
 FOREACH(ignoreMe IN CASE WHEN line[4] = 'GEOGRAPHY' THEN [1] ELSE [] END | SET c:GEOGRAPHY)
 FOREACH(ignoreMe IN CASE WHEN line[4] = 'DATA_TYPE' THEN [1] ELSE [] END | SET c:DATA_TYPE)
-RETURN count(c.id) as updated_nodes
+WITH count(c.id) as updated_nodes
 
 // AFFECTS relationships
 LOAD CSV FROM 'file:///affects.csv'
