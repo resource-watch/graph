@@ -96,8 +96,6 @@ WITH edges, COLLECT({ id: a.id, label: a.label, synonyms: a.synonyms, default_pa
 RETURN { edges: edges, nodes: nodes }
 
 // EXPORT WHOLE DATABASE
-
-// EXPORT DATABASE TO JSON
 MATCH (a)-[r]->(b)
 WITH collect(
     {
