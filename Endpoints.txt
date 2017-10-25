@@ -33,10 +33,11 @@ RETURN d2.id, shared_concepts, number_of_shared_concepts
 ORDER BY number_of_shared_concepts DESC
 
 // 2. SIMILAR DATASETS Including descendants tags
+// We're taking into account only topics
 
-MATCH (d:DATASET{id:'62494370-3799-4165-838e-0ebaf42804c2'})-[:TAGGED_WITH]->(c:CONCEPT)
+MATCH (d:DATASET{id:'62494370-3799-4165-838e-0ebaf42804c2'})-[:TAGGED_WITH]->(c:TOPIC)
 WITH COLLECT(c.id) AS main_tags, d
-MATCH (d2:DATASET)-[:TAGGED_WITH]->(c1:CONCEPT)-[:TYPE_OF|:PART_OF|:IS_A|QUALITY_OF*1..15]->(c2:CONCEPT)
+MATCH (d2:DATASET)-[:TAGGED_WITH]->(c1:TOPIC)-[:TYPE_OF|:PART_OF|:IS_A|QUALITY_OF*1..15]->(c2:TOPIC)
 WHERE (c1.id IN main_tags OR c2.id IN main_tags) AND d2.id <> d.id
 WITH COLLECT(DISTINCT c1.id) AS dataset_tags, d2.id AS dataset
 WITH size(dataset_tags) AS number_of_ocurrences, dataset_tags, dataset
