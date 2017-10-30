@@ -28,7 +28,7 @@ public class ImportDatabase {
             layerEdgesWriter.write("LAYER_ID\tDATASET_ID\n");
             BufferedWriter favoritesWriter = new BufferedWriter(new FileWriter(new File("import_db_csv_files/favoritesEdges.csv")));
             favoritesWriter.write("USER_ID\tRESOURCE_TYPE\tRESOURCE_ID\n");
-            BufferedWriter conceptEdgesWriter = new BufferedWriter(new FileWriter(new File("import_db_csv_files/favoritesEdges.csv")));
+            BufferedWriter conceptEdgesWriter = new BufferedWriter(new FileWriter(new File("import_db_csv_files/conceptEdges.csv")));
             conceptEdgesWriter.write("SOURCE_CONCEPT_ID\tEDGE_TYPE\tTARGET_CONCEPT_ID\n");
 
             BufferedReader reader = new BufferedReader(new FileReader(new File("/Users/pabloparejatobes/Downloads/out.txt")));
