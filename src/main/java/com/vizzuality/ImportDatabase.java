@@ -54,33 +54,34 @@ public class ImportDatabase {
             for (int i=0; i<nodes.length(); i++) {
                 JSONObject node = (JSONObject) nodes.get(i);
                 JSONArray labels = node.getJSONArray("labels");
-                if (labels.toString().contains("DATASET")) {
-                    datasetWriter.write(node.getString("id") + "\n");
-                }
-                if (labels.toString().contains("WIDGET")) {
-                    widgetWriter.write(node.getString("id") + "\n");
-                }
-                if (labels.toString().contains("LAYER")) {
-                    layerWriter.write(node.getString("id") + "\n");
-                }
-                if (labels.toString().contains("USER")) {
-                    userWriter.write(node.getString("id") + "\n");
-                }
-                if (labels.toString().contains("CONCEPT")) {
-                    String nodeType = "";
-                    Iterator<Object> iterator = node.getJSONArray("labels").iterator();
-                    while(iterator.hasNext()) {
-                        String elem = iterator.next().toString();
-                        if(!elem.equals("CONCEPT")) {
-                            nodeType = elem;
-                        }
-                    }
-                    conceptWriter.write(node.getString("id") + "\t" + node.getString("label") + "\t" +
-                                        node.get("synonyms") + "\t" + node.getString("default_parent") + "\t" +
-                                        nodeType + "\n") ;
-                }
                 if (labels.length() == 0) {
                     System.out.println("Empty node! " + node);
+                } else {
+                    if (labels.toString().contains("DATASET")) {
+                        datasetWriter.write(node.getString("id") + "\n");
+                    }
+                    if (labels.toString().contains("WIDGET")) {
+                        widgetWriter.write(node.getString("id") + "\n");
+                    }
+                    if (labels.toString().contains("LAYER")) {
+                        layerWriter.write(node.getString("id") + "\n");
+                    }
+                    if (labels.toString().contains("USER")) {
+                        userWriter.write(node.getString("id") + "\n");
+                    }
+                    if (labels.toString().contains("CONCEPT")) {
+                        String nodeType = "";
+                        Iterator<Object> iterator = node.getJSONArray("labels").iterator();
+                        while(iterator.hasNext()) {
+                            String elem = iterator.next().toString();
+                            if(!elem.equals("CONCEPT")) {
+                                nodeType = elem;
+                            }
+                        }
+                        conceptWriter.write(node.getString("id") + "\t" + node.getString("label") + "\t" +
+                                node.get("synonyms") + "\t" + node.getString("default_parent") + "\t" +
+                                nodeType + "\n") ;
+                    }
                 }
             }
 
