@@ -4,7 +4,7 @@ AS line
 WITH line
 MERGE (c:CONCEPT { id: line[0], label: line[1], synonyms: CASE line[2] WHEN null THEN '' ELSE split(line[2],'|') END, default_parent: CASE line[3] WHEN null THEN '' else line[3] END});
 
-LOAD CSV FROM 'file:///nodes.csv'
+LOAD CSV FROM 'file:///concepts.csv'
 AS line
 WITH line
 MATCH (c:CONCEPT { id: line[0]})
@@ -29,7 +29,7 @@ FOREACH(ignoreMe IN CASE WHEN line[1] = 'CAN_AFFECT' THEN [1] ELSE [] END | MERG
 FOREACH(ignoreMe IN CASE WHEN line[1] = 'IS_SIMILAR_TO' THEN [1] ELSE [] END | MERGE (c1)-[:IS_SIMILAR_TO]->(c2))
 FOREACH(ignoreMe IN CASE WHEN line[1] = 'IS_INVOLVED_IN' THEN [1] ELSE [] END | MERGE (c1)-[:IS_INVOLVED_IN]->(c2))
 FOREACH(ignoreMe IN CASE WHEN line[1] = 'LOCATED_AT' THEN [1] ELSE [] END | MERGE (c1)-[:LOCATED_AT]->(c2))
-WITH count(c.id) as edges_created
+WITH count(c1.id) as edges_created
 RETURN edges_created
 
 // DATASETS
@@ -37,6 +37,13 @@ LOAD CSV FROM 'file:///datasets.csv'
 AS line
 WITH line
 MERGE (c:DATASET { id: line[0] });
+
+// DATASET TAGS
+LOAD CSV FROM 'file:///datasetTags.csv'
+AS line
+WITH line
+MATCH (d:DATASET { id: line[0] }), (c:CONCEPT { id: line[1] })
+MERGE (d)-[:TAGGED_WITH]-(c);
 
 // WIDGETS
 LOAD CSV FROM 'file:///widgets.csv'

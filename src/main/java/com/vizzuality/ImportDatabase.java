@@ -4,7 +4,9 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.io.*;
+import java.util.HashSet;
 import java.util.Iterator;
+import java.util.Set;
 
 public class ImportDatabase {
 
@@ -51,6 +53,8 @@ public class ImportDatabase {
 
             System.out.println("Exporting nodes...");
 
+            Set<String> visitedNodes = new HashSet<>();
+
             for (int i=0; i<nodes.length(); i++) {
                 JSONObject node = (JSONObject) nodes.get(i);
                 JSONArray labels = node.getJSONArray("labels");
@@ -80,9 +84,16 @@ public class ImportDatabase {
                         }
                         String labelSt = node.getString("label");
                         String synonymsSt = node.get("synonyms").toString().replaceAll("\"", "'");
-                        conceptWriter.write(node.getString("id") + "," + labelSt + "," +
-                                synonymsSt + "," + node.getString("default_parent") + "," +
-                                nodeType + "\n") ;
+                        String idSt = node.getString("id");
+                        String defaultParentSt = node.getString("default_parent");
+
+                        if (!labelSt.isEmpty() && !labelSt.equals("<null>") && visitedNodes.contains(idSt)) {
+
+                            conceptWriter.write( idSt + "," + labelSt + "," +
+                                    synonymsSt + "," + defaultParentSt + "," + nodeType + "\n");
+
+                            visitedNodes.add(idSt);
+                        }
                     }
                 }
             }
