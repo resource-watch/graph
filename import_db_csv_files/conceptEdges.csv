@@ -1,4 +1,3 @@
-SOURCE_CONCEPT_ID,EDGE_TYPE,TARGET_CONCEPT_ID
 human_impact,AFFECTS,biodiversity
 water_pollution,CAN_AFFECT,biodiversity
 plant,TYPE_OF,biodiversity

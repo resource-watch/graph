@@ -15,25 +15,25 @@ public class ImportDatabase {
         try {
 
             BufferedWriter datasetWriter = new BufferedWriter(new FileWriter(new File("import_db_csv_files/datasets.csv")));
-            datasetWriter.write("ID\n");
+            //datasetWriter.write("ID\n");
             BufferedWriter datasetTagsWriter = new BufferedWriter(new FileWriter(new File("import_db_csv_files/datasetTags.csv")));
-            datasetWriter.write("ID,TAG_ID\n");
+            //datasetWriter.write("ID,TAG_ID\n");
             BufferedWriter widgetWriter = new BufferedWriter(new FileWriter(new File("import_db_csv_files/widgets.csv")));
-            widgetWriter.write("ID\n");
+            //widgetWriter.write("ID\n");
             BufferedWriter layerWriter = new BufferedWriter(new FileWriter(new File("import_db_csv_files/layers.csv")));
-            layerWriter.write("ID\n");
+            //layerWriter.write("ID\n");
             BufferedWriter userWriter = new BufferedWriter(new FileWriter(new File("import_db_csv_files/users.csv")));
-            userWriter.write("ID\n");
+            //userWriter.write("ID\n");
             BufferedWriter conceptWriter = new BufferedWriter(new FileWriter(new File("import_db_csv_files/concepts.csv")));
-            conceptWriter.write("ID,LABEL,SYNONYMS,DEFAULT_PARENT,TYPE\n");
+            //conceptWriter.write("ID,LABEL,SYNONYMS,DEFAULT_PARENT,TYPE\n");
             BufferedWriter widgetEdgesWriter = new BufferedWriter(new FileWriter(new File("import_db_csv_files/widgetEdges.csv")));
-            widgetEdgesWriter.write("WIDGET_ID,DATASET_ID\n");
+            //widgetEdgesWriter.write("WIDGET_ID,DATASET_ID\n");
             BufferedWriter layerEdgesWriter = new BufferedWriter(new FileWriter(new File("import_db_csv_files/layerEdges.csv")));
-            layerEdgesWriter.write("LAYER_ID,DATASET_ID\n");
+            //layerEdgesWriter.write("LAYER_ID,DATASET_ID\n");
             BufferedWriter favoritesWriter = new BufferedWriter(new FileWriter(new File("import_db_csv_files/favoritesEdges.csv")));
-            favoritesWriter.write("USER_ID,RESOURCE_TYPE,RESOURCE_ID\n");
+            //favoritesWriter.write("USER_ID,RESOURCE_TYPE,RESOURCE_ID\n");
             BufferedWriter conceptEdgesWriter = new BufferedWriter(new FileWriter(new File("import_db_csv_files/conceptEdges.csv")));
-            conceptEdgesWriter.write("SOURCE_CONCEPT_ID,EDGE_TYPE,TARGET_CONCEPT_ID\n");
+            //conceptEdgesWriter.write("SOURCE_CONCEPT_ID,EDGE_TYPE,TARGET_CONCEPT_ID\n");
 
             BufferedReader reader = new BufferedReader(new FileReader(new File("/Users/pabloparejatobes/Downloads/out.txt")));
             String line;
