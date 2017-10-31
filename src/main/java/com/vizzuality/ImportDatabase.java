@@ -15,7 +15,7 @@ public class ImportDatabase {
             BufferedWriter datasetWriter = new BufferedWriter(new FileWriter(new File("import_db_csv_files/datasets.csv")));
             datasetWriter.write("ID\n");
             BufferedWriter datasetTagsWriter = new BufferedWriter(new FileWriter(new File("import_db_csv_files/datasetTags.csv")));
-            datasetWriter.write("ID\tTAG_ID\n");
+            datasetWriter.write("ID,TAG_ID\n");
             BufferedWriter widgetWriter = new BufferedWriter(new FileWriter(new File("import_db_csv_files/widgets.csv")));
             widgetWriter.write("ID\n");
             BufferedWriter layerWriter = new BufferedWriter(new FileWriter(new File("import_db_csv_files/layers.csv")));
@@ -23,15 +23,15 @@ public class ImportDatabase {
             BufferedWriter userWriter = new BufferedWriter(new FileWriter(new File("import_db_csv_files/users.csv")));
             userWriter.write("ID\n");
             BufferedWriter conceptWriter = new BufferedWriter(new FileWriter(new File("import_db_csv_files/concepts.csv")));
-            conceptWriter.write("ID\tLABEL\tSYNONYMS\tDEFAULT_PARENT\tTYPE\n");
+            conceptWriter.write("ID,LABEL,SYNONYMS,DEFAULT_PARENT,TYPE\n");
             BufferedWriter widgetEdgesWriter = new BufferedWriter(new FileWriter(new File("import_db_csv_files/widgetEdges.csv")));
-            widgetEdgesWriter.write("WIDGET_ID\tDATASET_ID\n");
+            widgetEdgesWriter.write("WIDGET_ID,DATASET_ID\n");
             BufferedWriter layerEdgesWriter = new BufferedWriter(new FileWriter(new File("import_db_csv_files/layerEdges.csv")));
-            layerEdgesWriter.write("LAYER_ID\tDATASET_ID\n");
+            layerEdgesWriter.write("LAYER_ID,DATASET_ID\n");
             BufferedWriter favoritesWriter = new BufferedWriter(new FileWriter(new File("import_db_csv_files/favoritesEdges.csv")));
-            favoritesWriter.write("USER_ID\tRESOURCE_TYPE\tRESOURCE_ID\n");
+            favoritesWriter.write("USER_ID,RESOURCE_TYPE,RESOURCE_ID\n");
             BufferedWriter conceptEdgesWriter = new BufferedWriter(new FileWriter(new File("import_db_csv_files/conceptEdges.csv")));
-            conceptEdgesWriter.write("SOURCE_CONCEPT_ID\tEDGE_TYPE\tTARGET_CONCEPT_ID\n");
+            conceptEdgesWriter.write("SOURCE_CONCEPT_ID,EDGE_TYPE,TARGET_CONCEPT_ID\n");
 
             BufferedReader reader = new BufferedReader(new FileReader(new File("/Users/pabloparejatobes/Downloads/out.txt")));
             String line;
@@ -80,8 +80,8 @@ public class ImportDatabase {
                         }
                         String labelSt = node.getString("label");
                         String synonymsSt = node.get("synonyms").toString().replaceAll("\"", "'");
-                        conceptWriter.write(node.getString("id") + "\t" + labelSt + "\t" +
-                                synonymsSt + "\t" + node.getString("default_parent") + "\t" +
+                        conceptWriter.write(node.getString("id") + "," + labelSt + "," +
+                                synonymsSt + "," + node.getString("default_parent") + "," +
                                 nodeType + "\n") ;
                     }
                 }
@@ -98,19 +98,19 @@ public class ImportDatabase {
                 String target = edge.getString("target");
                 String relType = edge.getString("relType");
                 if (sourceType.equals("WIDGET")) {
-                    widgetEdgesWriter.write(source + "\t" + target + "\n" );
+                    widgetEdgesWriter.write(source + "," + target + "\n" );
                 }
                 if (sourceType.equals("LAYER")) {
-                    layerEdgesWriter.write(source + "\t" + target + "\n" );
+                    layerEdgesWriter.write(source + "," + target + "\n" );
                 }
                 if (sourceType.equals("USER")) {
-                    favoritesWriter.write(source + "\t" + targetType + "\t" + target + "\n" );
+                    favoritesWriter.write(source + "," + targetType + "," + target + "\n" );
                 }
                 if (sourceType.equals("CONCEPT")) {
-                    conceptEdgesWriter.write(source + "\t" + relType + "\t" + target + "\n");
+                    conceptEdgesWriter.write(source + "," + relType + "," + target + "\n");
                 }
                 if (sourceType.equals("DATASET")) {
-                    datasetTagsWriter.write(source + "\t" + target + "\n");
+                    datasetTagsWriter.write(source + "," + target + "\n");
                 }
             }
 
