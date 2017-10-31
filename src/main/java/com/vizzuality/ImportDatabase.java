@@ -14,6 +14,8 @@ public class ImportDatabase {
 
             BufferedWriter datasetWriter = new BufferedWriter(new FileWriter(new File("import_db_csv_files/datasets.csv")));
             datasetWriter.write("ID\n");
+            BufferedWriter datasetTagsWriter = new BufferedWriter(new FileWriter(new File("import_db_csv_files/datasetTags.csv")));
+            datasetWriter.write("ID\tTAG_ID\n");
             BufferedWriter widgetWriter = new BufferedWriter(new FileWriter(new File("import_db_csv_files/widgets.csv")));
             widgetWriter.write("ID\n");
             BufferedWriter layerWriter = new BufferedWriter(new FileWriter(new File("import_db_csv_files/layers.csv")));
@@ -104,6 +106,9 @@ public class ImportDatabase {
                 if (sourceType.equals("CONCEPT")) {
                     conceptEdgesWriter.write(source + "\t" + relType + "\t" + target + "\n");
                 }
+                if (sourceType.equals("DATASET")) {
+                    datasetTagsWriter.write(source + "\t" + target + "\n");
+                }
             }
 
             System.out.println("Closing writers...");
@@ -116,6 +121,7 @@ public class ImportDatabase {
             layerEdgesWriter.close();
             favoritesWriter.close();
             conceptEdgesWriter.close();
+            datasetTagsWriter.close();
             System.out.println("Done!");
 
         }catch (Exception e) {

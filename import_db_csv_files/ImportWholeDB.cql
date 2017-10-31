@@ -44,11 +44,23 @@ AS line
 WITH line
 MERGE (c:WIDGET { id: line[0] });
 
+// WIDGET EDGES
+LOAD CSV FROM 'file:///widgetEdges.csv'
+AS line
+WITH line
+MERGE (c:WIDGET { id: line[0] })-[:BELONGS_TO]->(d:DATASET { id: line[1] });
+
 // LAYERS
 LOAD CSV FROM 'file:///layers.csv'
 AS line
 WITH line
 MERGE (c:LAYER { id: line[0] });
+
+// LAYER EDGES
+LOAD CSV FROM 'file:///layerEdges.csv'
+AS line
+WITH line
+MERGE (c:LAYER { id: line[0] })-[:BELONGS_TO]->(d:DATASET { id: line[1] });
 
 // USERS
 LOAD CSV FROM 'file:///users.csv'
@@ -56,4 +68,13 @@ AS line
 WITH line
 MERGE (c:USER { id: line[0] });
 
+// User favorites
+LOAD CSV FROM 'file:///favoritesEdges.csv'
+AS line
+WITH line
+MATCH (u:USER { id: line[0]})
+FOREACH(ignoreMe IN CASE WHEN line[1] = 'DATASET' THEN [1] ELSE [] END | MERGE (u)-[:FAVOURITE]->(d:DATASET { id: line[2] }))
+FOREACH(ignoreMe IN CASE WHEN line[1] = 'WIDGET' THEN [1] ELSE [] END | MERGE (u)-[:FAVOURITE]->(d:WIDGET { id: line[2] }))
+WITH count(u.id) as edges_created
+RETURN edges_created
 
