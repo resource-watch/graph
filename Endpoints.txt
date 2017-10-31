@@ -66,3 +66,8 @@ WITH collect(DISTINCT c2.id) as results
 MATCH (c:CONCEPT)
 WHERE c.id IN results
 RETURN c.id, c.label, c.synonyms, labels(c) as labels
+
+// 6. MOST LIKED/FAVORITED DATASETS
+MATCH (u:USER)-[:FAVOURITE]->(d:DATASET)
+RETURN d.id, COUNT(d) AS number_of_favorites
+ORDER BY number_of_favorites DESC
