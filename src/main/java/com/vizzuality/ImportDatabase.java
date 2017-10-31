@@ -87,7 +87,7 @@ public class ImportDatabase {
                         String idSt = node.getString("id");
                         String defaultParentSt = node.getString("default_parent");
 
-                        if (!labelSt.isEmpty() && !labelSt.equals("<null>") && visitedNodes.contains(idSt)) {
+                        if (!labelSt.isEmpty() && !labelSt.equals("<null>") && !visitedNodes.contains(idSt)) {
 
                             conceptWriter.write( idSt + "," + labelSt + "," +
                                     synonymsSt + "," + defaultParentSt + "," + nodeType + "\n");
