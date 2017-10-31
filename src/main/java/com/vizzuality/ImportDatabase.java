@@ -78,8 +78,10 @@ public class ImportDatabase {
                                 nodeType = elem;
                             }
                         }
-                        conceptWriter.write(node.getString("id") + "\t" + node.getString("label") + "\t" +
-                                node.get("synonyms") + "\t" + node.getString("default_parent") + "\t" +
+                        String labelSt = node.getString("label");
+                        String synonymsSt = node.get("synonyms").toString().replaceAll("\"", "'");
+                        conceptWriter.write(node.getString("id") + "\t" + labelSt + "\t" +
+                                synonymsSt + "\t" + node.getString("default_parent") + "\t" +
                                 nodeType + "\n") ;
                     }
                 }

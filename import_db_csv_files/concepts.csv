@@ -38,8 +38,8 @@ cape_verde	Cape_Verde		africa	GEOGRAPHY
 car	Car		transportation	TOPIC
 cayman_islands	Cayman Islands		uk	GEOGRAPHY
 central_part_of:african_republic	Central African Republic		africa	GEOGRAPHY
-cfc	CFC	["Chlorofluorocarbon"]	chemical_compound	TOPIC
-ch4	CH4	["Methane"]	chemical_compound	TOPIC
+cfc	CFC	['Chlorofluorocarbon']	chemical_compound	TOPIC
+ch4	CH4	['Methane']	chemical_compound	TOPIC
 chad	Chad		africa	GEOGRAPHY
 chemical_compound	Chemical Compound		general	TOPIC
 chemical_oxygen_demand	Chemical Oxygen Demand		indicator	TOPIC
@@ -52,8 +52,8 @@ climate_change	Climate change		climate	TOPIC
 climate_hazard	Climate Hazard		climate	TOPIC
 climate_model	Climate Model		climate	TOPIC
 climate_stressor	Climate Stressor		climate	TOPIC
-co	CO	["Carbon Monoxide"]	chemical_compound	TOPIC
-CO2	CO2	["Carbon Dioxide"]	chemical_compound	TOPIC
+co	CO	['Carbon Monoxide']	chemical_compound	TOPIC
+CO2	CO2	['Carbon Dioxide']	chemical_compound	TOPIC
 coal	Coal		fuel	TOPIC
 coast	Coast		ocean	TOPIC
 coastal_erosion	Coastal Erosion		coast	TOPIC
@@ -68,7 +68,7 @@ congo	Congo		africa	GEOGRAPHY
 conservation	Conservation		human_activity	TOPIC
 continent	Continent		global	GEOGRAPHY
 cook_islands	Cook islands		oceania	GEOGRAPHY
-coral_reef	Coral reef	["coral"]	marine_life	TOPIC
+coral_reef	Coral reef	['coral']	marine_life	TOPIC
 coral_sea_islands_territory	Coral Sea Islands Territory		australia	GEOGRAPHY
 corn	Corn		crop	TOPIC
 corruption	Corruption		governance	TOPIC
@@ -85,9 +85,9 @@ cyprus	Cyprus		eu	GEOGRAPHY
 czech_republic	Czech Republic		eu	GEOGRAPHY
 daily	Daily		frequency	TOPIC
 dam	Dam		energy_infrastructure	TOPIC
-damage	Damage	["destruction"]	general	TOPIC
+damage	Damage	['destruction']	general	TOPIC
 dataset	Dataset		general	DATA_TYPE
-dead_zone	Dead Zone	["Anoxic Water"]	general	TOPIC
+dead_zone	Dead Zone	['Anoxic Water']	general	TOPIC
 deforestation	Deforestation		process	TOPIC
 degradation	Degradation		activity	TOPIC
 democratic_republic_of_congo	Democratic Republic of the Congo		africa	GEOGRAPHY
@@ -139,7 +139,7 @@ erosion	Erosion		process	TOPIC
 eruption	Eruption		extreme_event	TOPIC
 estonia	Estonia		eu	GEOGRAPHY
 ethiopia	Ethiopia		africa	GEOGRAPHY
-eu	EU	["European Union"]	europe	GEOGRAPHY
+eu	EU	['European Union']	europe	GEOGRAPHY
 europe	Europe		continent	GEOGRAPHY
 european_free_trade_association	European Free Trade Association		europe	GEOGRAPHY
 eutrophication	Eutrophication		process	TOPIC
@@ -190,7 +190,7 @@ frozen_water	Frozen water		water	TOPIC
 fuel	Fuel		commodity	TOPIC
 gabon	Gabon		africa	GEOGRAPHY
 gambia	Gambia		africa	GEOGRAPHY
-gdp	GDP	["Gross Domestic Product"]	economic	TOPIC
+gdp	GDP	['Gross Domestic Product']	economic	TOPIC
 gender	Gender		society	TOPIC
 general	General			TOPIC
 georgia	Georgia		europe	GEOGRAPHY
@@ -198,12 +198,12 @@ geospatial	Geospatial		dataset	DATA_TYPE
 geothermal	Geothermal		renewable_energy	TOPIC
 germany	Germany		eu	GEOGRAPHY
 ghana	Ghana		africa	GEOGRAPHY
-ghg	GHG	["Greenhouse gas"]	general	TOPIC
+ghg	GHG	['Greenhouse gas']	general	TOPIC
 gibraltar	Gibraltar		uk	GEOGRAPHY
 gini_index	GINI index		indicator	TOPIC
 glacier	Glacier		frozen_water	TOPIC
 global	Global		location	GEOGRAPHY
-governance	Governance	["government"]	society	TOPIC
+governance	Governance	['government']	society	TOPIC
 greece	Greece		eu	GEOGRAPHY
 greenland	Greenland		denmark	GEOGRAPHY
 greenspace	Greenspace		urban	TOPIC
@@ -234,7 +234,7 @@ human_rights	Human rights		rights	TOPIC
 hungary	Hungary		eu	GEOGRAPHY
 hunger	Hunger		general	TOPIC
 hunting	Hunting		human_activity	TOPIC
-hurricane	Hurricane	["typhoon"]	natural_disaster	TOPIC
+hurricane	Hurricane	['typhoon']	natural_disaster	TOPIC
 hydropower	Hydropower		renewable_energy	TOPIC
 ice	Ice		frozen_water	TOPIC
 iceland	Iceland		europe	GEOGRAPHY
@@ -273,7 +273,7 @@ kuwait	Kuwait		asia	GEOGRAPHY
 kyrgyzstan	Kyrgyzstan		asia	GEOGRAPHY
 lake	Lake		water	TOPIC
 lamb	Lamb		livestock	TOPIC
-land	Land	["Area"]	general	TOPIC
+land	Land	['Area']	general	TOPIC
 land_cover	Land cover		land	TOPIC
 land_rights	Land rights		land	TOPIC
 land_use	Land use		land	TOPIC
@@ -325,7 +325,7 @@ morocco	Morocco		africa	GEOGRAPHY
 mortality	Mortality		health	TOPIC
 mozambique	Mozambique		africa	GEOGRAPHY
 myanmar	Myanmar		asia	GEOGRAPHY
-n2o	N2O	["Nitrogeous Oxide"]	chemical_compound	TOPIC
+n2o	N2O	['Nitrogeous Oxide']	chemical_compound	TOPIC
 namibia	Namibia		africa	GEOGRAPHY
 national_park	National Park		land	TOPIC
 natural_disaster	Natural disaster		disaster	TOPIC
@@ -352,10 +352,10 @@ norway	Norway		europe	GEOGRAPHY
 nuclear_energy	Nuclear		energy_production	TOPIC
 nutrients	Nutrients		general	TOPIC
 nutrition	Nutrition		general	TOPIC
-o3	O3	["Ozone"]	chemical_compound	TOPIC
+o3	O3	['Ozone']	chemical_compound	TOPIC
 ocean	Ocean		surface_water	TOPIC
 oceania	Oceania		continent	GEOGRAPHY
-oecd	OECD	["Organisation for Economic Co-operation and Development"]	general	GEOGRAPHY
+oecd	OECD	['Organisation for Economic Co-operation and Development']	general	GEOGRAPHY
 oil	Oil		fuel	TOPIC
 oil_refinery	Oil refinery		energy_infrastructure	TOPIC
 oman	Oman		asia	GEOGRAPHY
@@ -367,7 +367,7 @@ panama	Panama		north_america	GEOGRAPHY
 papua_new_guinea	Papua New Guinea		oceania	GEOGRAPHY
 paraguay	Paraguay		south_america	GEOGRAPHY
 park	Park		urban	TOPIC
-pasture	Pasture	["grazing"]	land_use	TOPIC
+pasture	Pasture	['grazing']	land_use	TOPIC
 peru	Peru		south_america	GEOGRAPHY
 petroleoum	Petroleum		fuel	TOPIC
 philippines	Philippines		asia	GEOGRAPHY
@@ -384,7 +384,7 @@ portugal	Portugal		eu	GEOGRAPHY
 poverty	Poverty		economic	TOPIC
 power_lines	Power Lines		energy_infrastructure	TOPIC
 power_plant	Power plant		energy_infrastructure	TOPIC
-precipitation	Precipitation	["rain","rainfall"]	water	TOPIC
+precipitation	Precipitation	['rain','rainfall']	water	TOPIC
 primary_sector	Primary sector		sector	TOPIC
 probability	Probability		general	TOPIC
 process	Process		general	TOPIC
@@ -462,8 +462,8 @@ slovakia	Slovakia		eu	GEOGRAPHY
 slovenia	Slovenia		eu	GEOGRAPHY
 snow	Snow		frozen_water	TOPIC
 snow_cover	Snow cover		snow	TOPIC
-so2	SO2	["Sulfur Dioxide"]	chemical_compound	TOPIC
-society	Society	["people"]	general	TOPIC
+so2	SO2	['Sulfur Dioxide']	chemical_compound	TOPIC
+society	Society	['people']	general	TOPIC
 solar_energy	Solar energy		renewable_energy	TOPIC
 solomon_islands	Solomon Islands		oceania	GEOGRAPHY
 somalia	Somalia		africa	GEOGRAPHY
@@ -507,10 +507,10 @@ timor_lest	Timor-Leste		asia	GEOGRAPHY
 togo	Togo		africa	GEOGRAPHY
 tonga	Tonga		oceania	GEOGRAPHY
 total_suspended_solids	Total suspended solids		indicator	TOPIC
-train	Train	["Rail"]	public_transportation	TOPIC
+train	Train	['Rail']	public_transportation	TOPIC
 train_station	Train station		public_infrastructure	TOPIC
 transpiration	Transpiration		process	TOPIC
-transportation	Transportation	["Transport"]	urban	TOPIC
+transportation	Transportation	['Transport']	urban	TOPIC
 trend	Trend		climate_model	TOPIC
 trinidad_and_tobago	Trinidad and Tobago		south_america	GEOGRAPHY
 tropical	Tropical		climate_zone	TOPIC
@@ -520,17 +520,17 @@ turkey	Turkey		asia	GEOGRAPHY
 turkmenistan	Turkmenistan		asia	GEOGRAPHY
 turks_and_calcos_islands	Turks and Calcos Islands		uk	GEOGRAPHY
 tuvalu	Tuvalu		oceania	GEOGRAPHY
-typhoon	Typhoon	["hurricane"]	natural_disaster	TOPIC
+typhoon	Typhoon	['hurricane']	natural_disaster	TOPIC
 uganda	Uganda		africa	GEOGRAPHY
 uk	United Kingdom		europe	GEOGRAPHY
 ukraine	Ukraine		europe	GEOGRAPHY
-un	UN	["United Nations"]	general	TOPIC
+un	UN	['United Nations']	general	TOPIC
 uncertainty	Uncertainty		climate_model	TOPIC
 unincorporated_territory	Unincorporated Territory		usa	GEOGRAPHY
 united_arab_emirates	United Arab Emirates		asia	GEOGRAPHY
 united_states_minor_outlying_islands	United States Minort Outlying Islands		usa	GEOGRAPHY
 united_states_virgin_islands	United States Virgin Islands		usa	GEOGRAPHY
-urban	Urban	["city","cities"]	general	TOPIC
+urban	Urban	['city','cities']	general	TOPIC
 urban_planning	Urban Planning		urban	TOPIC
 urban_expansion	Urban expansion		urban	TOPIC
 urbanization	Urbanization		urban	TOPIC
@@ -588,11 +588,11 @@ afghanistan	Afghanistan		asia	GEOGRAPHY
 africa	Africa		continent	GEOGRAPHY
 agriculture	Agriculture		primary_sector	TOPIC
 air_quality	Air quality		air	TOPIC
-airplane	Airplane	["Plane"]	public_transportation	TOPIC
+airplane	Airplane	['Plane']	public_transportation	TOPIC
 airport	Airport		public_infrastructure	TOPIC
 aland	Aland		finland	GEOGRAPHY
 albania	Albania		europe	GEOGRAPHY
-albedo	Albedo	["reflectance"]	general	TOPIC
+albedo	Albedo	['reflectance']	general	TOPIC
 algeria	Algeria		africa	GEOGRAPHY
 american_samoa	American Samoa		oceania	GEOGRAPHY
 amphibian	Amphibian		animal	TOPIC
