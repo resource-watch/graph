@@ -71,3 +71,13 @@ RETURN c.id, c.label, c.synonyms, labels(c) as labels
 MATCH (u:USER)-[:FAVOURITE]->(d:DATASET)
 RETURN d.id, COUNT(d) AS number_of_favorites
 ORDER BY number_of_favorites DESC
+
+// 7. MOST VIEWED DATASETS
+MATCH (d:DATASET)
+RETURN d.id, d.views
+ORDER BY d.views DESC
+
+// 8. MOST VIEWED DATASETS (per user)
+MATCH (d:DATASET)<-[v:VIEWED]-(u:USER {id: 'xxxx'})
+RETURN d.id, v.views
+ORDER BY v.views DESC
