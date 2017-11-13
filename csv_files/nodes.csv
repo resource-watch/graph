@@ -2,7 +2,7 @@ accessibility,Accessibility,,urban,TOPIC
 acidification,Acidification,,process,TOPIC
 activity,Activity,,general,TOPIC
 adaptation,Adaptation,,process,TOPIC
-adaptive_capacity,Adaptive Capacity,,general,TOPIC
+adaptive_capacity,Adaptive Capacity,,society,TOPIC
 afghanistan,Afghanistan,,asia,GEOGRAPHY
 africa,Africa,,continent,GEOGRAPHY
 agriculture,Agriculture,,primary_sector,TOPIC
@@ -46,7 +46,7 @@ bermuda,Bermuda,,uk,GEOGRAPHY
 bhutan,Bhutan,,asia,GEOGRAPHY
 bike,Bike,,transportation,TOPIC
 biodiversity,Biodiversity,,general,TOPIC
-biological_oxygen_demand,Biological Oxygen Demand,,indicator,TOPIC
+biological_oxygen_demand,Biological Oxygen Demand,,wastewater,TOPIC
 biome,Biome,,general,TOPIC
 bird,Bird,,animal,TOPIC
 bleaching,Bleaching,,process,TOPIC
@@ -69,13 +69,13 @@ canada,Canada,,north_america,GEOGRAPHY
 cape_verde,Cape_Verde,,africa,GEOGRAPHY
 car,Car,,transportation,TOPIC
 cayman_islands,Cayman Islands,,uk,GEOGRAPHY
-central_part_of:african_republic,Central African Republic,,africa,GEOGRAPHY
+central_african_republic,Central African Republic,,africa,GEOGRAPHY
 cfc,CFC,Chlorofluorocarbon,chemical_compound,TOPIC
 ch4,CH4,Methane,chemical_compound,TOPIC
 chad,Chad,,africa,GEOGRAPHY
 chemical_compound,Chemical Compound,,general,TOPIC
-chemical_oxygen_demand,Chemical Oxygen Demand,,indicator,TOPIC
-child_mortality,Child mortality,,indicator,TOPIC
+chemical_oxygen_demand,Chemical Oxygen Demand,,wastewater,TOPIC
+child_mortality,Child mortality,,society,TOPIC
 chile,Chile,,south_america,GEOGRAPHY
 china,China,,asia,GEOGRAPHY
 clean_water,Clean water,,water,TOPIC
@@ -93,7 +93,7 @@ coastal_flooding,Coastal Flooding,,coast,TOPIC
 cold_wave,Cold wave,,extreme_event,TOPIC
 colombia,Colombia,,south_america,GEOGRAPHY
 commerce,Commerce,,general,TOPIC
-commodity,Commodity,,general,TOPIC
+commodity,Commodity,,commerce,TOPIC
 comoros,Comoros,,africa,GEOGRAPHY
 conflict,Conflict,,event,TOPIC
 congo,Congo,,africa,GEOGRAPHY
@@ -115,11 +115,11 @@ cuba,Cuba,,north_america,GEOGRAPHY
 curacao,Curaçao,,netherlands,GEOGRAPHY
 cyprus,Cyprus,,eu,GEOGRAPHY
 czech_republic,Czech Republic,,eu,GEOGRAPHY
-daily,Daily,,frequency,TOPIC
+daily,Daily,,frequency,FREQUENCY
 dam,Dam,,energy_infrastructure,TOPIC
 damage,Damage,destruction,general,TOPIC
 dataset,Dataset,,general,DATA_TYPE
-dead_zone,Dead Zone,Anoxic Water,general,TOPIC
+dead_zone,Dead Zone,Anoxic Water,water_quality,TOPIC
 deforestation,Deforestation,,process,TOPIC
 degradation,Degradation,,activity,TOPIC
 democratic_republic_of_congo,Democratic Republic of the Congo,,africa,GEOGRAPHY
@@ -128,7 +128,7 @@ demographic,Demographic,,population,TOPIC
 denmark,Denmark,,eu,GEOGRAPHY
 developed,Developed,,country,TOPIC
 developing,Developing,,country,TOPIC
-development,Development,,general,TOPIC
+development,Development,,society,TOPIC
 disaster,Disaster,,event,TOPIC
 discrimination,Discrimination,,society,TOPIC
 disease,Disease,,health,TOPIC
@@ -141,16 +141,17 @@ drinking_water,Drinking water,,water,TOPIC
 drought,Drought,,disaster,TOPIC
 early_warning,Early Warning,,general,TOPIC
 earthquake,Earthquake,,natural_disaster,TOPIC
+ecological_footprint,Ecological footprint,,footprint,TOPIC
 economic,Economic,,general,TOPIC
 ecoregion,Ecoregion,,ecosystem,TOPIC
-ecosystem,Ecosystem,,general,TOPIC
+ecosystem,Ecosystem,,biodiversity,TOPIC
 ecosystem_services,Ecosystem Services,,ecosystem,TOPIC
 ecuador,Ecuador,,south_america,GEOGRAPHY
 education,Education,,society,TOPIC
 egypt,Egypt,,africa,GEOGRAPHY
 el_salvador,El Salvador,,north_america,GEOGRAPHY
-electricity,Electricity,,commodity,TOPIC
-emergency,Emergency,,general,TOPIC
+electricity,Electricity,,energy,TOPIC
+emergency,Emergency,,society,TOPIC
 emergency_response,Emergency Response,,emergency,TOPIC
 emergency_services,Energency Services,,emergency,TOPIC
 emissions,Emissions,,pollution,TOPIC
@@ -185,7 +186,7 @@ extinction,Extinction,,species,TOPIC
 extreme_event,Extreme event,,event,TOPIC
 falkland_islands,Falkland Islands,,uk,GEOGRAPHY
 famine,Famine,,disaster,TOPIC
-farmland,Farmland,,food,TOPIC
+farmland,Farmland,,food_and_agriculture,TOPIC
 faroe_islands,Faroe Islands,,denmark,GEOGRAPHY
 fauna,Fauna,,animal,TOPIC
 fertilizer,Fertilizer,,agriculture,TOPIC
@@ -198,15 +199,13 @@ fishery,Fishery,,fish,TOPIC
 fishing,Fishing,,human_activity,TOPIC
 flood,Flood,,disaster,TOPIC
 flora,Flora,,envinroment,TOPIC
-food,Food,,general,TOPIC
-food_price,Food price,,food,TOPIC
-food_production,Food production,,food,TOPIC
-food_security,Food security,,food,TOPIC
-food_supply,Food supply,,food,TOPIC
-footprint,Footprint,,general,TOPIC
-human_footprint,Human footprint,,footprint,TOPIC
-ecological_footprint,Ecological footprint,,footprint,TOPIC
-food_waste,Food waste,,food,TOPIC
+food_and_agriculture,Food and Agriculture,,general,TOPIC
+food_price,Food price,,food_and_agriculture,TOPIC
+food_production,Food production,,food_and_agriculture,TOPIC
+food_security,Food security,,food_and_agriculture,TOPIC
+food_supply,Food supply,,food_and_agriculture,TOPIC
+food_waste,Food waste,,food_and_agriculture,TOPIC
+footprint,Footprint,,society,TOPIC
 forest,Forest,,environment,TOPIC
 forest_cover,Forest cover,,forest,TOPIC
 forest_gain,Forest gain,,forest,TOPIC
@@ -216,10 +215,10 @@ fragility,Fragility,,quality,TOPIC
 france,France,,eu,GEOGRAPHY
 french_polynesia,French Polynesia,,france,GEOGRAPHY
 french_southern_and_antarctic_lands,French Southern and Antarctic lands,,france,GEOGRAPHY
-frequency,Frequency,,general,TOPIC
+frequency,Frequency,,general,FREQUENCY
 fresh_water,Fresh water,,water,TOPIC
 frozen_water,Frozen water,,water,TOPIC
-fuel,Fuel,,commodity,TOPIC
+fuel,Fuel,,energy,TOPIC
 gabon,Gabon,,africa,GEOGRAPHY
 gambia,Gambia,,africa,GEOGRAPHY
 gdp,GDP,Gross Domestic Product,economic,TOPIC
@@ -230,9 +229,9 @@ geospatial,Geospatial,,dataset,DATA_TYPE
 geothermal,Geothermal,,renewable_energy,TOPIC
 germany,Germany,,eu,GEOGRAPHY
 ghana,Ghana,,africa,GEOGRAPHY
-ghg,GHG,Greenhouse gas,general,TOPIC
+ghg,GHG,Greenhouse gas,climate,TOPIC
 gibraltar,Gibraltar,,uk,GEOGRAPHY
-gini_index,GINI index,,indicator,TOPIC
+gini_index,GINI index,,economic,TOPIC
 glacier,Glacier,,frozen_water,TOPIC
 global,Global,,location,GEOGRAPHY
 governance,Governance,government,society,TOPIC
@@ -240,7 +239,7 @@ greece,Greece,,eu,GEOGRAPHY
 greenland,Greenland,,denmark,GEOGRAPHY
 greenspace,Greenspace,,urban,TOPIC
 grenada,Grenada,,north_america,GEOGRAPHY
-ground_water,Groundwater,,water,TOPIC
+groundwater,Groundwater,,water,TOPIC
 guam,Guam,,oceania,GEOGRAPHY
 guatemala,Guatemala,,north_america,GEOGRAPHY
 guernsey,Guernsey,,crown_dependency,GEOGRAPHY
@@ -260,11 +259,13 @@ high_income,High Income,,society,TOPIC
 honduras,Honduras,,north_america,GEOGRAPHY
 hong_kong,Hong Kong,,asia,GEOGRAPHY
 hospital,Hospital,,public_service,TOPIC
-human_activity,Human activity,,activity,TOPIC
+hourly,Hourly,,frequency,FREQUENCY
+human_activity,Human activity,,society,TOPIC
+human_footprint,Human footprint,,footprint,TOPIC
 human_impact,Human impact,,society,TOPIC
 human_rights,Human rights,,rights,TOPIC
 hungary,Hungary,,eu,GEOGRAPHY
-hunger,Hunger,,general,TOPIC
+hunger,Hunger,,society,TOPIC
 hunting,Hunting,,human_activity,TOPIC
 hurricane,Hurricane,typhoon,natural_disaster,TOPIC
 hydropower,Hydropower,,renewable_energy,TOPIC
@@ -273,9 +274,8 @@ iceland,Iceland,,europe,GEOGRAPHY
 illegal_activity,Illegal activity,,human_activity,TOPIC
 illiterate,Illiterate,,education,TOPIC
 impact,Impact,,general,TOPIC
-impervious_surface,Impervious surface,,general,TOPIC
+impervious_surface,Impervious surface,,land,TOPIC
 india,India,,asia,GEOGRAPHY
-indicator,Indicator,,general,TOPIC
 Indigenous_rights,Indigenous Rights,,rights,TOPIC
 indonesia,Indonesia,,asia,GEOGRAPHY
 inequality,Inequality,,society,TOPIC
@@ -287,8 +287,8 @@ internally_displaced,Internally displaced,,displaced_people,TOPIC
 iran,Iran,,asia,GEOGRAPHY
 iraq,Iraq,,asia,GEOGRAPHY
 ireland,Ireland,,eu,GEOGRAPHY
-irrigation,Irrigation,,general,TOPIC
-island,Island,,general,TOPIC
+irrigation,Irrigation,,food_and_agriculture,TOPIC
+island,Island,,land,TOPIC
 isle_of_man,Isle of Man,,crown_dependency,GEOGRAPHY
 israel,Israel,,asia,GEOGRAPHY
 italy,Italy,,eu,GEOGRAPHY
@@ -297,7 +297,7 @@ jamaica,Jamaica,,north_america,GEOGRAPHY
 japan,Japan,,asia,GEOGRAPHY
 jersey,Jersey,,crown_dependency,GEOGRAPHY
 jordan,Jordan,,asia,GEOGRAPHY
-justice,Justice,,general,TOPIC
+justice,Justice,,society,TOPIC
 kazakhstan,Kazakhstan,,asia,GEOGRAPHY
 kenya,Kenya,,africa,GEOGRAPHY
 kiribati,Kiribati,,oceania,GEOGRAPHY
@@ -317,12 +317,12 @@ lesotho,Lesotho,,africa,GEOGRAPHY
 liberia,Liberia,,africa,GEOGRAPHY
 libya,Libya,,africa,GEOGRAPHY
 liechtenstein,Liechtenstein,,europe,GEOGRAPHY
-lights,Lights,,general,TOPIC
-literacy,Literacy,,indicator,TOPIC
+lights,Lights,,energy,TOPIC
+literacy,Literacy,,education,TOPIC
 lithuania,Lithuania,,eu,GEOGRAPHY
-livestock,Livestock,,food,TOPIC
+livestock,Livestock,,food_and_agriculture,TOPIC
 location,Location,,general,TOPIC
-logging,Logging,,secondary_sector,TOPIC
+logging,Logging,,human_activity,TOPIC
 low_income,Low Income,,society,TOPIC
 luxembourg,Luxembourg,,eu,GEOGRAPHY
 macao,Macao,,china,GEOGRAPHY
@@ -344,14 +344,14 @@ mauritius,Mauritius,,africa,GEOGRAPHY
 mexico,Mexico,,north_america,GEOGRAPHY
 micronesia,Micronesia,,oceania,GEOGRAPHY
 middle_income,Middle Income,,society,TOPIC
-migration,Migration,,general,TOPIC
+migration,Migration,,society,TOPIC
 mitigation,Mitigation,,process,TOPIC
 moldova,Moldova,,europe,GEOGRAPHY
 monaco,Monaco,,europe,GEOGRAPHY
 mongolia,Mongolia,,asia,GEOGRAPHY
 monsoon,Monsoon,,precipitation,TOPIC
 montenegro,Montenegro,,europe,GEOGRAPHY
-monthly,Monthly,,frequency,TOPIC
+monthly,Monthly,,frequency,FREQUENCY
 montserrat,Montserrat,,uk,GEOGRAPHY
 morocco,Morocco,,africa,GEOGRAPHY
 mortality,Mortality,,health,TOPIC
@@ -364,6 +364,7 @@ natural_disaster,Natural disaster,,disaster,TOPIC
 natural_gas,Natural Gas,,fuel,TOPIC
 natural_infrastructure,Natural Infrastructure,,infrastructure,TOPIC
 natural_phenomena,Natural phenomena,,general,TOPIC
+natural_resource,Natural resource,,resource,TOPIC
 nauru,Nauru,,oceania,GEOGRAPHY
 near_real_time,Near real time,,frequency,TOPIC
 nepal,Nepal,,asia,GEOGRAPHY
@@ -381,6 +382,7 @@ norfolk_island,Norfolk Island,,australia,GEOGRAPHY
 north_america,North America,,continent,GEOGRAPHY
 northern_mariana_islands,Northern Mariana Islands,,usa,GEOGRAPHY
 norway,Norway,,europe,GEOGRAPHY
+not_updated,Not updated,,frequency,FREQUENCY
 nuclear_energy,Nuclear,,energy_production,TOPIC
 nutrients,Nutrients,,general,TOPIC
 nutrition,Nutrition,,general,TOPIC
@@ -410,7 +412,7 @@ plant,Plant,,flora,TOPIC
 poaching,Poaching,,human_activity,TOPIC
 poland,Poland,,eu,GEOGRAPHY
 political_stability,Political stability,,governance,TOPIC
-pollution,Pollution,,general,TOPIC
+pollution,Pollution,,environmental_health,TOPIC
 population,Population,,general,TOPIC
 portugal,Portugal,,eu,GEOGRAPHY
 poverty,Poverty,,economic,TOPIC
@@ -441,7 +443,6 @@ reserve,Reserve,,land,TOPIC
 resilience,Resilience,,quality,TOPIC
 resilience_planning,Resilience Planning,,process,TOPIC
 resource,Resource,,asset,TOPIC
-natural_resource,Natural resource,,resource,TOPIC
 resource_scarcity,Resource scarcity,,resource,TOPIC
 response,Response,,general,TOPIC
 restoration,Restoration,,human_activity,TOPIC
@@ -451,8 +452,8 @@ risk,Risk,,general,TOPIC
 risk_assesment,Risk Assesment,,risk,TOPIC
 risk_management,Risk Management,,risk,TOPIC
 river,River,,surface_water,TOPIC
-roads,Roads,,infrastructure,TOPIC
 roadless_area,Roadless area,,land,TOPIC
+roads,Roads,,infrastructure,TOPIC
 romania,Romania,,eu,GEOGRAPHY
 runoff,Runoff,,precipitation,TOPIC
 russia,Russia,,asia,GEOGRAPHY
@@ -489,7 +490,7 @@ shrimp,Shrimp,,seafood,TOPIC
 sierra_leone,Sierra Leone,,africa,GEOGRAPHY
 singapore,Singapore,,asia,GEOGRAPHY
 sint_marteen,Sint Maarten,,netherlands,GEOGRAPHY
-slope,Slope,,general,TOPIC
+slope,Slope,,land,TOPIC
 slovakia,Slovakia,,eu,GEOGRAPHY
 slovenia,Slovenia,,eu,GEOGRAPHY
 snow,Snow,,frozen_water,TOPIC
@@ -513,6 +514,7 @@ storm,Storm,,natural_phenomena,TOPIC
 storm_intensity,Storm intensity,,storm,TOPIC
 storm_surge,Storm Surge,,storm,TOPIC
 stormwater,Stormwater,,water,TOPIC
+subscribable,Subscribable,,frequency,FREQUENCY
 sudan,Sudan,,africa,GEOGRAPHY
 supply_chain,Supply Chain,,commerce,TOPIC
 surface_water,Surface water,,water,TOPIC
@@ -538,7 +540,7 @@ thorium,Thorium,,chemical_compound,TOPIC
 timor_lest,Timor-Leste,,asia,GEOGRAPHY
 togo,Togo,,africa,GEOGRAPHY
 tonga,Tonga,,oceania,GEOGRAPHY
-total_suspended_solids,Total suspended solids,,indicator,TOPIC
+total_suspended_solids,Total suspended solids,,water_quality,TOPIC
 train,Train,Rail,public_transportation,TOPIC
 train_station,Train station,,public_infrastructure,TOPIC
 transpiration,Transpiration,,process,TOPIC
@@ -562,9 +564,10 @@ unincorporated_territory,Unincorporated Territory,,usa,GEOGRAPHY
 united_arab_emirates,United Arab Emirates,,asia,GEOGRAPHY
 united_states_minor_outlying_islands,United States Minort Outlying Islands,,usa,GEOGRAPHY
 united_states_virgin_islands,United States Virgin Islands,,usa,GEOGRAPHY
+unknown_frequency,Unknown frequency,,frequency,FREQUENCY
 urban,Urban,city|cities,general,TOPIC
-urban_planning,Urban Planning,,urban,TOPIC
 urban_expansion,Urban expansion,,urban,TOPIC
+urban_planning,Urban Planning,,urban,TOPIC
 urbanization,Urbanization,,urban,TOPIC
 uruguay,Uruguay,,south_america,GEOGRAPHY
 usa,United States,,north_america,GEOGRAPHY
@@ -585,6 +588,7 @@ water_conflict,Water conflict,,water,TOPIC
 water_consumption,Water consumption,,water,TOPIC
 water_demand,Water demand,,water,TOPIC
 water_extent,Water extent,,water,TOPIC
+water_intake,Water intake,,water,TOPIC
 water_pollution,Water pollution,,water,TOPIC
 water_quality,Water quality,,water,TOPIC
 water_risk,Water risk,,water,TOPIC
@@ -592,10 +596,9 @@ water_scarcity,Water scarcity,,water,TOPIC
 water_security,Water Security,,water,TOPIC
 water_stress,Water stress,,water,TOPIC
 water_supply,Water Supply,,water,TOPIC
-water_intake,Water intake,,water,TOPIC
 watershed,Watershed,,water,TOPIC
 wealth,Wealth,,economic,TOPIC
-weekly,Weekly,,frequency,TOPIC
+weekly,Weekly,,frequency,FREQUENCY
 western_sahara,Western Sahara,,africa,GEOGRAPHY
 wetland,Wetland,,land,TOPIC
 wheat,Wheat,,crop,TOPIC
@@ -603,7 +606,12 @@ wildfire,Wildfire,,fire,TOPIC
 wind,Wind,,natural_phenomena,TOPIC
 wind_energy,Wind energy,,renewable_energy,TOPIC
 women,Women,,people,TOPIC
-yearly,Yearly,,frequency,TOPIC
+yearly,Yearly,,frequency,FREQUENCY
 yemen,Yemen,,asia,GEOGRAPHY
 zambia,Zambia,,africa,GEOGRAPHY
 zimbabwe,Zimbabwe,,africa,GEOGRAPHY
+cropland,Cropland,,crop,TOPIC
+income,Income,,economic,TOPIC
+plankton,Plankton,,species,TOPIC
+future,Future,,,TIME_PERIOD
+historical,Observed,,,TIME_PERIOD

@@ -52,7 +52,7 @@ canada,oecd
 cape_verde,africa
 cayman_islands,north_america
 cayman_islands,uk
-central_part_of:african_republic,africa
+central_african_republic,africa
 chad,africa
 chile,south_america
 chile,oecd
@@ -89,6 +89,7 @@ dominica,north_america
 dominican_republic,north_america
 drainage_basin,river
 ecoregion,ecosystem
+ecosystem,biodiversity
 ecuador,south_america
 egypt,africa
 el_salvador,north_america
@@ -193,7 +194,7 @@ liechtenstein,europe
 liechtenstein,european_free_trade_association
 lithuania,eu
 lithuania,schengen_area
-logging,secondary_sector
+logging,human_activity
 luxembourg,eu
 luxembourg,schengen_area
 luxembourg,oecd
@@ -368,3 +369,5 @@ western_sahara,africa
 yemen,asia
 zambia,africa
 zimbabwe,africa
+cropland,crop
+income,economic

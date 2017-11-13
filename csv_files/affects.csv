@@ -42,7 +42,7 @@ drought,malnutrition
 early_warning,vulnerability
 early_warning,response
 economic,vulnerability
-ecosystem_services,food
+ecosystem_services,food_and_agriculture
 ecosystem_services,air_quality
 ecosystem_services,water_quality
 emergency_response,vulnerability
@@ -86,7 +86,7 @@ governance,reserve
 governance,environmental_health
 governance,enviornmental_quality
 governance,displaced_people
-ground_water,water_availability
+groundwater,water_availability
 hazard,damage
 hazard,asset
 hazard,vulnerability
