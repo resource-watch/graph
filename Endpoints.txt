@@ -49,7 +49,7 @@ ORDER BY number_of_ocurrences DESC
 
 MATCH (c:CONCEPT)
 OPTIONAL MATCH (c)<-[:TAGGED_WITH]-(d:DATASET)
-RETURN c.id, c.label, c.synonyms, labels(c) as labels, count(d) as number_of_datasets_tagged
+RETURN c.id, c.label, c.synonyms, labels(c) AS labels, count(d) AS number_of_datasets_tagged, d.id AS datasets
 
 // 4. GET CONCEPTS INFERRED FROM LIST
 
