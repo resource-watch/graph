@@ -16,7 +16,9 @@ o3,environmental_health
 precipitation,erosion
 projection,climate_model
 so2,environmental_health
+thorium,nuclear
 total_suspended_solids,water_quality
 train,accessibility
 transpiration,evapotranspiration
 trend,climate_model
+uranium,nuclear

@@ -36,6 +36,8 @@ conflict,destruction
 conflict,disaster
 conflict,displaced_people
 corruption,protest
+cropland,land_cover
+cyanobacteria,water_quality
 dam,fish
 damage,financial_loss
 deforestation,water
@@ -91,7 +93,7 @@ harmful_algal_blooms,dead_zone
 harmful_algal_blooms,water_quality
 health,vulnerability
 impervious_surface,erosion
-impervious_surface,flooding
+impervious_surface,flood
 impervious_surface,heat_island
 inequality,vulnerability
 intact_forest,biodiversity
@@ -115,7 +117,7 @@ natural_infrastructure,resilience
 nitrogen,eutrophication
 nitrogen,harmful_algal_blooms
 nitrogen,dead_zone
-nuclear_energy,energy_hazard
+nuclear,energy_hazard
 nutrients,harmful_algal_blooms
 o3,air_quality
 o3,radiation
@@ -158,7 +160,6 @@ slope,erosion
 so2,air_quality
 storm_surge,mortality
 stormwater,flood
-stormwater,flooding
 sustainable_development,vulnerability
 temperature,health
 thermal_expansion,sea_level_rise
@@ -187,4 +188,3 @@ wealth,food_waste
 wealth,vulnerability
 wildfire,forest
 wind,extreme_events
-cropland,land_cover

@@ -39,8 +39,8 @@ botswana,africa
 brazil,south_america
 british_indian_ocean_territory,uk
 british_indian_ocean_territory,asia
-brittish_virgin_islands,uk
-brittish_virgin_islands,north_america
+british_virgin_islands,uk
+british_virgin_islands,north_america
 brunei,asia
 bulgaria,eu
 burkina_faso,africa
@@ -57,7 +57,7 @@ chad,africa
 chile,south_america
 chile,oecd
 china,asia
-coast,ocean
+coast,land
 colombia,south_america
 commodity,commerce
 comoros,africa
@@ -70,6 +70,7 @@ corruption,governance
 costa_rica,north_america
 country,global
 croatia,eu
+cropland,crop
 cuba,north_america
 curacao,south_america
 curacao,netherlands
@@ -110,8 +111,8 @@ fiji,oceania
 finland,eu
 finland,schengen_area
 finland,oecd
-flora,environment
-forest,environment
+flora,biodiversity
+forest,biodiversity
 france,eu
 france,schengen_area
 france,oecd
@@ -158,6 +159,7 @@ iceland,europe
 iceland,european_free_trade_association
 iceland,oecd
 illiterate,education
+income,economic
 india,asia
 Indigenous_rights,land_rights
 indonesia,asia
@@ -369,5 +371,3 @@ western_sahara,africa
 yemen,asia
 zambia,africa
 zimbabwe,africa
-cropland,crop
-income,economic

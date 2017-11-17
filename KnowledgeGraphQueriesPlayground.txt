@@ -109,3 +109,7 @@ WITH collect(
 MATCH (a)
 WITH edges, COLLECT({ id: a.id, label: a.label, synonyms: a.synonyms, default_parent: a.default_parent, labels: labels(a)}) AS nodes
 RETURN { edges: edges, nodes: nodes }
+
+// DELETE EVERYTHING
+MATCH (n)
+DETACH DELETE n

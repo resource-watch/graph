@@ -55,7 +55,6 @@ hunting,animal
 inequality,economic
 inequality,gini_index
 infant_mortality,health
-infrastructure,general
 irrigation,crop
 irrigation,water_demand
 justice,rights
@@ -80,7 +79,6 @@ non_climate_stressor,climate_change
 north_america,global
 nutrients,plant
 nutrition,food_and_agriculture
-nutrition,society
 o3,pollution
 o3,urban
 ocean,water
@@ -91,12 +89,10 @@ oil_refinery,oil
 overseas_territory,territory
 petroleoum,energy
 pipelines,energy
-population,society
 power_plant,energy_production
 protected_area,biodiversity
 protected_area,conservation
 protest,governance
-public_service,society
 radiation,nuclear
 reserve,biodiversity
 reserve,conservation
@@ -119,6 +115,7 @@ stormwater,precipitation
 stormwater,storm
 temperate,climate
 territory,global
+thorium,commodity
 total_suspended_solids,water
 train_station,train
 transpiration,plant
@@ -126,4 +123,5 @@ transportation,urban
 tropical,climate
 uncertainty,climate_model
 unincorporated_territory,usa
+uranium,commodity
 wetland,water
