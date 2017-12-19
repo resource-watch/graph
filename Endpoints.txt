@@ -1,24 +1,24 @@
 // 1. SEARCH endpoint (Explore)
 
 // FILTER 1
-MATCH (c:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET)
+MATCH (c:CONCEPT)<-[:TAGGED_WITH {application: 'appname'}]-(d:DATASET)
 WHERE c.id IN ['water']
 WITH COLLECT(d.id) AS datasets
-OPTIONAL MATCH (c:CONCEPT)<-[:TYPE_OF|:PART_OF|:IS_A|QUALITY_OF*1..15]-(c2:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET)
+OPTIONAL MATCH (c:CONCEPT)<-[:TYPE_OF|:PART_OF|:IS_A|QUALITY_OF*1..15]-(c2:CONCEPT)<-[:TAGGED_WITH {application: 'appname'}]-(d:DATASET)
 WHERE (c.id IN ['water'])
 WITH COLLECT(d.id) + datasets AS datasets
 // FILTER 2
-MATCH (c:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET)
+MATCH (c:CONCEPT)<-[:TAGGED_WITH {application: 'appname'}]-(d:DATASET)
 WHERE c.id IN ['raster'] AND d.id IN datasets
 WITH COLLECT(d.id) AS tempSet, datasets
-OPTIONAL MATCH (c:CONCEPT)<-[:TYPE_OF|:PART_OF|:IS_A|QUALITY_OF*1..15]-(c2:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET)
+OPTIONAL MATCH (c:CONCEPT)<-[:TYPE_OF|:PART_OF|:IS_A|QUALITY_OF*1..15]-(c2:CONCEPT)<-[:TAGGED_WITH {application: 'appname'}]-(d:DATASET)
 WHERE (c.id IN ['raster']) AND d.id IN datasets
 WITH COLLECT(d.id) + tempSet AS datasets
 // FILTER 3
-MATCH (c:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET)
+MATCH (c:CONCEPT)<-[:TAGGED_WITH {application: 'appname'}]-(d:DATASET)
 WHERE c.id IN ['nitrogen'] AND d.id IN datasets
 WITH COLLECT(d.id) AS tempSet, datasets
-OPTIONAL MATCH (c:CONCEPT)<-[:TYPE_OF|:PART_OF|:IS_A|QUALITY_OF*1..15]-(c2:CONCEPT)<-[:TAGGED_WITH]-(d:DATASET)
+OPTIONAL MATCH (c:CONCEPT)<-[:TYPE_OF|:PART_OF|:IS_A|QUALITY_OF*1..15]-(c2:CONCEPT)<-[:TAGGED_WITH {application: 'appname'}]-(d:DATASET)
 WHERE (c.id IN ['nitrogen']) AND d.id IN datasets
 WITH COLLECT(d.id) + tempSet AS datasets
 RETURN DISTINCT datasets
@@ -27,7 +27,7 @@ RETURN DISTINCT datasets
 // 2. SIMILAR DATASETS
 
 // GET SIMILAR DATASETS 1 (datasets tagged with at least one of the concepts related to the dataset provided)
-MATCH p=(d:DATASET{id:'62494370-3799-4165-838e-0ebaf42804c2'})-[:TAGGED_WITH]->(c:TOPIC)<-[:TAGGED_WITH]-(d2:DATASET)
+MATCH p=(d:DATASET{id:'62494370-3799-4165-838e-0ebaf42804c2'})-[:TAGGED_WITH {application: 'appname'}]->(c:TOPIC)<-[:TAGGED_WITH {application: 'appname'}]-(d2:DATASET)
 WITH length(COLLECT(c.id)) AS number_of_shared_concepts, COLLECT(c.id) AS shared_concepts, d2
 RETURN d2.id, shared_concepts, number_of_shared_concepts
 ORDER BY number_of_shared_concepts DESC
@@ -35,9 +35,9 @@ ORDER BY number_of_shared_concepts DESC
 // 2. SIMILAR DATASETS Including descendants tags
 // We're taking into account only topics
 
-MATCH (d:DATASET{id:'62494370-3799-4165-838e-0ebaf42804c2'})-[:TAGGED_WITH]->(c:TOPIC)
+MATCH (d:DATASET{id:'62494370-3799-4165-838e-0ebaf42804c2'})-[:TAGGED_WITH {application: 'appname'}]->(c:TOPIC)
 WITH COLLECT(c.id) AS main_tags, d
-MATCH (d2:DATASET)-[:TAGGED_WITH]->(c1:TOPIC)-[:TYPE_OF|:PART_OF|:IS_A|QUALITY_OF*1..15]->(c2:TOPIC)
+MATCH (d2:DATASET)-[:TAGGED_WITH {application: 'appname'}]->(c1:TOPIC)-[:TYPE_OF|:PART_OF|:IS_A|QUALITY_OF*1..15]->(c2:TOPIC)
 WHERE (c1.id IN main_tags OR c2.id IN main_tags) AND d2.id <> d.id
 WITH COLLECT(DISTINCT c1.id) AS dataset_tags, d2.id AS dataset
 WITH size(dataset_tags) AS number_of_ocurrences, dataset_tags, dataset
@@ -49,7 +49,7 @@ ORDER BY number_of_ocurrences DESC
 
 MATCH (c:CONCEPT)
 WITH c
-MATCH (c)<-[:TAGGED_WITH]-(d:DATASET)
+MATCH (c)<-[:TAGGED_WITH {application: 'appname'}]-(d:DATASET)
 WITH COLLECT(d.id) AS datasets, c, COUNT(d) as number_of_datasets_tagged
 RETURN c.id, c.label, c.synonyms, labels(c) AS labels, number_of_datasets_tagged, datasets
 
@@ -71,7 +71,7 @@ WHERE c.id IN results
 RETURN c.id, c.label, c.synonyms, labels(c) as labels
 
 // 6. MOST LIKED/FAVORITED DATASETS
-MATCH (u:USER)-[:FAVOURITE]->(d:DATASET)
+MATCH (u:USER)-[:FAVOURITE {application: 'appname'}]->(d:DATASET)
 RETURN d.id, COUNT(d) AS number_of_favorites
 ORDER BY number_of_favorites DESC
 
@@ -81,6 +81,6 @@ RETURN d.id, d.views
 ORDER BY d.views DESC
 
 // 8. MOST VIEWED DATASETS (per user)
-MATCH (d:DATASET)<-[v:VIEWED]-(u:USER {id: 'xxxx'})
+MATCH (d:DATASET)<-[v:VIEWED {application: 'appname'}]-(u:USER {id: 'xxxx'})
 RETURN d.id, v.views
 ORDER BY v.views DESC
