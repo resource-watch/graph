@@ -100,7 +100,6 @@ sanitation,health
 elevation,land
 land_cover,land
 land_use,land
-volcano,land
 salinity,ocean
 resource_scarcity,natural_resource
 sea_level_rise,sea_level

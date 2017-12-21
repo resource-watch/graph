@@ -420,7 +420,7 @@ waste,Waste,,urban,TOPIC
 heat_island,Heat Island,,temperature,TOPIC
 disaster,Disaster,,general,TOPIC
 natural_disaster,Natural Disaster,,disaster,TOPIC
-earthquake,Earthquake,,natural_disaster,TOPIC
+earthquake,Earthquake,Seismic,natural_disaster,TOPIC
 volcano,Volcano,,natural_disaster,TOPIC
 eruption,Eruption,,natural_disaster,TOPIC
 cold_wave,Cold Wave,,extreme_event,TOPIC
@@ -557,9 +557,7 @@ land_use,Land Use,,land,TOPIC
 permafrost,Permafrost,,land,TOPIC
 roadless_area,Roadless Area,,land,TOPIC
 soil,Soil,,land,TOPIC
-volcano,Volcano,,land,TOPIC
 uranium,Uranium,,mineral,TOPIC
-earthquake,Earthquake,Seismic,natural_disaster,TOPIC
 tornado,Tornado,,natural_disaster,TOPIC
 salinity,Salinity,,ocean,TOPIC
 monsoon,Monsoon,,precipitation,TOPIC

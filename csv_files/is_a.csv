@@ -531,7 +531,6 @@ permafrost,land
 roadless_area,land
 soil,land
 uranium,mineral
-earthquake,natural_disaster
 tornado,natural_disaster
 monsoon,precipitation
 airplane,public_transportation

@@ -47,12 +47,6 @@ WITH line
 MATCH (c1:CONCEPT_NEW { id: line[0]}), (c2:CONCEPT_NEW { id: line[1]})
 MERGE (c1)-[:LOCATED_AT]->(c2);
 
-LOAD CSV FROM 'file:///is_similar_to.csv'
-AS line
-WITH line
-MATCH (c1:CONCEPT_NEW { id: line[0]}), (c2:CONCEPT_NEW { id: line[1]})
-MERGE (c1)-[:IS_SIMILAR_TO]->(c2);
-
 LOAD CSV FROM 'file:///part_of.csv'
 AS line
 WITH line
@@ -70,12 +64,6 @@ AS line
 WITH line
 MATCH (c1:CONCEPT_NEW { id: line[0]}), (c2:CONCEPT_NEW { id: line[1]})
 MERGE (c1)-[:RELATED_TO]->(c2);
-
-LOAD CSV FROM 'file:///type_of.csv'
-AS line
-WITH line
-MATCH (c1:CONCEPT_NEW { id: line[0]}), (c2:CONCEPT_NEW { id: line[1]})
-MERGE (c1)-[:TYPE_OF]->(c2);
 
 MATCH (d:DATASET)-[:TAGGED_WITH]->(c:CONCEPT)
 MATCH (c2:CONCEPT_NEW)
