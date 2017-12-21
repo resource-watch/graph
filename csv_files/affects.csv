@@ -54,7 +54,6 @@ sewage,water_quality
 sewage,health
 sewage,sanitation
 water_extent,land_cover
-water_demand,water_demand
 precipitation,flood
 precipitation,drought
 precipitation,food_and_agriculture
