@@ -4,21 +4,21 @@
 MATCH (c:CONCEPT)<-[:TAGGED_WITH {application: 'appname'}]-(d:DATASET)
 WHERE c.id IN ['water']
 WITH COLLECT(d.id) AS datasets
-OPTIONAL MATCH (c:CONCEPT)<-[:PART_OF|:IS_A|QUALITY_OF*1..15]-(c2:CONCEPT)<-[:TAGGED_WITH {application: 'appname'}]-(d:DATASET)
+OPTIONAL MATCH (c:CONCEPT)<-[:PART_OF|:IS_A|:QUALITY_OF*1..15]-(c2:CONCEPT)<-[:TAGGED_WITH {application: 'appname'}]-(d:DATASET)
 WHERE (c.id IN ['water'])
 WITH COLLECT(d.id) + datasets AS datasets
 // FILTER 2
 MATCH (c:CONCEPT)<-[:TAGGED_WITH {application: 'appname'}]-(d:DATASET)
 WHERE c.id IN ['raster'] AND d.id IN datasets
 WITH COLLECT(d.id) AS tempSet, datasets
-OPTIONAL MATCH (c:CONCEPT)<-[:PART_OF|:IS_A|QUALITY_OF*1..15]-(c2:CONCEPT)<-[:TAGGED_WITH {application: 'appname'}]-(d:DATASET)
+OPTIONAL MATCH (c:CONCEPT)<-[:PART_OF|:IS_A|:QUALITY_OF*1..15]-(c2:CONCEPT)<-[:TAGGED_WITH {application: 'appname'}]-(d:DATASET)
 WHERE (c.id IN ['raster']) AND d.id IN datasets
 WITH COLLECT(d.id) + tempSet AS datasets
 // FILTER 3
 MATCH (c:CONCEPT)<-[:TAGGED_WITH {application: 'appname'}]-(d:DATASET)
 WHERE c.id IN ['nitrogen'] AND d.id IN datasets
 WITH COLLECT(d.id) AS tempSet, datasets
-OPTIONAL MATCH (c:CONCEPT)<-[:PART_OF|:IS_A|QUALITY_OF*1..15]-(c2:CONCEPT)<-[:TAGGED_WITH {application: 'appname'}]-(d:DATASET)
+OPTIONAL MATCH (c:CONCEPT)<-[:PART_OF|:IS_A|:QUALITY_OF*1..15]-(c2:CONCEPT)<-[:TAGGED_WITH {application: 'appname'}]-(d:DATASET)
 WHERE (c.id IN ['nitrogen']) AND d.id IN datasets
 WITH COLLECT(d.id) + tempSet AS datasets
 RETURN DISTINCT datasets
@@ -37,7 +37,7 @@ ORDER BY number_of_shared_concepts DESC
 
 MATCH (d:DATASET{id:'62494370-3799-4165-838e-0ebaf42804c2'})-[:TAGGED_WITH {application: 'appname'}]->(c:TOPIC)
 WITH COLLECT(c.id) AS main_tags, d
-MATCH (d2:DATASET)-[:TAGGED_WITH {application: 'appname'}]->(c1:TOPIC)-[:PART_OF|:IS_A|QUALITY_OF*1..15]->(c2:TOPIC)
+MATCH (d2:DATASET)-[:TAGGED_WITH {application: 'appname'}]->(c1:TOPIC)-[:PART_OF|:IS_A|:QUALITY_OF*1..15]->(c2:TOPIC)
 WHERE (c1.id IN main_tags OR c2.id IN main_tags) AND d2.id <> d.id
 WITH COLLECT(DISTINCT c1.id) AS dataset_tags, d2.id AS dataset
 WITH size(dataset_tags) AS number_of_ocurrences, dataset_tags, dataset
@@ -55,7 +55,7 @@ RETURN c.id, c.label, c.synonyms, labels(c) AS labels, number_of_datasets_tagged
 
 // 4. GET CONCEPTS INFERRED FROM LIST
 
-MATCH (c:CONCEPT)-[:PART_OF|:IS_A|QUALITY_OF*]->(c2:CONCEPT)
+MATCH (c:CONCEPT)-[:PART_OF|:IS_A|:QUALITY_OF*]->(c2:CONCEPT)
 WHERE c.id IN ['xxxx', 'yyyy', 'zzzz']
 WITH collect(DISTINCT c.id) + collect(DISTINCT c2.id) as results
 MATCH (c:CONCEPT)
@@ -63,7 +63,7 @@ WHERE c.id IN results
 RETURN c.id, c.label, c.synonyms, labels(c) as labels
 
 // 5. DIRECT ANCESTORS OF SET OF CONCEPTS
-MATCH (c:CONCEPT)-[:PART_OF|:IS_A|QUALITY_OF]->(c2:CONCEPT)
+MATCH (c:CONCEPT)-[:PART_OF|:IS_A|:QUALITY_OF]->(c2:CONCEPT)
 WHERE c.id IN ['xxx', 'yyy']
 WITH collect(DISTINCT c2.id) as results
 MATCH (c:CONCEPT)
