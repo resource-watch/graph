@@ -6,10 +6,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
+import java.util.*;
 
 public class ConvertKnowledgeGraphIntoTreeFormat {
 
@@ -113,12 +110,16 @@ public class ConvertKnowledgeGraphIntoTreeFormat {
     private static JSONObject generateJSONForChildren(JSONObject currentNode, HashMap<String, ArrayList<JSONObject>> edgesMap, HashMap<String, JSONObject> nodesMap, HashSet<String> conceptsAdded){
         String currentId = currentNode.getString("id");
         System.out.println("currentId " + currentId);
+        JSONArray labels = currentNode.getJSONArray("labels");
+        List<Object> labelsList = labels.toList();
+        labelsList.remove("CONCEPT");
 
         JSONObject newJSON = new JSONObject();
         newJSON.put("label", currentNode.getString("label"));
         newJSON.put("value", currentNode.getString("id"));
         newJSON.put("checked", false);
         newJSON.put("tagClassName", "selected-item");
+        newJSON.put("labels", labelsList);
 
         ArrayList<JSONObject> children = edgesMap.get(currentId);
 

@@ -110,6 +110,12 @@ MATCH (a)
 WITH edges, COLLECT({ id: a.id, label: a.label, synonyms: a.synonyms, default_parent: a.default_parent, labels: labels(a)}) AS nodes
 RETURN { edges: edges, nodes: nodes }
 
+// UPDATE DATASETS THAT ARE ONLY USED IN PREP
+MATCH (d:DATASET)<-[t:TAGGED_WITH]
+WHERE d.id IN ['']
+SET t.application = 'prep'
+
+
 // DELETE EVERYTHING
 MATCH (n)
 DETACH DELETE n
