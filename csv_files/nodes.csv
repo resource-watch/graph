@@ -22,6 +22,7 @@ crown_dependency,Crown Dependency,,uk,GEOGRAPHY
 unincorporated_territory,Unincorporated Territory,,usa,GEOGRAPHY
 autonomous_territory,Autonomous Territory,,territory,GEOGRAPHY
 country,Country,,global,GEOGRAPHY
+admin1,Admin1,,country,GEOGRAPHY
 europe,Europe,,continent,GEOGRAPHY
 north_america,North America,,continent,GEOGRAPHY
 south_america,South America,,continent,GEOGRAPHY
@@ -143,6 +144,42 @@ honduras,Honduras,,north_america,GEOGRAPHY
 hong_kong,Hong Kong,,asia,GEOGRAPHY
 iceland,Iceland,,europe,GEOGRAPHY
 india,India,,asia,GEOGRAPHY
+sikkim,Sikkim,,india,GEOGRAPHY
+rajasthan,Rajasthan,,india,GEOGRAPHY
+punjab,Punjab,,india,GEOGRAPHY
+puducherry,Puducherry,,india,GEOGRAPHY
+odisha,Odisha,,india,GEOGRAPHY
+nagaland,Nagaland,,india,GEOGRAPHY
+mizoram,Mizoram,,india,GEOGRAPHY
+meghalaya,Meghalaya,,india,GEOGRAPHY
+manipur,Manipur,,india,GEOGRAPHY
+maharashtra,Maharashtra,,india,GEOGRAPHY
+madhya_pradesh,Madhya Pradesh,,india,GEOGRAPHY
+lakshadweep,Lakshadweep,,india,GEOGRAPHY
+kerala,Kerala,,india,GEOGRAPHY
+karnataka,Karnataka,,india,GEOGRAPHY
+west_bengal,West Bengal,,india,GEOGRAPHY
+uttar_pradesh,Uttar Pradesh,,india,GEOGRAPHY
+tripura,Tripura,,india,GEOGRAPHY
+telangana,Telangana,,india,GEOGRAPHY
+tamil_nadu,Tamil Nadu,,india,GEOGRAPHY
+jammu_and_kashmir,Jammu and Kashmir,,india,GEOGRAPHY
+himachal_pradesh,Himachal Pradesh,,india,GEOGRAPHY
+haryana,Haryana,,india,GEOGRAPHY
+gujarat,Gujarat,,india,GEOGRAPHY
+daman_and_diu,Daman and Diu,,india,GEOGRAPHY
+goa,Goa,,india,GEOGRAPHY
+delhi,Delhi,,india,GEOGRAPHY
+dadra_and_nagar_haveli,Dadra and Nagar Haveli,,india,GEOGRAPHY
+chandigarh,Chandigarh,,india,GEOGRAPHY
+bihar,Bihar,,india,GEOGRAPHY
+assam,Assam,,india,GEOGRAPHY
+arunachal_pradesh,Arunachal Pradesh,,india,GEOGRAPHY
+andhra_pradesh,Andhra Pradesh,,india,GEOGRAPHY
+andaman_and_nicobar_islands,Andaman and Nicobar Islands,,india,GEOGRAPHY
+chhattisgarh,Chhattisgarh,,india,GEOGRAPHY
+jharkhand,Jharkhand,,india,GEOGRAPHY
+uttarakhand,Uttarakhand,,india,GEOGRAPHY
 indonesia,Indonesia,,asia,GEOGRAPHY
 iran,Iran,,asia,GEOGRAPHY
 iraq,Iraq,,asia,GEOGRAPHY
