@@ -27,7 +27,8 @@ RETURN DISTINCT datasets
 // 2. SIMILAR DATASETS
 
 // GET SIMILAR DATASETS 1 (datasets tagged with at least one of the concepts related to the dataset provided)
-MATCH p=(d:DATASET{id:'62494370-3799-4165-838e-0ebaf42804c2'})-[:TAGGED_WITH {application: 'appname'}]->(c:TOPIC)<-[:TAGGED_WITH {application: 'appname'}]-(d2:DATASET)
+MATCH p=(d:DATASET)-[:TAGGED_WITH {application: 'appname'}]->(c:TOPIC)<-[:TAGGED_WITH {application: 'appname'}]-(d2:DATASET)
+WHERE d.id IN ['dataset_ids']
 WITH length(COLLECT(c.id)) AS number_of_shared_concepts, COLLECT(c.id) AS shared_concepts, d2
 RETURN d2.id, shared_concepts, number_of_shared_concepts
 ORDER BY number_of_shared_concepts DESC
@@ -35,7 +36,8 @@ ORDER BY number_of_shared_concepts DESC
 // 2. SIMILAR DATASETS Including descendants tags
 // We're taking into account only topics
 
-MATCH (d:DATASET{id:'62494370-3799-4165-838e-0ebaf42804c2'})-[:TAGGED_WITH {application: 'appname'}]->(c:TOPIC)
+MATCH (d:DATASET)-[:TAGGED_WITH {application: 'appname'}]->(c:TOPIC)
+WHERE d.id IN ['dataset_ids']
 WITH COLLECT(c.id) AS main_tags, d
 MATCH (d2:DATASET)-[:TAGGED_WITH {application: 'appname'}]->(c1:TOPIC)-[:PART_OF|:IS_A|:QUALITY_OF*1..15]->(c2:TOPIC)
 WHERE (c1.id IN main_tags OR c2.id IN main_tags) AND d2.id <> d.id

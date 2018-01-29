@@ -102,6 +102,7 @@ WITH collect(
         source: a.id,
         target: b.id,
         relType: type(r),
+        properties: keys(r),
         sourceType: labels(a),
         targetType: labels(b)
     }
