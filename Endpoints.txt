@@ -87,3 +87,10 @@ ORDER BY d.views DESC
 MATCH (d:DATASET)<-[v:VIEWED {application: 'appname'}]-(u:USER {id: 'xxxx'})
 RETURN d.id, v.views
 ORDER BY v.views DESC
+
+// 9. SEARCH BY LABEL-SYNONYMS
+MATCH (d:DATASET)-[:TAGGED_WITH {application: 'appname'}]->(c:CONCEPT)
+WHERE toLower(c.label) CONTAINS toLower('string_value')
+OR size(filter(x IN c.synonyms WHERE toLower(x) CONTAINS toLower('string_value'))) > 0
+RETURN d.id
+
