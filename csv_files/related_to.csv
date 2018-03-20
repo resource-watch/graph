@@ -7,13 +7,13 @@ damage,extreme_event
 extreme_event,weather
 exploitation,land_rights
 exploitation,commerce
-wetland,fresh_water
-drought,fresh_water
+wetland,water
+drought,water
 flood,water
 sewage,water
 sewage,urban
-river,fresh_water
-ocean,ecosystem
+river,water
+lake,water
 harmful_algal_blooms,water
 total_suspended_solids,water
 hunger,food_and_agriculture
@@ -55,7 +55,7 @@ air_quality,urban
 o3,pollution
 o3,urban
 natural_disaster,extreme_event
-landslide,disaster
+landslide,disasters
 hunting,animal
 ecoregion,species
 habitat,biodiversity
@@ -68,8 +68,8 @@ protest,governance
 corruption,political_stability
 displaced_people,land
 inequality,economic
-protected_area,biodiversity
-protected_area,conservation
+protected_areas,biodiversity
+protected_areas,conservation
 stormwater,precipitation
 stormwater,storm
 emergency_response,disaster

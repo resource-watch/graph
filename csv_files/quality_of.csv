@@ -5,15 +5,16 @@ conflict,society
 temperature,climate
 financial_loss,economic
 deforestation,forest
+degradation,forest
 forest_cover,forest
 water_extent,surface_water
 water_demand,water_access
 precipitation,climate
-water_quality,fresh_water
+water_quality,water
 water_stress,water_supply
 drinking_water,water_access
-water_access,fresh_water
-watershed,fresh_water
+water_access,water
+watershed,water
 crop_health,crop
 crop_yield,crop
 food_security,food_and_agriculture
@@ -38,7 +39,7 @@ energy_infrastructure,energy
 pollution,society
 accessibility,urban
 greenspace,urban
-air_quality,society
+air_quality,health
 waste,urban
 heat_island,temperature
 ecoregion,ecosystem
@@ -51,7 +52,7 @@ education,society
 political_stability,governance
 rights,justice
 Indigenous_rights,land_rights
-justice,society
+justice,governance
 protest,society
 security,society
 corruption,governance
@@ -80,7 +81,6 @@ storm_surge,storm
 adaptive_capacity,adaptation
 economic,society
 development,society
-ecosystem_services,ecosystem
 climate_hazard,climate
 coastal_erosion,coast
 water_security,water_access
@@ -93,7 +93,7 @@ finance,economic
 trade,commerce
 income,economic
 livelihood,economic
-biodiversity,ecosystem
+biodiversity,general
 energy_demand,energy
 food_production,food_and_agriculture
 sanitation,health
@@ -109,4 +109,3 @@ public_service,society
 threatened,species
 urban_expansion,urban
 dead_zone,water_quality
-enabling_environment,society

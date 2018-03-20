@@ -2,7 +2,7 @@ erosion,water_quality
 erosion,hydropower
 commodity,infrastructure
 infrastructure,energy_efficiency
-natural_infrastructure,disaster
+natural_infrastructure,disasters
 natural_infrastructure,resilience
 explosion,damage
 explosion,mortality
@@ -14,9 +14,7 @@ temperature,permafrost
 exploitation,groundwater
 wetland,storm_surge
 wetland,habitat
-wetland,ecosystem_services
 financial_loss,governance
-forest,ecosystem_service
 fire,erosion
 fire,health
 fire,infrastructure
@@ -24,10 +22,10 @@ deforestation,water_quality
 deforestation,ghg
 deforestation,habitat_loss
 logging,deforestation
-mangrove,storm
-mangrove,damage
-mangrove,resilience
-mangrove,vulnerability
+mangroves,storm
+mangroves,damage
+mangroves,resilience
+mangroves,vulnerability
 degradation,biodiversity
 forest_cover,biodiversity
 intact_forest,biodiversity
@@ -39,7 +37,7 @@ drought,famine
 drought,water_security
 flood,water_quality
 flood,health
-precipitation,fresh_water
+precipitation,water
 precipitation,erosion
 precipitation,landslide
 water_quality,aquaculture
@@ -113,13 +111,11 @@ nonrenewable_energy,mining
 nonrenewable_energy,drilling
 power_plant,energy_access
 power_plant,water_access
-power_plant,land_use
 coal,mining
 coal,land_use
 petroleum,climate_change
 nuclear,waste
 radiation,health
-radiation,biodiversity
 radiation,water_quality
 radiation,air_quality
 power_lines,land_use
@@ -136,9 +132,9 @@ o3,radiation
 cfc,o3
 co,health
 waste,biodiversity
-disaster,supply_chain
-disaster,displaced_people
-disaster,economic
+disasters,supply_chain
+disasters,displaced_people
+disasters,economic
 natural_disaster,displaced_people
 earthquake,tsunami
 volcano,land_cover
@@ -152,8 +148,6 @@ illegal_activity,commodity
 poaching,extinction
 poaching,endangered
 poaching,biodiversity
-habitat,ecosystem_service
-habitat,air_quality
 endangered,conservation
 extinction,conservation
 reef,tourism
@@ -164,7 +158,7 @@ political_stability,finance
 protest,conflict
 protest,rights
 security,rights
-governance,protected_area
+governance,protected_areas
 governance,finance
 displaced_people,economic
 gender,vulnerability
@@ -218,7 +212,7 @@ food_production,economic
 snow_and _ice,flood
 snow_and _ice,river
 snow_and _ice,water_access
-settlement,heat_island
+settlements,heat_island
 transportation,emissions
 transportation,supply_chain
 permafrost,infrastructure
@@ -228,7 +222,7 @@ airplane,emissions
 airport,emissions
 sea_level_rise,infrastructure
 sea_level_rise,land_cover
-sea_level_rise,fresh_water
+sea_level_rise,water
 cyanobacteria,water_quality
 cyanobacteria,health
 threatened,conservation
@@ -237,3 +231,4 @@ urban_expansion,heat_island
 urban_expansion,park
 urban_expansion,greenspace
 nutrients,harmful_algal_blooms
+biomass,climate_change
