@@ -81,28 +81,28 @@ MERGE (c1)-[:RELATED_TO]->(c2);
 // ============ "REPLICATE" EDGES AMONG DATASETS -> CONCEPT into DATASETS -> CONCEPT_NEW ===================
 // =========================================================================================================
 
-MATCH (d:DATASET)-[:TAGGED_WITH]->(c:CONCEPT)
+MATCH (d:DATASET)-[t:TAGGED_WITH]->(c:CONCEPT)
 MATCH (c2:CONCEPT_NEW)
 WHERE c.id = c2.id
-MERGE (d)-[:TAGGED_WITH]->(c2);
+MERGE (d)-[:TAGGED_WITH {application: t.application}]->(c2);
 
 // =========================================================================================================
 // ============ "REPLICATE" EDGES AMONG WIDGETS -> CONCEPT into WIDGETS -> CONCEPT_NEW =====================
 // =========================================================================================================
 
-MATCH (w:WIDGET)-[:TAGGED_WITH]->(c:CONCEPT)
+MATCH (w:WIDGET)-[t:TAGGED_WITH]->(c:CONCEPT)
 MATCH (c2:CONCEPT_NEW)
 WHERE c.id = c2.id
-MERGE (w)-[:TAGGED_WITH]->(c2);
+MERGE (w)-[:TAGGED_WITH {application: t.application}]->(c2);
 
 // =========================================================================================================
 // ============ "REPLICATE" EDGES AMONG LAYERS -> CONCEPT into LAYERS -> CONCEPT_NEW =======================
 // =========================================================================================================
 
-MATCH (l:LAYER)-[:TAGGED_WITH]->(c:CONCEPT)
+MATCH (l:LAYER)-[t:TAGGED_WITH]->(c:CONCEPT)
 MATCH (c2:CONCEPT_NEW)
 WHERE c.id = c2.id
-MERGE (l)-[:TAGGED_WITH]->(c2);
+MERGE (l)-[:TAGGED_WITH {application: t.application}]->(c2);
 
 // =========================================================================================================
 // ============================== DETACH AND DELETE "OLD" CONCEPT NODES ====================================
