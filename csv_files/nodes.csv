@@ -458,7 +458,7 @@ heat_island,Heat Islands,Heat Islands,temperature,TOPIC
 disasters,Disasters,Disaster,general,TOPIC
 natural_disaster,Natural Disasters,Natural Disaster,disasters,TOPIC
 earthquake,Earthquakes,Seismic|Earthquake,natural_disaster,TOPIC
-volcano,Volcanos,Volcano,natural_disaster,TOPIC
+volcano,Volcanoes,Volcano,natural_disaster,TOPIC
 eruption,Eruptions,Eruption,natural_disaster,TOPIC
 cold_wave,Cold Waves,Cold Wave,extreme_event,TOPIC
 heat_wave,Heat Waves,Heat Wave,extreme_event,TOPIC
