@@ -1,807 +1,807 @@
-dataset,Dataset,,general,DATA_TYPE
-raster,Raster,,geospatial,DATA_TYPE
-vector,Vector,,geospatial,DATA_TYPE
-table,Table,,dataset,DATA_TYPE
-geospatial,Geospatial,,dataset,DATA_TYPE
-frequency,Frequency,,general,FREQUENCY
-daily,Daily,,frequency,FREQUENCY
-near_real_time,Near Real Time,,frequency,FREQUENCY
-weekly,Weekly,,frequency,FREQUENCY
-monthly,Monthly,,frequency,FREQUENCY
-annual,Annual,,frequency,FREQUENCY
-hourly,Hourly,,frequency,FREQUENCY
-not_updated,Not Updated,,frequency,FREQUENCY
-subscribable,Subscribable,,frequency,FREQUENCY
-continent,Continent,,global,GEOGRAPHY
-antarctica,Antarctica,,continent,GEOGRAPHY
-territory,Territory,,global,GEOGRAPHY
-global,Global,,location,GEOGRAPHY
-overseas_territory,Overseas Territory,,territory,GEOGRAPHY
-crown_dependency,Crown Dependency,,uk,GEOGRAPHY
-unincorporated_territory,Unincorporated Territory,,usa,GEOGRAPHY
-autonomous_territory,Autonomous Territory,,territory,GEOGRAPHY
-country,Country,,global,GEOGRAPHY
-admin1,Admin1,,country,GEOGRAPHY
-europe,Europe,,continent,GEOGRAPHY
-north_america,North America,,continent,GEOGRAPHY
-south_america,South America,,continent,GEOGRAPHY
-oceania,Oceania,,continent,GEOGRAPHY
-africa,Africa,,continent,GEOGRAPHY
-asia,Asia,,continent,GEOGRAPHY
-european_free_trade_association,European Free Trade Association,,europe,GEOGRAPHY
-schengen_area,Schengen Area,,europe,GEOGRAPHY
-eu,EU,European Union,europe,GEOGRAPHY
-oecd,OECD,Organisation for Economic Co-operation and Development,affiliation,GEOGRAPHY
-spain,Spain,,eu,GEOGRAPHY
-portugal,Portugal,,eu,GEOGRAPHY
-germany,Germany,,eu,GEOGRAPHY
-uk,United Kingdom,,europe,GEOGRAPHY
-italy,Italy,,eu,GEOGRAPHY
-ireland,Ireland,,eu,GEOGRAPHY
-malta,Malta,,eu,GEOGRAPHY
-belgium,Belgium,,eu,GEOGRAPHY
-austria,Austria,,eu,GEOGRAPHY
-latvia,Latvia,,eu,GEOGRAPHY
-bulgaria,Bulgaria,,eu,GEOGRAPHY
-lithuania,Lithuania,,eu,GEOGRAPHY
-luxembourg,Luxembourg,,eu,GEOGRAPHY
-croatia,Croatia,,eu,GEOGRAPHY
-cyprus,Cyprus,,eu,GEOGRAPHY
-czech_republic,Czech Republic,,eu,GEOGRAPHY
-netherlands,Netherlands,,eu,GEOGRAPHY
-denmark,Denmark,,eu,GEOGRAPHY
-poland,Poland,,eu,GEOGRAPHY
-estonia,Estonia,,eu,GEOGRAPHY
-finland,Finland,,eu,GEOGRAPHY
-slovakia,Slovakia,,eu,GEOGRAPHY
-romania,Romania,,eu,GEOGRAPHY
-slovenia,Slovenia,,eu,GEOGRAPHY
-greece,Greece,,eu,GEOGRAPHY
-hungary,Hungary,,eu,GEOGRAPHY
-sweden,Sweden,,eu,GEOGRAPHY
-france,France,,eu,GEOGRAPHY
-afghanistan,Afghanistan,,asia,GEOGRAPHY
-aland,Aland,,finland,GEOGRAPHY
-albania,Albania,,europe,GEOGRAPHY
-algeria,Algeria,,africa,GEOGRAPHY
-american_samoa,American Samoa,,oceania,GEOGRAPHY
-andorra,Andorra,,europe,GEOGRAPHY
-angola,Angola,,africa,GEOGRAPHY
-anguilla,Anguilla,,north_america,GEOGRAPHY
-antigua_and_barbuda,Antigua and Barbuda,,north_america,GEOGRAPHY
-argentina,Argentina,,south_america,GEOGRAPHY
-armenia,Armenia,,asia,GEOGRAPHY
-aruba,Aruba,,south_america,GEOGRAPHY
-australia,Australia,,oceania,GEOGRAPHY
-azerbaijan,Azerbaijan,,asia,GEOGRAPHY
-bahamas,Bahamas,,north_america,GEOGRAPHY
-bahrain,Bahrain,,asia,GEOGRAPHY
-bangladesh,Bangladesh,,asia,GEOGRAPHY
-barbados,Barbados,,north_america,GEOGRAPHY
-belarus,Belarus,,europe,GEOGRAPHY
-belize,Belize,,north_america,GEOGRAPHY
-benin,Benin,,africa,GEOGRAPHY
-bermuda,Bermuda,,uk,GEOGRAPHY
-bhutan,Bhutan,,asia,GEOGRAPHY
-bolivia,Bolivia,,south_america,GEOGRAPHY
-bosnia_and_herzegovina,Bosnia and Herzegovina,,europe,GEOGRAPHY
-botswana,Botswana,,africa,GEOGRAPHY
-brazil,Brazil,,south_america,GEOGRAPHY
-british_indian_ocean_territory,British Indian Ocean Territory,,uk,GEOGRAPHY
-brunei,Brunei,,asia,GEOGRAPHY
-burkina_faso,Burkina Faso,,africa,GEOGRAPHY
-burundi,Burundi,,africa,GEOGRAPHY
-cambodia,Cambodia,,asia,GEOGRAPHY
-cameroon,Cameroon,,africa,GEOGRAPHY
-canada,Canada,,north_america,GEOGRAPHY
-cape_verde,Cape_Verde,,africa,GEOGRAPHY
-cayman_islands,Cayman Islands,,uk,GEOGRAPHY
-central_african_republic,Central African Republic,,africa,GEOGRAPHY
-chad,Chad,,africa,GEOGRAPHY
-chile,Chile,,south_america,GEOGRAPHY
-china,China,,asia,GEOGRAPHY
-colombia,Colombia,,south_america,GEOGRAPHY
-comoros,Comoros,,africa,GEOGRAPHY
-congo,Congo,,africa,GEOGRAPHY
-democratic_republic_of_congo,Democratic Republic of the Congo,,africa,GEOGRAPHY
-cook_islands,Cook islands,,oceania,GEOGRAPHY
-costa_rica,Costa Rica,,north_america,GEOGRAPHY
-ivory_coast,Ivory Coast,,africa,GEOGRAPHY
-cuba,Cuba,,north_america,GEOGRAPHY
-curacao,Curaçao,,netherlands,GEOGRAPHY
-djibouti,Djibouti,,africa,GEOGRAPHY
-dominica,Dominica,,north_america,GEOGRAPHY
-dominican_republic,Dominican Republic,,north_america,GEOGRAPHY
-ecuador,Ecuador,,south_america,GEOGRAPHY
-egypt,Egypt,,africa,GEOGRAPHY
-el_salvador,El Salvador,,north_america,GEOGRAPHY
-equatorial_guinea,Equatorial Guinea,,africa,GEOGRAPHY
-eritrea,Eritrea,,africa,GEOGRAPHY
-ethiopia,Ethiopia,,africa,GEOGRAPHY
-falkland_islands,Falkland Islands,,uk,GEOGRAPHY
-faroe_islands,Faroe Islands,,denmark,GEOGRAPHY
-fiji,Fiji,,oceania,GEOGRAPHY
-french_polynesia,French Polynesia,,france,GEOGRAPHY
-french_southern_and_antarctic_lands,French Southern and Antarctic Lands,,france,GEOGRAPHY
-gabon,Gabon,,africa,GEOGRAPHY
-gambia,Gambia,,africa,GEOGRAPHY
-georgia,Georgia,,europe,GEOGRAPHY
-ghana,Ghana,,africa,GEOGRAPHY
-gibraltar,Gibraltar,,uk,GEOGRAPHY
-greenland,Greenland,,denmark,GEOGRAPHY
-grenada,Grenada,,north_america,GEOGRAPHY
-guam,Guam,,oceania,GEOGRAPHY
-guatemala,Guatemala,,north_america,GEOGRAPHY
-guernsey,Guernsey,,crown_dependency,GEOGRAPHY
-guinea,Guinea,,africa,GEOGRAPHY
-guinea_bissau,Guinea-Bissau,,africa,GEOGRAPHY
-guyana,Guyana,,south_america,GEOGRAPHY
-haiti,Haiti,,north_america,GEOGRAPHY
-heard_island_and_mcdoland_islands,Heard Island and McDonald Islands,,australia,GEOGRAPHY
-vatican,Vatican,,europe,GEOGRAPHY
-honduras,Honduras,,north_america,GEOGRAPHY
-hong_kong,Hong Kong,,asia,GEOGRAPHY
-iceland,Iceland,,europe,GEOGRAPHY
-india,India,,asia,GEOGRAPHY
-sikkim,Sikkim,,india,GEOGRAPHY
-rajasthan,Rajasthan,,india,GEOGRAPHY
-punjab,Punjab,,india,GEOGRAPHY
-puducherry,Puducherry,,india,GEOGRAPHY
-odisha,Odisha,,india,GEOGRAPHY
-nagaland,Nagaland,,india,GEOGRAPHY
-mizoram,Mizoram,,india,GEOGRAPHY
-meghalaya,Meghalaya,,india,GEOGRAPHY
-manipur,Manipur,,india,GEOGRAPHY
-maharashtra,Maharashtra,,india,GEOGRAPHY
-madhya_pradesh,Madhya Pradesh,,india,GEOGRAPHY
-lakshadweep,Lakshadweep,,india,GEOGRAPHY
-kerala,Kerala,,india,GEOGRAPHY
-karnataka,Karnataka,,india,GEOGRAPHY
-west_bengal,West Bengal,,india,GEOGRAPHY
-uttar_pradesh,Uttar Pradesh,,india,GEOGRAPHY
-tripura,Tripura,,india,GEOGRAPHY
-telangana,Telangana,,india,GEOGRAPHY
-tamil_nadu,Tamil Nadu,,india,GEOGRAPHY
-jammu_and_kashmir,Jammu and Kashmir,,india,GEOGRAPHY
-himachal_pradesh,Himachal Pradesh,,india,GEOGRAPHY
-haryana,Haryana,,india,GEOGRAPHY
-gujarat,Gujarat,,india,GEOGRAPHY
-daman_and_diu,Daman and Diu,,india,GEOGRAPHY
-goa,Goa,,india,GEOGRAPHY
-delhi,Delhi,,india,GEOGRAPHY
-dadra_and_nagar_haveli,Dadra and Nagar Haveli,,india,GEOGRAPHY
-chandigarh,Chandigarh,,india,GEOGRAPHY
-bihar,Bihar,,india,GEOGRAPHY
-assam,Assam,,india,GEOGRAPHY
-arunachal_pradesh,Arunachal Pradesh,,india,GEOGRAPHY
-andhra_pradesh,Andhra Pradesh,,india,GEOGRAPHY
-andaman_and_nicobar_islands,Andaman and Nicobar Islands,,india,GEOGRAPHY
-chhattisgarh,Chhattisgarh,,india,GEOGRAPHY
-jharkhand,Jharkhand,,india,GEOGRAPHY
-uttarakhand,Uttarakhand,,india,GEOGRAPHY
-indonesia,Indonesia,,asia,GEOGRAPHY
-iran,Iran,,asia,GEOGRAPHY
-iraq,Iraq,,asia,GEOGRAPHY
-isle_of_man,Isle of Man,,crown_dependency,GEOGRAPHY
-israel,Israel,,asia,GEOGRAPHY
-jamaica,Jamaica,,north_america,GEOGRAPHY
-japan,Japan,,asia,GEOGRAPHY
-jersey,Jersey,,crown_dependency,GEOGRAPHY
-jordan,Jordan,,asia,GEOGRAPHY
-kazakhstan,Kazakhstan,,asia,GEOGRAPHY
-kenya,Kenya,,africa,GEOGRAPHY
-kiribati,Kiribati,,oceania,GEOGRAPHY
-democratic_republic_of_korea,Democratic Republic of Korea,,asia,GEOGRAPHY
-south_korea,South Korea,,asia,GEOGRAPHY
-kuwait,Kuwait,,asia,GEOGRAPHY
-kyrgyzstan,Kyrgyzstan,,asia,GEOGRAPHY
-laos,Lao People's Democratic Republic,,asia,GEOGRAPHY
-lebanon,Lebanon,,asia,GEOGRAPHY
-lesotho,Lesotho,,africa,GEOGRAPHY
-liberia,Liberia,,africa,GEOGRAPHY
-libya,Libya,,africa,GEOGRAPHY
-liechtenstein,Liechtenstein,,europe,GEOGRAPHY
-macao,Macao,,china,GEOGRAPHY
-macedonia,Macedonia,,europe,GEOGRAPHY
-madagascar,Madagascar,,africa,GEOGRAPHY
-malawi,Malawi,,africa,GEOGRAPHY
-malaysia,Malaysia,,asia,GEOGRAPHY
-maldives,Maldives,,asia,GEOGRAPHY
-mali,Mali,,africa,GEOGRAPHY
-marshall_islands,Marshall Islands,,oceania,GEOGRAPHY
-mauritania,Mauritania,,africa,GEOGRAPHY
-mauritius,Mauritius,,africa,GEOGRAPHY
-mexico,Mexico,,north_america,GEOGRAPHY
-micronesia,Micronesia,,oceania,GEOGRAPHY
-moldova,Moldova,,europe,GEOGRAPHY
-monaco,Monaco,,europe,GEOGRAPHY
-mongolia,Mongolia,,asia,GEOGRAPHY
-montenegro,Montenegro,,europe,GEOGRAPHY
-montserrat,Montserrat,,uk,GEOGRAPHY
-morocco,Morocco,,africa,GEOGRAPHY
-mozambique,Mozambique,,africa,GEOGRAPHY
-myanmar,Myanmar,,asia,GEOGRAPHY
-namibia,Namibia,,africa,GEOGRAPHY
-nauru,Nauru,,oceania,GEOGRAPHY
-nepal,Nepal,,asia,GEOGRAPHY
-new_caledonia,New Caledonia,,france,GEOGRAPHY
-new_zealand,New Zealand,,oceania,GEOGRAPHY
-nicaragua,Nicaragua,,north_america,GEOGRAPHY
-niger,Niger,,africa,GEOGRAPHY
-nigeria,Nigeria,,africa,GEOGRAPHY
-niue,Niue,,oceania,GEOGRAPHY
-norfolk_island,Norfolk Island,,australia,GEOGRAPHY
-northern_mariana_islands,Northern Mariana Islands,,usa,GEOGRAPHY
-norway,Norway,,europe,GEOGRAPHY
-oman,Oman,,asia,GEOGRAPHY
-pakistan,Pakistan,,asia,GEOGRAPHY
-palau,Palau,,oceania,GEOGRAPHY
-palestine,Palestine,,asia,GEOGRAPHY
-panama,Panama,,north_america,GEOGRAPHY
-papua_new_guinea,Papua New Guinea,,oceania,GEOGRAPHY
-paraguay,Paraguay,,south_america,GEOGRAPHY
-peru,Peru,,south_america,GEOGRAPHY
-philippines,Philippines,,asia,GEOGRAPHY
-pitcairn_islands,Pitcairn Islands,,oceania,GEOGRAPHY
-puerto_rico,Puerto Rico,,north_america,GEOGRAPHY
-qatar,Qatar,,asia,GEOGRAPHY
-russia,Russia,,asia,GEOGRAPHY
-rwanda,Rwanda,,africa,GEOGRAPHY
-saint_barthelemy,Saint Barthélemy,,north_america,GEOGRAPHY
-saint_helena,Saint Helena,,uk,GEOGRAPHY
-saint_kitts_and_nevis,Saint Kitts and Nevis,,north_america,GEOGRAPHY
-saint_lucia,Saint Lucia,,north_america,GEOGRAPHY
-saint_martin,Saint Martin,,france,GEOGRAPHY
-saint_pierre_and_miquelon,Saint Pierre and Miquelon,,france,GEOGRAPHY
-saint_vincent_and_the_grenadines,Saint Vincent and the Grenadines,,north_america,GEOGRAPHY
-samoa,Samoa,,oceania,GEOGRAPHY
-san_marino,San Marino,,europe,GEOGRAPHY
-sao_tome_and_principe,São Tomé and Principe,,africa,GEOGRAPHY
-saudi_arabia,Saudi Arabia,,africa,GEOGRAPHY
-senegal,Senegal,,africa,GEOGRAPHY
-serbia,Serbia,,europe,GEOGRAPHY
-seychelles,Seychelles,,africa,GEOGRAPHY
-sierra_leone,Sierra Leone,,africa,GEOGRAPHY
-singapore,Singapore,,asia,GEOGRAPHY
-sint_marteen,Sint Maarten,,netherlands,GEOGRAPHY
-solomon_islands,Solomon Islands,,oceania,GEOGRAPHY
-somalia,Somalia,,africa,GEOGRAPHY
-south_africa,South Africa,,africa,GEOGRAPHY
-south_georgia_and_the_south_sandwich_islands,South Georgia and the South Sandwich Islands,,uk,GEOGRAPHY
-south_sudan,South Sudan,,africa,GEOGRAPHY
-sri_lanka,Sri Lanka,,asia,GEOGRAPHY
-sudan,Sudan,,africa,GEOGRAPHY
-suriname,Suriname,,south_america,GEOGRAPHY
-swaziland,Swaziland,,africa,GEOGRAPHY
-switzerland,Switzerland,,europe,GEOGRAPHY
-syria,Syria,,asia,GEOGRAPHY
-taiwan,Taiwan,,asia,GEOGRAPHY
-tajikistan,Tajikistan,,asia,GEOGRAPHY
-tanzania,Tanzania,,africa,GEOGRAPHY
-thailand,Thailand,,asia,GEOGRAPHY
-timor_lest,Timor-Leste,,asia,GEOGRAPHY
-togo,Togo,,africa,GEOGRAPHY
-tonga,Tonga,,oceania,GEOGRAPHY
-trinidad_and_tobago,Trinidad and Tobago,,south_america,GEOGRAPHY
-tunisia,Tunisia,,africa,GEOGRAPHY
-turkey,Turkey,,asia,GEOGRAPHY
-turkmenistan,Turkmenistan,,asia,GEOGRAPHY
-turks_and_caicos_islands,Turks and Caicos Islands,,uk,GEOGRAPHY
-tuvalu,Tuvalu,,oceania,GEOGRAPHY
-uganda,Uganda,,africa,GEOGRAPHY
-ukraine,Ukraine,,europe,GEOGRAPHY
-united_arab_emirates,United Arab Emirates,,asia,GEOGRAPHY
-usa,United States,usa,north_america,GEOGRAPHY
-united_states_minor_outlying_islands,United States Minor Outlying Islands,,usa,GEOGRAPHY
-uruguay,Uruguay,,south_america,GEOGRAPHY
-uzbekistan,Uzbekistan,,asia,GEOGRAPHY
-vanuatu,Vanuatu,,oceania,GEOGRAPHY
-venezuela,Venezuela,,south_america,GEOGRAPHY
-vietnam,Vietnam,,asia,GEOGRAPHY
-british_virgin_islands,British Virgin Islands,bvi,uk,GEOGRAPHY
-united_states_virgin_islands,United States Virgin Islands,usvi,usa,GEOGRAPHY
-wallis_and_futuna,Wallis and Futuna,,france,GEOGRAPHY
-western_sahara,Western Sahara,,africa,GEOGRAPHY
-yemen,Yemen,,asia,GEOGRAPHY
-zambia,Zambia,,africa,GEOGRAPHY
-zimbabwe,Zimbabwe,,africa,GEOGRAPHY
-coral_sea_islands_territory,Coral Sea Islands Territory,,australia,GEOGRAPHY
-republic_of_kosovo,Republic of Kosovo,,europe,GEOGRAPHY
-island,Island,,global,GEOGRAPHY
-future,Future,,time_period,TIME_PERIOD
-historical,Historical,,time_period,TIME_PERIOD
-time_period,Time Period,,general,TIME_PERIOD
-general,General,,,TOPIC
-un,UN,United Nations,affiliation,TOPIC
-erosion,Erosion,,land,TOPIC
-sedimentation,Sedimentation,,water_quality,TOPIC
-commodity,Commodity,commodities,commerce,TOPIC
-plant,Plants,plant,species,TOPIC
-infrastructure,Infrastructure,,general,TOPIC
-natural_infrastructure,Natural Infrastructure,Green Infrastructure,ecosystem,TOPIC
-animal,Animals,animal,species,TOPIC
-explosion,Explosions,Explosion,disasters,TOPIC
-damage,Damages,,economic,TOPIC
-land,Land,Area,general,TOPIC
-extreme_event,Extreme Events,Extreme Event,climate,TOPIC
-conflict,Conflicts,conflict|violence,society,TOPIC
-temperature,Temperature,Temperatures,climate,TOPIC
-exploitation,Exploitation,,commercial_activity,TOPIC
-coast,Coasts,Coast,land,TOPIC
-wetland,Wetlands,Wetland,land,TOPIC
-financial_loss,Financial Loss,Financial Losses,finance,TOPIC
-forest,Forests,Forest|Trees,general,TOPIC
-fire,Fires,Fire,disasters,TOPIC
-deforestation,Deforestation,,forest,TOPIC
-logging,Logging,,commercial_activity,TOPIC
-mangroves,Mangroves,,forest,TOPIC
-trees,Trees,,forest,TOPIC
-forestry,Forestry,,human_activity,TOPIC
-degradation,Degradation,,forest,TOPIC
-forest_cover,Forest Cover,,forest,TOPIC
-intact_forest,Intact Forests,,forest,TOPIC
-water,Water,,general,TOPIC
-drought,Drought,Droughts,natural_disaster,TOPIC
-flood,Floods,Flood,disasters,TOPIC
-sewage,Sewage,,wastewater,TOPIC
-water_extent,Water Extent,Water Extents,surface_water,TOPIC
-water_demand,Water Demand,Water Demands,water_access,TOPIC
-precipitation,Precipitation,rain|rainfall,climate,TOPIC
-water_quality,Water Quality,Water Qualities,water,TOPIC
-water_stress,Water Stress,Water Scarcity,water_supply,TOPIC
-drinking_water,Drinking Water,,water_access,TOPIC
-wastewater,Wastewater,Wastewaters,water,TOPIC
-water_access,Water Access,,water,TOPIC
-dam,Dams,Dam,energy_infrastructure,TOPIC
-river,Rivers,River,surface_water,TOPIC
-lake,Lakes,Lake,surface_water,TOPIC
-ocean,Oceans,Ocean,general,TOPIC
-watershed,Watersheds,Drainage Basins|Watershed,water,TOPIC
-clean_water,Clean Water,,water_quality,TOPIC
-water_conflict,Water Conflicts,Water Conflict,conflict,TOPIC
-harmful_algal_blooms,Harmful Algal Blooms,HABs,water_quality,TOPIC
-ice,Ice,,snow_and_ice,TOPIC
-total_suspended_solids,Total Suspended Solids,,water_quality,TOPIC
-biological_oxygen_demand,Biological Oxygen Demand,,wastewater,TOPIC
-chemical_oxygen_demand,Chemical Oxygen Demand,,wastewater,TOPIC
-nitrogen,Nitrogen,,nutrients,TOPIC
-phosphorus,Phosphorus,,nutrients,TOPIC
-snow,Snow,,snow_and_ice,TOPIC
-eutrophication,Eutrophication,,water_quality,TOPIC
-food_and_agriculture,Food and Agriculture,,general,TOPIC
-hunger,Hunger,,malnutrition,TOPIC
-nutrition,Nutrition,,health,TOPIC
-famine,Famine,Famines,malnutrition,TOPIC
-livestock,Livestock,,food_and_agriculture,TOPIC
-crop,Crops,Crop,food_and_agriculture,TOPIC
-crop_health,Crop Health,,crop,TOPIC
-crop_yield,Crop Yield,,crop,TOPIC
-food_security,Food Security,,food_and_agriculture,TOPIC
-food_supply,Food Supply,,food_and_agriculture,TOPIC
-food_waste,Food Waste,,food_and_agriculture,TOPIC
-malnutrition,Malnutrition,,health,TOPIC
-food_price,Food Price,Food Prices,food_and_agriculture,TOPIC
-agriculture,Agriculture,,food_and_agriculture,TOPIC
-irrigation,Irrigation,,food_and_agriculture,TOPIC
-beef,Beef,,livestock,TOPIC
-lamb,Lamb,,livestock,TOPIC
-aquaculture,Aquaculture,,food_and_agriculture,TOPIC
-maize,Maize,,crop,TOPIC
-fishing,Fishing,,commercial_activity,TOPIC
-fishery,Fishery,,fishing,TOPIC
-seafood,Seafood,,food_and_agriculture,TOPIC
-climate,Climate,,general,TOPIC
-ghg,GHG,greenhouse_gas,gas,TOPIC
-sea_ice,Sea Ice,,ocean,TOPIC
-sea_level,Sea Level,,ocean,TOPIC
-snow_cover,Snow Cover,,snow,TOPIC
-albedo,Albedo,Reflectance,climate,TOPIC
-glacier,Glaciers,,snow_and_ice,TOPIC
-climate_change,Climate Change,,climate,TOPIC
-sea_surface_temperature,Sea Surface Temperature,Sea Surface Temperatures,ocean,TOPIC
-acidification,Acidification,,ocean,TOPIC
-storm,Storm,Storms,weather,TOPIC
-storm_intensity,Storm Intensity,,storm,TOPIC
-biome,Biomes,Biome,biodiversity,TOPIC
-CO2,CO2,Carbon Dioxide,ghg,TOPIC
-ch4,CH4,Methane,ghg,TOPIC
-boreal,Boreal,,climate_zone,TOPIC
-temperate,Temperate,,climate_zone,TOPIC
-tropical,Tropical,,climate_zone,TOPIC
-wind,Wind,Winds,climate,TOPIC
-n2o,N2O,Nitrogeous Oxide,ghg,TOPIC
-thermal_expansion,Thermal Expansion,,ocean,TOPIC
-seasonality,Seasonality,seasons,climate,TOPIC
-energy,Energy,,general,TOPIC
-energy_production,Energy Production,,energy,TOPIC
-energy_efficiency,Energy Efficiency,,energy,TOPIC
-emissions,Emissions,,climate,TOPIC
-renewable_energy,Renewable,Renewables,energy_production,TOPIC
-nonrenewable_energy,Nonrenewable Energy,Nonrenewables,energy_production,TOPIC
-power_plant,Power Plants,Power Plant,energy_infrastructure,TOPIC
-solar_energy,Solar Energy,,renewable_energy,TOPIC
-wind_energy,Wind Energy,,renewable_energy,TOPIC
-geothermal,Geothermal,,renewable_energy,TOPIC
-coal,Coal,,fuel,TOPIC
-natural_gas,Natural Gas,,fuel,TOPIC
-petroleum,Petroleum,Oil,fuel,TOPIC
-nuclear,Nuclear,,energy_production,TOPIC
-radiation,Radiation,,energy_hazard,TOPIC
-energy_hazard,Energy Hazard,Energy Hazards,energy,TOPIC
-oil_refinery,Oil Refinery,Oil Refineries,energy_infrastructure,TOPIC
-thorium,Thorium,,mineral,TOPIC
-hydropower,Hydropower,,renewable_energy,TOPIC
-fuel,Fuel,Fuel,energy,TOPIC
-energy_access,Energy Access,,energy,TOPIC
-power_lines,Power Lines,,energy_infrastructure,TOPIC
-pipelines,Pipelines,,energy_infrastructure,TOPIC
-energy_infrastructure,Energy Infrastructure,,energy,TOPIC
-urbanization,Urbanization,,urban,TOPIC
-roads,Roads,,infrastructure,TOPIC
-urban,Cities,city|urban,settlements,TOPIC
-pollution,Pollution,,society,TOPIC
-public_transportation,Public Transportation,,transportation,TOPIC
-impervious_surface,Impervious Surface,Impervious Surfaces,land_cover,TOPIC
-bus,Buses,Bus,public_transportation,TOPIC
-train,Trains,Rail|Train,public_transportation,TOPIC
-bike,Bikes,Bike,transportation,TOPIC
-car,Cars,Car,transportation,TOPIC
-accessibility,Accessibility,Accessibilities,urban,TOPIC
-greenspace,Greenspace,Greenspace|Parks,urban,TOPIC
-air_quality,Air Quality,Air Qualities,health,TOPIC
-o3,O3,Ozone,gas,TOPIC
-cfc,CFC,Chlorofluorocarbon,ghg,TOPIC
-co,CO,Carbon Monoxide,ghg,TOPIC
-so2,SO2,Sulfur Dioxide,ghg,TOPIC
-waste,Waste,,urban,TOPIC
-heat_island,Heat Islands,Heat Islands,temperature,TOPIC
-disasters,Disasters,Disaster,general,TOPIC
-natural_disaster,Natural Disasters,Natural Disaster,disasters,TOPIC
-earthquake,Earthquakes,Seismic|Earthquake,natural_disaster,TOPIC
-volcano,Volcanoes,Volcano,natural_disaster,TOPIC
-eruption,Eruptions,Eruption,natural_disaster,TOPIC
-cold_wave,Cold Waves,Cold Wave,extreme_event,TOPIC
-heat_wave,Heat Waves,Heat Wave,extreme_event,TOPIC
-landslide,Landslides,Landslide,natural_disaster,TOPIC
-hurricane,Hurricanes,Typhoons|Cyclones|Hurricane,natural_disaster,TOPIC
-tsunami,Tsunamis,Tsunami,natural_disaster,TOPIC
-slope,Slope,,land,TOPIC
-species,Species,,biodiversity,TOPIC
-illegal_activity,Illegal Activity,Illegal Activities,human_activity,TOPIC
-ecosystem,Ecosystems,Ecosystem,biodiversity,TOPIC
-poaching,Poaching,Poaching|Poachers,commercial_activity,TOPIC
-hunting,Hunting,,human_activity,TOPIC
-habitat_loss,Habitat Loss,Habitat Losses,habitat,TOPIC
-ecoregion,Ecoregions,Ecoregion,ecosystem,TOPIC
-habitat,Habitats,Habitat,ecosystem,TOPIC
-endangered,Endangered,,species,TOPIC
-extinction,Extinction,Extinctions,species,TOPIC
-mammal,Mammals,Mammal,animal,TOPIC
-coral_reef,Coral Reefs,Corals|Coral Reef,reef,TOPIC
-amphibian,Amphibians,Amphibian,animal,TOPIC
-reef,Reefs,Reef,marine_life,TOPIC
-bleaching,Bleaching,Bleachings,coral_reef,TOPIC
-marine_life,Marine Life,,ocean,TOPIC
-conservation,Conservation,,human_activity,TOPIC
-restoration,Restoration,,human_activity,TOPIC
-society,Society,People,general,TOPIC
-population,Population,Populations,society,TOPIC
-literacy,Literacy,,education,TOPIC
-school,School,,infrastructure,TOPIC
-education,Education,,society,TOPIC
-political_stability,Political Stability,,governance,TOPIC
-rights,Rights,,justice,TOPIC
-human_rights,Human Rights,,rights,TOPIC
-Indigenous_rights,Indigenous Rights,,rights,TOPIC
-land_rights,Land Rights,,rights,TOPIC
-justice,Justice,Justices,governance,TOPIC
-protest,Protests,Protest,society,TOPIC
-security,Security,,society,TOPIC
-corruption,Corruption,Corruption,governance,TOPIC
-governance,Governance,governments,society,TOPIC
-displaced_people,Displaced People,,migration,TOPIC
-discrimination,Discrimination,,justice,TOPIC
-resilience,Resilience,,society,TOPIC
-vulnerability,Vulnerability,,society,TOPIC
-refugee,Refugee,Refugees|Migrants,displaced_people,TOPIC
-women,Women,female|girls|woman,gender,TOPIC
-gender,Gender,Genders,society,TOPIC
-poverty,Poverty,,economic,TOPIC
-mortality,Mortality,Mortalities,health,TOPIC
-wealth,Wealth,,economic,TOPIC
-inequality,Inequality,Inequalities,society,TOPIC
-health,Health,well-being,society,TOPIC
-gdp,GDP,Gross Domestic Product,economic,TOPIC
-disease,Disease,Diseases|illnesses|sick,health,TOPIC
-protected_areas,Protected Area,National Parks|Reserves|Protected Areas,land,TOPIC
-developed,Developed,,development,TOPIC
-developing,Developing,,development,TOPIC
-low_income,Low Income,,income,TOPIC
-middle_income,Middle Income,,income,TOPIC
-high_income,High Income,,income,TOPIC
-commerce,Commerce,,general,TOPIC
-supply_chain,Supply Chains,Supply Chain,commerce,TOPIC
-fertilizer,Fertilizer,Fertilizers,agriculture,TOPIC
-exposure,Exposure,Exposures,resilience,TOPIC
-adaptation,Adaptation,Adaptations,society,TOPIC
-mitigation,Mitigation,Mitigations,society,TOPIC
-storm_surge,Storm Surge,Storm Surges,storm,TOPIC
-sustainable_development,Sustainable Development,,development,TOPIC
-emergency_services,Emergency Services,,public_service,TOPIC
-adaptive_capacity,Adaptive Capacity,capacities,adaptation,TOPIC
-economic,Economic,economics,society,TOPIC
-concessions,Concessions,,commercial_activity,TOPIC
-response,Response,Responses,human_activity,TOPIC
-development,Development,,society,TOPIC
-early_warning,Early Warning,Early Warnings|Predictions|Forecasts,response,TOPIC
-stormwater,Stormwater,stormwaters,water,TOPIC
-climate_hazard,Climate Hazard,Climate Hazards,climate,TOPIC
-emergency_response,Emergency Response,Emergency Responses,emergency_service,TOPIC
-coastal_erosion,Coastal Erosion,,coast,TOPIC
-water_security,Water Security,,water_access,TOPIC
-wildfire,Wildfires,Wildfire,fire,TOPIC
-water_supply,Water Supply,Water Supplies,water_access,TOPIC
-coastal_flooding,Coastal Flooding,Coastal Floodings,coast,TOPIC
-runoff,Runoff,,precipitation,TOPIC
-community_lands,Community Lands,,administrative_boundaries,TOPIC
-Indigenous_lands,Indigenous Lands,,administrative_boundaries,TOPIC
-national,National,,administrative_boundaries,TOPIC
-subnational,Subnational,,administrative_boundaries,TOPIC
-bird,Birds,Bird,animal,TOPIC
-reptile,Reptiles,Reptile,animal,TOPIC
-air_pressure,Air Pressure,Air Pressures,climate,TOPIC
-climate_zone,Climate Zone,Climate Zones,climate,TOPIC
-evapotranspiration,Evapotranspiration,,climate,TOPIC
-gas,Gases,Gas,climate,TOPIC
-commercial_activity,Commercial Activity,Commercial Activities,commerce,TOPIC
-shipping,Shipping,,commerce,TOPIC
-mining,Mining,,commercial_activity,TOPIC
-drilling,Drilling,,commercial_activity,TOPIC
-market_incentives,Market Incentives,,commerce,TOPIC
-international_relations,International Relations,,society,TOPIC
-treaty,Treaties,Treaty,international_relations,TOPIC
-finance,Finance,Finances,economic,TOPIC
-trade,Trade,Trades,commercial_activity,TOPIC
-mineral,Minerals,Mineral,commodity,TOPIC
-corn,Corn,,crop,TOPIC
-cropland,Croplands,Cropland,crop,TOPIC
-rice,Rice,,crop,TOPIC
-soy,Soy,,crop,TOPIC
-wheat,Wheat,,crop,TOPIC
-internally_displaced,Internally Displaced,,displaced_people,TOPIC
-income,Income,Incomes,economic,TOPIC
-livelihood,Livelihood,Livelihoods,economic,TOPIC
-biodiversity,Biodiversity,,general,TOPIC
-tourism,Tourism,Tourists,commercial_activity,TOPIC
-lights,Lights,,energy_access,TOPIC
-energy_demand,Energy Demand,,energy,TOPIC
-spill,Spill,Spills|leaks,energy_hazard,TOPIC
-food_production,Food Production,,food_and_agriculture,TOPIC
-pasture,Pasture,Grazing|Pasture,food_and_agriculture,TOPIC
-groundwater,Groundwater,,water,TOPIC
-snow_and _ice,Snow and Ice,,water,TOPIC
-surface_water,Surface Water,,water,TOPIC
-fossil_fuel,Fossil Fuel,Fossil Fuels,fuel,TOPIC
-administrative_boundaries,Administrative Boundaries,,general,TOPIC
-settlements,Settlements,Settlement|Cities|Infrastructure,general,TOPIC
-sanitation,Sanitation,,health,TOPIC
-hospital,Hospital,Hospitals,infrastructure,TOPIC
-transportation,Transportation,Transport,infrastructure,TOPIC
-minority,Minority,Minorities,justice,TOPIC
-elevation,Elevation,,land,TOPIC
-land_cover,Land Cover,,land,TOPIC
-land_use,Land Use,,land,TOPIC
-permafrost,Permafrost,,land,TOPIC
-roadless_area,Roadless Areas,Roadless Area,land,TOPIC
-soil,Soils,Soil,land,TOPIC
-uranium,Uranium,,mineral,TOPIC
-tornado,Tornados,Tornado,natural_disaster,TOPIC
-salinity,Salinity,Salinities,ocean,TOPIC
-monsoon,Monsoons,Monsoon,precipitation,TOPIC
-airplane,Airplane,Planes|Airplanes,public_transportation,TOPIC
-airport,Airport,Airports,public_transportation,TOPIC
-train_station,Train Station,Train Stations,public_transportation,TOPIC
-natural_resource,Natural Resource,Natural Resources,resource,TOPIC
-resource_scarcity,Resource Scarcity,Resource Scarcities,natural_resource,TOPIC
-sea_level_rise,Sea Level Rise,Sea Level Rises|Rising,sea_level,TOPIC
-affiliation,Affiliations,,international_relations,TOPIC
-human_activity,Human Activity,Human Activities,society,TOPIC
-migration,Migration,Migrations,society,TOPIC
-public_service,Public Services,Public Service,society,TOPIC
-cyanobacteria,Cyanobacteria,Cyanobacterias,species,TOPIC
-threatened,Threatened,,species,TOPIC
-urban_expansion,Urban Expansion,,urban,TOPIC
-dead_zone,Dead Zone,Anoxic|Dead Zones,water_quality,TOPIC
-nutrients,Nutrients,,water_quality,TOPIC
-weather,Weather,,climate,TOPIC
-biomass,Biomass,,forest,TOPIC
-smoke,Smoke,,fire,TOPIC
-carbon,Carbon,,climate,TOPIC
-investments,Investments,,commerce,TOPIC
-sustainable_development_goals,Sustainable Development Goals,SDGs,general,TOPIC
-SDG_1_No_Poverty,SDG 1 No Poverty,,sustainable_development_goals,TOPIC
-SDG_2_Zero_Hunger,SDG 2 Zero Hunger,,sustainable_development_goals,TOPIC
-SDG_3_Good_Health_and_Well-being,SDG 3 Good Health and Well-being,,sustainable_development_goals,TOPIC
-SDG_4_Quality_Education,SDG 4 Quality Education,,sustainable_development_goals,TOPIC
-SDG_5_Gender_Equality,SDG 5 Gender Equality,,sustainable_development_goals,TOPIC
-SDG_6_Clean_Water_and_Sanitation,SDG 6 Clean Water and Sanitation,,sustainable_development_goals,TOPIC
-SDG_7_Affordable_and_Clean_Energy,SDG 7 Affordable and Clean Energy,,sustainable_development_goals,TOPIC
-SDG_8_Decent_Work_and_Economic_Growth,SDG 8 Decent Work and Economic Growth,,sustainable_development_goals,TOPIC
-SDG_9_Industry_Innovation_and_Infrastructure,SDG 9 Industry, Innovation and Infrastructure,,sustainable_development_goals,TOPIC
-SDG_10_Reduced_Inequalities,SDG 10 Reduced Inequalities,,sustainable_development_goals,TOPIC
-SDG_11_Sustainable_Cities_and_Communities,SDG 11 Sustainable Cities and Communities,,sustainable_development_goals,TOPIC
-SDG_12_Responsible_Consumption_and_Production,SDG 12 Responsible Consumption and Production,,sustainable_development_goals,TOPIC
-SDG_13_Climate_Action,SDG 13 Climate Action,,sustainable_development_goals,TOPIC
-SDG_14_Life_below_Water,SDG 14 Life below Water,,sustainable_development_goals,TOPIC
-SDG_15_Life_on_Land,SDG 15 Life on Land,,sustainable_development_goals,TOPIC
-SDG_16_Peace_Justice_and_Strong_Institutions,SDG 16 Peace Justice and Strong Institutions,,sustainable_development_goals,TOPIC
-SDG_17_Partnership_for_Goals,SDG 17 Partnership for Goals,,sustainable_development_goals,TOPIC
-SDG_target_1.1,SDG Target 1.1,,SDG_1_No_Poverty,TOPIC
-SDG_target_1.2,SDG Target 1.2,,SDG_1_No_Poverty,TOPIC
-SDG_target_1.3,SDG Target 1.3,,SDG_1_No_Poverty,TOPIC
-SDG_target_1.4,SDG Target 1.4,,SDG_1_No_Poverty,TOPIC
-SDG_target_1.5,SDG Target 1.5,,SDG_1_No_Poverty,TOPIC
-SDG_target_1.a,SDG Target 1.a,,SDG_1_No_Poverty,TOPIC
-SDG_target_1.b,SDG Target 1.b,,SDG_1_No_Poverty,TOPIC
-SDG_target_2.1,SDG Target 2.1,,SDG_2_Zero_Hunger,TOPIC
-SDG_target_2.2,SDG Target 2.2,,SDG_2_Zero_Hunger,TOPIC
-SDG_target_2.3,SDG Target 2.3,,SDG_2_Zero_Hunger,TOPIC
-SDG_target_2.4,SDG Target 2.4,,SDG_2_Zero_Hunger,TOPIC
-SDG_target_2.5,SDG Target 2.5,,SDG_2_Zero_Hunger,TOPIC
-SDG_target_2.a,SDG Target 2.a,,SDG_2_Zero_Hunger,TOPIC
-SDG_target_2.b,SDG Target 2.b,,SDG_2_Zero_Hunger,TOPIC
-SDG_target_2.c,SDG Target 2.c,,SDG_2_Zero_Hunger,TOPIC
-SDG_target_3.1,SDG Target 3.1,,SDG_3_Good_Health_and_Well-being,TOPIC
-SDG_target_3.2,SDG Target 3.2,,SDG_3_Good_Health_and_Well-being,TOPIC
-SDG_target_3.3,SDG Target 3.3,,SDG_3_Good_Health_and_Well-being,TOPIC
-SDG_target_3.4,SDG Target 3.4,,SDG_3_Good_Health_and_Well-being,TOPIC
-SDG_target_3.5,SDG Target 3.5,,SDG_3_Good_Health_and_Well-being,TOPIC
-SDG_target_3.6,SDG Target 3.6,,SDG_3_Good_Health_and_Well-being,TOPIC
-SDG_target_3.7,SDG Target 3.7,,SDG_3_Good_Health_and_Well-being,TOPIC
-SDG_target_3.8,SDG Target 3.8,,SDG_3_Good_Health_and_Well-being,TOPIC
-SDG_target_3.9,SDG Target 3.9,,SDG_3_Good_Health_and_Well-being,TOPIC
-SDG_target_3.a,SDG Target 3.a,,SDG_3_Good_Health_and_Well-being,TOPIC
-SDG_target_3.b,SDG Target 3.b,,SDG_3_Good_Health_and_Well-being,TOPIC
-SDG_target_3.c,SDG Target 3.c,,SDG_3_Good_Health_and_Well-being,TOPIC
-SDG_target_3.d,SDG Target 3.d,,SDG_3_Good_Health_and_Well-being,TOPIC
-SDG_target_4.1,SDG Target 4.1,,SDG_4_Quality_Education,TOPIC
-SDG_target_4.2,SDG Target 4.2,,SDG_4_Quality_Education,TOPIC
-SDG_target_4.3,SDG Target 4.3,,SDG_4_Quality_Education,TOPIC
-SDG_target_4.4,SDG Target 4.4,,SDG_4_Quality_Education,TOPIC
-SDG_target_4.5,SDG Target 4.5,,SDG_4_Quality_Education,TOPIC
-SDG_target_4.6,SDG Target 4.6,,SDG_4_Quality_Education,TOPIC
-SDG_target_4.7,SDG Target 4.7,,SDG_4_Quality_Education,TOPIC
-SDG_target_4.a,SDG Target 4.a,,SDG_4_Quality_Education,TOPIC
-SDG_target_4.b,SDG Target 4.b,,SDG_4_Quality_Education,TOPIC
-SDG_target_4.c,SDG Target 4.c,,SDG_4_Quality_Education,TOPIC
-SDG_target_5.1,SDG Target 5.1,,SDG_5_Gender_Equality,TOPIC
-SDG_target_5.2,SDG Target 5.2,,SDG_5_Gender_Equality,TOPIC
-SDG_target_5.3,SDG Target 5.3,,SDG_5_Gender_Equality,TOPIC
-SDG_target_5.4,SDG Target 5.4,,SDG_5_Gender_Equality,TOPIC
-SDG_target_5.5,SDG Target 5.5,,SDG_5_Gender_Equality,TOPIC
-SDG_target_5.6,SDG Target 5.6,,SDG_5_Gender_Equality,TOPIC
-SDG_target_5.a,SDG Target 5.a,,SDG_5_Gender_Equality,TOPIC
-SDG_target_5.b,SDG Target 5.b,,SDG_5_Gender_Equality,TOPIC
-SDG_target_5.c,SDG Target 5.c,,SDG_5_Gender_Equality,TOPIC
-SDG_target_6.1,SDG Target 6.1,,SDG_6_Clean_Water_and_Sanitation,TOPIC
-SDG_target_6.2,SDG Target 6.2,,SDG_6_Clean_Water_and_Sanitation,TOPIC
-SDG_target_6.3,SDG Target 6.3,,SDG_6_Clean_Water_and_Sanitation,TOPIC
-SDG_target_6.4,SDG Target 6.4,,SDG_6_Clean_Water_and_Sanitation,TOPIC
-SDG_target_6.5,SDG Target 6.5,,SDG_6_Clean_Water_and_Sanitation,TOPIC
-SDG_target_6.6,SDG Target 6.6,,SDG_6_Clean_Water_and_Sanitation,TOPIC
-SDG_target_6.a,SDG Target 6.a,,SDG_6_Clean_Water_and_Sanitation,TOPIC
-SDG_target_6.b,SDG Target 6.b,,SDG_6_Clean_Water_and_Sanitation,TOPIC
-SDG_target_7.1,SDG Target 7.1,,SDG_7_Affordable_and_Clean_Energy,TOPIC
-SDG_target_7.2,SDG Target 7.2,,SDG_7_Affordable_and_Clean_Energy,TOPIC
-SDG_target_7.3,SDG Target 7.3,,SDG_7_Affordable_and_Clean_Energy,TOPIC
-SDG_target_7.a,SDG Target 7.a,,SDG_7_Affordable_and_Clean_Energy,TOPIC
-SDG_target_7.b,SDG Target 7.b,,SDG_7_Affordable_and_Clean_Energy,TOPIC
-SDG_target_8.1,SDG Target 8.1,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
-SDG_target_8.2,SDG Target 8.2,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
-SDG_target_8.3,SDG Target 8.3,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
-SDG_target_8.4,SDG Target 8.4,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
-SDG_target_8.5,SDG Target 8.5,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
-SDG_target_8.6,SDG Target 8.6,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
-SDG_target_8.7,SDG Target 8.7,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
-SDG_target_8.8,SDG Target 8.8,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
-SDG_target_8.9,SDG Target 8.9,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
-SDG_target_8.1,SDG Target 8.1,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
-SDG_target_8.a,SDG Target 8.a,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
-SDG_target_8.b,SDG Target 8.b,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
-SDG_target_9.1,SDG Target 9.1,,SDG_9_Industry_Innovation_and_Infrastructure,TOPIC
-SDG_target_9.2,SDG Target 9.2,,SDG_9_Industry_Innovation_and_Infrastructure,TOPIC
-SDG_target_9.3,SDG Target 9.3,,SDG_9_Industry_Innovation_and_Infrastructure,TOPIC
-SDG_target_9.4,SDG Target 9.4,,SDG_9_Industry_Innovation_and_Infrastructure,TOPIC
-SDG_target_9.5,SDG Target 9.5,,SDG_9_Industry_Innovation_and_Infrastructure,TOPIC
-SDG_target_9.a,SDG Target 9.a,,SDG_9_Industry_Innovation_and_Infrastructure,TOPIC
-SDG_target_9.b,SDG Target 9.b,,SDG_9_Industry_Innovation_and_Infrastructure,TOPIC
-SDG_target_9.c,SDG Target 9.c,,SDG_9_Industry_Innovation_and_Infrastructure,TOPIC
-SDG_target_10.1,SDG Target 10.1,,SDG_10_Reduced_Inequalities,TOPIC
-SDG_target_10.2,SDG Target 10.2,,SDG_10_Reduced_Inequalities,TOPIC
-SDG_target_10.3,SDG Target 10.3,,SDG_10_Reduced_Inequalities,TOPIC
-SDG_target_10.4,SDG Target 10.4,,SDG_10_Reduced_Inequalities,TOPIC
-SDG_target_10.5,SDG Target 10.5,,SDG_10_Reduced_Inequalities,TOPIC
-SDG_target_10.6,SDG Target 10.6,,SDG_10_Reduced_Inequalities,TOPIC
-SDG_target_10.7,SDG Target 10.7,,SDG_10_Reduced_Inequalities,TOPIC
-SDG_target_10.a,SDG Target 10.a,,SDG_10_Reduced_Inequalities,TOPIC
-SDG_target_10.b,SDG Target 10.b,,SDG_10_Reduced_Inequalities,TOPIC
-SDG_target_10.c,SDG Target 10.c,,SDG_10_Reduced_Inequalities,TOPIC
-SDG_target_11.1,SDG Target 11.1,,SDG_11_Sustainable_Cities_and_Communities,TOPIC
-SDG_target_11.2,SDG Target 11.2,,SDG_11_Sustainable_Cities_and_Communities,TOPIC
-SDG_target_11.3,SDG Target 11.3,,SDG_11_Sustainable_Cities_and_Communities,TOPIC
-SDG_target_11.4,SDG Target 11.4,,SDG_11_Sustainable_Cities_and_Communities,TOPIC
-SDG_target_11.5,SDG Target 11.5,,SDG_11_Sustainable_Cities_and_Communities,TOPIC
-SDG_target_11.6,SDG Target 11.6,,SDG_11_Sustainable_Cities_and_Communities,TOPIC
-SDG_target_11.7,SDG Target 11.7,,SDG_11_Sustainable_Cities_and_Communities,TOPIC
-SDG_target_11.a,SDG Target 11.a,,SDG_11_Sustainable_Cities_and_Communities,TOPIC
-SDG_target_11.b,SDG Target 11.b,,SDG_11_Sustainable_Cities_and_Communities,TOPIC
-SDG_target_11.c,SDG Target 11.c,,SDG_11_Sustainable_Cities_and_Communities,TOPIC
-SDG_target_12.1,SDG Target 12.1,,SDG_12_Responsible_Consumption_and_Production,TOPIC
-SDG_target_12.2,SDG Target 12.2,,SDG_12_Responsible_Consumption_and_Production,TOPIC
-SDG_target_12.3,SDG Target 12.3,,SDG_12_Responsible_Consumption_and_Production,TOPIC
-SDG_target_12.4,SDG Target 12.4,,SDG_12_Responsible_Consumption_and_Production,TOPIC
-SDG_target_12.5,SDG Target 12.5,,SDG_12_Responsible_Consumption_and_Production,TOPIC
-SDG_target_12.6,SDG Target 12.6,,SDG_12_Responsible_Consumption_and_Production,TOPIC
-SDG_target_12.7,SDG Target 12.7,,SDG_12_Responsible_Consumption_and_Production,TOPIC
-SDG_target_12.8,SDG Target 12.8,,SDG_12_Responsible_Consumption_and_Production,TOPIC
-SDG_target_12.a,SDG Target 12.a,,SDG_12_Responsible_Consumption_and_Production,TOPIC
-SDG_target_12.b,SDG Target 12.b,,SDG_12_Responsible_Consumption_and_Production,TOPIC
-SDG_target_12.c,SDG Target 12.c,,SDG_12_Responsible_Consumption_and_Production,TOPIC
-SDG_target_13.1,SDG Target 13.1,,SDG_13_Climate_Action,TOPIC
-SDG_target_13.2,SDG Target 13.2,,SDG_13_Climate_Action,TOPIC
-SDG_target_13.3,SDG Target 13.3,,SDG_13_Climate_Action,TOPIC
-SDG_target_13.a,SDG Target 13.a,,SDG_13_Climate_Action,TOPIC
-SDG_target_13.b,SDG Target 13.b,,SDG_13_Climate_Action,TOPIC
-SDG_target_14.1,SDG Target 14.1,,SDG_14_Life_below_Water,TOPIC
-SDG_target_14.2,SDG Target 14.2,,SDG_14_Life_below_Water,TOPIC
-SDG_target_14.3,SDG Target 14.3,,SDG_14_Life_below_Water,TOPIC
-SDG_target_14.4,SDG Target 14.4,,SDG_14_Life_below_Water,TOPIC
-SDG_target_14.5,SDG Target 14.5,,SDG_14_Life_below_Water,TOPIC
-SDG_target_14.6,SDG Target 14.6,,SDG_14_Life_below_Water,TOPIC
-SDG_target_14.7,SDG Target 14.7,,SDG_14_Life_below_Water,TOPIC
-SDG_target_14.a,SDG Target 14.a,,SDG_14_Life_below_Water,TOPIC
-SDG_target_14.b,SDG Target 14.b,,SDG_14_Life_below_Water,TOPIC
-SDG_target_14.c,SDG Target 14.c,,SDG_14_Life_below_Water,TOPIC
-SDG_target_15.1,SDG Target 15.1,,SDG_15_Life_on_Land,TOPIC
-SDG_target_15.2,SDG Target 15.2,,SDG_15_Life_on_Land,TOPIC
-SDG_target_15.3,SDG Target 15.3,,SDG_15_Life_on_Land,TOPIC
-SDG_target_15.4,SDG Target 15.4,,SDG_15_Life_on_Land,TOPIC
-SDG_target_15.5,SDG Target 15.5,,SDG_15_Life_on_Land,TOPIC
-SDG_target_15.6,SDG Target 15.6,,SDG_15_Life_on_Land,TOPIC
-SDG_target_15.7,SDG Target 15.7,,SDG_15_Life_on_Land,TOPIC
-SDG_target_15.8,SDG Target 15.8,,SDG_15_Life_on_Land,TOPIC
-SDG_target_15.9,SDG Target 15.9,,SDG_15_Life_on_Land,TOPIC
-SDG_target_15.a,SDG Target 15.a,,SDG_15_Life_on_Land,TOPIC
-SDG_target_15.b,SDG Target 15.b,,SDG_15_Life_on_Land,TOPIC
-SDG_target_15.c,SDG Target 15.c,,SDG_15_Life_on_Land,TOPIC
-SDG_target_16.1,SDG Target 16.1,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
-SDG_target_16.2,SDG Target 16.2,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
-SDG_target_16.3,SDG Target 16.3,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
-SDG_target_16.4,SDG Target 16.4,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
-SDG_target_16.5,SDG Target 16.5,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
-SDG_target_16.6,SDG Target 16.6,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
-SDG_target_16.7,SDG Target 16.7,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
-SDG_target_16.8,SDG Target 16.8,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
-SDG_target_16.9,SDG Target 16.9,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
-SDG_target_16.10.,SDG Target 16.10.,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
-SDG_target_16.a,SDG Target 16.a,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
-SDG_target_16.b,SDG Target 16.b,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
-SDG_target_17.1,SDG Target 17.1,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.2,SDG Target 17.2,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.3,SDG Target 17.3,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.4,SDG Target 17.4,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.5,SDG Target 17.5,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.6,SDG Target 17.6,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.7,SDG Target 17.7,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.8,SDG Target 17.8,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.9,SDG Target 17.9,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.10.,SDG Target 17.10.,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.11,SDG Target 17.11,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.12,SDG Target 17.12,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.13,SDG Target 17.13,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.14,SDG Target 17.14,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.15,SDG Target 17.15,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.16,SDG Target 17.16,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.17,SDG Target 17.17,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.18,SDG Target 17.18,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.19,SDG Target 17.19,,SDG_17_Partnership_for_Goals,TOPIC
+dataset,Dataset,,,general,DATA_TYPE
+raster,Raster,,,geospatial,DATA_TYPE
+vector,Vector,,,geospatial,DATA_TYPE
+table,Table,,,dataset,DATA_TYPE
+geospatial,Geospatial,,,dataset,DATA_TYPE
+frequency,Frequency,,,general,FREQUENCY
+daily,Daily,,,frequency,FREQUENCY
+near_real_time,Near Real Time,,,frequency,FREQUENCY
+weekly,Weekly,,,frequency,FREQUENCY
+monthly,Monthly,,,frequency,FREQUENCY
+annual,Annual,,,frequency,FREQUENCY
+hourly,Hourly,,,frequency,FREQUENCY
+not_updated,Not Updated,,,frequency,FREQUENCY
+subscribable,Subscribable,,,frequency,FREQUENCY
+continent,Continent,,,global,GEOGRAPHY
+antarctica,Antarctica,,ATA,continent,GEOGRAPHY
+territory,Territory,,,global,GEOGRAPHY
+global,Global,,,location,GEOGRAPHY
+overseas_territory,Overseas Territory,,,territory,GEOGRAPHY
+crown_dependency,Crown Dependency,,,uk,GEOGRAPHY
+unincorporated_territory,Unincorporated Territory,,,usa,GEOGRAPHY
+autonomous_territory,Autonomous Territory,,,territory,GEOGRAPHY
+country,Country,,,global,GEOGRAPHY
+admin1,Admin1,,,country,GEOGRAPHY
+europe,Europe,,,continent,GEOGRAPHY
+north_america,North America,,,continent,GEOGRAPHY
+south_america,South America,,,continent,GEOGRAPHY
+oceania,Oceania,,,continent,GEOGRAPHY
+africa,Africa,,,continent,GEOGRAPHY
+asia,Asia,,,continent,GEOGRAPHY
+european_free_trade_association,European Free Trade Association,,,europe,GEOGRAPHY
+schengen_area,Schengen Area,,,europe,GEOGRAPHY
+eu,EU,European Union,,europe,GEOGRAPHY
+oecd,OECD,Organisation for Economic Co-operation and Development,,affiliation,GEOGRAPHY
+spain,Spain,,ESP,eu,GEOGRAPHY
+portugal,Portugal,,PRT,eu,GEOGRAPHY
+germany,Germany,,DEU,eu,GEOGRAPHY
+uk,United Kingdom,,GBR,europe,GEOGRAPHY
+italy,Italy,,iTA,eu,GEOGRAPHY
+ireland,Ireland,,IRL,eu,GEOGRAPHY
+malta,Malta,,MLT,eu,GEOGRAPHY
+belgium,Belgium,,BEL,eu,GEOGRAPHY
+austria,Austria,,AUT,eu,GEOGRAPHY
+latvia,Latvia,,LVA,eu,GEOGRAPHY
+bulgaria,Bulgaria,,,eu,GEOGRAPHY
+lithuania,Lithuania,,LTU,eu,GEOGRAPHY
+luxembourg,Luxembourg,,LUX,eu,GEOGRAPHY
+croatia,Croatia,,HRV,eu,GEOGRAPHY
+cyprus,Cyprus,,CYP,eu,GEOGRAPHY
+czech_republic,Czech Republic,,CZE,eu,GEOGRAPHY
+netherlands,Netherlands,,NLD,eu,GEOGRAPHY
+denmark,Denmark,,DNK,eu,GEOGRAPHY
+poland,Poland,,POL,eu,GEOGRAPHY
+estonia,Estonia,,EST,eu,GEOGRAPHY
+finland,Finland,,FIN,eu,GEOGRAPHY
+slovakia,Slovakia,,SVK,eu,GEOGRAPHY
+romania,Romania,,ROU,eu,GEOGRAPHY
+slovenia,Slovenia,,SVN,eu,GEOGRAPHY
+greece,Greece,,GRC,eu,GEOGRAPHY
+hungary,Hungary,,HUN,eu,GEOGRAPHY
+sweden,Sweden,,SWE,eu,GEOGRAPHY
+france,France,,FRA,eu,GEOGRAPHY
+afghanistan,Afghanistan,,AFG,asia,GEOGRAPHY
+aland,Aland,,ALA,finland,GEOGRAPHY
+albania,Albania,,ALB,europe,GEOGRAPHY
+algeria,Algeria,,DZA,africa,GEOGRAPHY
+american_samoa,American Samoa,,ASM,oceania,GEOGRAPHY
+andorra,Andorra,,AND,europe,GEOGRAPHY
+angola,Angola,,AGO,africa,GEOGRAPHY
+anguilla,Anguilla,,AIA,north_america,GEOGRAPHY
+antigua_and_barbuda,Antigua and Barbuda,,ATG,north_america,GEOGRAPHY
+argentina,Argentina,,ARG,south_america,GEOGRAPHY
+armenia,Armenia,,ARM,asia,GEOGRAPHY
+aruba,Aruba,,ABW,south_america,GEOGRAPHY
+australia,Australia,,AUS,oceania,GEOGRAPHY
+azerbaijan,Azerbaijan,,AZE,asia,GEOGRAPHY
+bahamas,Bahamas,,BHS,north_america,GEOGRAPHY
+bahrain,Bahrain,,BHR,asia,GEOGRAPHY
+bangladesh,Bangladesh,,BGD,asia,GEOGRAPHY
+barbados,Barbados,,BRB,north_america,GEOGRAPHY
+belarus,Belarus,,BLR,europe,GEOGRAPHY
+belize,Belize,,BLZ,north_america,GEOGRAPHY
+benin,Benin,,BEN,africa,GEOGRAPHY
+bermuda,Bermuda,,BMU,uk,GEOGRAPHY
+bhutan,Bhutan,,BTN,asia,GEOGRAPHY
+bolivia,Bolivia,,BOL,south_america,GEOGRAPHY
+bosnia_and_herzegovina,Bosnia and Herzegovina,,BIH,europe,GEOGRAPHY
+botswana,Botswana,,BWA,africa,GEOGRAPHY
+brazil,Brazil,,BRA,south_america,GEOGRAPHY
+british_indian_ocean_territory,British Indian Ocean Territory,,IOT,uk,GEOGRAPHY
+brunei,Brunei,,BRN,asia,GEOGRAPHY
+burkina_faso,Burkina Faso,,BGR,africa,GEOGRAPHY
+burundi,Burundi,,BDI,africa,GEOGRAPHY
+cambodia,Cambodia,,KHM,asia,GEOGRAPHY
+cameroon,Cameroon,,CMR,africa,GEOGRAPHY
+canada,Canada,,CAN,north_america,GEOGRAPHY
+cape_verde,Cape_Verde,,CPV,africa,GEOGRAPHY
+cayman_islands,Cayman Islands,,CYM,uk,GEOGRAPHY
+central_african_republic,Central African Republic,,CAF,africa,GEOGRAPHY
+chad,Chad,,TCD,africa,GEOGRAPHY
+chile,Chile,,CHL,south_america,GEOGRAPHY
+china,China,,CHN,asia,GEOGRAPHY
+colombia,Colombia,,COL,south_america,GEOGRAPHY
+comoros,Comoros,,COM,africa,GEOGRAPHY
+congo,Congo,,COG,africa,GEOGRAPHY
+democratic_republic_of_congo,Democratic Republic of the Congo,,COD,africa,GEOGRAPHY
+cook_islands,Cook islands,,COK,oceania,GEOGRAPHY
+costa_rica,Costa Rica,,CRI,north_america,GEOGRAPHY
+ivory_coast,Ivory Coast,,CIV,africa,GEOGRAPHY
+cuba,Cuba,,CUB,north_america,GEOGRAPHY
+curacao,Curaçao,,CUW,netherlands,GEOGRAPHY
+djibouti,Djibouti,,DJI,africa,GEOGRAPHY
+dominica,Dominica,,DMA,north_america,GEOGRAPHY
+dominican_republic,Dominican Republic,,DOM,north_america,GEOGRAPHY
+ecuador,Ecuador,,ECU,south_america,GEOGRAPHY
+egypt,Egypt,,EGY,africa,GEOGRAPHY
+el_salvador,El Salvador,,SLV,north_america,GEOGRAPHY
+equatorial_guinea,Equatorial Guinea,,GNQ,africa,GEOGRAPHY
+eritrea,Eritrea,,ERI,africa,GEOGRAPHY
+ethiopia,Ethiopia,,ETH,africa,GEOGRAPHY
+falkland_islands,Falkland Islands,,FLK,uk,GEOGRAPHY
+faroe_islands,Faroe Islands,,FRO,denmark,GEOGRAPHY
+fiji,Fiji,,FJI,oceania,GEOGRAPHY
+french_polynesia,French Polynesia,,PYF,france,GEOGRAPHY
+french_southern_and_antarctic_lands,French Southern and Antarctic Lands,,ATF,france,GEOGRAPHY
+gabon,Gabon,,GAB,africa,GEOGRAPHY
+gambia,Gambia,,GMB,africa,GEOGRAPHY
+georgia,Georgia,,GEO,europe,GEOGRAPHY
+ghana,Ghana,,GHA,africa,GEOGRAPHY
+gibraltar,Gibraltar,,GIB,uk,GEOGRAPHY
+greenland,Greenland,,GRL,denmark,GEOGRAPHY
+grenada,Grenada,,GRD,north_america,GEOGRAPHY
+guam,Guam,,GUM,oceania,GEOGRAPHY
+guatemala,Guatemala,,GTM,north_america,GEOGRAPHY
+guernsey,Guernsey,,GGY,crown_dependency,GEOGRAPHY
+guinea,Guinea,,GIN,africa,GEOGRAPHY
+guinea_bissau,Guinea-Bissau,,GNB,africa,GEOGRAPHY
+guyana,Guyana,,GUY,south_america,GEOGRAPHY
+haiti,Haiti,,HTI,north_america,GEOGRAPHY
+heard_island_and_mcdoland_islands,Heard Island and McDonald Islands,,HMD,australia,GEOGRAPHY
+vatican,Vatican,,,europe,GEOGRAPHY
+honduras,Honduras,,HND,north_america,GEOGRAPHY
+hong_kong,Hong Kong,,HGK,asia,GEOGRAPHY
+iceland,Iceland,,ISL,europe,GEOGRAPHY
+india,India,,IND,asia,GEOGRAPHY
+sikkim,Sikkim,,,india,GEOGRAPHY
+rajasthan,Rajasthan,,,india,GEOGRAPHY
+punjab,Punjab,,,india,GEOGRAPHY
+puducherry,Puducherry,,,india,GEOGRAPHY
+odisha,Odisha,,,india,GEOGRAPHY
+nagaland,Nagaland,,,india,GEOGRAPHY
+mizoram,Mizoram,,,india,GEOGRAPHY
+meghalaya,Meghalaya,,,india,GEOGRAPHY
+manipur,Manipur,,,india,GEOGRAPHY
+maharashtra,Maharashtra,,,india,GEOGRAPHY
+madhya_pradesh,Madhya Pradesh,,,india,GEOGRAPHY
+lakshadweep,Lakshadweep,,,india,GEOGRAPHY
+kerala,Kerala,,,india,GEOGRAPHY
+karnataka,Karnataka,,,india,GEOGRAPHY
+west_bengal,West Bengal,,,india,GEOGRAPHY
+uttar_pradesh,Uttar Pradesh,,,india,GEOGRAPHY
+tripura,Tripura,,,india,GEOGRAPHY
+telangana,Telangana,,,india,GEOGRAPHY
+tamil_nadu,Tamil Nadu,,,india,GEOGRAPHY
+jammu_and_kashmir,Jammu and Kashmir,,,india,GEOGRAPHY
+himachal_pradesh,Himachal Pradesh,,,india,GEOGRAPHY
+haryana,Haryana,,,india,GEOGRAPHY
+gujarat,Gujarat,,,india,GEOGRAPHY
+daman_and_diu,Daman and Diu,,,india,GEOGRAPHY
+goa,Goa,,,india,GEOGRAPHY
+delhi,Delhi,,,india,GEOGRAPHY
+dadra_and_nagar_haveli,Dadra and Nagar Haveli,,,india,GEOGRAPHY
+chandigarh,Chandigarh,,,india,GEOGRAPHY
+bihar,Bihar,,,india,GEOGRAPHY
+assam,Assam,,,india,GEOGRAPHY
+arunachal_pradesh,Arunachal Pradesh,,,india,GEOGRAPHY
+andhra_pradesh,Andhra Pradesh,,,india,GEOGRAPHY
+andaman_and_nicobar_islands,Andaman and Nicobar Islands,,,india,GEOGRAPHY
+chhattisgarh,Chhattisgarh,,,india,GEOGRAPHY
+jharkhand,Jharkhand,,,india,GEOGRAPHY
+uttarakhand,Uttarakhand,,,india,GEOGRAPHY
+indonesia,Indonesia,,IDN,asia,GEOGRAPHY
+iran,Iran,,IRN,asia,GEOGRAPHY
+iraq,Iraq,,IRQ,asia,GEOGRAPHY
+isle_of_man,Isle of Man,,IMN,crown_dependency,GEOGRAPHY
+israel,Israel,,ISR,asia,GEOGRAPHY
+jamaica,Jamaica,,JAM,north_america,GEOGRAPHY
+japan,Japan,,JPN,asia,GEOGRAPHY
+jersey,Jersey,,JEY,crown_dependency,GEOGRAPHY
+jordan,Jordan,,JOR,asia,GEOGRAPHY
+kazakhstan,Kazakhstan,,KAZ,asia,GEOGRAPHY
+kenya,Kenya,,KEN,africa,GEOGRAPHY
+kiribati,Kiribati,,KIR,oceania,GEOGRAPHY
+democratic_republic_of_korea,Democratic Republic of Korea,,PRK,asia,GEOGRAPHY
+south_korea,South Korea,,KOR,asia,GEOGRAPHY
+kuwait,Kuwait,,KWT,asia,GEOGRAPHY
+kyrgyzstan,Kyrgyzstan,,KGZ,asia,GEOGRAPHY
+laos,Lao People's Democratic Republic,,LAO,asia,GEOGRAPHY
+lebanon,Lebanon,,LBN,asia,GEOGRAPHY
+lesotho,Lesotho,,LSO,africa,GEOGRAPHY
+liberia,Liberia,,LBR,africa,GEOGRAPHY
+libya,Libya,,LBY,africa,GEOGRAPHY
+liechtenstein,Liechtenstein,,LIE,europe,GEOGRAPHY
+macao,Macao,,MAC,china,GEOGRAPHY
+macedonia,Macedonia,,MKD,europe,GEOGRAPHY
+madagascar,Madagascar,,MDG,africa,GEOGRAPHY
+malawi,Malawi,,MWI,africa,GEOGRAPHY
+malaysia,Malaysia,,MYS,asia,GEOGRAPHY
+maldives,Maldives,,MDV,asia,GEOGRAPHY
+mali,Mali,,MLI,africa,GEOGRAPHY
+marshall_islands,Marshall Islands,,MHL,oceania,GEOGRAPHY
+mauritania,Mauritania,,MRT,africa,GEOGRAPHY
+mauritius,Mauritius,,MUS,africa,GEOGRAPHY
+mexico,Mexico,,MEX,north_america,GEOGRAPHY
+micronesia,Micronesia,,FSM,oceania,GEOGRAPHY
+moldova,Moldova,,MDA,europe,GEOGRAPHY
+monaco,Monaco,,MCO,europe,GEOGRAPHY
+mongolia,Mongolia,,MNG,asia,GEOGRAPHY
+montenegro,Montenegro,,MNE,europe,GEOGRAPHY
+montserrat,Montserrat,,MSR,uk,GEOGRAPHY
+morocco,Morocco,,MAR,africa,GEOGRAPHY
+mozambique,Mozambique,,MOZ,africa,GEOGRAPHY
+myanmar,Myanmar,,MMR,asia,GEOGRAPHY
+namibia,Namibia,,NAM,africa,GEOGRAPHY
+nauru,Nauru,,NRU,oceania,GEOGRAPHY
+nepal,Nepal,,NPL,asia,GEOGRAPHY
+new_caledonia,New Caledonia,,NCL,france,GEOGRAPHY
+new_zealand,New Zealand,,NZL,oceania,GEOGRAPHY
+nicaragua,Nicaragua,,NIC,north_america,GEOGRAPHY
+niger,Niger,,NER,africa,GEOGRAPHY
+nigeria,Nigeria,,NGA,africa,GEOGRAPHY
+niue,Niue,,NIU,oceania,GEOGRAPHY
+norfolk_island,Norfolk Island,,NFK,australia,GEOGRAPHY
+northern_mariana_islands,Northern Mariana Islands,,MNP,usa,GEOGRAPHY
+norway,Norway,,NOR,europe,GEOGRAPHY
+oman,Oman,,OMN,asia,GEOGRAPHY
+pakistan,Pakistan,,PAK,asia,GEOGRAPHY
+palau,Palau,,PLW,oceania,GEOGRAPHY
+palestine,Palestine,,PSE,asia,GEOGRAPHY
+panama,Panama,,PAN,north_america,GEOGRAPHY
+papua_new_guinea,Papua New Guinea,,PNG,oceania,GEOGRAPHY
+paraguay,Paraguay,,PRY,south_america,GEOGRAPHY
+peru,Peru,,PER,south_america,GEOGRAPHY
+philippines,Philippines,,PHL,asia,GEOGRAPHY
+pitcairn_islands,Pitcairn Islands,,,oceania,GEOGRAPHY
+puerto_rico,Puerto Rico,,PRI,north_america,GEOGRAPHY
+qatar,Qatar,,QAT,asia,GEOGRAPHY
+russia,Russia,,RUS,asia,GEOGRAPHY
+rwanda,Rwanda,,RWA,africa,GEOGRAPHY
+saint_barthelemy,Saint Barthélemy,,BLM,north_america,GEOGRAPHY
+saint_helena,Saint Helena,,SHN,uk,GEOGRAPHY
+saint_kitts_and_nevis,Saint Kitts and Nevis,,KNA,north_america,GEOGRAPHY
+saint_lucia,Saint Lucia,,LCA,north_america,GEOGRAPHY
+saint_martin,Saint Martin,,MAF,france,GEOGRAPHY
+saint_pierre_and_miquelon,Saint Pierre and Miquelon,,SPM,france,GEOGRAPHY
+saint_vincent_and_the_grenadines,Saint Vincent and the Grenadines,,VCT,north_america,GEOGRAPHY
+samoa,Samoa,,WSM,oceania,GEOGRAPHY
+san_marino,San Marino,,SMR,europe,GEOGRAPHY
+sao_tome_and_principe,São Tomé and Principe,,STP,africa,GEOGRAPHY
+saudi_arabia,Saudi Arabia,,SAU,africa,GEOGRAPHY
+senegal,Senegal,,SEN,africa,GEOGRAPHY
+serbia,Serbia,,SRB,europe,GEOGRAPHY
+seychelles,Seychelles,,SYC,africa,GEOGRAPHY
+sierra_leone,Sierra Leone,,SLE,africa,GEOGRAPHY
+singapore,Singapore,,SGP,asia,GEOGRAPHY
+sint_marteen,Sint Maarten,,SXM,netherlands,GEOGRAPHY
+solomon_islands,Solomon Islands,,SLB,oceania,GEOGRAPHY
+somalia,Somalia,,SOM,africa,GEOGRAPHY
+south_africa,South Africa,,ZAF,africa,GEOGRAPHY
+south_georgia_and_the_south_sandwich_islands,South Georgia and the South Sandwich Islands,,SGS,uk,GEOGRAPHY
+south_sudan,South Sudan,,SSD,africa,GEOGRAPHY
+sri_lanka,Sri Lanka,,LKA,asia,GEOGRAPHY
+sudan,Sudan,,SDN,africa,GEOGRAPHY
+suriname,Suriname,,SUR,south_america,GEOGRAPHY
+swaziland,Swaziland,,,africa,GEOGRAPHY
+switzerland,Switzerland,,CHE,europe,GEOGRAPHY
+syria,Syria,,SYR,asia,GEOGRAPHY
+taiwan,Taiwan,,TWN,asia,GEOGRAPHY
+tajikistan,Tajikistan,,TJK,asia,GEOGRAPHY
+tanzania,Tanzania,,TZA,africa,GEOGRAPHY
+thailand,Thailand,,THA,asia,GEOGRAPHY
+timor_lest,Timor-Leste,,TLS,asia,GEOGRAPHY
+togo,Togo,,TGO,africa,GEOGRAPHY
+tonga,Tonga,,TON,oceania,GEOGRAPHY
+trinidad_and_tobago,Trinidad and Tobago,,TTO,south_america,GEOGRAPHY
+tunisia,Tunisia,,TUN,africa,GEOGRAPHY
+turkey,Turkey,,TUR,asia,GEOGRAPHY
+turkmenistan,Turkmenistan,,TKM,asia,GEOGRAPHY
+turks_and_caicos_islands,Turks and Caicos Islands,,TCA,uk,GEOGRAPHY
+tuvalu,Tuvalu,,TUV,oceania,GEOGRAPHY
+uganda,Uganda,,UGA,africa,GEOGRAPHY
+ukraine,Ukraine,,UKR,europe,GEOGRAPHY
+united_arab_emirates,United Arab Emirates,,ARE,asia,GEOGRAPHY
+usa,United States,usa,USA,north_america,GEOGRAPHY
+united_states_minor_outlying_islands,United States Minor Outlying Islands,,UMI,usa,GEOGRAPHY
+uruguay,Uruguay,,URY,south_america,GEOGRAPHY
+uzbekistan,Uzbekistan,,UZB,asia,GEOGRAPHY
+vanuatu,Vanuatu,,VUT,oceania,GEOGRAPHY
+venezuela,Venezuela,,VEN,south_america,GEOGRAPHY
+vietnam,Vietnam,,VNM,asia,GEOGRAPHY
+british_virgin_islands,British Virgin Islands,bvi,VGB,uk,GEOGRAPHY
+united_states_virgin_islands,United States Virgin Islands,usvi,VIR,usa,GEOGRAPHY
+wallis_and_futuna,Wallis and Futuna,,WLF,france,GEOGRAPHY
+western_sahara,Western Sahara,,ESH,africa,GEOGRAPHY
+yemen,Yemen,,YEM,asia,GEOGRAPHY
+zambia,Zambia,,ZMB,africa,GEOGRAPHY
+zimbabwe,Zimbabwe,,ZWE,africa,GEOGRAPHY
+coral_sea_islands_territory,Coral Sea Islands Territory,,,australia,GEOGRAPHY
+republic_of_kosovo,Republic of Kosovo,,,europe,GEOGRAPHY
+island,Island,,,global,GEOGRAPHY
+future,Future,,,time_period,TIME_PERIOD
+historical,Historical,,,time_period,TIME_PERIOD
+time_period,Time Period,,,general,TIME_PERIOD
+general,General,,,,TOPIC
+un,UN,United Nations,,affiliation,TOPIC
+erosion,Erosion,,,land,TOPIC
+sedimentation,Sedimentation,,,water_quality,TOPIC
+commodity,Commodity,commodities,,commerce,TOPIC
+plant,Plants,plant,,species,TOPIC
+infrastructure,Infrastructure,,,general,TOPIC
+natural_infrastructure,Natural Infrastructure,Green Infrastructure,,ecosystem,TOPIC
+animal,Animals,animal,,species,TOPIC
+explosion,Explosions,Explosion,,disasters,TOPIC
+damage,Damages,,,economic,TOPIC
+land,Land,Area,,general,TOPIC
+extreme_event,Extreme Events,Extreme Event,,climate,TOPIC
+conflict,Conflicts,conflict|violence,,society,TOPIC
+temperature,Temperature,Temperatures,,climate,TOPIC
+exploitation,Exploitation,,,commercial_activity,TOPIC
+coast,Coasts,Coast,,land,TOPIC
+wetland,Wetlands,Wetland,,land,TOPIC
+financial_loss,Financial Loss,Financial Losses,,finance,TOPIC
+forest,Forests,Forest|Trees,,general,TOPIC
+fire,Fires,Fire,,disasters,TOPIC
+deforestation,Deforestation,,,forest,TOPIC
+logging,Logging,,,commercial_activity,TOPIC
+mangroves,Mangroves,,,forest,TOPIC
+trees,Trees,,,forest,TOPIC
+forestry,Forestry,,,human_activity,TOPIC
+degradation,Degradation,,,forest,TOPIC
+forest_cover,Forest Cover,,,forest,TOPIC
+intact_forest,Intact Forests,,,forest,TOPIC
+water,Water,,,general,TOPIC
+drought,Drought,Droughts,,natural_disaster,TOPIC
+flood,Floods,Flood,,disasters,TOPIC
+sewage,Sewage,,,wastewater,TOPIC
+water_extent,Water Extent,Water Extents,,surface_water,TOPIC
+water_demand,Water Demand,Water Demands,,water_access,TOPIC
+precipitation,Precipitation,rain|rainfall,,climate,TOPIC
+water_quality,Water Quality,Water Qualities,,water,TOPIC
+water_stress,Water Stress,Water Scarcity,,water_supply,TOPIC
+drinking_water,Drinking Water,,,water_access,TOPIC
+wastewater,Wastewater,Wastewaters,,water,TOPIC
+water_access,Water Access,,,water,TOPIC
+dam,Dams,Dam,,energy_infrastructure,TOPIC
+river,Rivers,River,,surface_water,TOPIC
+lake,Lakes,Lake,,surface_water,TOPIC
+ocean,Oceans,Ocean,,general,TOPIC
+watershed,Watersheds,Drainage Basins|Watershed,,water,TOPIC
+clean_water,Clean Water,,,water_quality,TOPIC
+water_conflict,Water Conflicts,Water Conflict,,conflict,TOPIC
+harmful_algal_blooms,Harmful Algal Blooms,HABs,,water_quality,TOPIC
+ice,Ice,,,snow_and_ice,TOPIC
+total_suspended_solids,Total Suspended Solids,,,water_quality,TOPIC
+biological_oxygen_demand,Biological Oxygen Demand,,,wastewater,TOPIC
+chemical_oxygen_demand,Chemical Oxygen Demand,,,wastewater,TOPIC
+nitrogen,Nitrogen,,,nutrients,TOPIC
+phosphorus,Phosphorus,,,nutrients,TOPIC
+snow,Snow,,,snow_and_ice,TOPIC
+eutrophication,Eutrophication,,,water_quality,TOPIC
+food_and_agriculture,Food and Agriculture,,,general,TOPIC
+hunger,Hunger,,,malnutrition,TOPIC
+nutrition,Nutrition,,,health,TOPIC
+famine,Famine,Famines,,malnutrition,TOPIC
+livestock,Livestock,,,food_and_agriculture,TOPIC
+crop,Crops,Crop,,food_and_agriculture,TOPIC
+crop_health,Crop Health,,,crop,TOPIC
+crop_yield,Crop Yield,,,crop,TOPIC
+food_security,Food Security,,,food_and_agriculture,TOPIC
+food_supply,Food Supply,,,food_and_agriculture,TOPIC
+food_waste,Food Waste,,,food_and_agriculture,TOPIC
+malnutrition,Malnutrition,,,health,TOPIC
+food_price,Food Price,Food Prices,,food_and_agriculture,TOPIC
+agriculture,Agriculture,,,food_and_agriculture,TOPIC
+irrigation,Irrigation,,,food_and_agriculture,TOPIC
+beef,Beef,,,livestock,TOPIC
+lamb,Lamb,,,livestock,TOPIC
+aquaculture,Aquaculture,,,food_and_agriculture,TOPIC
+maize,Maize,,,crop,TOPIC
+fishing,Fishing,,,commercial_activity,TOPIC
+fishery,Fishery,,,fishing,TOPIC
+seafood,Seafood,,,food_and_agriculture,TOPIC
+climate,Climate,,,general,TOPIC
+ghg,GHG,greenhouse_gas,,gas,TOPIC
+sea_ice,Sea Ice,,,ocean,TOPIC
+sea_level,Sea Level,,,ocean,TOPIC
+snow_cover,Snow Cover,,,snow,TOPIC
+albedo,Albedo,Reflectance,,climate,TOPIC
+glacier,Glaciers,,,snow_and_ice,TOPIC
+climate_change,Climate Change,,,climate,TOPIC
+sea_surface_temperature,Sea Surface Temperature,Sea Surface Temperatures,,ocean,TOPIC
+acidification,Acidification,,,ocean,TOPIC
+storm,Storm,Storms,,weather,TOPIC
+storm_intensity,Storm Intensity,,,storm,TOPIC
+biome,Biomes,Biome,,biodiversity,TOPIC
+CO2,CO2,Carbon Dioxide,,ghg,TOPIC
+ch4,CH4,Methane,,ghg,TOPIC
+boreal,Boreal,,,climate_zone,TOPIC
+temperate,Temperate,,,climate_zone,TOPIC
+tropical,Tropical,,,climate_zone,TOPIC
+wind,Wind,Winds,,climate,TOPIC
+n2o,N2O,Nitrogeous Oxide,,ghg,TOPIC
+thermal_expansion,Thermal Expansion,,,ocean,TOPIC
+seasonality,Seasonality,seasons,,climate,TOPIC
+energy,Energy,,,general,TOPIC
+energy_production,Energy Production,,,energy,TOPIC
+energy_efficiency,Energy Efficiency,,,energy,TOPIC
+emissions,Emissions,,,climate,TOPIC
+renewable_energy,Renewable,Renewables,,energy_production,TOPIC
+nonrenewable_energy,Nonrenewable Energy,Nonrenewables,,energy_production,TOPIC
+power_plant,Power Plants,Power Plant,,energy_infrastructure,TOPIC
+solar_energy,Solar Energy,,,renewable_energy,TOPIC
+wind_energy,Wind Energy,,,renewable_energy,TOPIC
+geothermal,Geothermal,,,renewable_energy,TOPIC
+coal,Coal,,,fuel,TOPIC
+natural_gas,Natural Gas,,,fuel,TOPIC
+petroleum,Petroleum,Oil,,fuel,TOPIC
+nuclear,Nuclear,,,energy_production,TOPIC
+radiation,Radiation,,,energy_hazard,TOPIC
+energy_hazard,Energy Hazard,Energy Hazards,,energy,TOPIC
+oil_refinery,Oil Refinery,Oil Refineries,,energy_infrastructure,TOPIC
+thorium,Thorium,,,mineral,TOPIC
+hydropower,Hydropower,,,renewable_energy,TOPIC
+fuel,Fuel,Fuel,,energy,TOPIC
+energy_access,Energy Access,,,energy,TOPIC
+power_lines,Power Lines,,,energy_infrastructure,TOPIC
+pipelines,Pipelines,,,energy_infrastructure,TOPIC
+energy_infrastructure,Energy Infrastructure,,,energy,TOPIC
+urbanization,Urbanization,,,urban,TOPIC
+roads,Roads,,,infrastructure,TOPIC
+urban,Cities,city|urban,,settlements,TOPIC
+pollution,Pollution,,,society,TOPIC
+public_transportation,Public Transportation,,,transportation,TOPIC
+impervious_surface,Impervious Surface,Impervious Surfaces,,land_cover,TOPIC
+bus,Buses,Bus,,public_transportation,TOPIC
+train,Trains,Rail|Train,,public_transportation,TOPIC
+bike,Bikes,Bike,,transportation,TOPIC
+car,Cars,Car,,transportation,TOPIC
+accessibility,Accessibility,Accessibilities,,urban,TOPIC
+greenspace,Greenspace,Greenspace|Parks,,urban,TOPIC
+air_quality,Air Quality,Air Qualities,,health,TOPIC
+o3,O3,Ozone,,gas,TOPIC
+cfc,CFC,Chlorofluorocarbon,,ghg,TOPIC
+co,CO,Carbon Monoxide,,ghg,TOPIC
+so2,SO2,Sulfur Dioxide,,ghg,TOPIC
+waste,Waste,,,urban,TOPIC
+heat_island,Heat Islands,Heat Islands,,temperature,TOPIC
+disasters,Disasters,Disaster,,general,TOPIC
+natural_disaster,Natural Disasters,Natural Disaster,,disasters,TOPIC
+earthquake,Earthquakes,Seismic|Earthquake,,natural_disaster,TOPIC
+volcano,Volcanoes,Volcano,,natural_disaster,TOPIC
+eruption,Eruptions,Eruption,,natural_disaster,TOPIC
+cold_wave,Cold Waves,Cold Wave,,extreme_event,TOPIC
+heat_wave,Heat Waves,Heat Wave,,extreme_event,TOPIC
+landslide,Landslides,Landslide,,natural_disaster,TOPIC
+hurricane,Hurricanes,Typhoons|Cyclones|Hurricane,,natural_disaster,TOPIC
+tsunami,Tsunamis,Tsunami,,natural_disaster,TOPIC
+slope,Slope,,,land,TOPIC
+species,Species,,,biodiversity,TOPIC
+illegal_activity,Illegal Activity,Illegal Activities,,human_activity,TOPIC
+ecosystem,Ecosystems,Ecosystem,,biodiversity,TOPIC
+poaching,Poaching,Poaching|Poachers,,commercial_activity,TOPIC
+hunting,Hunting,,,human_activity,TOPIC
+habitat_loss,Habitat Loss,Habitat Losses,,habitat,TOPIC
+ecoregion,Ecoregions,Ecoregion,,ecosystem,TOPIC
+habitat,Habitats,Habitat,,ecosystem,TOPIC
+endangered,Endangered,,,species,TOPIC
+extinction,Extinction,Extinctions,,species,TOPIC
+mammal,Mammals,Mammal,,animal,TOPIC
+coral_reef,Coral Reefs,Corals|Coral Reef,,reef,TOPIC
+amphibian,Amphibians,Amphibian,,animal,TOPIC
+reef,Reefs,Reef,,marine_life,TOPIC
+bleaching,Bleaching,Bleachings,,coral_reef,TOPIC
+marine_life,Marine Life,,,ocean,TOPIC
+conservation,Conservation,,,human_activity,TOPIC
+restoration,Restoration,,,human_activity,TOPIC
+society,Society,People,,general,TOPIC
+population,Population,Populations,,society,TOPIC
+literacy,Literacy,,,education,TOPIC
+school,School,,,infrastructure,TOPIC
+education,Education,,,society,TOPIC
+political_stability,Political Stability,,,governance,TOPIC
+rights,Rights,,,justice,TOPIC
+human_rights,Human Rights,,,rights,TOPIC
+Indigenous_rights,Indigenous Rights,,,rights,TOPIC
+land_rights,Land Rights,,,rights,TOPIC
+justice,Justice,Justices,,governance,TOPIC
+protest,Protests,Protest,,society,TOPIC
+security,Security,,,society,TOPIC
+corruption,Corruption,Corruption,,governance,TOPIC
+governance,Governance,governments,,society,TOPIC
+displaced_people,Displaced People,,,migration,TOPIC
+discrimination,Discrimination,,,justice,TOPIC
+resilience,Resilience,,,society,TOPIC
+vulnerability,Vulnerability,,,society,TOPIC
+refugee,Refugee,Refugees|Migrants,,displaced_people,TOPIC
+women,Women,female|girls|woman,,gender,TOPIC
+gender,Gender,Genders,,society,TOPIC
+poverty,Poverty,,,economic,TOPIC
+mortality,Mortality,Mortalities,,health,TOPIC
+wealth,Wealth,,,economic,TOPIC
+inequality,Inequality,Inequalities,,society,TOPIC
+health,Health,well-being,,society,TOPIC
+gdp,GDP,Gross Domestic Product,,economic,TOPIC
+disease,Disease,Diseases|illnesses|sick,,health,TOPIC
+protected_areas,Protected Area,National Parks|Reserves|Protected Areas,,land,TOPIC
+developed,Developed,,,development,TOPIC
+developing,Developing,,,development,TOPIC
+low_income,Low Income,,,income,TOPIC
+middle_income,Middle Income,,,income,TOPIC
+high_income,High Income,,,income,TOPIC
+commerce,Commerce,,,general,TOPIC
+supply_chain,Supply Chains,Supply Chain,,commerce,TOPIC
+fertilizer,Fertilizer,Fertilizers,,agriculture,TOPIC
+exposure,Exposure,Exposures,,resilience,TOPIC
+adaptation,Adaptation,Adaptations,,society,TOPIC
+mitigation,Mitigation,Mitigations,,society,TOPIC
+storm_surge,Storm Surge,Storm Surges,,storm,TOPIC
+sustainable_development,Sustainable Development,,,development,TOPIC
+emergency_services,Emergency Services,,,public_service,TOPIC
+adaptive_capacity,Adaptive Capacity,capacities,,adaptation,TOPIC
+economic,Economic,economics,,society,TOPIC
+concessions,Concessions,,,commercial_activity,TOPIC
+response,Response,Responses,,human_activity,TOPIC
+development,Development,,,society,TOPIC
+early_warning,Early Warning,Early Warnings|Predictions|Forecasts,,response,TOPIC
+stormwater,Stormwater,stormwaters,,water,TOPIC
+climate_hazard,Climate Hazard,Climate Hazards,,climate,TOPIC
+emergency_response,Emergency Response,Emergency Responses,,emergency_service,TOPIC
+coastal_erosion,Coastal Erosion,,,coast,TOPIC
+water_security,Water Security,,,water_access,TOPIC
+wildfire,Wildfires,Wildfire,,fire,TOPIC
+water_supply,Water Supply,Water Supplies,,water_access,TOPIC
+coastal_flooding,Coastal Flooding,Coastal Floodings,,coast,TOPIC
+runoff,Runoff,,,precipitation,TOPIC
+community_lands,Community Lands,,,administrative_boundaries,TOPIC
+Indigenous_lands,Indigenous Lands,,,administrative_boundaries,TOPIC
+national,National,,,administrative_boundaries,TOPIC
+subnational,Subnational,,,administrative_boundaries,TOPIC
+bird,Birds,Bird,,animal,TOPIC
+reptile,Reptiles,Reptile,,animal,TOPIC
+air_pressure,Air Pressure,Air Pressures,,climate,TOPIC
+climate_zone,Climate Zone,Climate Zones,,climate,TOPIC
+evapotranspiration,Evapotranspiration,,,climate,TOPIC
+gas,Gases,Gas,,climate,TOPIC
+commercial_activity,Commercial Activity,Commercial Activities,,commerce,TOPIC
+shipping,Shipping,,,commerce,TOPIC
+mining,Mining,,,commercial_activity,TOPIC
+drilling,Drilling,,,commercial_activity,TOPIC
+market_incentives,Market Incentives,,,commerce,TOPIC
+international_relations,International Relations,,,society,TOPIC
+treaty,Treaties,Treaty,,international_relations,TOPIC
+finance,Finance,Finances,,economic,TOPIC
+trade,Trade,Trades,,commercial_activity,TOPIC
+mineral,Minerals,Mineral,,commodity,TOPIC
+corn,Corn,,,crop,TOPIC
+cropland,Croplands,Cropland,,crop,TOPIC
+rice,Rice,,,crop,TOPIC
+soy,Soy,,,crop,TOPIC
+wheat,Wheat,,,crop,TOPIC
+internally_displaced,Internally Displaced,,,displaced_people,TOPIC
+income,Income,Incomes,,economic,TOPIC
+livelihood,Livelihood,Livelihoods,,economic,TOPIC
+biodiversity,Biodiversity,,,general,TOPIC
+tourism,Tourism,Tourists,,commercial_activity,TOPIC
+lights,Lights,,,energy_access,TOPIC
+energy_demand,Energy Demand,,,energy,TOPIC
+spill,Spill,Spills|leaks,,energy_hazard,TOPIC
+food_production,Food Production,,,food_and_agriculture,TOPIC
+pasture,Pasture,Grazing|Pasture,,food_and_agriculture,TOPIC
+groundwater,Groundwater,,,water,TOPIC
+snow_and _ice,Snow and Ice,,,water,TOPIC
+surface_water,Surface Water,,,water,TOPIC
+fossil_fuel,Fossil Fuel,Fossil Fuels,,fuel,TOPIC
+administrative_boundaries,Administrative Boundaries,,,general,TOPIC
+settlements,Settlements,Settlement|Cities|Infrastructure,,general,TOPIC
+sanitation,Sanitation,,,health,TOPIC
+hospital,Hospital,Hospitals,,infrastructure,TOPIC
+transportation,Transportation,Transport,,infrastructure,TOPIC
+minority,Minority,Minorities,,justice,TOPIC
+elevation,Elevation,,,land,TOPIC
+land_cover,Land Cover,,,land,TOPIC
+land_use,Land Use,,,land,TOPIC
+permafrost,Permafrost,,,land,TOPIC
+roadless_area,Roadless Areas,Roadless Area,,land,TOPIC
+soil,Soils,Soil,,land,TOPIC
+uranium,Uranium,,,mineral,TOPIC
+tornado,Tornados,Tornado,,natural_disaster,TOPIC
+salinity,Salinity,Salinities,,ocean,TOPIC
+monsoon,Monsoons,Monsoon,,precipitation,TOPIC
+airplane,Airplane,Planes|Airplanes,,public_transportation,TOPIC
+airport,Airport,Airports,,public_transportation,TOPIC
+train_station,Train Station,Train Stations,,public_transportation,TOPIC
+natural_resource,Natural Resource,Natural Resources,,resource,TOPIC
+resource_scarcity,Resource Scarcity,Resource Scarcities,,natural_resource,TOPIC
+sea_level_rise,Sea Level Rise,Sea Level Rises|Rising,,sea_level,TOPIC
+affiliation,Affiliations,,,international_relations,TOPIC
+human_activity,Human Activity,Human Activities,,society,TOPIC
+migration,Migration,Migrations,,society,TOPIC
+public_service,Public Services,Public Service,,society,TOPIC
+cyanobacteria,Cyanobacteria,Cyanobacterias,,species,TOPIC
+threatened,Threatened,,,species,TOPIC
+urban_expansion,Urban Expansion,,,urban,TOPIC
+dead_zone,Dead Zone,Anoxic|Dead Zones,,water_quality,TOPIC
+nutrients,Nutrients,,,water_quality,TOPIC
+weather,Weather,,,climate,TOPIC
+biomass,Biomass,,,forest,TOPIC
+smoke,Smoke,,,fire,TOPIC
+carbon,Carbon,,,climate,TOPIC
+investments,Investments,,,commerce,TOPIC
+sustainable_development_goals,Sustainable Development Goals,SDGs,,general,TOPIC
+SDG_1_No_Poverty,SDG 1 No Poverty,,,sustainable_development_goals,TOPIC
+SDG_2_Zero_Hunger,SDG 2 Zero Hunger,,,sustainable_development_goals,TOPIC
+SDG_3_Good_Health_and_Well-being,SDG 3 Good Health and Well-being,,,sustainable_development_goals,TOPIC
+SDG_4_Quality_Education,SDG 4 Quality Education,,,sustainable_development_goals,TOPIC
+SDG_5_Gender_Equality,SDG 5 Gender Equality,,,sustainable_development_goals,TOPIC
+SDG_6_Clean_Water_and_Sanitation,SDG 6 Clean Water and Sanitation,,,sustainable_development_goals,TOPIC
+SDG_7_Affordable_and_Clean_Energy,SDG 7 Affordable and Clean Energy,,,sustainable_development_goals,TOPIC
+SDG_8_Decent_Work_and_Economic_Growth,SDG 8 Decent Work and Economic Growth,,,sustainable_development_goals,TOPIC
+SDG_9_Industry_Innovation_and_Infrastructure,SDG 9 Industry, Innovation and Infrastructure,,,sustainable_development_goals,TOPIC
+SDG_10_Reduced_Inequalities,SDG 10 Reduced Inequalities,,,sustainable_development_goals,TOPIC
+SDG_11_Sustainable_Cities_and_Communities,SDG 11 Sustainable Cities and Communities,,,sustainable_development_goals,TOPIC
+SDG_12_Responsible_Consumption_and_Production,SDG 12 Responsible Consumption and Production,,,sustainable_development_goals,TOPIC
+SDG_13_Climate_Action,SDG 13 Climate Action,,,sustainable_development_goals,TOPIC
+SDG_14_Life_below_Water,SDG 14 Life below Water,,,sustainable_development_goals,TOPIC
+SDG_15_Life_on_Land,SDG 15 Life on Land,,,sustainable_development_goals,TOPIC
+SDG_16_Peace_Justice_and_Strong_Institutions,SDG 16 Peace Justice and Strong Institutions,,,sustainable_development_goals,TOPIC
+SDG_17_Partnership_for_Goals,SDG 17 Partnership for Goals,,,sustainable_development_goals,TOPIC
+SDG_target_1.1,SDG Target 1.1,,,SDG_1_No_Poverty,TOPIC
+SDG_target_1.2,SDG Target 1.2,,,SDG_1_No_Poverty,TOPIC
+SDG_target_1.3,SDG Target 1.3,,,SDG_1_No_Poverty,TOPIC
+SDG_target_1.4,SDG Target 1.4,,,SDG_1_No_Poverty,TOPIC
+SDG_target_1.5,SDG Target 1.5,,,SDG_1_No_Poverty,TOPIC
+SDG_target_1.a,SDG Target 1.a,,,SDG_1_No_Poverty,TOPIC
+SDG_target_1.b,SDG Target 1.b,,,SDG_1_No_Poverty,TOPIC
+SDG_target_2.1,SDG Target 2.1,,,SDG_2_Zero_Hunger,TOPIC
+SDG_target_2.2,SDG Target 2.2,,,SDG_2_Zero_Hunger,TOPIC
+SDG_target_2.3,SDG Target 2.3,,,SDG_2_Zero_Hunger,TOPIC
+SDG_target_2.4,SDG Target 2.4,,,SDG_2_Zero_Hunger,TOPIC
+SDG_target_2.5,SDG Target 2.5,,,SDG_2_Zero_Hunger,TOPIC
+SDG_target_2.a,SDG Target 2.a,,,SDG_2_Zero_Hunger,TOPIC
+SDG_target_2.b,SDG Target 2.b,,,SDG_2_Zero_Hunger,TOPIC
+SDG_target_2.c,SDG Target 2.c,,,SDG_2_Zero_Hunger,TOPIC
+SDG_target_3.1,SDG Target 3.1,,,SDG_3_Good_Health_and_Well-being,TOPIC
+SDG_target_3.2,SDG Target 3.2,,,SDG_3_Good_Health_and_Well-being,TOPIC
+SDG_target_3.3,SDG Target 3.3,,,SDG_3_Good_Health_and_Well-being,TOPIC
+SDG_target_3.4,SDG Target 3.4,,,SDG_3_Good_Health_and_Well-being,TOPIC
+SDG_target_3.5,SDG Target 3.5,,,SDG_3_Good_Health_and_Well-being,TOPIC
+SDG_target_3.6,SDG Target 3.6,,,SDG_3_Good_Health_and_Well-being,TOPIC
+SDG_target_3.7,SDG Target 3.7,,,SDG_3_Good_Health_and_Well-being,TOPIC
+SDG_target_3.8,SDG Target 3.8,,,SDG_3_Good_Health_and_Well-being,TOPIC
+SDG_target_3.9,SDG Target 3.9,,,SDG_3_Good_Health_and_Well-being,TOPIC
+SDG_target_3.a,SDG Target 3.a,,,SDG_3_Good_Health_and_Well-being,TOPIC
+SDG_target_3.b,SDG Target 3.b,,,SDG_3_Good_Health_and_Well-being,TOPIC
+SDG_target_3.c,SDG Target 3.c,,,SDG_3_Good_Health_and_Well-being,TOPIC
+SDG_target_3.d,SDG Target 3.d,,,SDG_3_Good_Health_and_Well-being,TOPIC
+SDG_target_4.1,SDG Target 4.1,,,SDG_4_Quality_Education,TOPIC
+SDG_target_4.2,SDG Target 4.2,,,SDG_4_Quality_Education,TOPIC
+SDG_target_4.3,SDG Target 4.3,,,SDG_4_Quality_Education,TOPIC
+SDG_target_4.4,SDG Target 4.4,,,SDG_4_Quality_Education,TOPIC
+SDG_target_4.5,SDG Target 4.5,,,SDG_4_Quality_Education,TOPIC
+SDG_target_4.6,SDG Target 4.6,,,SDG_4_Quality_Education,TOPIC
+SDG_target_4.7,SDG Target 4.7,,,SDG_4_Quality_Education,TOPIC
+SDG_target_4.a,SDG Target 4.a,,,SDG_4_Quality_Education,TOPIC
+SDG_target_4.b,SDG Target 4.b,,,SDG_4_Quality_Education,TOPIC
+SDG_target_4.c,SDG Target 4.c,,,SDG_4_Quality_Education,TOPIC
+SDG_target_5.1,SDG Target 5.1,,,SDG_5_Gender_Equality,TOPIC
+SDG_target_5.2,SDG Target 5.2,,,SDG_5_Gender_Equality,TOPIC
+SDG_target_5.3,SDG Target 5.3,,,SDG_5_Gender_Equality,TOPIC
+SDG_target_5.4,SDG Target 5.4,,,SDG_5_Gender_Equality,TOPIC
+SDG_target_5.5,SDG Target 5.5,,,SDG_5_Gender_Equality,TOPIC
+SDG_target_5.6,SDG Target 5.6,,,SDG_5_Gender_Equality,TOPIC
+SDG_target_5.a,SDG Target 5.a,,,SDG_5_Gender_Equality,TOPIC
+SDG_target_5.b,SDG Target 5.b,,,SDG_5_Gender_Equality,TOPIC
+SDG_target_5.c,SDG Target 5.c,,,SDG_5_Gender_Equality,TOPIC
+SDG_target_6.1,SDG Target 6.1,,,SDG_6_Clean_Water_and_Sanitation,TOPIC
+SDG_target_6.2,SDG Target 6.2,,,SDG_6_Clean_Water_and_Sanitation,TOPIC
+SDG_target_6.3,SDG Target 6.3,,,SDG_6_Clean_Water_and_Sanitation,TOPIC
+SDG_target_6.4,SDG Target 6.4,,,SDG_6_Clean_Water_and_Sanitation,TOPIC
+SDG_target_6.5,SDG Target 6.5,,,SDG_6_Clean_Water_and_Sanitation,TOPIC
+SDG_target_6.6,SDG Target 6.6,,,SDG_6_Clean_Water_and_Sanitation,TOPIC
+SDG_target_6.a,SDG Target 6.a,,,SDG_6_Clean_Water_and_Sanitation,TOPIC
+SDG_target_6.b,SDG Target 6.b,,,SDG_6_Clean_Water_and_Sanitation,TOPIC
+SDG_target_7.1,SDG Target 7.1,,,SDG_7_Affordable_and_Clean_Energy,TOPIC
+SDG_target_7.2,SDG Target 7.2,,,SDG_7_Affordable_and_Clean_Energy,TOPIC
+SDG_target_7.3,SDG Target 7.3,,,SDG_7_Affordable_and_Clean_Energy,TOPIC
+SDG_target_7.a,SDG Target 7.a,,,SDG_7_Affordable_and_Clean_Energy,TOPIC
+SDG_target_7.b,SDG Target 7.b,,,SDG_7_Affordable_and_Clean_Energy,TOPIC
+SDG_target_8.1,SDG Target 8.1,,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
+SDG_target_8.2,SDG Target 8.2,,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
+SDG_target_8.3,SDG Target 8.3,,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
+SDG_target_8.4,SDG Target 8.4,,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
+SDG_target_8.5,SDG Target 8.5,,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
+SDG_target_8.6,SDG Target 8.6,,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
+SDG_target_8.7,SDG Target 8.7,,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
+SDG_target_8.8,SDG Target 8.8,,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
+SDG_target_8.9,SDG Target 8.9,,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
+SDG_target_8.1,SDG Target 8.1,,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
+SDG_target_8.a,SDG Target 8.a,,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
+SDG_target_8.b,SDG Target 8.b,,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
+SDG_target_9.1,SDG Target 9.1,,,SDG_9_Industry_Innovation_and_Infrastructure,TOPIC
+SDG_target_9.2,SDG Target 9.2,,,SDG_9_Industry_Innovation_and_Infrastructure,TOPIC
+SDG_target_9.3,SDG Target 9.3,,,SDG_9_Industry_Innovation_and_Infrastructure,TOPIC
+SDG_target_9.4,SDG Target 9.4,,,SDG_9_Industry_Innovation_and_Infrastructure,TOPIC
+SDG_target_9.5,SDG Target 9.5,,,SDG_9_Industry_Innovation_and_Infrastructure,TOPIC
+SDG_target_9.a,SDG Target 9.a,,,SDG_9_Industry_Innovation_and_Infrastructure,TOPIC
+SDG_target_9.b,SDG Target 9.b,,,SDG_9_Industry_Innovation_and_Infrastructure,TOPIC
+SDG_target_9.c,SDG Target 9.c,,,SDG_9_Industry_Innovation_and_Infrastructure,TOPIC
+SDG_target_10.1,SDG Target 10.1,,,SDG_10_Reduced_Inequalities,TOPIC
+SDG_target_10.2,SDG Target 10.2,,,SDG_10_Reduced_Inequalities,TOPIC
+SDG_target_10.3,SDG Target 10.3,,,SDG_10_Reduced_Inequalities,TOPIC
+SDG_target_10.4,SDG Target 10.4,,,SDG_10_Reduced_Inequalities,TOPIC
+SDG_target_10.5,SDG Target 10.5,,,SDG_10_Reduced_Inequalities,TOPIC
+SDG_target_10.6,SDG Target 10.6,,,SDG_10_Reduced_Inequalities,TOPIC
+SDG_target_10.7,SDG Target 10.7,,,SDG_10_Reduced_Inequalities,TOPIC
+SDG_target_10.a,SDG Target 10.a,,,SDG_10_Reduced_Inequalities,TOPIC
+SDG_target_10.b,SDG Target 10.b,,,SDG_10_Reduced_Inequalities,TOPIC
+SDG_target_10.c,SDG Target 10.c,,,SDG_10_Reduced_Inequalities,TOPIC
+SDG_target_11.1,SDG Target 11.1,,,SDG_11_Sustainable_Cities_and_Communities,TOPIC
+SDG_target_11.2,SDG Target 11.2,,,SDG_11_Sustainable_Cities_and_Communities,TOPIC
+SDG_target_11.3,SDG Target 11.3,,,SDG_11_Sustainable_Cities_and_Communities,TOPIC
+SDG_target_11.4,SDG Target 11.4,,,SDG_11_Sustainable_Cities_and_Communities,TOPIC
+SDG_target_11.5,SDG Target 11.5,,,SDG_11_Sustainable_Cities_and_Communities,TOPIC
+SDG_target_11.6,SDG Target 11.6,,,SDG_11_Sustainable_Cities_and_Communities,TOPIC
+SDG_target_11.7,SDG Target 11.7,,,SDG_11_Sustainable_Cities_and_Communities,TOPIC
+SDG_target_11.a,SDG Target 11.a,,,SDG_11_Sustainable_Cities_and_Communities,TOPIC
+SDG_target_11.b,SDG Target 11.b,,,SDG_11_Sustainable_Cities_and_Communities,TOPIC
+SDG_target_11.c,SDG Target 11.c,,,SDG_11_Sustainable_Cities_and_Communities,TOPIC
+SDG_target_12.1,SDG Target 12.1,,,SDG_12_Responsible_Consumption_and_Production,TOPIC
+SDG_target_12.2,SDG Target 12.2,,,SDG_12_Responsible_Consumption_and_Production,TOPIC
+SDG_target_12.3,SDG Target 12.3,,,SDG_12_Responsible_Consumption_and_Production,TOPIC
+SDG_target_12.4,SDG Target 12.4,,,SDG_12_Responsible_Consumption_and_Production,TOPIC
+SDG_target_12.5,SDG Target 12.5,,,SDG_12_Responsible_Consumption_and_Production,TOPIC
+SDG_target_12.6,SDG Target 12.6,,,SDG_12_Responsible_Consumption_and_Production,TOPIC
+SDG_target_12.7,SDG Target 12.7,,,SDG_12_Responsible_Consumption_and_Production,TOPIC
+SDG_target_12.8,SDG Target 12.8,,,SDG_12_Responsible_Consumption_and_Production,TOPIC
+SDG_target_12.a,SDG Target 12.a,,,SDG_12_Responsible_Consumption_and_Production,TOPIC
+SDG_target_12.b,SDG Target 12.b,,,SDG_12_Responsible_Consumption_and_Production,TOPIC
+SDG_target_12.c,SDG Target 12.c,,,SDG_12_Responsible_Consumption_and_Production,TOPIC
+SDG_target_13.1,SDG Target 13.1,,,SDG_13_Climate_Action,TOPIC
+SDG_target_13.2,SDG Target 13.2,,,SDG_13_Climate_Action,TOPIC
+SDG_target_13.3,SDG Target 13.3,,,SDG_13_Climate_Action,TOPIC
+SDG_target_13.a,SDG Target 13.a,,,SDG_13_Climate_Action,TOPIC
+SDG_target_13.b,SDG Target 13.b,,,SDG_13_Climate_Action,TOPIC
+SDG_target_14.1,SDG Target 14.1,,,SDG_14_Life_below_Water,TOPIC
+SDG_target_14.2,SDG Target 14.2,,,SDG_14_Life_below_Water,TOPIC
+SDG_target_14.3,SDG Target 14.3,,,SDG_14_Life_below_Water,TOPIC
+SDG_target_14.4,SDG Target 14.4,,,SDG_14_Life_below_Water,TOPIC
+SDG_target_14.5,SDG Target 14.5,,,SDG_14_Life_below_Water,TOPIC
+SDG_target_14.6,SDG Target 14.6,,,SDG_14_Life_below_Water,TOPIC
+SDG_target_14.7,SDG Target 14.7,,,SDG_14_Life_below_Water,TOPIC
+SDG_target_14.a,SDG Target 14.a,,,SDG_14_Life_below_Water,TOPIC
+SDG_target_14.b,SDG Target 14.b,,,SDG_14_Life_below_Water,TOPIC
+SDG_target_14.c,SDG Target 14.c,,,SDG_14_Life_below_Water,TOPIC
+SDG_target_15.1,SDG Target 15.1,,,SDG_15_Life_on_Land,TOPIC
+SDG_target_15.2,SDG Target 15.2,,,SDG_15_Life_on_Land,TOPIC
+SDG_target_15.3,SDG Target 15.3,,,SDG_15_Life_on_Land,TOPIC
+SDG_target_15.4,SDG Target 15.4,,,SDG_15_Life_on_Land,TOPIC
+SDG_target_15.5,SDG Target 15.5,,,SDG_15_Life_on_Land,TOPIC
+SDG_target_15.6,SDG Target 15.6,,,SDG_15_Life_on_Land,TOPIC
+SDG_target_15.7,SDG Target 15.7,,,SDG_15_Life_on_Land,TOPIC
+SDG_target_15.8,SDG Target 15.8,,,SDG_15_Life_on_Land,TOPIC
+SDG_target_15.9,SDG Target 15.9,,,SDG_15_Life_on_Land,TOPIC
+SDG_target_15.a,SDG Target 15.a,,,SDG_15_Life_on_Land,TOPIC
+SDG_target_15.b,SDG Target 15.b,,,SDG_15_Life_on_Land,TOPIC
+SDG_target_15.c,SDG Target 15.c,,,SDG_15_Life_on_Land,TOPIC
+SDG_target_16.1,SDG Target 16.1,,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
+SDG_target_16.2,SDG Target 16.2,,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
+SDG_target_16.3,SDG Target 16.3,,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
+SDG_target_16.4,SDG Target 16.4,,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
+SDG_target_16.5,SDG Target 16.5,,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
+SDG_target_16.6,SDG Target 16.6,,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
+SDG_target_16.7,SDG Target 16.7,,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
+SDG_target_16.8,SDG Target 16.8,,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
+SDG_target_16.9,SDG Target 16.9,,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
+SDG_target_16.10.,SDG Target 16.10.,,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
+SDG_target_16.a,SDG Target 16.a,,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
+SDG_target_16.b,SDG Target 16.b,,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
+SDG_target_17.1,SDG Target 17.1,,,SDG_17_Partnership_for_Goals,TOPIC
+SDG_target_17.2,SDG Target 17.2,,,SDG_17_Partnership_for_Goals,TOPIC
+SDG_target_17.3,SDG Target 17.3,,,SDG_17_Partnership_for_Goals,TOPIC
+SDG_target_17.4,SDG Target 17.4,,,SDG_17_Partnership_for_Goals,TOPIC
+SDG_target_17.5,SDG Target 17.5,,,SDG_17_Partnership_for_Goals,TOPIC
+SDG_target_17.6,SDG Target 17.6,,,SDG_17_Partnership_for_Goals,TOPIC
+SDG_target_17.7,SDG Target 17.7,,,SDG_17_Partnership_for_Goals,TOPIC
+SDG_target_17.8,SDG Target 17.8,,,SDG_17_Partnership_for_Goals,TOPIC
+SDG_target_17.9,SDG Target 17.9,,,SDG_17_Partnership_for_Goals,TOPIC
+SDG_target_17.10.,SDG Target 17.10.,,,SDG_17_Partnership_for_Goals,TOPIC
+SDG_target_17.11,SDG Target 17.11,,,SDG_17_Partnership_for_Goals,TOPIC
+SDG_target_17.12,SDG Target 17.12,,,SDG_17_Partnership_for_Goals,TOPIC
+SDG_target_17.13,SDG Target 17.13,,,SDG_17_Partnership_for_Goals,TOPIC
+SDG_target_17.14,SDG Target 17.14,,,SDG_17_Partnership_for_Goals,TOPIC
+SDG_target_17.15,SDG Target 17.15,,,SDG_17_Partnership_for_Goals,TOPIC
+SDG_target_17.16,SDG Target 17.16,,,SDG_17_Partnership_for_Goals,TOPIC
+SDG_target_17.17,SDG Target 17.17,,,SDG_17_Partnership_for_Goals,TOPIC
+SDG_target_17.18,SDG Target 17.18,,,SDG_17_Partnership_for_Goals,TOPIC
+SDG_target_17.19,SDG Target 17.19,,,SDG_17_Partnership_for_Goals,TOPIC
