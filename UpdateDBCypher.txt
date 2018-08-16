@@ -8,7 +8,7 @@
 LOAD CSV FROM 'file:///nodes.csv'
 AS line
 WITH line
-MERGE (c:CONCEPT_NEW { id: line[0], label: line[1], synonyms: CASE line[2] WHEN null THEN '' ELSE split(line[2],'|') END, default_parent: CASE line[3] WHEN null THEN '' else line[3] END});
+MERGE (c:CONCEPT_NEW { id: line[0], label: line[1], synonyms: CASE line[2] WHEN null THEN '' ELSE split(line[2],'|') END, iso: CASE line[3] WHEN null THEN '' else line[3] END, default_parent: CASE line[4] WHEN null THEN '' else line[4] END});
 
 LOAD CSV FROM 'file:///nodes.csv'
 AS line

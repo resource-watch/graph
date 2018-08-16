@@ -39,18 +39,22 @@ public class ExportToCSVFiles {
                 if (values.length > 4) {
                     synonymsSt = values[4].trim();
                 }
-                String defaultParentSt = "";
+                String isoSt = "";
                 if (values.length > 5) {
-                    defaultParentSt = values[5];
+                    isoSt = values[5];
+                }
+                String defaultParentSt = "";
+                if (values.length > 6) {
+                    defaultParentSt = values[6];
                 }
                 String typeSt = values[2];
-                nodesFileWriter.write( valueID.trim() + "," + values[3].trim() + "," + synonymsSt + "," + defaultParentSt.trim() + "," + typeSt + "\n");
-                for(int i=7;i<values.length;i++){
+                nodesFileWriter.write( valueID.trim() + "," + values[3].trim() + "," + synonymsSt + "," + isoSt + "," + defaultParentSt.trim() + "," + typeSt + "\n");
+                for(int i=8;i<values.length;i++){
                     String relValue = values[i].trim();
                     if(relValue.length() > 0){
                         String[] relColumns = relValue.split(",");
                         for(String relColumn : relColumns){
-                            writersMap.get(relTypes.get(i-7)).write(valueID.trim() + "," + relColumn.trim() + "\n");
+                            writersMap.get(relTypes.get(i-8)).write(valueID.trim() + "," + relColumn.trim() + "\n");
                         }
                     }
                 }
